@@ -37,7 +37,7 @@ To use a saved search template:
 To modify a search template:
 
 1. Select a template from the drop-down list.
-2. Select the *Save changes in template* box.
+2. Check the *Save changes in template* box.
 3. Modify some search criteria.
 4. Click on the *Run Search* button.
 

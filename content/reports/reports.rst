@@ -17,7 +17,7 @@ To create a new report:
 1. Click on the *Add Report* button in the left sidebar.
 2. Fill in the required fields.
 3. Click on the *Save* button.
-4. You will be redirected to *Edit Reports* screen to edit the report details.
+4. You will be redirected to *Edit Report* screen to edit the report details.
 
 .. figure:: images/reports-add.png
    :alt: Add Report Screen
@@ -33,7 +33,7 @@ To edit a report:
 .. figure:: images/reports-edit.png
    :alt: Edit Report Details Screen
 
-   Edit Report Details
+   Edit Report Details Screen
 
 To delete a report:
 
@@ -119,6 +119,6 @@ Statistics
 ----------
 
 Add statistic to report
-   Select one or more :doc:`statistics` to be added to the report. Each added statistic have an own overview and settings screen.
+   Select one or more :doc:`statistics` to be added to the report. Each added statistics have an own overview and settings screen.
 
 After all information is collected and set, click on the *Save* or *Save and finish* button to save the report.

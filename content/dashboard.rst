@@ -8,7 +8,7 @@ After login to the agent interface, the agent dashboard will be displayed. This 
 
    Agent Dashboard
 
-The dashboard is the main page of the system, here you can get an overview about the tickets and other stuff related to the ticket activity. It is thinking to be the starting point for the daily work of an agent, by default it presents a quick summary of the tickets which are pending, escalated, new, and open, among other information.
+The dashboard is the main page of the system, where you can get an overview of tickets and other things related to ticket activity. It is designed to be the starting point for an agent’s daily work. By default, it provides a quick summary of the tickets that are pending, escalated, new or open, and more information.
 
 One of the most important features about dashboard is that is completely customizable. That means you that can configure each part as you want, showing or hiding elements. It is even possible to relocate this elements within the same column by clicking on and dragging the header of an element, and dropping them elsewhere. Each element is named *widget*. The system has some widgets ready to use out of the box, but the modular design of the dashboard screen is prepared to integrate custom widgets easily.
 

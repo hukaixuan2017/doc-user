@@ -58,7 +58,7 @@ The *Symptom*, *Problem*, *Solution* and *Comment* widgets show the content of t
 
 It is possible to rate an FAQ article in the *Rating* widget, whether the FAQ article is helpful or not. To rate an FAQ article, click on the *Yes* or *No* button in this widget.
 
-Any user can rate an FAQ article only once. The number of positive and negative ratings will be displayed in the left sidebar.
+Any user can rate an FAQ article only once. The number of positive and negative ratings will be displayed in the right sidebar.
 
 
 FAQ Sidebar Widgets

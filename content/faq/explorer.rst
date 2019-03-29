@@ -56,4 +56,4 @@ To rate an FAQ article:
 2. Scroll down to the bottom of the screen.
 3. Click on the *Yes* or *No* button in the *Rating* widget.
 
-Any user can rate an FAQ article only once. The number of positive and negative ratings will be displayed in the left sidebar of *FAQ Zoom* screen.
+Any user can rate an FAQ article only once. The number of positive and negative ratings will be displayed in the right sidebar of :doc:`faq-zoom` screen.

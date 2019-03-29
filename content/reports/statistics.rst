@@ -76,7 +76,7 @@ To delete a statistics:
 
 To run a statistics:
 
-1. Click on the play icon in list of reports.
+1. Click on the play icon in list of statistics.
 2. Review the statistics details.
 3. Click on the *Run now* button.
 

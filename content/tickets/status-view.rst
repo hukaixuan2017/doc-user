@@ -45,16 +45,16 @@ To sort tickets by a specific attribute:
 1. Click on a column header to sort tickets by the selected attribute.
 2. Click on the column header again to change the sort order.
 
-It is possible to filter tickets by a specific attribute, but not all attribute can be used as filter. The filterable attributes are marked with a filter icon in the header column.
+It is possible to filter tickets by a specific attribute, but not all attributes can be used as filter. The filterable attributes are marked with a filter icon in the column header.
 
 To filter tickets:
 
-1. Click on the filter icon in the header column.
+1. Click on the filter icon in the column header.
 2. Select a value for the filter.
 
 .. note::
 
-   Multiple filters can be set. Active filters are marked with a bold filter icon in the header column and a trash icon is displayed in the widget header. Click on this trash icon to remove all active filters.
+   Multiple filters can be set. Active filters are marked with a bold filter icon in the column header and a trash icon is displayed in the widget header. Click on this trash icon to remove all active filters.
 
 This view has an own menu to manage tickets. Select a checkbox in the row of a ticket to see this menu.
 
@@ -62,7 +62,7 @@ This view has an own menu to manage tickets. Select a checkbox in the row of a t
    :alt: Small Status View Menu
 
 Bulk
-   Bulk action for the ticket, multiple attribute can be changed (see below).
+   Bulk action for the ticket, multiple attributes can be changed (see below).
 
 Zoom
    Open the :doc:`ticket-zoom` screen to see all details of the ticket.
@@ -96,9 +96,9 @@ To limit the number of displayed tickets per page:
 Hover the mouse over the ticket row, and a floating menu will appear. The floating menu has the same menu items that are already explained in the *Small Status View* section.
 
 .. figure:: images/status-view-medium-hover.png
-   :alt: Floating Menu of Medium Status View Screen
+   :alt: Floating Menu of Medium Status View
 
-   Floating Menu of Medium Status View Screen
+   Floating Menu of Medium Status View
 
 
 Large Status View
@@ -120,9 +120,9 @@ To limit the number of displayed tickets per page:
 Hover the mouse over the ticket row, and a floating menu will appear. The floating menu has the same menu items that are already explained in the *Small Status View* section.
 
 .. figure:: images/status-view-large-hover.png
-   :alt: Floating Menu of Status Queue View Screen
+   :alt: Floating Menu of Status Queue View
 
-   Floating Menu of Large Status View Screen
+   Floating Menu of Large Status View
 
 
 Status View Bulk Actions

@@ -27,7 +27,7 @@ State
    Select the state of the FAQ article. Possible options are:
 
    external (customer)
-      FAQ article is visible for agents and logged in customers on the external interface.
+      FAQ article is visible for agents and logged in customer users on the external interface.
 
    internal (agent)
       FAQ article is visible for agents only.

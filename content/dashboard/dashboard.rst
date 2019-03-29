@@ -33,8 +33,8 @@ The dashboard displays so called *widgets*. A widget is a box, that consists of 
 Each ticket widget has own filter for displaying:
 
 - My locked tickets: tickets which are locked by the current agent.
-- My watched tickets: tickets that the agent has in his/her watched list (requires ``Ticket::Watcher`` setting to be turned). 
-- My responsibilities: tickets that the agent is set as responsible (requires ``Ticket::Responsible`` setting to be turned on). 
+- My watched tickets: tickets that the agent has in his/her watched list (requires ``Ticket::Watcher`` setting to be turned on).
+- My responsibilities: tickets that the agent is set as responsible (requires ``Ticket::Responsible`` setting to be turned on).
 - Tickets in My Queues: tickets which are in queues selected in :doc:`../avatar/personal-preferences`.
 - Tickets in My Services: tickets that are assigned to services selected in :doc:`../avatar/personal-preferences`.
 - All tickets: all tickets in this kind of widget.
@@ -145,7 +145,7 @@ To display the tickets in this calendar, the following settings need to be set b
 
 2. Navigate to *Frontend* → *Agent* → *View* and select a view to add the dynamic field to.
 
-   For example add these dynamic fields to *New Phone Ticket* screen and *New Email Ticket* screen to set the dates at ticket creation time, or to *Ticket Free Fields* screen to set the dates for existing ticket in the *Miscellaneous*  → *Free Text* menu item of the :doc:`../tickets/ticket-zoom` screen.
+   For example add these dynamic fields to *New Phone Ticket* screen and *New Email Ticket* screen to set the dates at ticket creation time, or to *Ticket Free Fields* screen to set the dates for existing ticket in the *Miscellaneous* → *Free Fields* menu item of the :doc:`../tickets/ticket-zoom` screen.
 
    - ``Ticket::Frontend::AgentTicketPhone###DynamicField``
 
@@ -231,7 +231,7 @@ The *Latest created FAQ articles* widget displays the FAQ articles, that are cre
 
    Latest Created FAQ Articles Widget
 
-The *Logged-In Users* widget displays the currently online agents and customers.
+The *Logged-In Users* widget displays the currently online agents and customer users.
 
 .. figure:: images/dashboard-online-users.png
    :alt: Logged-In Users Widget

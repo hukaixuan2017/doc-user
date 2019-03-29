@@ -58,7 +58,7 @@ Next ticket state
    New tickets are in *open* state by default. Select an other state if you want to change it.
 
 Pending date
-   Select a date and time as reminder for the ticket. If the pending time is reached, the ticket will be escalated.
+   Select a date and time as reminder for the ticket. If the pending time is reached, the ticket can be escalated.
 
 Priority
    New tickets have *3 normal* priority by default. Select an other priority if you want to change it.

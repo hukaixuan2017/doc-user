@@ -73,4 +73,4 @@ To delete an appointment:
 
 1. Click on an appointment in the calendar overview.
 2. Click on the *Delete* button.
-3. Clock on the *OK* button in the confirmation dialog.
+3. Click on the *OK* button in the confirmation dialog.

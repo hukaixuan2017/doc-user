@@ -69,7 +69,7 @@ People
 
          Change Owner Screen
 
-      Change Owner \*
+      New Owner \*
          Select the new owner agent from the list. The agent needs *owner* permission, otherwise the agent is not listed.
 
       Subject \*
@@ -157,7 +157,7 @@ Communication
          Select an other state if you want to change it.
 
       Pending date
-         Select a date and time as deadline for the ticket. If the pending time is reached, the ticket will be escalated.
+         Select a date and time as reminder for the ticket. If the pending time is reached, the ticket can be escalated.
 
       Time units (work units)
          Enter any amount of time units for time accounting.
@@ -209,7 +209,7 @@ Communication
          Select an other state if you want to change it.
 
       Pending date
-         Select a date and time as deadline for the ticket. If the pending time is reached, the ticket will be escalated.
+         Select a date and time as reminder for the ticket. If the pending time is reached, the ticket can be escalated.
 
       Visible for customer
          Define, if the note is an internal note or customer can view it.
@@ -229,7 +229,7 @@ Pending
       Select the pending state of the ticket.
 
    Pending date
-      Select a date and time as reminder for the ticket. If the pending time is reached, the ticket will be escalated.
+      Select a date and time as reminder for the ticket. If the pending time is reached, the ticket can be escalated.
 
    Subject \*
       The subject of the ticket like the subject of an email.
@@ -367,7 +367,7 @@ Miscellaneous
       This menu item opens the :doc:`../calendar/new-appointment` dialog, and selects the current ticket in the *Ticket* field for linking.
 
 Queue
-   This menu item is only a drop-down list of available queues. Select a destination queue, if the ticket is needs to be moved there.
+   This menu item is only a drop-down list of available queues. Select a destination queue, if the ticket needs to be moved there.
 
    .. warning::
 
@@ -515,7 +515,7 @@ Forward
       Select an other state if you want to change it.
 
    Pending date
-      Select a date and time as deadline for the ticket. If the pending time is reached, the ticket will be escalated.
+      Select a date and time as reminder for the ticket. If the pending time is reached, the ticket can be escalated.
 
    Visible for customer
       Define, if the note is an internal note or customer can view it.
@@ -565,7 +565,7 @@ Reply
       Select an other state if you want to change it.
 
    Pending date
-      Select a date and time as deadline for the ticket. If the pending time is reached, the ticket will be escalated.
+      Select a date and time as reminder for the ticket. If the pending time is reached, the ticket can be escalated.
 
    Visible for customer
       Define, if the note is an internal note or customer can view it.

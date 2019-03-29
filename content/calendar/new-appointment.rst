@@ -1,7 +1,7 @@
 New Appointment
 ===============
 
-Use this menu item to add new appointments to calendars. New appointments can be also added to click on the *Add Appointment* button  either in :doc:`calendar-overview` or in :doc:`agenda-overview` screens. It is also possible to drag over a range of the calendar widget to setup a rough time span. Right after that, a modal dialog appears where the data can be inserted.
+Use this menu item to add new appointments to calendars. New appointments can be also added by clicking on the *Add Appointment* button either in :doc:`calendar-overview` or in :doc:`agenda-overview` screens. It is also possible to drag over a range of the calendar widget to setup a rough time span. Right after that, a modal dialog appears where the data can be inserted.
 
 .. figure:: images/calendar-new-appointment.png
    :alt: Appointment Dialog
@@ -53,7 +53,7 @@ Notification
       Appointment notifications can be set in admin interface. Please contact your administrator.
 
 Ticket
-   Tickets and other objects can be linked to the appointment With this search field.
+   Tickets and other objects can be linked to the appointment with this search field.
 
    .. note::
 

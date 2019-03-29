@@ -1,7 +1,7 @@
 Search
 ======
 
-Use this menu item to search for something. The *Search Results* screen is available, if you click on the magnifition glass icon in the main menu, enter a serch term and hit *Enter* key on your keyboard.
+Use this menu item to search for something. The *Search Results* screen is available, if you click on the magnification glass icon in the main menu, enter a search term and hit *Enter* key on your keyboard.
 
 .. figure:: images/search-dialog.png
    :alt: Search Dialog
@@ -15,7 +15,7 @@ If the search has results, a new screen will open.
 
    Search Results Screen
 
-This screen lists all objects that matches the search term. The objects are groupped by type.
+This screen lists all objects that matches the search term. The objects are grouped by type.
 
 To find the desired object:
 

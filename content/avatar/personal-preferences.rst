@@ -15,7 +15,11 @@ This overview screen consists of four modules.
 
    Preferences Modules
 
-Each module consists of widgets, which have two columns. In the first column is the setting, and in the second column is a description for the setting. Do not forget to apply the changes by clicking on the tick icon in the right part of the widget.
+Each module consists of widgets, which have two columns. In the first column is the setting, and in the second column is a description for the setting.
+
+.. note::
+
+   Do not forget to apply the changes by clicking on the tick icon in the right part of the widget.
 
 
 User Profile
@@ -35,7 +39,7 @@ In this widget the current password can be changed. To change the password, all 
    Change Password Widget
 
 Current password
-   Type your current password for security reasons, if you van to change it.
+   Type your current password for security reasons, if you want to change it.
 
 New password
    Type your new password here.
@@ -138,7 +142,7 @@ These settings are for customizing personal notifications.
 My Queues
 ~~~~~~~~~
 
-In this widget some queues can be selected as preferred queues. Tickets in this queues will displayed under the *Tickets in My Queues* filter of the ticket widgets, and notifications will be sent, if new tickets are available in one of the selected queues.
+In this widget some queues can be selected as preferred queues. Tickets in this queues will be displayed under the *Tickets in My Queues* filter of the ticket widgets, and notifications will be sent, if new tickets are available in one of the selected queues.
 
 In :doc:`../tickets/queue-view` only these queues will be displayed under *My Queues* filter, that are selected in this widget.
 
@@ -217,7 +221,7 @@ Select a refresh interval from the drop-down list.
 Screen after new ticket
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Select, which screen should be displayed after a new ticket is created.
+Select, which screen should be shown after a new ticket has been created.
 
 .. figure:: images/preferences-miscellaneous-new-ticket-screen.png
    :alt: Screen After New Ticket Widget

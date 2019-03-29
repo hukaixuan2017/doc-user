@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-23 04:23+0000\n"
+"POT-Creation-Date: 2019-03-29 12:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,23 +139,23 @@ msgid "This overview screen consists of four modules."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:8
-#: ../../content/avatar/personal-preferences.rst:22
+#: ../../content/avatar/personal-preferences.rst:26
 msgid "User Profile"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:9
-#: ../../content/avatar/personal-preferences.rst:133
+#: ../../content/avatar/personal-preferences.rst:137
 msgid "Notification Settings"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:10
-#: ../../content/avatar/personal-preferences.rst:182
+#: ../../content/avatar/personal-preferences.rst:186
 #: ../../content/tickets/ticket-zoom.rst:367
 msgid "Miscellaneous"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:11
-#: ../../content/avatar/personal-preferences.rst:231
+#: ../../content/avatar/personal-preferences.rst:235
 msgid "Advanced"
 msgstr ""
 
@@ -164,316 +164,320 @@ msgid "Preferences Modules"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:18
-msgid "Each module consists of widgets, which have two columns. In the first column is the setting, and in the second column is a description for the setting. Do not forget to apply the changes by clicking on the tick icon in the right part of the widget."
+msgid "Each module consists of widgets, which have two columns. In the first column is the setting, and in the second column is a description for the setting."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:24
-msgid "This is the agent profile, where the account related settings can be changed."
+#: ../../content/avatar/personal-preferences.rst:22
+msgid "Do not forget to apply the changes by clicking on the tick icon in the right part of the widget."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:28
+msgid "This is the agent profile, where the account related settings can be changed."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:32
 msgid "Change password"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:30
+#: ../../content/avatar/personal-preferences.rst:34
 msgid "In this widget the current password can be changed. To change the password, all fields must be filled."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:35
+#: ../../content/avatar/personal-preferences.rst:39
 msgid "Change Password Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:38
+#: ../../content/avatar/personal-preferences.rst:42
 msgid "Current password"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:38
-msgid "Type your current password for security reasons, if you van to change it."
-msgstr ""
-
-#: ../../content/avatar/personal-preferences.rst:41
-msgid "New password"
-msgstr ""
-
-#: ../../content/avatar/personal-preferences.rst:41
-msgid "Type your new password here."
+#: ../../content/avatar/personal-preferences.rst:42
+msgid "Type your current password for security reasons, if you want to change it."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:45
+msgid "New password"
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:45
+msgid "Type your new password here."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:49
 msgid "Verify password"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:44
+#: ../../content/avatar/personal-preferences.rst:48
 msgid "Type your new password again to avoid misspelling the new password."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:48
+#: ../../content/avatar/personal-preferences.rst:52
 msgid "Google Authenticator"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:52
+#: ../../content/avatar/personal-preferences.rst:56
 msgid "System configuration ``PreferencesGroups###GoogleAuthenticatorSecretKey`` needs to be activated to use this feature."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:54
+#: ../../content/avatar/personal-preferences.rst:58
 msgid "This is a two factor authentication token described in `RFC6238 <https://tools.ietf.org/html/rfc6238>`__ to improve the account security. `Google Authenticator <https://en.wikipedia.org/wiki/Google_Authenticator>`__ is a mobile application to generate tokens, but any other generator application can be used."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:59
+#: ../../content/avatar/personal-preferences.rst:63
 msgid "Google Authenticator Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:67
+#: ../../content/avatar/personal-preferences.rst:71
 msgid "Shared Secret"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:62
+#: ../../content/avatar/personal-preferences.rst:66
 msgid "This is a string to use for token generation. It must contain only uppercase letters (A-Z) and numbers (2-7). Click on the *Generate* button to generate a secret."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:66
+#: ../../content/avatar/personal-preferences.rst:70
 msgid "Make sure that you add the shared secret to your generator application and the application works well. Otherwise you will be not able to login anymore without the two factor token."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:70
+#: ../../content/avatar/personal-preferences.rst:74
 msgid "Avatar"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:72
+#: ../../content/avatar/personal-preferences.rst:76
 msgid "Here can be changed the image used as avatar image in *Ticket Zoom* screen and in the main menu."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:77
+#: ../../content/avatar/personal-preferences.rst:81
 msgid "Avatar Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:79
+#: ../../content/avatar/personal-preferences.rst:83
 msgid "It is not possible to upload an avatar image directly in OTRS. You have to register your email address on `Gravatar <https://www.gravatar.com/>`__ to use this feature. Otherwise the first letters of first name and last name will be displayed."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:83
+#: ../../content/avatar/personal-preferences.rst:87
 #: ../../content/faq/new.rst:46
 msgid "Language"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:85
+#: ../../content/avatar/personal-preferences.rst:89
 msgid "Use this widget to set language for OTRS user interface."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:90
+#: ../../content/avatar/personal-preferences.rst:94
 msgid "Language Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:92
+#: ../../content/avatar/personal-preferences.rst:96
 msgid "Only those languages are listed by default, in which OTRS is translated more than 95%. To see all available languages, click on the refresh icon next to the drop-down list."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:96
+#: ../../content/avatar/personal-preferences.rst:100
 msgid "Translation status of incomplete languages are low, but you can help to improve the translation. See the `developer manual <https://doc.otrs.com/doc/manual/developer/7.0/en/content/contributing/translate.html>`__ for more information about translating OTRS."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:100
+#: ../../content/avatar/personal-preferences.rst:104
 msgid "Time Zone"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:102
+#: ../../content/avatar/personal-preferences.rst:106
 msgid "Each agent has to set the timezone of the current location to get proper date and time calculation in OTRS."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:107
+#: ../../content/avatar/personal-preferences.rst:111
 msgid "Time Zone Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:109
+#: ../../content/avatar/personal-preferences.rst:113
 msgid "Select the location where you are currently in."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:113
+#: ../../content/avatar/personal-preferences.rst:117
 msgid "Out Of Office Time"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:115
+#: ../../content/avatar/personal-preferences.rst:119
 msgid "With this widget agents can inform other agents about absence. This is useful for resource planning and workload balancing."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:120
+#: ../../content/avatar/personal-preferences.rst:124
 msgid "Out Of Office Time Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:123
+#: ../../content/avatar/personal-preferences.rst:127
 msgid "Active"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:123
+#: ../../content/avatar/personal-preferences.rst:127
 msgid "The function can be turned on or off."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:126
+#: ../../content/avatar/personal-preferences.rst:130
 msgid "Start"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:126
+#: ../../content/avatar/personal-preferences.rst:130
 msgid "The first day of absence."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:130
+#: ../../content/avatar/personal-preferences.rst:134
 msgid "End"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:129
+#: ../../content/avatar/personal-preferences.rst:133
 msgid "The last day of absence."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:135
+#: ../../content/avatar/personal-preferences.rst:139
 msgid "These settings are for customizing personal notifications."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:139
+#: ../../content/avatar/personal-preferences.rst:143
 msgid "My Queues"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:141
-msgid "In this widget some queues can be selected as preferred queues. Tickets in this queues will displayed under the *Tickets in My Queues* filter of the ticket widgets, and notifications will be sent, if new tickets are available in one of the selected queues."
+#: ../../content/avatar/personal-preferences.rst:145
+msgid "In this widget some queues can be selected as preferred queues. Tickets in this queues will be displayed under the *Tickets in My Queues* filter of the ticket widgets, and notifications will be sent, if new tickets are available in one of the selected queues."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:143
+#: ../../content/avatar/personal-preferences.rst:147
 msgid "In :doc:`../tickets/queue-view` only these queues will be displayed under *My Queues* filter, that are selected in this widget."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:145
+#: ../../content/avatar/personal-preferences.rst:149
 msgid "In case of owner or responsible selection, only agents are listed by default as potentially owner or responsible, who are set the queue as preferred queue in this widget."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:150
+#: ../../content/avatar/personal-preferences.rst:154
 msgid "My Queues Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:152
+#: ../../content/avatar/personal-preferences.rst:156
 msgid "Select one or more queues from the drop-down list."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:156
+#: ../../content/avatar/personal-preferences.rst:160
 msgid "Ticket Notifications"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:158
+#: ../../content/avatar/personal-preferences.rst:162
 msgid "In this widget can be selected the methods used for any kind of ticket notifications."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:163
+#: ../../content/avatar/personal-preferences.rst:167
 msgid "Ticket Notifications Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:165
-#: ../../content/avatar/personal-preferences.rst:178
+#: ../../content/avatar/personal-preferences.rst:169
+#: ../../content/avatar/personal-preferences.rst:182
 msgid "The possible methods are *Email*, *Web View* or *SMS*."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:169
+#: ../../content/avatar/personal-preferences.rst:173
 msgid "Appointment Notifications"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:171
+#: ../../content/avatar/personal-preferences.rst:175
 msgid "In this widget can be selected the methods used for appointment notification."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:176
+#: ../../content/avatar/personal-preferences.rst:180
 msgid "Appointment Notifications Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:184
+#: ../../content/avatar/personal-preferences.rst:188
 msgid "These settings are for change some visual appearance of OTRS."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:188
+#: ../../content/avatar/personal-preferences.rst:192
 msgid "Skin"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:190
+#: ../../content/avatar/personal-preferences.rst:194
 msgid "In this widget can be selected the skin, that OTRS should wear."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:195
+#: ../../content/avatar/personal-preferences.rst:199
 msgid "Skin Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:197
+#: ../../content/avatar/personal-preferences.rst:201
 msgid "Select a skin from the drop-down list."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:201
+#: ../../content/avatar/personal-preferences.rst:205
 msgid "Overview Refresh Time"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:203
+#: ../../content/avatar/personal-preferences.rst:207
 msgid "It is possible to make overview screens automatically refreshed after a period of time."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:208
+#: ../../content/avatar/personal-preferences.rst:212
 msgid "Overview Refresh Time Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:210
+#: ../../content/avatar/personal-preferences.rst:214
 msgid "Select a refresh interval from the drop-down list."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:214
+#: ../../content/avatar/personal-preferences.rst:218
 msgid "Refreshing the overview screens too often can cause performance issues on large systems with many agents."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:218
+#: ../../content/avatar/personal-preferences.rst:222
 msgid "Screen after new ticket"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:220
-msgid "Select, which screen should be displayed after a new ticket is created."
+#: ../../content/avatar/personal-preferences.rst:224
+msgid "Select, which screen should be shown after a new ticket has been created."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:225
+#: ../../content/avatar/personal-preferences.rst:229
 msgid "Screen After New Ticket Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:227
+#: ../../content/avatar/personal-preferences.rst:231
 msgid "Select a screen from the drop-down list."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:233
+#: ../../content/avatar/personal-preferences.rst:237
 msgid "In this module can be configured some system configuration options."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:238
+#: ../../content/avatar/personal-preferences.rst:242
 msgid "Advanced Preferences Screen"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:240
+#: ../../content/avatar/personal-preferences.rst:244
 msgid "To modify a setting:"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:242
+#: ../../content/avatar/personal-preferences.rst:246
 msgid "Use the tree navigation in the left sidebar to find the desired setting."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:243
+#: ../../content/avatar/personal-preferences.rst:247
 msgid "Modify the value."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:244
+#: ../../content/avatar/personal-preferences.rst:248
 msgid "Click on the tick button in the right side of the setting widget."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:249
+#: ../../content/avatar/personal-preferences.rst:253
 msgid "Advanced Preferences - Tree navigation Screen"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:251
+#: ../../content/avatar/personal-preferences.rst:255
 msgid "The modified settings have a gray border on the left."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:253
+#: ../../content/avatar/personal-preferences.rst:257
 msgid "To reset a setting:"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:255
+#: ../../content/avatar/personal-preferences.rst:259
 msgid "Click on the reset icon in the top right corner of the setting widget."
 msgstr ""
 
@@ -655,7 +659,7 @@ msgid "Click on the *Delete* button."
 msgstr ""
 
 #: ../../content/calendar/calendar-overview.rst:76
-msgid "Clock on the *OK* button in the confirmation dialog."
+msgid "Click on the *OK* button in the confirmation dialog."
 msgstr ""
 
 #: ../../content/calendar/new-appointment.rst:2
@@ -664,7 +668,7 @@ msgid "New Appointment"
 msgstr ""
 
 #: ../../content/calendar/new-appointment.rst:4
-msgid "Use this menu item to add new appointments to calendars. New appointments can be also added to click on the *Add Appointment* button  either in :doc:`calendar-overview` or in :doc:`agenda-overview` screens. It is also possible to drag over a range of the calendar widget to setup a rough time span. Right after that, a modal dialog appears where the data can be inserted."
+msgid "Use this menu item to add new appointments to calendars. New appointments can be also added by clicking on the *Add Appointment* button either in :doc:`calendar-overview` or in :doc:`agenda-overview` screens. It is also possible to drag over a range of the calendar widget to setup a rough time span. Right after that, a modal dialog appears where the data can be inserted."
 msgstr ""
 
 #: ../../content/calendar/new-appointment.rst:13
@@ -785,7 +789,7 @@ msgid "Ticket"
 msgstr ""
 
 #: ../../content/calendar/new-appointment.rst:56
-msgid "Tickets and other objects can be linked to the appointment With this search field."
+msgid "Tickets and other objects can be linked to the appointment with this search field."
 msgstr ""
 
 #: ../../content/calendar/new-appointment.rst:60
@@ -1301,7 +1305,7 @@ msgid "Customer User Administration"
 msgstr ""
 
 #: ../../content/customers/customer-user-administration.rst:10
-msgid "A record of who your company deals with requires more information about that individual: Physical location, for shipping and billing purposes, as well as contact information for email and phone contact."
+msgid "A record of who your company deals with requires more information about that individual: physical location for shipping and billing purposes, as well as contact information for email and phone contact."
 msgstr ""
 
 #: ../../content/customers/customer-user-administration.rst:12
@@ -1575,7 +1579,7 @@ msgid "Agent Dashboard"
 msgstr ""
 
 #: ../../content/dashboard.rst:11
-msgid "The dashboard is the main page of the system, here you can get an overview about the tickets and other stuff related to the ticket activity. It is thinking to be the starting point for the daily work of an agent, by default it presents a quick summary of the tickets which are pending, escalated, new, and open, among other information."
+msgid "The dashboard is the main page of the system, where you can get an overview of tickets and other things related to ticket activity. It is designed to be the starting point for an agent’s daily work. By default, it provides a quick summary of the tickets that are pending, escalated, new or open, and more information."
 msgstr ""
 
 #: ../../content/dashboard.rst:13
@@ -1635,7 +1639,7 @@ msgid "Dashboard Widgets"
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:36
-msgid "My watched tickets: tickets that the agent has in his/her watched list (requires ``Ticket::Watcher`` setting to be turned)."
+msgid "My watched tickets: tickets that the agent has in his/her watched list (requires ``Ticket::Watcher`` setting to be turned on)."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:37
@@ -1793,7 +1797,7 @@ msgid "Navigate to *Frontend* → *Agent* → *View* and select a view to add th
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:148
-msgid "For example add these dynamic fields to *New Phone Ticket* screen and *New Email Ticket* screen to set the dates at ticket creation time, or to *Ticket Free Fields* screen to set the dates for existing ticket in the *Miscellaneous*  → *Free Text* menu item of the :doc:`../tickets/ticket-zoom` screen."
+msgid "For example add these dynamic fields to *New Phone Ticket* screen and *New Email Ticket* screen to set the dates at ticket creation time, or to *Ticket Free Fields* screen to set the dates for existing ticket in the *Miscellaneous* → *Free Fields* menu item of the :doc:`../tickets/ticket-zoom` screen."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:150
@@ -1887,7 +1891,7 @@ msgid "Latest Created FAQ Articles Widget"
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:234
-msgid "The *Logged-In Users* widget displays the currently online agents and customers."
+msgid "The *Logged-In Users* widget displays the currently online agents and customer users."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:239
@@ -2108,7 +2112,7 @@ msgid "Click on the *Yes* or *No* button in the *Rating* widget."
 msgstr ""
 
 #: ../../content/faq/explorer.rst:59
-msgid "Any user can rate an FAQ article only once. The number of positive and negative ratings will be displayed in the left sidebar of *FAQ Zoom* screen."
+msgid "Any user can rate an FAQ article only once. The number of positive and negative ratings will be displayed in the right sidebar of :doc:`faq-zoom` screen."
 msgstr ""
 
 #: ../../content/faq/faq-zoom.rst:2
@@ -2219,7 +2223,7 @@ msgid "It is possible to rate an FAQ article in the *Rating* widget, whether the
 msgstr ""
 
 #: ../../content/faq/faq-zoom.rst:61
-msgid "Any user can rate an FAQ article only once. The number of positive and negative ratings will be displayed in the left sidebar."
+msgid "Any user can rate an FAQ article only once. The number of positive and negative ratings will be displayed in the right sidebar."
 msgstr ""
 
 #: ../../content/faq/faq-zoom.rst:65
@@ -2397,7 +2401,7 @@ msgid "external (customer)"
 msgstr ""
 
 #: ../../content/faq/new.rst:30
-msgid "FAQ article is visible for agents and logged in customers on the external interface."
+msgid "FAQ article is visible for agents and logged in customer users on the external interface."
 msgstr ""
 
 #: ../../content/faq/new.rst:33
@@ -2546,7 +2550,7 @@ msgid "To modify a search template:"
 msgstr ""
 
 #: ../../content/faq/search.rst:40
-msgid "Select the *Save changes in template* box."
+msgid "Check the *Save changes in template* box."
 msgstr ""
 
 #: ../../content/faq/search.rst:41
@@ -2685,7 +2689,7 @@ msgid "Reports"
 msgstr ""
 
 #: ../../content/reports.rst:4
-msgid "Reports are automatically generated statistics. In this menu it is possibe to define new statistics, and set these statistics as reports, if needed."
+msgid "Reports are automatically generated statistics. In this menu it is possible to define new statistics, and set these statistics as reports, if needed."
 msgstr ""
 
 #: ../../content/reports/reports.rst:4
@@ -2709,7 +2713,7 @@ msgid "Click on the *Add Report* button in the left sidebar."
 msgstr ""
 
 #: ../../content/reports/reports.rst:20
-msgid "You will be redirected to *Edit Reports* screen to edit the report details."
+msgid "You will be redirected to *Edit Report* screen to edit the report details."
 msgstr ""
 
 #: ../../content/reports/reports.rst:25
@@ -2729,7 +2733,7 @@ msgid "Modify the fields and the report details."
 msgstr ""
 
 #: ../../content/reports/reports.rst:36
-msgid "Edit Report Details"
+msgid "Edit Report Details Screen"
 msgstr ""
 
 #: ../../content/reports/reports.rst:38
@@ -2879,7 +2883,7 @@ msgid "Add statistic to report"
 msgstr ""
 
 #: ../../content/reports/reports.rst:122
-msgid "Select one or more :doc:`statistics` to be added to the report. Each added statistic have an own overview and settings screen."
+msgid "Select one or more :doc:`statistics` to be added to the report. Each added statistics have an own overview and settings screen."
 msgstr ""
 
 #: ../../content/reports/reports.rst:124
@@ -3008,7 +3012,7 @@ msgid "To run a statistics:"
 msgstr ""
 
 #: ../../content/reports/statistics.rst:79
-msgid "Click on the play icon in list of reports."
+msgid "Click on the play icon in list of statistics."
 msgstr ""
 
 #: ../../content/reports/statistics.rst:80
@@ -3124,7 +3128,7 @@ msgid "Search function can be used to search everything inside OTRS. This functi
 msgstr ""
 
 #: ../../content/search/search.rst:4
-msgid "Use this menu item to search for something. The *Search Results* screen is available, if you click on the magnifition glass icon in the main menu, enter a serch term and hit *Enter* key on your keyboard."
+msgid "Use this menu item to search for something. The *Search Results* screen is available, if you click on the magnification glass icon in the main menu, enter a search term and hit *Enter* key on your keyboard."
 msgstr ""
 
 #: ../../content/search/search.rst:11
@@ -3132,7 +3136,7 @@ msgid "If the search has results, a new screen will open."
 msgstr ""
 
 #: ../../content/search/search.rst:18
-msgid "This screen lists all objects that matches the search term. The objects are groupped by type."
+msgid "This screen lists all objects that matches the search term. The objects are grouped by type."
 msgstr ""
 
 #: ../../content/search/search.rst:20
@@ -3156,11 +3160,11 @@ msgid "Tickets"
 msgstr ""
 
 #: ../../content/tickets.rst:6
-msgid "A ticket is similar to a medical report created for a hospital patient. When a patient first visits the hospital, a medical report is created to hold all necessary personal and medical information on him. Over multiple visits, as he is attended to by the same or additional doctors, the attending doctor updates the report by adding new information on the patient's health and the ongoing treatment. This allows any other doctors or the nursing staff to get a complete picture on the case at hand. When the patient recovers and leaves the hospital, all information from the medical report is archived and the report is closed."
+msgid "A ticket is similar to a medical report created for a hospital patient. When a patient first visits the hospital, a medical report is created to hold all necessary personal and medical information on him. Over multiple visits, as he is attended to by the same or additional doctors, the attending doctor updates the report by adding new information on the patient’s health and the ongoing treatment. This allows any other doctors or the nursing staff to get a complete picture on the case at hand. When the patient recovers and leaves the hospital, all information from the medical report is archived and the report is closed."
 msgstr ""
 
 #: ../../content/tickets.rst:8
-msgid "Ticket systems such as OTRS handle tickets like normal emails. The messages are saved in the system. When a customer sends a request, a new ticket is generated by the system which is comparable to a new medical report being created. The response to this new ticket is comparable to a doctor's entry in the medical report. A ticket is closed if an answer is sent back to the customer, or if the ticket is separately closed by the system. If a customer responds again on an already closed ticket, the ticket is reopened with the new information added."
+msgid "Ticket systems such as OTRS handle tickets like normal emails. The messages are saved in the system. When a customer sends a request, a new ticket is generated by the system which is comparable to a new medical report being created. The response to this new ticket is comparable to a doctor’s entry in the medical report. A ticket is closed if an answer is sent back to the customer, or if the ticket is separately closed by the system. If a customer responds again on an already closed ticket, the ticket is reopened with the new information added."
 msgstr ""
 
 #: ../../content/tickets.rst:13
@@ -3301,7 +3305,7 @@ msgstr ""
 #: ../../content/tickets/escalation-view.rst:57
 #: ../../content/tickets/queue-view.rst:56
 #: ../../content/tickets/status-view.rst:48
-msgid "It is possible to filter tickets by a specific attribute, but not all attribute can be used as filter. The filterable attributes are marked with a filter icon in the header column."
+msgid "It is possible to filter tickets by a specific attribute, but not all attributes can be used as filter. The filterable attributes are marked with a filter icon in the column header."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:59
@@ -3313,7 +3317,7 @@ msgstr ""
 #: ../../content/tickets/escalation-view.rst:61
 #: ../../content/tickets/queue-view.rst:60
 #: ../../content/tickets/status-view.rst:52
-msgid "Click on the filter icon in the header column."
+msgid "Click on the filter icon in the column header."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:62
@@ -3325,7 +3329,7 @@ msgstr ""
 #: ../../content/tickets/escalation-view.rst:66
 #: ../../content/tickets/queue-view.rst:65
 #: ../../content/tickets/status-view.rst:57
-msgid "Multiple filters can be set. Active filters are marked with a bold filter icon in the header column and a trash icon is displayed in the widget header. Click on this trash icon to remove all active filters."
+msgid "Multiple filters can be set. Active filters are marked with a bold filter icon in the column header and a trash icon is displayed in the widget header. Click on this trash icon to remove all active filters."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:68
@@ -3343,7 +3347,7 @@ msgstr ""
 #: ../../content/tickets/escalation-view.rst:74
 #: ../../content/tickets/queue-view.rst:73
 #: ../../content/tickets/status-view.rst:65
-msgid "Bulk action for the ticket, multiple attribute can be changed (see below)."
+msgid "Bulk action for the ticket, multiple attributes can be changed (see below)."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:77
@@ -3405,13 +3409,11 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:105
 #: ../../content/tickets/escalation-view.rst:129
-#: ../../content/tickets/queue-view.rst:104
-#: ../../content/tickets/queue-view.rst:128
-msgid "Hover the mouse over the ticket row, and a floating menu will appear. The floating menu has the same menu items that are already explained in the *Small Queue View* section."
+msgid "Hover the mouse over the ticket row, and a floating menu will appear. The floating menu has the same menu items that are already explained in the *Small Escalation View* section."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:110
-msgid "Floating Menu of Medium Escalation View Screen"
+msgid "Floating Menu of Medium Escalation View"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:114
@@ -3429,7 +3431,7 @@ msgid "Large Escalation View Screen"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:134
-msgid "Floating Menu of Large Escalation View Screen"
+msgid "Floating Menu of Large Escalation View"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:138
@@ -3682,8 +3684,13 @@ msgid "Pending date"
 msgstr ""
 
 #: ../../content/tickets/new-email-ticket.rst:61
+#: ../../content/tickets/new-phone-ticket.rst:49
+#: ../../content/tickets/ticket-zoom.rst:160
+#: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
-msgid "Select a date and time as reminder for the ticket. If the pending time is reached, the ticket will be escalated."
+#: ../../content/tickets/ticket-zoom.rst:518
+#: ../../content/tickets/ticket-zoom.rst:568
+msgid "Select a date and time as reminder for the ticket. If the pending time is reached, the ticket can be escalated."
 msgstr ""
 
 #: ../../content/tickets/new-email-ticket.rst:64
@@ -3749,14 +3756,6 @@ msgstr ""
 
 #: ../../content/tickets/new-phone-ticket.rst:14
 msgid "The person, to whom the ticket is created for."
-msgstr ""
-
-#: ../../content/tickets/new-phone-ticket.rst:49
-#: ../../content/tickets/ticket-zoom.rst:160
-#: ../../content/tickets/ticket-zoom.rst:212
-#: ../../content/tickets/ticket-zoom.rst:518
-#: ../../content/tickets/ticket-zoom.rst:568
-msgid "Select a date and time as deadline for the ticket. If the pending time is reached, the ticket will be escalated."
 msgstr ""
 
 #: ../../content/tickets/new-phone-ticket.rst:57
@@ -3861,8 +3860,13 @@ msgstr ""
 msgid "Medium Queue View Screen"
 msgstr ""
 
+#: ../../content/tickets/queue-view.rst:104
+#: ../../content/tickets/queue-view.rst:128
+msgid "Hover the mouse over the ticket row, and a floating menu will appear. The floating menu has the same menu items that are already explained in the *Small Queue View* section."
+msgstr ""
+
 #: ../../content/tickets/queue-view.rst:109
-msgid "Floating Menu of Medium Queue View Screen"
+msgid "Floating Menu of Medium Queue View"
 msgstr ""
 
 #: ../../content/tickets/queue-view.rst:113
@@ -3874,7 +3878,7 @@ msgid "Large Queue View Screen"
 msgstr ""
 
 #: ../../content/tickets/queue-view.rst:133
-msgid "Floating Menu of Large Queue View Screen"
+msgid "Floating Menu of Large Queue View"
 msgstr ""
 
 #: ../../content/tickets/queue-view.rst:137
@@ -3935,7 +3939,7 @@ msgid "Hover the mouse over the ticket row, and a floating menu will appear. The
 msgstr ""
 
 #: ../../content/tickets/status-view.rst:101
-msgid "Floating Menu of Medium Status View Screen"
+msgid "Floating Menu of Medium Status View"
 msgstr ""
 
 #: ../../content/tickets/status-view.rst:105
@@ -3947,7 +3951,7 @@ msgid "Large Status View Screen"
 msgstr ""
 
 #: ../../content/tickets/status-view.rst:125
-msgid "Floating Menu of Large Status View Screen"
+msgid "Floating Menu of Large Status View"
 msgstr ""
 
 #: ../../content/tickets/status-view.rst:129
@@ -4042,7 +4046,7 @@ msgid "Change Owner Screen"
 msgstr ""
 
 #: ../../content/tickets/ticket-zoom.rst:73
-msgid "Change Owner \\*"
+msgid "New Owner \\*"
 msgstr ""
 
 #: ../../content/tickets/ticket-zoom.rst:73
@@ -4330,7 +4334,7 @@ msgid "Queue"
 msgstr ""
 
 #: ../../content/tickets/ticket-zoom.rst:370
-msgid "This menu item is only a drop-down list of available queues. Select a destination queue, if the ticket is needs to be moved there."
+msgid "This menu item is only a drop-down list of available queues. Select a destination queue, if the ticket needs to be moved there."
 msgstr ""
 
 #: ../../content/tickets/ticket-zoom.rst:374

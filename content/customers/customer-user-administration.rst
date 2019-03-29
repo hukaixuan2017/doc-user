@@ -7,7 +7,7 @@
 Customer User Administration
 ============================
 
-A record of who your company deals with requires more information about that individual: Physical location, for shipping and billing purposes, as well as contact information for email and phone contact.
+A record of who your company deals with requires more information about that individual: physical location for shipping and billing purposes, as well as contact information for email and phone contact.
 
 OTRS offers a great way to save individual information about contacts within organizations which your company serves. You can add as many personal connections into OTRS as needed.
 
