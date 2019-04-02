@@ -37,7 +37,7 @@ Clicking on an FAQ article will open the :doc:`faq-zoom` screen.
 FAQ Explorer Sidebar Widgets
 ----------------------------
 
-The left sidebar lists the recently created, updated FAQ articles, as well as the top 10 FAQ articles.
+The right sidebar lists the recently created, updated FAQ articles, as well as the top 10 FAQ articles.
 
 .. figure:: images/faq-explorer-sidebar.png
    :alt: FAQ Explorer Sidebar
