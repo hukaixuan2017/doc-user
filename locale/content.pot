@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 12:27+0100\n"
+"POT-Creation-Date: 2019-04-03 03:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2084,7 +2084,7 @@ msgid "FAQ Explorer Sidebar Widgets"
 msgstr ""
 
 #: ../../content/faq/explorer.rst:40
-msgid "The left sidebar lists the recently created, updated FAQ articles, as well as the top 10 FAQ articles."
+msgid "The right sidebar lists the recently created, updated FAQ articles, as well as the top 10 FAQ articles."
 msgstr ""
 
 #: ../../content/faq/explorer.rst:45
