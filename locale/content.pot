@@ -3308,7 +3308,7 @@ msgid "The reserved characters are: ``+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? :
 msgstr ""
 
 #: ../../content/search/search.rst:96
-msgid "If any of these characters need to be used in search queries, then you should escape them with a leading backslash. For example to search for the term *(1+1)=2*, you have to the query string as ``\\(1\\+1\\)\\=2``."
+msgid "If any of these characters need to be used in search queries, then you should escape them with a leading backslash. For example to search for the term *(1+1)=2*, you have to use the query string as ``\\(1\\+1\\)\\=2``."
 msgstr ""
 
 #: ../../content/search/search.rst:100

@@ -93,7 +93,7 @@ Reserved characters
 
    The reserved characters are: ``+ - = && || > < ! ( ) { } [ ] ^ " ~ * ? : \ /``.
 
-   If any of these characters need to be used in search queries, then you should escape them with a leading backslash. For example to search for the term *(1+1)=2*, you have to the query string as ``\(1\+1\)\=2``.
+   If any of these characters need to be used in search queries, then you should escape them with a leading backslash. For example to search for the term *(1+1)=2*, you have to use the query string as ``\(1\+1\)\=2``.
 
 .. seealso::
 
