@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 12:27+0100\n"
+"POT-Creation-Date: 2019-04-10 03:22+0000\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: 汇民 王 <whuim@qq.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otrs/teams/23435/zh_CN/)\n"
@@ -205,13 +205,13 @@ msgstr "偏好设置模块"
 msgid ""
 "Each module consists of widgets, which have two columns. In the first column"
 " is the setting, and in the second column is a description for the setting."
-msgstr ""
+msgstr "每个模块由小部件组成，小部件有两列。 第一列是设置，第二列是设置说明。"
 
 #: ../../content/avatar/personal-preferences.rst:22
 msgid ""
 "Do not forget to apply the changes by clicking on the tick icon in the right"
 " part of the widget."
-msgstr ""
+msgstr "不要忘记通过单击小部件右侧的勾选图标来应用更改。"
 
 #: ../../content/avatar/personal-preferences.rst:28
 msgid ""
@@ -240,7 +240,7 @@ msgstr "当前密码"
 #: ../../content/avatar/personal-preferences.rst:42
 msgid ""
 "Type your current password for security reasons, if you want to change it."
-msgstr ""
+msgstr "如果要更改密码，出于安全原因请键入当前密码。"
 
 #: ../../content/avatar/personal-preferences.rst:45
 msgid "New password"
@@ -429,6 +429,8 @@ msgid ""
 " ticket widgets, and notifications will be sent, if new tickets are "
 "available in one of the selected queues."
 msgstr ""
+"在此小部件中，可以选择一些队列作为首选队列。 这些队列中的工单将显示在工单小部件的 *我的队列中的工单* "
+"过滤器下，并且如果其中的某个队列中有新工单，则将发送通知。"
 
 #: ../../content/avatar/personal-preferences.rst:147
 msgid ""
@@ -535,7 +537,7 @@ msgstr "创建新工单后的视图"
 #: ../../content/avatar/personal-preferences.rst:224
 msgid ""
 "Select, which screen should be shown after a new ticket has been created."
-msgstr ""
+msgstr "选择在创建新工单后要显示哪个屏幕。"
 
 #: ../../content/avatar/personal-preferences.rst:229
 msgid "Screen After New Ticket Widget"
@@ -817,6 +819,8 @@ msgid ""
 "span. Right after that, a modal dialog appears where the data can be "
 "inserted."
 msgstr ""
+"使用此菜单项可将新预约添加到日历。 还可以通过点击 :doc:`calendar-overview` 或 :doc:`agenda-overview` "
+"屏幕中的 *添加预约* 按钮来添加新的预约。 还可以拖动日历小部件的范围以设置粗略的时间跨度。 在此之后，会出现一个模态对话框，可以插入数据。"
 
 #: ../../content/calendar/new-appointment.rst:13
 msgid "Appointment Settings"
@@ -964,7 +968,7 @@ msgstr "工单"
 msgid ""
 "Tickets and other objects can be linked to the appointment with this search "
 "field."
-msgstr ""
+msgstr "可以使用此搜索字段将工单和其他对象链接到预约。"
 
 #: ../../content/calendar/new-appointment.rst:60
 msgid ""
@@ -1925,6 +1929,8 @@ msgid ""
 "quick summary of the tickets that are pending, escalated, new or open, and "
 "more information."
 msgstr ""
+"仪表板是系统的主页面，您可以在其中获得工单和工单活动相关的其他内容的概览。 它旨在成为服务人员日常工作的起点。 "
+"默认情况下，它提供挂起、升级、新建或处理中的工单的快速摘要以及更多信息。"
 
 #: ../../content/dashboard.rst:13
 msgid ""
@@ -2014,13 +2020,13 @@ msgstr "仪表板 小部件"
 msgid ""
 "My watched tickets: tickets that the agent has in his/her watched list "
 "(requires ``Ticket::Watcher`` setting to be turned on)."
-msgstr ""
+msgstr "我关注的工单： 在服务人员的关注列表中的工单（需要打开 ``Ticket::Watcher`` 设置）。"
 
 #: ../../content/dashboard/dashboard.rst:37
 msgid ""
 "My responsibilities: tickets that the agent is set as responsible (requires "
 "``Ticket::Responsible`` setting to be turned on)."
-msgstr "我负责的：服务人员被设置为责任人的工单（需要打开 ``Ticket::Responsible`` 设置）。"
+msgstr "我负责的工单：服务人员被设置为责任人的工单（需要打开 ``Ticket::Responsible`` 设置）。"
 
 #: ../../content/dashboard/dashboard.rst:39
 msgid ""
@@ -2198,6 +2204,8 @@ msgid ""
 "*Miscellaneous* → *Free Fields* menu item of the :doc:`../tickets/ticket-"
 "zoom` screen."
 msgstr ""
+"例如，将这些动态字段添加到 *新建电话工单* 屏幕和 *新建邮件工单* 屏幕以设置工单创建时的日期，或添加到 *工单自定义字段* 屏幕以在 "
+":doc:`../tickets/ticket-zoom` 屏幕的 *其它* → *自定义字段* 菜单项中设置现有工单的日期。"
 
 #: ../../content/dashboard/dashboard.rst:150
 msgid "``Ticket::Frontend::AgentTicketPhone###DynamicField``"
@@ -2310,7 +2318,7 @@ msgstr "最近创建的FAQ文章 小部件"
 msgid ""
 "The *Logged-In Users* widget displays the currently online agents and "
 "customer users."
-msgstr ""
+msgstr "*已登录的用户* 小部件显示当前在线的服务人员和客户用户。"
 
 #: ../../content/dashboard/dashboard.rst:239
 msgid "Logged-In Users Widget"
@@ -2531,9 +2539,9 @@ msgstr "FAQ 浏览器侧边栏小部件"
 
 #: ../../content/faq/explorer.rst:40
 msgid ""
-"The left sidebar lists the recently created, updated FAQ articles, as well "
+"The right sidebar lists the recently created, updated FAQ articles, as well "
 "as the top 10 FAQ articles."
-msgstr "左侧边栏列出了最近创建的、更新的FAQ文章以及FAQ文章的Top 10。"
+msgstr "右侧边栏列出了最近创建的、更新的FAQ文章以及FAQ文章的 Top 10。"
 
 #: ../../content/faq/explorer.rst:45
 msgid "FAQ Explorer Sidebar"
@@ -2566,7 +2574,7 @@ msgid ""
 "Any user can rate an FAQ article only once. The number of positive and "
 "negative ratings will be displayed in the right sidebar of :doc:`faq-zoom` "
 "screen."
-msgstr ""
+msgstr "任何用户只能对 FAQ 文章评分一次。 正面和负面评分的数量将显示在 :doc:`faq-zoom` 屏幕的右侧边栏。"
 
 #: ../../content/faq/faq-zoom.rst:2
 msgid "FAQ Zoom"
@@ -2687,7 +2695,7 @@ msgstr ""
 msgid ""
 "Any user can rate an FAQ article only once. The number of positive and "
 "negative ratings will be displayed in the right sidebar."
-msgstr ""
+msgstr "任何用户只能对 FAQ 文章评分一次。 正面和负面评分的数量将显示在右侧边栏中。"
 
 #: ../../content/faq/faq-zoom.rst:65
 msgid "FAQ Sidebar Widgets"
@@ -2888,7 +2896,7 @@ msgstr "外部人员(用户)"
 msgid ""
 "FAQ article is visible for agents and logged in customer users on the "
 "external interface."
-msgstr ""
+msgstr "服务人员和在外部人员界面登录的客户用户可以查看 FAQ 文章。"
 
 #: ../../content/faq/new.rst:33
 msgid "internal (agent)"
@@ -3029,7 +3037,7 @@ msgstr "若要修改一个搜索模板："
 
 #: ../../content/faq/search.rst:40
 msgid "Check the *Save changes in template* box."
-msgstr ""
+msgstr "选中 *保存模板中的变更* 框。"
 
 #: ../../content/faq/search.rst:41
 msgid "Modify some search criteria."
@@ -3183,7 +3191,7 @@ msgstr "报告"
 msgid ""
 "Reports are automatically generated statistics. In this menu it is possible "
 "to define new statistics, and set these statistics as reports, if needed."
-msgstr ""
+msgstr "报告是自动生成的统计信息。在此菜单中，可以定义新统计信息，并根据需要将这些统计信息设置为报告。"
 
 #: ../../content/reports/reports.rst:4
 msgid ""
@@ -3211,7 +3219,7 @@ msgstr "点击左侧边栏的 *添加报告* 按钮。"
 #: ../../content/reports/reports.rst:20
 msgid ""
 "You will be redirected to *Edit Report* screen to edit the report details."
-msgstr ""
+msgstr "您将被重定向到 *编辑报告* 屏幕以编辑报告详细信息。"
 
 #: ../../content/reports/reports.rst:25
 msgid "Add Report Screen"
@@ -3233,7 +3241,7 @@ msgstr "修改字段和报告详细信息。"
 
 #: ../../content/reports/reports.rst:36
 msgid "Edit Report Details Screen"
-msgstr ""
+msgstr "编辑报告详细信息屏幕"
 
 #: ../../content/reports/reports.rst:38
 msgid "To delete a report:"
@@ -3388,7 +3396,7 @@ msgstr "添加统计到报告"
 msgid ""
 "Select one or more :doc:`statistics` to be added to the report. Each added "
 "statistics have an own overview and settings screen."
-msgstr ""
+msgstr "选择要添加到报告中的一个或多个 :doc:`statistics` 。 每个添加的统计信息都有自己的概览和设置屏幕。"
 
 #: ../../content/reports/reports.rst:124
 msgid ""
@@ -3524,7 +3532,7 @@ msgstr "若要运行一个统计："
 
 #: ../../content/reports/statistics.rst:79
 msgid "Click on the play icon in list of statistics."
-msgstr ""
+msgstr "单击统计列表中的运行图标。"
 
 #: ../../content/reports/statistics.rst:80
 msgid "Review the statistics details."
@@ -3658,7 +3666,7 @@ msgid ""
 "Use this menu item to search for something. The *Search Results* screen is "
 "available, if you click on the magnification glass icon in the main menu, "
 "enter a search term and hit *Enter* key on your keyboard."
-msgstr ""
+msgstr "使用此菜单项搜索某些内容。 如果您单击主菜单中的放大镜图标，*搜索结果* 屏幕可用，请输入一个搜索词并按键盘上的 *回车* 键。"
 
 #: ../../content/search/search.rst:11
 msgid "If the search has results, a new screen will open."
@@ -3668,7 +3676,7 @@ msgstr "如果搜索有结果，则会打开一个新屏幕。"
 msgid ""
 "This screen lists all objects that matches the search term. The objects are "
 "grouped by type."
-msgstr ""
+msgstr "此屏幕列出与搜索词匹配的所有对象，对象按类型分组。"
 
 #: ../../content/search/search.rst:20
 msgid "To find the desired object:"
@@ -3686,6 +3694,248 @@ msgstr "使用右侧边栏中的过滤器缩小结果范围。"
 msgid "There is an option *All* to see all type of object."
 msgstr "有一个 *所有* 选项可以查看所有类型的对象。"
 
+#: ../../content/search/search.rst:29
+msgid "Search Parameters"
+msgstr "搜索参数"
+
+#: ../../content/search/search.rst:31
+msgid ""
+"The query string consists of *terms* and *operators*. A term can be a single"
+" word or a phrase surrounded by double quotes. Operators allow you to "
+"customize the search."
+msgstr "查询字符串由 *短语* 和 *运算符* 组成。 短语可以是由双引号括起来的单个单词或短语。 运算符允许您自定义搜索。"
+
+#: ../../content/search/search.rst:36
+msgid "Single word"
+msgstr "单个单词"
+
+#: ../../content/search/search.rst:34
+msgid ""
+"If the query string is a single word (for example ``quick`` or ``brown``), "
+"then OTRS searches for all items containing the given word."
+msgstr "如果查询字符串是单个单词（例如 ``quick`` 或 ``brown`` ），则 OTRS 搜索包含给定单词的所有项目。"
+
+#: ../../content/search/search.rst:36
+msgid ""
+"If two or more words are given in the query string (for example ``quick "
+"brown``), then OTRS searches for all items containing the word ``quick`` "
+"**or** ``brown``."
+msgstr ""
+"如果在查询字符串中给出了两个或多个单词（例如 ``quick brown``），那么 OTRS 将搜索包含单词 ``quick`` **或** "
+"``brown`` 的所有条目。"
+
+#: ../../content/search/search.rst:39
+msgid "Phrase surrounded by double quotes"
+msgstr "双引号包围的短语"
+
+#: ../../content/search/search.rst:39
+msgid ""
+"If the query string contains a phrase surrounded by double quotes (for "
+"example ``\"quick brown\"``), then OTRS searches for all items containing "
+"the words in the phrase in the same order."
+msgstr "如果查询字符串包含由双引号包围的短语（例如 ``\"quick brown\"``），则 OTRS 将以相同的顺序搜索包含短语中单词的所有项目。"
+
+#: ../../content/search/search.rst:46
+msgid "Wildcards"
+msgstr "通配符"
+
+#: ../../content/search/search.rst:42
+msgid ""
+"Use ``?`` to replace a single character, and ``*`` to replace zero or more "
+"characters (for example ``qu?ck bro*``)."
+msgstr "使用 ``?`` 替换单个字符，``*`` 替换零个或多个字符（例如 ``qu?ck bro*``）。"
+
+#: ../../content/search/search.rst:46
+msgid ""
+"Wildcard queries can lead to performance issues, because many terms need to "
+"be queried to match the query string."
+msgstr "通配符查询可能会导致性能问题，因为需要查询许多短语以匹配查询字符串。"
+
+#: ../../content/search/search.rst:53
+msgid "Regular expressions"
+msgstr "正则表达式"
+
+#: ../../content/search/search.rst:49
+msgid ""
+"Regular expression patterns can be embedded in the query string by wrapping "
+"them in slashes (for example ``/joh?n(ath[oa]n)/``)."
+msgstr "可以通过用斜杠裹住将正则表达式模式嵌入到查询字符串中（例如 ``/joh?n(ath[oa]n)/``）。"
+
+#: ../../content/search/search.rst:53
+msgid ""
+"The supported regular expression syntax is explained in `Regular expression "
+"syntax <https://www.elastic.co/guide/en/elasticsearch/reference/current"
+"/query-dsl-regexp-query.html#regexp-syntax>`__ chapter of the Elasticsearch "
+"documentation."
+msgstr ""
+"支持的正则表达式语法在 Elasticsearch 文档的 `Regular expression syntax "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"regexp-query.html#regexp-syntax>`__ 章节中解释。"
+
+#: ../../content/search/search.rst:60
+msgid "Fuzziness"
+msgstr "模糊"
+
+#: ../../content/search/search.rst:56
+msgid ""
+"It is possible to search for terms that are similar to, but not exactly like"
+" the given search terms, using the *fuzzy* operator (for example ``quikc~ "
+"brwn~ foks~``)."
+msgstr "可以使用 *模糊* 运算符（例如 ``quikc~ brwn~ foks~``）搜索与给定搜索词类似但不完全相同的词。"
+
+#: ../../content/search/search.rst:58
+msgid ""
+"The default fuzziness level is 2, but a level of 1 should be sufficient to "
+"catch 80% of all human misspellings. It can be specified as ``quikc~1``."
+msgstr "默认的模糊级别为2，但级别1应足以捕获所有人为拼写错误的 80％。 它可以指定为 ``quikc~1``。"
+
+#: ../../content/search/search.rst:60
+msgid ""
+"Fuzziness can be disabled with ``quikc~0`` which will not consider spelling "
+"mistakes."
+msgstr "使用 ``quikc~0`` 可以禁用模糊性，这不会考虑拼写错误。"
+
+#: ../../content/search/search.rst:65
+msgid "Proximity"
+msgstr "邻近"
+
+#: ../../content/search/search.rst:63
+msgid ""
+"The query string like ``\"quick fox\"`` searches the words in exactly the "
+"same order, but the proximity search allows that some other words can be "
+"included between the given words (for example ``\"fox quick\"~5``)."
+msgstr ""
+"像 ``\"quick fox\"`` 这样的查询字符串以完全相同的顺序搜索单词，但是邻近搜索允许在给定单词之间包含一些其他单词（例如 ``\"fox "
+"quick\"~5``）。"
+
+#: ../../content/search/search.rst:65
+msgid ""
+"This operator specifies the maximum edit distance of words. The phrase "
+"*quick fox* would be considered more relevant than *quick brown fox*."
+msgstr "此运算符指定单词的最大编辑距离。 短语 *quick fox* 被认为比 *quick brown fox* 更为相关。"
+
+#: ../../content/search/search.rst:68
+msgid "Ranges"
+msgstr "范围"
+
+#: ../../content/search/search.rst:68
+msgid ""
+"The query string can contain ranges for date, numeric or string fields. "
+"Inclusive ranges are specified with square brackets ``[min TO max]`` and "
+"exclusive ranges with curly brackets ``{min TO max}``."
+msgstr ""
+"查询字符串可以包含日期、数字或字符串字段的范围。包含范围用方括号 ``[Min TO Max]`` 指定，排除范围用大括号 ``{min TO "
+"max}`` 指定。"
+
+#: ../../content/search/search.rst:73
+msgid "Boosting"
+msgstr "提升"
+
+#: ../../content/search/search.rst:71
+msgid ""
+"The *boost* operator ``^`` can be used to make one term more relevant than "
+"another. For example use the query string ``quick^2 fox``, if you want to "
+"find all documents about foxes, but you are especially interested in quick "
+"foxes."
+msgstr ""
+"*提升* 运算符 ``^`` 可用于使一个术语比另一个术语更为相关。 例如，如果你想找到关于狐狸（fox) 的所有文档，但你对快速的狐狸 (quick "
+"fox) 特别感兴趣，可以使用查询字符串 ``quick^2 fox``。"
+
+#: ../../content/search/search.rst:73
+msgid ""
+"You can also use boosts for phrases or groups, for example ``\"quick fox\"^2"
+" AND (brown lazy)^4``."
+msgstr "您还可以对短语或群组使用提升，例如 ``\"quick fox\"^2 和 (brown lazy)^4``。"
+
+#: ../../content/search/search.rst:86
+msgid "Boolean operators"
+msgstr "布尔运算符"
+
+#: ../../content/search/search.rst:76
+msgid ""
+"The query string ``quick brown fox`` searches for all items containing one "
+"or more of the specified words."
+msgstr "查询字符串 ``quick brown fox`` 搜索包含一个或多个指定单词的所有项目。"
+
+#: ../../content/search/search.rst:78
+msgid ""
+"The preferred operators are ``+`` (term must be present) and ``-`` (term "
+"must not be present). All other terms are optional."
+msgstr "首选运算符是 ``+`` （术语必须存在）和 ``-`` （术语不得出现）。 所有其它短语都是可选的。"
+
+#: ../../content/search/search.rst:80
+msgid ""
+"For example if the query string is ``quick brown +fox -news`` then it means:"
+msgstr "例如，如果查询字符串是 ``quick brown +fox -news``， 那么它意味着："
+
+#: ../../content/search/search.rst:82
+msgid "``fox`` must be present."
+msgstr "``fox`` 必须存在。"
+
+#: ../../content/search/search.rst:83
+msgid "``news`` must not be present."
+msgstr "``news`` 不得出现。"
+
+#: ../../content/search/search.rst:84
+msgid "``quick`` and ``brown`` are optional."
+msgstr "``quick`` 和 ``brown`` 都是可选的。"
+
+#: ../../content/search/search.rst:86
+msgid ""
+"The well known logical operators ``AND``, ``OR`` and ``NOT`` (or ``&&``, "
+"``||`` and ``!``) are also supported. The query string ``((quick AND fox) OR"
+" (brown AND fox) OR fox) AND NOT news`` is identical with the previous "
+"example."
+msgstr ""
+"还支持众所周知的逻辑运算符 ``AND`` 、``OR`` 和 ``NOT``（或 ``&&`` 、``||`` 和 ``!``）。 查询字符串 "
+"``((quick AND fox) OR (brown AND fox) OR fox) AND NOT news`` 与前面的例子相同。"
+
+#: ../../content/search/search.rst:89
+msgid "Grouping"
+msgstr "分组"
+
+#: ../../content/search/search.rst:89
+msgid ""
+"Changing the precedence with parentheses is possible, like ``(quick OR "
+"brown) AND fox``."
+msgstr "可以用括号改变优先级，比如 ``(quick OR brown) AND fox``。"
+
+#: ../../content/search/search.rst:96
+msgid "Reserved characters"
+msgstr "保留字符"
+
+#: ../../content/search/search.rst:92
+msgid ""
+"There are some reserved characters which function as operators, and they can"
+" not be used in search queries."
+msgstr "有一些保留字符作为运算符，它们不能用于搜索查询。"
+
+#: ../../content/search/search.rst:94
+msgid ""
+"The reserved characters are: ``+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \\"
+" /``."
+msgstr "保留字符为： ``+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \\ /`` 。"
+
+#: ../../content/search/search.rst:96
+msgid ""
+"If any of these characters need to be used in search queries, then you "
+"should escape them with a leading backslash. For example to search for the "
+"term *(1+1)=2*, you have to use the query string as ``\\(1\\+1\\)\\=2``."
+msgstr ""
+"如果需要在搜索查询中使用这些字符中的任何一个，那么您应该使用前导反斜杠来转义它们。 例如，要搜索术语 *(1+1)=2*，您必须将查询字符串写为 "
+"``\\(1\\+1\\)\\=2`` 。"
+
+#: ../../content/search/search.rst:100
+msgid ""
+"More information can be found in the `Query string syntax "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"query-string-query.html#query-string-syntax>`__ chapter of the Elasticsearch"
+" documentation."
+msgstr ""
+"更多信息可以在Elasticsearch文档的 `查询字符串语法 "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"query-string-query.html#query-string-syntax>`__ 章节中找到。"
+
 #: ../../content/tickets.rst:2
 msgid "Tickets"
 msgstr "工单"
@@ -3702,6 +3952,9 @@ msgid ""
 "recovers and leaves the hospital, all information from the medical report is"
 " archived and the report is closed."
 msgstr ""
+"工单类似于为医院患者创建的医疗报告。 当患者首次访问医院时，会创建一份医疗报告，以便将所有必要的个人和医疗信息保存在他身上。 "
+"在多次访问时，由相同或其它的医生照顾，主治医生通过添加有关患者健康和持续治疗的新信息来更新报告。 这使得任何其他医生或护理人员能够全面了解手头的情况。 "
+"当患者康复并离开医院时，医疗报告中的所有信息都会被存档，报告将被关闭。"
 
 #: ../../content/tickets.rst:8
 msgid ""
@@ -3714,6 +3967,8 @@ msgid ""
 " responds again on an already closed ticket, the ticket is reopened with the"
 " new information added."
 msgstr ""
+"像 OTRS "
+"这样的工单系统像处理普通邮件一样处理工单。消息保存在系统中。当客户发送请求时，系统将生成一个新的工单，与创建的新医疗报告相当。对这张新工单的响应相当于医生在医学报告中的记录。如果将响应发送回客户，或者系统单独关闭了工单，则工单将被关闭。如果客户对已关闭的工单再次作出响应，则将重新处理该工单并添加新信息。"
 
 #: ../../content/tickets.rst:13 ../../content/tickets/ticket-zoom.rst:9
 msgid "Ticket Zoom Screen"
@@ -3878,7 +4133,7 @@ msgid ""
 "It is possible to filter tickets by a specific attribute, but not all "
 "attributes can be used as filter. The filterable attributes are marked with "
 "a filter icon in the column header."
-msgstr ""
+msgstr "可以按特定属性过滤工单，但不是所有属性都可以用作过滤器。 可过滤属性在列标题中标有过滤器图标。"
 
 #: ../../content/tickets/escalation-view.rst:59
 #: ../../content/tickets/queue-view.rst:58
@@ -3890,7 +4145,7 @@ msgstr "若要过滤工单："
 #: ../../content/tickets/queue-view.rst:60
 #: ../../content/tickets/status-view.rst:52
 msgid "Click on the filter icon in the column header."
-msgstr ""
+msgstr "单击列标题中的过滤器图标。"
 
 #: ../../content/tickets/escalation-view.rst:62
 #: ../../content/tickets/queue-view.rst:61
@@ -3905,7 +4160,7 @@ msgid ""
 "Multiple filters can be set. Active filters are marked with a bold filter "
 "icon in the column header and a trash icon is displayed in the widget "
 "header. Click on this trash icon to remove all active filters."
-msgstr ""
+msgstr "可以设置多个过滤器。 活动过滤器在列标题中标有粗体过滤器图标，并在小部件顶部显示垃圾图标。 单击此垃圾桶图标可删除所有活动的过滤器。"
 
 #: ../../content/tickets/escalation-view.rst:68
 #: ../../content/tickets/queue-view.rst:67
@@ -3926,7 +4181,7 @@ msgstr "批量"
 #: ../../content/tickets/status-view.rst:65
 msgid ""
 "Bulk action for the ticket, multiple attributes can be changed (see below)."
-msgstr ""
+msgstr "用于工单的批量操作，可以更改多个属性（见下文）。"
 
 #: ../../content/tickets/escalation-view.rst:77
 #: ../../content/tickets/queue-view.rst:76
@@ -3991,11 +4246,11 @@ msgid ""
 "Hover the mouse over the ticket row, and a floating menu will appear. The "
 "floating menu has the same menu items that are already explained in the "
 "*Small Escalation View* section."
-msgstr ""
+msgstr "将鼠标悬停在工单行上，将出现一个浮动菜单。 浮动菜单具有与 *简洁版式升级视图* 部分中说明的相同的菜单项。"
 
 #: ../../content/tickets/escalation-view.rst:110
 msgid "Floating Menu of Medium Escalation View"
-msgstr ""
+msgstr "基本版式升级视图中的浮动菜单"
 
 #: ../../content/tickets/escalation-view.rst:114
 msgid "Large Escalation View"
@@ -4013,7 +4268,7 @@ msgstr "详细版式升级视图屏幕"
 
 #: ../../content/tickets/escalation-view.rst:134
 msgid "Floating Menu of Large Escalation View"
-msgstr ""
+msgstr "详细版式升级视图中的浮动菜单"
 
 #: ../../content/tickets/escalation-view.rst:138
 msgid "Escalation View Bulk Actions"
@@ -4292,7 +4547,7 @@ msgstr "挂起时间"
 msgid ""
 "Select a date and time as reminder for the ticket. If the pending time is "
 "reached, the ticket can be escalated."
-msgstr ""
+msgstr "选择日期和时间作为工单的提醒时间。 如果达到挂起时间，则会升级工单。"
 
 #: ../../content/tickets/new-email-ticket.rst:64
 #: ../../content/tickets/new-phone-ticket.rst:52
@@ -4502,7 +4757,7 @@ msgstr "将鼠标悬停在工单行上，将出现一个浮动菜单。 浮动�
 
 #: ../../content/tickets/queue-view.rst:109
 msgid "Floating Menu of Medium Queue View"
-msgstr ""
+msgstr "基本版式队列视图中的浮动菜单"
 
 #: ../../content/tickets/queue-view.rst:113
 msgid "Large Queue View"
@@ -4514,7 +4769,7 @@ msgstr "详细版式队列视图屏幕"
 
 #: ../../content/tickets/queue-view.rst:133
 msgid "Floating Menu of Large Queue View"
-msgstr ""
+msgstr "详细版式队列视图中的浮动菜单"
 
 #: ../../content/tickets/queue-view.rst:137
 msgid "Queue View Bulk Actions"
@@ -4589,7 +4844,7 @@ msgstr "将鼠标悬停在工单行上，将出现一个浮动菜单。 浮动�
 
 #: ../../content/tickets/status-view.rst:101
 msgid "Floating Menu of Medium Status View"
-msgstr ""
+msgstr "基本版式状态视图中的浮动菜单"
 
 #: ../../content/tickets/status-view.rst:105
 msgid "Large Status View"
@@ -4601,7 +4856,7 @@ msgstr "详细版式状态视图屏幕"
 
 #: ../../content/tickets/status-view.rst:125
 msgid "Floating Menu of Large Status View"
-msgstr ""
+msgstr "详细版式状态视图中的浮动菜单"
 
 #: ../../content/tickets/status-view.rst:129
 msgid "Status View Bulk Actions"
@@ -4700,7 +4955,7 @@ msgstr "更改工单所有者屏幕"
 
 #: ../../content/tickets/ticket-zoom.rst:73
 msgid "New Owner \\*"
-msgstr ""
+msgstr "新的所有者 \\*"
 
 #: ../../content/tickets/ticket-zoom.rst:73
 msgid ""
@@ -5030,7 +5285,7 @@ msgstr "队列"
 msgid ""
 "This menu item is only a drop-down list of available queues. Select a "
 "destination queue, if the ticket needs to be moved there."
-msgstr ""
+msgstr "此菜单项只是可用队列的下拉列表。 选择需要将工单移动到那里的目标队列。"
 
 #: ../../content/tickets/ticket-zoom.rst:374
 msgid ""

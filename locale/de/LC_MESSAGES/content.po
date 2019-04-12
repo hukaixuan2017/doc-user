@@ -8,10 +8,10 @@
 # Udo Bretz, 2019
 # zottto <mail@marcnilius.de>, 2019
 # Martin Gruner <martin.gruner@otrs.com>, 2019
-# Marc A. Bonsels, 2019
 # mathiasbraeunling <mathias.braeunling@otrs.com>, 2019
 # ru_otrs <robert.ullrich@otrs.com>, 2019
 # Marco Buchholz <mabu@debian-admin.de>, 2019
+# Marc A. Bonsels, 2019
 # Michael Reuther <michael.reuther@otrs.com>, 2019
 # 
 #, fuzzy
@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 12:27+0100\n"
+"POT-Creation-Date: 2019-04-10 03:22+0000\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: Michael Reuther <michael.reuther@otrs.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/otrs/teams/23435/de/)\n"
@@ -40,8 +40,8 @@ msgid ""
 "<https://doc.otrs.com/doc/manual/admin/stable/en/content/index.html>`__."
 msgstr ""
 "Der Menüeintrag öffnet das Administrator-Interface, detailliert beschrieben "
-"im `Administration Manual "
-"<https://doc.otrs.com/doc/manual/admin/stable/en/content/index.html>`__."
+"im `Administration-Handbuch "
+"<https://doc.otrs.com/doc/manual/admin/stable/de/content/index.html>`__."
 
 #: ../../content/admin.rst:8 ../../content/faq/category-management.rst:6
 #: ../../content/faq/language-management.rst:6
@@ -3016,11 +3016,11 @@ msgstr "Ansicht nach Kategorien - Widgets in der Seitenleiste"
 
 #: ../../content/faq/explorer.rst:40
 msgid ""
-"The left sidebar lists the recently created, updated FAQ articles, as well "
+"The right sidebar lists the recently created, updated FAQ articles, as well "
 "as the top 10 FAQ articles."
 msgstr ""
 "Die Widgets in der rechten Seitenleiste listen alle kürzlich erstellten FAQ-"
-"Artikel, geänderten FAQ-Artikel und die Top 10 FAQ-Artikel auf"
+"Artikel, geänderten FAQ-Artikel und die Top 10 FAQ-Artikel auf."
 
 #: ../../content/faq/explorer.rst:45
 msgid "FAQ Explorer Sidebar"
@@ -3319,7 +3319,7 @@ msgstr "Sprache hinzufügen"
 
 #: ../../content/faq/language-management.rst:30
 msgid "To edit a language:"
-msgstr "So fügen Sie eine Sprache hinzu:"
+msgstr "So bearbeiten Sie eine Sprache:"
 
 #: ../../content/faq/language-management.rst:32
 msgid "Click on a language in the list of languages."
@@ -3755,7 +3755,10 @@ msgstr "Berichte"
 msgid ""
 "Reports are automatically generated statistics. In this menu it is possible "
 "to define new statistics, and set these statistics as reports, if needed."
-msgstr "Berichte sind automatisch erzeugte Statistiken "
+msgstr ""
+"Berichte werden automatisch Statistiken generiert. In diesem Menü ist es "
+"möglich, neue Statistiken zu definieren und diese Statistiken bei Bedarf als"
+" Berichte zu setzen."
 
 #: ../../content/reports/reports.rst:4
 msgid ""
@@ -4090,7 +4093,7 @@ msgstr "So importieren Sie eine Statistik:"
 msgid "Click on the *Import Statistics* button in the left sidebar."
 msgstr ""
 "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Statistik "
-"importieren*"
+"importieren*."
 
 #: ../../content/reports/statistics.rst:57
 msgid ""
@@ -4328,6 +4331,305 @@ msgstr ""
 msgid "There is an option *All* to see all type of object."
 msgstr "Es gibt eine Option *Alle*, um alle Objekttypen zu sehen."
 
+#: ../../content/search/search.rst:29
+msgid "Search Parameters"
+msgstr "Such-Parameter"
+
+#: ../../content/search/search.rst:31
+msgid ""
+"The query string consists of *terms* and *operators*. A term can be a single"
+" word or a phrase surrounded by double quotes. Operators allow you to "
+"customize the search."
+msgstr ""
+"Der Query-String besteht aus *Begriffen* und *Operatoren*. Ein Begriff kann "
+"ein einzelnes Wort oder eine Phrase sein, die von doppelten "
+"Anführungszeichen umgeben ist. Operatoren ermöglichen es Ihnen, die Suche "
+"anzupassen."
+
+#: ../../content/search/search.rst:36
+msgid "Single word"
+msgstr "Einzelnes Wort"
+
+#: ../../content/search/search.rst:34
+msgid ""
+"If the query string is a single word (for example ``quick`` or ``brown``), "
+"then OTRS searches for all items containing the given word."
+msgstr ""
+"Wenn der Query-String ein einzelnes Wort ist (bspw. ``schnell`` oder "
+"``rot``, dann sucht OTRS nach allen Einträgen, die dieses Wort enthalten."
+
+#: ../../content/search/search.rst:36
+msgid ""
+"If two or more words are given in the query string (for example ``quick "
+"brown``), then OTRS searches for all items containing the word ``quick`` "
+"**or** ``brown``."
+msgstr ""
+"Wenn der Query-String zwei oder mehr Wörter enthält (bspw. ``schnell rot``),"
+" dann sucht OTRS nach allen Einträgen, die die Wörter ``schnell`` *oder* "
+"``rot`` enthalten."
+
+#: ../../content/search/search.rst:39
+msgid "Phrase surrounded by double quotes"
+msgstr "Phrase umgeben von doppelten Anführungszeichen"
+
+#: ../../content/search/search.rst:39
+msgid ""
+"If the query string contains a phrase surrounded by double quotes (for "
+"example ``\"quick brown\"``), then OTRS searches for all items containing "
+"the words in the phrase in the same order."
+msgstr ""
+"Wenn der Query-String eine Phrase umgeben doppelten Anführungszeichen "
+"enthält (bspw. ``\"schnell rot\"``), dann sucht OTRS nach allen Einträgen, "
+"die die Wörter in der gleichen Reihenfolge enthalten."
+
+#: ../../content/search/search.rst:46
+msgid "Wildcards"
+msgstr "Jokerzeichen"
+
+#: ../../content/search/search.rst:42
+msgid ""
+"Use ``?`` to replace a single character, and ``*`` to replace zero or more "
+"characters (for example ``qu?ck bro*``)."
+msgstr ""
+"Benutzen Sie ``?``, um einen einzelnen Buchstaben zu ersetzen und ``*``, um "
+"keiner oder mehrere Buchstaben zu ersetzen (bspw.``schn?ll ro*``)."
+
+#: ../../content/search/search.rst:46
+msgid ""
+"Wildcard queries can lead to performance issues, because many terms need to "
+"be queried to match the query string."
+msgstr ""
+"Abfragen mit Jokerzeichen können zu Leistungsproblemen führen, weil viele "
+"Begriffe abgefragt werden müssen, um mit der Suchzeichenfolge "
+"übereinzustimmen."
+
+#: ../../content/search/search.rst:53
+msgid "Regular expressions"
+msgstr "Reguläre Ausdrücke"
+
+#: ../../content/search/search.rst:49
+msgid ""
+"Regular expression patterns can be embedded in the query string by wrapping "
+"them in slashes (for example ``/joh?n(ath[oa]n)/``)."
+msgstr ""
+"Muster regulärer Ausdrücke können in die Abfragezeichenfolge eingebettet "
+"werden, indem sie in Schrägstriche eingeschlossen werden (bspw. "
+"``/joh?n(ath[oa]n)/``)."
+
+#: ../../content/search/search.rst:53
+msgid ""
+"The supported regular expression syntax is explained in `Regular expression "
+"syntax <https://www.elastic.co/guide/en/elasticsearch/reference/current"
+"/query-dsl-regexp-query.html#regexp-syntax>`__ chapter of the Elasticsearch "
+"documentation."
+msgstr ""
+"Die unterstützte Syntax für reguläre Ausdrücke wird im Kapitel `Reguläre "
+"Ausdruckssyntax "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"regexp-query.html#regexp-syntax>`__ in der Dokumentation von Elasticsearch "
+"erläutert."
+
+#: ../../content/search/search.rst:60
+msgid "Fuzziness"
+msgstr "Unschärfe"
+
+#: ../../content/search/search.rst:56
+msgid ""
+"It is possible to search for terms that are similar to, but not exactly like"
+" the given search terms, using the *fuzzy* operator (for example ``quikc~ "
+"brwn~ foks~``)."
+msgstr ""
+"Es ist möglich, mit dem Operator *fuzzy* nach Begriffen zu suchen, die den "
+"angegebenen Suchbegriffen ähnlich, aber nicht genau wie diese sind (z.B. "
+"`schenll~ rt~ fuks~``)."
+
+#: ../../content/search/search.rst:58
+msgid ""
+"The default fuzziness level is 2, but a level of 1 should be sufficient to "
+"catch 80% of all human misspellings. It can be specified as ``quikc~1``."
+msgstr ""
+"Die Standardeinstellung für die Unschärfe ist 2, aber eine Stufe von 1 "
+"sollte ausreichen, um 80% aller menschlichen Schreibfehler zu erfassen. Es "
+"kann als ``schenll~1`` angegeben werden."
+
+#: ../../content/search/search.rst:60
+msgid ""
+"Fuzziness can be disabled with ``quikc~0`` which will not consider spelling "
+"mistakes."
+msgstr ""
+"Unschärfe kann mit ``schenll~0`` deaktiviert werden, was Rechtschreibfehler "
+"nicht berücksichtigt."
+
+#: ../../content/search/search.rst:65
+msgid "Proximity"
+msgstr "Näherung"
+
+#: ../../content/search/search.rst:63
+msgid ""
+"The query string like ``\"quick fox\"`` searches the words in exactly the "
+"same order, but the proximity search allows that some other words can be "
+"included between the given words (for example ``\"fox quick\"~5``)."
+msgstr ""
+"Die Suchzeichenfolge wie ``\"schneller fuchs\"`` durchsucht die Wörter in "
+"genau der gleichen Reihenfolge, aber die Annäherungssuche erlaubt es, dass "
+"einige andere Wörter zwischen den gegebenen Wörtern eingefügt werden können "
+"(z.B. ``\"fuchs schnell\"~5``)."
+
+#: ../../content/search/search.rst:65
+msgid ""
+"This operator specifies the maximum edit distance of words. The phrase "
+"*quick fox* would be considered more relevant than *quick brown fox*."
+msgstr ""
+"Dieser Operator gibt den maximalen Bearbeitungsabstand der Wörter an. Der "
+"Ausdruck *schneller fuchs* würde als relevanter angesehen werden als "
+"*schneller brauner fuchs*."
+
+#: ../../content/search/search.rst:68
+msgid "Ranges"
+msgstr "Bereiche"
+
+#: ../../content/search/search.rst:68
+msgid ""
+"The query string can contain ranges for date, numeric or string fields. "
+"Inclusive ranges are specified with square brackets ``[min TO max]`` and "
+"exclusive ranges with curly brackets ``{min TO max}``."
+msgstr ""
+"Die Abfragezeichenfolge kann Bereiche für Datums-, numerische oder "
+"Zeichenkettenfelder enthalten. Inklusive Bereiche werden mit eckigen "
+"Klammern ``[min TO max]`` und exklusive Bereiche mit geschweiften Klammern "
+"``{min TO max}`` angegeben."
+
+#: ../../content/search/search.rst:73
+msgid "Boosting"
+msgstr "Verstärkung"
+
+#: ../../content/search/search.rst:71
+msgid ""
+"The *boost* operator ``^`` can be used to make one term more relevant than "
+"another. For example use the query string ``quick^2 fox``, if you want to "
+"find all documents about foxes, but you are especially interested in quick "
+"foxes."
+msgstr ""
+"Der *Verstärkugs*-Operator ``^`` kann verwendet werden, um einen Begriff "
+"relevanter zu machen als einen anderen. Verwenden Sie z.B. die "
+"Suchzeichenfolge ``schnell^2 fuchs``, wenn Sie alle Dokumente über Füchse "
+"finden wollen, aber besonders an schnellen Füchsen interessiert sind."
+
+#: ../../content/search/search.rst:73
+msgid ""
+"You can also use boosts for phrases or groups, for example ``\"quick fox\"^2"
+" AND (brown lazy)^4``."
+msgstr ""
+"Sie können Verstärkung auch für Phrasen oder Gruppen nutzen, bspw. "
+"``\"schnell fuchs\"^2 AND (rot langsam)^4``."
+
+#: ../../content/search/search.rst:86
+msgid "Boolean operators"
+msgstr "Boolesche Operatoren"
+
+#: ../../content/search/search.rst:76
+msgid ""
+"The query string ``quick brown fox`` searches for all items containing one "
+"or more of the specified words."
+msgstr ""
+"Die Suchzeichenfolge ``schnell rot fuchs`` sucht nach allen Elementen, die "
+"eines oder mehrere der angegebenen Wörter enthalten."
+
+#: ../../content/search/search.rst:78
+msgid ""
+"The preferred operators are ``+`` (term must be present) and ``-`` (term "
+"must not be present). All other terms are optional."
+msgstr ""
+"Die bevorzugten Operatoren sind ``+`` (Begriff muss vorhanden sein) und "
+"``-`` (Begriff darf nicht vorhanden sein). Alle anderen Bedingungen sind "
+"optional."
+
+#: ../../content/search/search.rst:80
+msgid ""
+"For example if the query string is ``quick brown +fox -news`` then it means:"
+msgstr ""
+"Zum Beispiel, wenn die Suchzeichenfolge ``schnell rot +fuchs -neuigkeiten`` "
+"ist, dann bedeutet das:"
+
+#: ../../content/search/search.rst:82
+msgid "``fox`` must be present."
+msgstr "``fuchs`` muss vorhanden sein."
+
+#: ../../content/search/search.rst:83
+msgid "``news`` must not be present."
+msgstr "``neuigkeiten`` darf nicht enthalten sein."
+
+#: ../../content/search/search.rst:84
+msgid "``quick`` and ``brown`` are optional."
+msgstr "``schnell`` und ``rot`` sind optional."
+
+#: ../../content/search/search.rst:86
+msgid ""
+"The well known logical operators ``AND``, ``OR`` and ``NOT`` (or ``&&``, "
+"``||`` and ``!``) are also supported. The query string ``((quick AND fox) OR"
+" (brown AND fox) OR fox) AND NOT news`` is identical with the previous "
+"example."
+msgstr ""
+"Die bekannten logischen Operatoren ``AND``, ``OR`` und ``NOT`` (oder ``&&``,"
+" ``||`` und ``!``) werden ebenfalls unterstützt. Die Abfragezeichenkette "
+"``((schnell AND fuchs) OR (rot AND fuchs) OR fuchs) AND NOT neuigkeiten`` "
+"ist identisch mit dem vorherigen Beispiel."
+
+#: ../../content/search/search.rst:89
+msgid "Grouping"
+msgstr "Gruppierung"
+
+#: ../../content/search/search.rst:89
+msgid ""
+"Changing the precedence with parentheses is possible, like ``(quick OR "
+"brown) AND fox``."
+msgstr ""
+"Das Ändern der Priorität mit Klammern ist möglich, wie z.B. ``(schnell ODER "
+"rot) UND fuchs``."
+
+#: ../../content/search/search.rst:96
+msgid "Reserved characters"
+msgstr "Reservierte Zeichen"
+
+#: ../../content/search/search.rst:92
+msgid ""
+"There are some reserved characters which function as operators, and they can"
+" not be used in search queries."
+msgstr ""
+"Es gibt einige reservierte Zeichen, die als Operatoren fungieren und nicht "
+"in Suchanfragen verwendet werden können."
+
+#: ../../content/search/search.rst:94
+msgid ""
+"The reserved characters are: ``+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \\"
+" /``."
+msgstr ""
+"Die reservierten Zeichen sind: ``+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : "
+"\\ /``."
+
+#: ../../content/search/search.rst:96
+msgid ""
+"If any of these characters need to be used in search queries, then you "
+"should escape them with a leading backslash. For example to search for the "
+"term *(1+1)=2*, you have to use the query string as ``\\(1\\+1\\)\\=2``."
+msgstr ""
+"Wenn eines dieser Zeichen in Suchanfragen verwendet werden soll, dann "
+"sollten Sie es mit einem führenden Backslash maskieren. Um beispielsweise "
+"nach dem Begriff *(1+1)=2* zu suchen, müssen Sie den Suchbegriff als "
+"``\\(1\\+1\\)\\=2`` verwenden."
+
+#: ../../content/search/search.rst:100
+msgid ""
+"More information can be found in the `Query string syntax "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"query-string-query.html#query-string-syntax>`__ chapter of the Elasticsearch"
+" documentation."
+msgstr ""
+"Weitere Informationen finden Sie im Kapitel `Query string syntax "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"query-string-query.html#query-string-syntax>`__ der Elasticsearch "
+"Dokumentation."
+
 #: ../../content/tickets.rst:2
 msgid "Tickets"
 msgstr "Tickets"
@@ -4506,7 +4808,7 @@ msgstr "Wählen Sie die maximale angezeigte Anzahl der Tickets pro Seite."
 #: ../../content/tickets/status-view.rst:32
 msgid "To set the displayed columns and adjust order of columns:"
 msgstr ""
-"So bestimmen Sie die angezeigten Spalten und die Reihenfolge der Spalten."
+"So bestimmen Sie die angezeigten Spalten und die Reihenfolge der Spalten:"
 
 #: ../../content/tickets/escalation-view.rst:44
 #: ../../content/tickets/queue-view.rst:43
@@ -5207,8 +5509,8 @@ msgid ""
 "preferences`."
 msgstr ""
 "Jede Ansicht hat einen Filter im Kopfbereich des Widgets, um nur Tickets in "
-"einer speziellen Queue oder Tickets in *Meines Queues*, Einstellbar unter "
-":doc:`../avatar/personal-preferences` , anzuzeigen"
+"einer speziellen Queue oder Tickets in *Meines Queues* anzuzeigen. Das ist "
+"einstellbar unter :doc:`../avatar/personal-preferences` ."
 
 #: ../../content/tickets/queue-view.rst:15
 msgid ""
@@ -6138,7 +6440,7 @@ msgid ""
 msgstr ""
 "Neue Verknüpfungen können via Menüeintrag *Verknüpfen* im Menü der *Ticket-"
 "Detailansicht* hinzugefügt werden. Bestehende Verknüpfungen können hier "
-"ebenfalls verwaltet werden. "
+"ebenfalls verwaltet werden."
 
 #: ../../content/tickets/ticket-zoom.rst:602
 msgid "Ticket Information"

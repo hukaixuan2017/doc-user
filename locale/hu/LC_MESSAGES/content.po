@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-29 12:27+0100\n"
+"POT-Creation-Date: 2019-04-10 03:22+0000\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: Balázs Úr <ur.balazs@fsf.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/otrs/teams/23435/hu/)\n"
@@ -2990,11 +2990,11 @@ msgstr "GyIK böngésző oldalsáv felületi elemek"
 
 #: ../../content/faq/explorer.rst:40
 msgid ""
-"The left sidebar lists the recently created, updated FAQ articles, as well "
+"The right sidebar lists the recently created, updated FAQ articles, as well "
 "as the top 10 FAQ articles."
 msgstr ""
-"A bal oldalsáv a legutóbb létrehozott és frissített GyIK bejegyzéseket "
-"sorolja fel, valamint a legjobb tíz GyIK bejegyzést."
+"A jobb oldalsáv a legutóbb létrehozott és frissített GyIK bejegyzéseket, "
+"valamint a legjobb tíz GyIK bejegyzést sorolja fel."
 
 #: ../../content/faq/explorer.rst:45
 msgid "FAQ Explorer Sidebar"
@@ -4288,6 +4288,306 @@ msgstr "Használja a jobb oldalsávban lévő szűrőt az eredmények szűkíté
 msgid "There is an option *All* to see all type of object."
 msgstr ""
 "Létezik egy *Összes* lehetőség is az összes objektumtípus megtekintéséhez."
+
+#: ../../content/search/search.rst:29
+msgid "Search Parameters"
+msgstr "Keresési paraméterek"
+
+#: ../../content/search/search.rst:31
+msgid ""
+"The query string consists of *terms* and *operators*. A term can be a single"
+" word or a phrase surrounded by double quotes. Operators allow you to "
+"customize the search."
+msgstr ""
+"A keresési karakterlánc *kifejezésekből* és *operátorokból* áll. Egy "
+"kifejezés lehet egy önálló szó vagy egy idézőjelek között lévő szókapcsolat."
+" Az operátorok lehetővé teszik a keresés személyre szabását."
+
+#: ../../content/search/search.rst:36
+msgid "Single word"
+msgstr "Önálló szó"
+
+#: ../../content/search/search.rst:34
+msgid ""
+"If the query string is a single word (for example ``quick`` or ``brown``), "
+"then OTRS searches for all items containing the given word."
+msgstr ""
+"Ha a keresési karakterlánc egy önálló szó (például ``gyors`` vagy "
+"``barna``), akkor az OTRS az összes olyan elemre rákeres, amely tartalmazza "
+"a megadott szót."
+
+#: ../../content/search/search.rst:36
+msgid ""
+"If two or more words are given in the query string (for example ``quick "
+"brown``), then OTRS searches for all items containing the word ``quick`` "
+"**or** ``brown``."
+msgstr ""
+"Ha kettő vagy több szó van megadva a keresési karakterláncban (például "
+"``gyors barna``), akkor az OTRS az összes olyan elemre rákeres, amely "
+"tartalmazza a ``gyors`` **vagy** a ``barna`` szót."
+
+#: ../../content/search/search.rst:39
+msgid "Phrase surrounded by double quotes"
+msgstr "Idézőjelek között lévő szókapcsolat"
+
+#: ../../content/search/search.rst:39
+msgid ""
+"If the query string contains a phrase surrounded by double quotes (for "
+"example ``\"quick brown\"``), then OTRS searches for all items containing "
+"the words in the phrase in the same order."
+msgstr ""
+"Ha a keresési karakterlánc egy idézőjelek között lévő szókapcsolatot "
+"tartalmaz (például ``\"gyors barna\"``), akkor az OTRS az összes olyan "
+"elemre rákeres, amely a szókapcsolatban lévő szavakat ugyanabban a "
+"sorrendben tartalmazza."
+
+#: ../../content/search/search.rst:46
+msgid "Wildcards"
+msgstr "Helyettesítő karakterek"
+
+#: ../../content/search/search.rst:42
+msgid ""
+"Use ``?`` to replace a single character, and ``*`` to replace zero or more "
+"characters (for example ``qu?ck bro*``)."
+msgstr ""
+"Használja a ``?`` karaktert egy önálló karakter helyettesítéséhez, illetve a"
+" ``*`` karaktert nulla vagy több karakter helyettesítéséhez (például ``gy?rs"
+" bar*``)."
+
+#: ../../content/search/search.rst:46
+msgid ""
+"Wildcard queries can lead to performance issues, because many terms need to "
+"be queried to match the query string."
+msgstr ""
+"A helyettesítő karakterekkel történő lekérdezések teljesítményproblémákhoz "
+"vezethetnek, mert sok kifejezést kell lekérdezni a keresési karakterláncra "
+"történő illesztéshez."
+
+#: ../../content/search/search.rst:53
+msgid "Regular expressions"
+msgstr "Reguláris kifejezések"
+
+#: ../../content/search/search.rst:49
+msgid ""
+"Regular expression patterns can be embedded in the query string by wrapping "
+"them in slashes (for example ``/joh?n(ath[oa]n)/``)."
+msgstr ""
+"Reguláris kifejezés minták is lehetnek a keresési karakterláncban "
+"perjelekkel közrefogva (például ``/joh?n(ath[oa]n)/``)."
+
+#: ../../content/search/search.rst:53
+msgid ""
+"The supported regular expression syntax is explained in `Regular expression "
+"syntax <https://www.elastic.co/guide/en/elasticsearch/reference/current"
+"/query-dsl-regexp-query.html#regexp-syntax>`__ chapter of the Elasticsearch "
+"documentation."
+msgstr ""
+"A támogatott reguláris kifejezés szintaxisát az Elasticsearch "
+"dokumentációjának `Regular expression syntax "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"regexp-query.html#regexp-syntax>`__ fejezetében magyarázzák el (angol "
+"nyelven)."
+
+#: ../../content/search/search.rst:60
+msgid "Fuzziness"
+msgstr "Elmosódás"
+
+#: ../../content/search/search.rst:56
+msgid ""
+"It is possible to search for terms that are similar to, but not exactly like"
+" the given search terms, using the *fuzzy* operator (for example ``quikc~ "
+"brwn~ foks~``)."
+msgstr ""
+"Az *elmosódás* operátorral lehetőség van olyan kifejezésekre rákeresni, "
+"amelyek hasonlóak, de nem pontosan ugyanazok mint a megadott keresési "
+"kifejezés (például ``gyosr~ brna~ rokka~``)."
+
+#: ../../content/search/search.rst:58
+msgid ""
+"The default fuzziness level is 2, but a level of 1 should be sufficient to "
+"catch 80% of all human misspellings. It can be specified as ``quikc~1``."
+msgstr ""
+"Az alapértelmezett elmosódási szint 2, de egy 1-es szintűnek is elegendőnek "
+"kell lennie az emberi helyesírási hibák 80%-ának elfogásához. A "
+"következőképpen adható meg: ``gyosr~1``."
+
+#: ../../content/search/search.rst:60
+msgid ""
+"Fuzziness can be disabled with ``quikc~0`` which will not consider spelling "
+"mistakes."
+msgstr ""
+"Az elmosódás letiltható a ``gyosr~0`` megadásával, amely nem fogja "
+"figyelembe venni a helyesírási hibákat."
+
+#: ../../content/search/search.rst:65
+msgid "Proximity"
+msgstr "Közelség"
+
+#: ../../content/search/search.rst:63
+msgid ""
+"The query string like ``\"quick fox\"`` searches the words in exactly the "
+"same order, but the proximity search allows that some other words can be "
+"included between the given words (for example ``\"fox quick\"~5``)."
+msgstr ""
+"A ``\"gyors róka\"`` típusú keresési karakterlánc a pontosan ebben a "
+"sorrendben lévő szavakra keres rá, de a közelségi keresés lehetővé teszi, "
+"hogy néhány egyéb szó is lehessen a megadott szavak között (például ``\"róka"
+" gyors\"~5``)."
+
+#: ../../content/search/search.rst:65
+msgid ""
+"This operator specifies the maximum edit distance of words. The phrase "
+"*quick fox* would be considered more relevant than *quick brown fox*."
+msgstr ""
+"Ez az operátor a szavak legnagyobb szerkesztési távolságát adja meg. A "
+"*gyors róka* szókapcsolat fontosabbként lehet figyelembe véve mint a *gyors "
+"barna róka*."
+
+#: ../../content/search/search.rst:68
+msgid "Ranges"
+msgstr "Tartományok"
+
+#: ../../content/search/search.rst:68
+msgid ""
+"The query string can contain ranges for date, numeric or string fields. "
+"Inclusive ranges are specified with square brackets ``[min TO max]`` and "
+"exclusive ranges with curly brackets ``{min TO max}``."
+msgstr ""
+"A keresési karakterlánc tartalmazhat tartományokat a dátumoknál, számoknál "
+"és szöveges mezőknél. A zárt tartományok szögletes zárójelekkel (például "
+"``[min TO max]``), a nyílt tartományok kapcsos zárójelekkel (például ``{min "
+"TO max}``) vannak megadva."
+
+#: ../../content/search/search.rst:73
+msgid "Boosting"
+msgstr "Kiemelés"
+
+#: ../../content/search/search.rst:71
+msgid ""
+"The *boost* operator ``^`` can be used to make one term more relevant than "
+"another. For example use the query string ``quick^2 fox``, if you want to "
+"find all documents about foxes, but you are especially interested in quick "
+"foxes."
+msgstr ""
+"A *kiemelés* operátor (``^``) használható ahhoz, hogy egy kifejezést "
+"fontosabbá tegyen egy másikhoz képest. Például használja a ``gyors^2 róka`` "
+"keresési karakterláncot, ha meg szeretné keresni az összes dokumentumot a "
+"rókákkal kapcsolatban, de különösen a gyors rókák iránt érdeklődik."
+
+#: ../../content/search/search.rst:73
+msgid ""
+"You can also use boosts for phrases or groups, for example ``\"quick fox\"^2"
+" AND (brown lazy)^4``."
+msgstr ""
+"A kiemelést használhatja szókapcsolatoknál vagy csoportoknál is, például "
+"``\"gyors róka\"^2 AND (barna laza)^4``."
+
+#: ../../content/search/search.rst:86
+msgid "Boolean operators"
+msgstr "Logikai operátorok"
+
+#: ../../content/search/search.rst:76
+msgid ""
+"The query string ``quick brown fox`` searches for all items containing one "
+"or more of the specified words."
+msgstr ""
+"A ``gyors barna róka`` keresési karakterlánc az összes olyan elemre rákeres,"
+" amely a megadott szavak közül egyet vagy többet tartalmaz."
+
+#: ../../content/search/search.rst:78
+msgid ""
+"The preferred operators are ``+`` (term must be present) and ``-`` (term "
+"must not be present). All other terms are optional."
+msgstr ""
+"Az előnyben részesítés operátorok a következők: ``+`` (a kifejezésnek "
+"szerepelnie kell) és ``-`` (a kifejezés nem szerepelhet). Az összes egyéb "
+"kifejezés elhagyható."
+
+#: ../../content/search/search.rst:80
+msgid ""
+"For example if the query string is ``quick brown +fox -news`` then it means:"
+msgstr ""
+"Például, ha a keresési karakterlánc a ``gyors barna +róka -hírek``, akkor ez"
+" a következőt jelenti:"
+
+#: ../../content/search/search.rst:82
+msgid "``fox`` must be present."
+msgstr "A ``róka`` kifejezésnek szerepelnie kell."
+
+#: ../../content/search/search.rst:83
+msgid "``news`` must not be present."
+msgstr "A ``hírek`` kifejezés nem szerepelhet."
+
+#: ../../content/search/search.rst:84
+msgid "``quick`` and ``brown`` are optional."
+msgstr "A ``gyors`` és ``barna`` kifejezések elhagyhatóak."
+
+#: ../../content/search/search.rst:86
+msgid ""
+"The well known logical operators ``AND``, ``OR`` and ``NOT`` (or ``&&``, "
+"``||`` and ``!``) are also supported. The query string ``((quick AND fox) OR"
+" (brown AND fox) OR fox) AND NOT news`` is identical with the previous "
+"example."
+msgstr ""
+"A jól ismert logikai operátorok szintén támogatottak: ``AND``, ``OR`` és "
+"``NOT`` (vagy ``&&``, ``||`` és ``!``). A ``((gyors AND róka) OR (barna AND "
+"róka) OR róka) AND NOT hírek`` keresési karakterlánc egyenértékű az előző "
+"példával."
+
+#: ../../content/search/search.rst:89
+msgid "Grouping"
+msgstr "Csoportosítás"
+
+#: ../../content/search/search.rst:89
+msgid ""
+"Changing the precedence with parentheses is possible, like ``(quick OR "
+"brown) AND fox``."
+msgstr ""
+"A sorrendiséget zárójelekkel lehetséges megváltoztatni, például ``(gyors OR "
+"barna) AND róka``."
+
+#: ../../content/search/search.rst:96
+msgid "Reserved characters"
+msgstr "Foglalt karakterek"
+
+#: ../../content/search/search.rst:92
+msgid ""
+"There are some reserved characters which function as operators, and they can"
+" not be used in search queries."
+msgstr ""
+"Létezik néhány foglalt karakter, amelyek operátorokként működnek, és emiatt "
+"nem használhatók a keresési kérésekben."
+
+#: ../../content/search/search.rst:94
+msgid ""
+"The reserved characters are: ``+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \\"
+" /``."
+msgstr ""
+"A foglalt karakterek a következők: ``+ - = && || > < ! ( ) { } [ ] ^ \" ~ * "
+"? : \\ /``."
+
+#: ../../content/search/search.rst:96
+msgid ""
+"If any of these characters need to be used in search queries, then you "
+"should escape them with a leading backslash. For example to search for the "
+"term *(1+1)=2*, you have to use the query string as ``\\(1\\+1\\)\\=2``."
+msgstr ""
+"Ha ezen karakterek közül bármelyiket használni kellene a keresési "
+"kérésekben, akkor el kell fednie azokat egy eléjük írt visszafelé mutató "
+"perjellel. Például az *(1+1)=2* kifejezésre történő kereséshez a következő "
+"formában kell használnia a keresési karakterláncot: ``\\(1\\+1\\)\\=2``."
+
+#: ../../content/search/search.rst:100
+msgid ""
+"More information can be found in the `Query string syntax "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"query-string-query.html#query-string-syntax>`__ chapter of the Elasticsearch"
+" documentation."
+msgstr ""
+"További információk találhatók az Elasticsearch dokumentációjának `Query "
+"string syntax "
+"<https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-"
+"query-string-query.html#query-string-syntax>`__ fejezetében (angol nyelven)."
 
 #: ../../content/tickets.rst:2
 msgid "Tickets"
