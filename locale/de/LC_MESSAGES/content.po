@@ -1249,8 +1249,9 @@ msgid ""
 "us at sales@otrs.com for an upgrade."
 msgstr ""
 "Diese Funktion ist in der *((OTRS)) Community Edition* nicht enthalten. Ein "
-"Upgrade zu einem OTRS-Servicepaket wird benötigt, um diese Funktion nutzen "
-"zu können. Bitte kontaktieren Sie uns unter: sales@otrs.com für ein Upgrade."
+"Upgrade zu einem **OTRS**-Servicepaket wird benötigt, um diese Funktion "
+"nutzen zu können. Bitte kontaktieren Sie uns unter: sales@otrs.com für ein "
+"Upgrade."
 
 #: ../../content/calendar/resource-overview.rst:11
 msgid "Upgrade Dialog"

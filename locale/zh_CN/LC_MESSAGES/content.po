@@ -3496,7 +3496,7 @@ msgstr "点击左侧栏中的 *导入统计* 按钮。"
 msgid ""
 "Click on the *Browse…* button and select a previously exported ``.xml`` "
 "file."
-msgstr "点击 *浏览 ... * 按钮，然后选择以前导出的 ``.xml`` 文件。"
+msgstr "点击 *浏览 ...* 按钮，然后选择以前导出的 ``.xml`` 文件。"
 
 #: ../../content/reports/statistics.rst:58
 msgid "Click on the *Import* button."
