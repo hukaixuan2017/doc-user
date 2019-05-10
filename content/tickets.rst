@@ -19,6 +19,7 @@ Every ticket is stored and archived with complete information. Since tickets are
    :caption: Contents
 
    tickets/queue-view
+   tickets/service-view
    tickets/status-view
    tickets/escalation-view
    tickets/new-phone-ticket

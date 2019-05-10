@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:22+0000\n"
+"POT-Creation-Date: 2019-05-10 11:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,6 +44,7 @@ msgstr ""
 
 #: ../../content/avatar.rst:8
 #: ../../content/calendar.rst:8
+#: ../../content/chat.rst:12
 #: ../../content/customers.rst:6
 #: ../../content/dashboard.rst:17
 #: ../../content/faq.rst:8
@@ -101,6 +102,10 @@ msgstr ""
 #: ../../content/tickets/queue-view.rst:42
 #: ../../content/tickets/queue-view.rst:100
 #: ../../content/tickets/queue-view.rst:124
+#: ../../content/tickets/service-view.rst:40
+#: ../../content/tickets/service-view.rst:46
+#: ../../content/tickets/service-view.rst:104
+#: ../../content/tickets/service-view.rst:128
 #: ../../content/tickets/status-view.rst:28
 #: ../../content/tickets/status-view.rst:34
 #: ../../content/tickets/status-view.rst:92
@@ -122,7 +127,7 @@ msgid "Click on the *Submit* button."
 msgstr ""
 
 #: ../../content/avatar/notifications.rst:23
-#: ../../content/dashboard/dashboard.rst:80
+#: ../../content/dashboard/dashboard.rst:96
 msgid "The order of visible columns can be set by rearrange the columns in the *Visible columns* field."
 msgstr ""
 
@@ -149,13 +154,13 @@ msgid "Notification Settings"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:10
-#: ../../content/avatar/personal-preferences.rst:186
+#: ../../content/avatar/personal-preferences.rst:224
 #: ../../content/tickets/ticket-zoom.rst:367
 msgid "Miscellaneous"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:11
-#: ../../content/avatar/personal-preferences.rst:235
+#: ../../content/avatar/personal-preferences.rst:273
 msgid "Advanced"
 msgstr ""
 
@@ -341,7 +346,7 @@ msgid "In this widget some queues can be selected as preferred queues. Tickets i
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:147
-msgid "In :doc:`../tickets/queue-view` only these queues will be displayed under *My Queues* filter, that are selected in this widget."
+msgid "In :doc:`../tickets/queue-view` only those queues will be displayed under *My Queues* filter, that are selected in this widget."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:149
@@ -357,127 +362,179 @@ msgid "Select one or more queues from the drop-down list."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:160
-msgid "Ticket Notifications"
+msgid "My Services"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:162
-msgid "In this widget can be selected the methods used for any kind of ticket notifications."
+#: ../../content/avatar/personal-preferences.rst:164
+#: ../../content/tickets/service-view.rst:6
+msgid "System configuration ``Ticket::Service`` needs to be activated to use this feature."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:167
-msgid "Ticket Notifications Widget"
+#: ../../content/avatar/personal-preferences.rst:166
+msgid "In this widget some services can be selected as preferred services."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:169
-#: ../../content/avatar/personal-preferences.rst:182
-msgid "The possible methods are *Email*, *Web View* or *SMS*."
+#: ../../content/avatar/personal-preferences.rst:168
+msgid "In :doc:`../tickets/service-view` only those services will be displayed under *My Services* filter, that are selected in this widget."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:173
-msgid "Appointment Notifications"
+msgid "My Services Widget"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:175
-msgid "In this widget can be selected the methods used for appointment notification."
+msgid "Select one or more services from the drop-down list."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:180
-msgid "Appointment Notifications Widget"
+#: ../../content/avatar/personal-preferences.rst:179
+msgid "Ticket Notifications"
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:181
+msgid "In this widget can be selected the methods used for any kind of ticket notifications."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:186
+msgid "Ticket Notifications Widget"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:188
-msgid "These settings are for change some visual appearance of OTRS."
+#: ../../content/avatar/personal-preferences.rst:201
+msgid "The possible methods are *Email*, *Web View* or *SMS*."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:192
-msgid "Skin"
+msgid "Appointment Notifications"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:194
-msgid "In this widget can be selected the skin, that OTRS should wear."
+msgid "In this widget can be selected the methods used for appointment notification."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:199
-msgid "Skin Widget"
-msgstr ""
-
-#: ../../content/avatar/personal-preferences.rst:201
-msgid "Select a skin from the drop-down list."
+msgid "Appointment Notifications Widget"
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:205
-msgid "Overview Refresh Time"
+msgid "My Chat Channels"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:207
-msgid "It is possible to make overview screens automatically refreshed after a period of time."
+#: ../../content/avatar/personal-preferences.rst:209
+#: ../../content/chat.rst:6
+#: ../../content/chat/chat.rst:6
+#: ../../content/dashboard/dashboard.rst:27
+msgid "System configuration ``ChatEngine::Active`` needs to be activated to use this feature."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:212
-msgid "Overview Refresh Time Widget"
+#: ../../content/avatar/personal-preferences.rst:211
+msgid "In this widget some chat channels can be selected as preferred external chat channels. You will be notified about external chat requests in these chat channels."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:214
-msgid "Select a refresh interval from the drop-down list."
+#: ../../content/avatar/personal-preferences.rst:213
+msgid "In :doc:`../chat/chat` screen only those chat channels will be displayed under *My Chat Channels* filter, that are selected in this widget."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:218
-msgid "Refreshing the overview screens too often can cause performance issues on large systems with many agents."
+msgid "My Chat Channels Widget"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:222
-msgid "Screen after new ticket"
+#: ../../content/avatar/personal-preferences.rst:220
+msgid "Select one or more chat channels from the drop-down list. An agent needs to select in which chat channels want to be available. Customers will only be able to create a new chat request on a certain channel if at least one agent with owner permissions has selected this channel in their preferences and is set as available for external chats by the chat availability icon in the :doc:`../dashboard/dashboard` header toolbar."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:224
-msgid "Select, which screen should be shown after a new ticket has been created."
+#: ../../content/avatar/personal-preferences.rst:226
+msgid "These settings are for change some visual appearance of OTRS."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:229
-msgid "Screen After New Ticket Widget"
+#: ../../content/avatar/personal-preferences.rst:230
+msgid "Skin"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:231
-msgid "Select a screen from the drop-down list."
+#: ../../content/avatar/personal-preferences.rst:232
+msgid "In this widget can be selected the skin, that OTRS should wear."
 msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:237
+msgid "Skin Widget"
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:239
+msgid "Select a skin from the drop-down list."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:243
+msgid "Overview Refresh Time"
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:245
+msgid "It is possible to make overview screens automatically refreshed after a period of time."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:250
+msgid "Overview Refresh Time Widget"
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:252
+msgid "Select a refresh interval from the drop-down list."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:256
+msgid "Refreshing the overview screens too often can cause performance issues on large systems with many agents."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:260
+msgid "Screen after new ticket"
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:262
+msgid "Select, which screen should be shown after a new ticket has been created."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:267
+msgid "Screen After New Ticket Widget"
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:269
+msgid "Select a screen from the drop-down list."
+msgstr ""
+
+#: ../../content/avatar/personal-preferences.rst:275
 msgid "In this module can be configured some system configuration options."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:242
+#: ../../content/avatar/personal-preferences.rst:280
 msgid "Advanced Preferences Screen"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:244
+#: ../../content/avatar/personal-preferences.rst:282
 msgid "To modify a setting:"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:246
+#: ../../content/avatar/personal-preferences.rst:284
 msgid "Use the tree navigation in the left sidebar to find the desired setting."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:247
+#: ../../content/avatar/personal-preferences.rst:285
 msgid "Modify the value."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:248
+#: ../../content/avatar/personal-preferences.rst:286
 msgid "Click on the tick button in the right side of the setting widget."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:253
+#: ../../content/avatar/personal-preferences.rst:291
 msgid "Advanced Preferences - Tree navigation Screen"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:255
+#: ../../content/avatar/personal-preferences.rst:293
 msgid "The modified settings have a gray border on the left."
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:257
+#: ../../content/avatar/personal-preferences.rst:295
 msgid "To reset a setting:"
 msgstr ""
 
-#: ../../content/avatar/personal-preferences.rst:259
+#: ../../content/avatar/personal-preferences.rst:297
 msgid "Click on the reset icon in the top right corner of the setting widget."
 msgstr ""
 
@@ -601,6 +658,10 @@ msgstr ""
 #: ../../content/tickets/queue-view.rst:45
 #: ../../content/tickets/queue-view.rst:102
 #: ../../content/tickets/queue-view.rst:126
+#: ../../content/tickets/service-view.rst:42
+#: ../../content/tickets/service-view.rst:49
+#: ../../content/tickets/service-view.rst:106
+#: ../../content/tickets/service-view.rst:130
 #: ../../content/tickets/status-view.rst:30
 #: ../../content/tickets/status-view.rst:37
 #: ../../content/tickets/status-view.rst:94
@@ -783,8 +844,8 @@ msgid "Appointment notifications can be set in admin interface. Please contact y
 msgstr ""
 
 #: ../../content/calendar/new-appointment.rst:61
-#: ../../content/dashboard/dashboard.rst:141
-#: ../../content/dashboard/dashboard.rst:143
+#: ../../content/dashboard/dashboard.rst:157
+#: ../../content/dashboard/dashboard.rst:159
 msgid "Ticket"
 msgstr ""
 
@@ -859,6 +920,412 @@ msgstr ""
 
 #: ../../content/calendar/resource-overview.rst:11
 msgid "Upgrade Dialog"
+msgstr ""
+
+#: ../../content/chat.rst:2
+msgid "Chat"
+msgstr ""
+
+#: ../../content/chat.rst:8
+msgid "The chat feature allows for chats between agents and customers using the OTRS front end. Once enabled, customers or public users can start chats with agents and vice versa. Finished chats can be archived and attached to tickets, or can be downloaded as PDF by agents, customers and public users."
+msgstr ""
+
+#: ../../content/chat.rst:10
+msgid "Each chat is assigned to a chat channel. Chat channels are like chat rooms. Each chat channel is assigned to a certain group which controls the permissions for this channel. If no chat channel is selected when a chat is created, this chat will be created in the *Default channel*."
+msgstr ""
+
+#: ../../content/chat/chat.rst:2
+msgid "Manage Chats"
+msgstr ""
+
+#: ../../content/chat/chat.rst:8
+msgid "The chat management screen is the central point of the chat feature. Here an agent can manage the chats as well as see and accept open requests. This screen provides a list of chat requests from customer users, public users and other agents, as well as an overview over all active chats."
+msgstr ""
+
+#: ../../content/chat/chat.rst:10
+msgid "Use this menu item to manage chats. The chat management screen is available in the *Chat* menu."
+msgstr ""
+
+#: ../../content/chat/chat.rst:15
+msgid "Chat Management Screen"
+msgstr ""
+
+#: ../../content/chat/chat.rst:17
+msgid "Each chat channel can be filtered with the options in the top of the widget to list *All Chat Channels* or only *My Chat Channels* set in :doc:`../avatar/personal-preferences`."
+msgstr ""
+
+#: ../../content/chat/chat.rst:21
+msgid "Start New Chat"
+msgstr ""
+
+#: ../../content/chat/chat.rst:23
+msgid "A chat participant can be an agent, a customer user or a public user."
+msgstr ""
+
+#: ../../content/chat/chat.rst:27
+msgid "Agent to Agent"
+msgstr ""
+
+#: ../../content/chat/chat.rst:29
+msgid "To start a chat with another agent:"
+msgstr ""
+
+#: ../../content/chat/chat.rst:31
+msgid "Use the *Logged-In Users* widget in the dashboard. Agents who are able to use the chat, will have a chat icon next to their name."
+msgstr ""
+
+#: ../../content/chat/chat.rst:36
+msgid "Available Agents"
+msgstr ""
+
+#: ../../content/chat/chat.rst:38
+msgid "Click on the chat icon next to an agent name."
+msgstr ""
+
+#: ../../content/chat/chat.rst:39
+#: ../../content/chat/chat.rst:85
+msgid "Write the first message to the *Start Chat* dialog and send the message."
+msgstr ""
+
+#: ../../content/chat/chat.rst:44
+#: ../../content/chat/chat.rst:90
+msgid "Start Chat Dialog"
+msgstr ""
+
+#: ../../content/chat/chat.rst:46
+#: ../../content/chat/chat.rst:92
+msgid "After the chat request has been sent to the other agent, watch the chat in the chat management screen. A browser notification is displayed to inform the agent."
+msgstr ""
+
+#: ../../content/chat/chat.rst:51
+#: ../../content/chat/chat.rst:97
+msgid "My Active Chats Widget"
+msgstr ""
+
+#: ../../content/chat/chat.rst:53
+msgid "Wait for the answer. The other agent has to accept the chat request with the *Open Chat* link."
+msgstr ""
+
+#: ../../content/chat/chat.rst:58
+msgid "Personal Chat Requests For You Widget"
+msgstr ""
+
+#: ../../content/chat/chat.rst:60
+msgid "When the other agent accepts the chat request, you can chat now."
+msgstr ""
+
+#: ../../content/chat/chat.rst:65
+msgid "Agent to Agent Chat"
+msgstr ""
+
+#: ../../content/chat/chat.rst:69
+msgid "Agent to Customer User"
+msgstr ""
+
+#: ../../content/chat/chat.rst:71
+msgid "To start a chat with a customer user:"
+msgstr ""
+
+#: ../../content/chat/chat.rst:73
+msgid "Use the *Logged-In Users* widget in the dashboard. Customer users who are able to use the chat, will have a chat icon next to their name."
+msgstr ""
+
+#: ../../content/chat/chat.rst:78
+msgid "Available Customer Users"
+msgstr ""
+
+#: ../../content/chat/chat.rst:82
+msgid "Customer users can also be selected in *Customer User Information Center* or from the *Customer Information* widget of the *Ticket Zoom* screen."
+msgstr ""
+
+#: ../../content/chat/chat.rst:84
+msgid "Click on the chat icon next to a customer user name."
+msgstr ""
+
+#: ../../content/chat/chat.rst:99
+msgid "Wait for the answer. The customer user has to accept the chat request which is displayed in the bottom right corner of the external interface."
+msgstr ""
+
+#: ../../content/chat/chat.rst:104
+msgid "Chat Request on External Interface"
+msgstr ""
+
+#: ../../content/chat/chat.rst:106
+msgid "When the customer user accepts the chat request, you can chat now."
+msgstr ""
+
+#: ../../content/chat/chat.rst:111
+msgid "Agent to Customer User Chat"
+msgstr ""
+
+#: ../../content/chat/chat.rst:113
+msgid "When the customer user closes the chat, it is possible to send the chat via email or create a ticket from the conversation."
+msgstr ""
+
+#: ../../content/chat/chat.rst:118
+msgid "Save the Conversation on External Interface"
+msgstr ""
+
+#: ../../content/chat/chat.rst:122
+msgid "Customer User to Agent"
+msgstr ""
+
+#: ../../content/chat/chat.rst:124
+msgid "Customer users are not able to start a chat directly with a certain agent, but only to create generic chat requests."
+msgstr ""
+
+#: ../../content/chat/chat.rst:126
+msgid "To receive a chat request from a customer user:"
+msgstr ""
+
+#: ../../content/chat/chat.rst:128
+msgid "A customer user clicked on the *New conversation* button within the chat window in the bottom right corner of the external interface."
+msgstr ""
+
+#: ../../content/chat/chat.rst:133
+#: ../../content/chat/chat.rst:165
+msgid "Start Chat Window"
+msgstr ""
+
+#: ../../content/chat/chat.rst:135
+msgid "A browser notification is displayed to inform the agent. Go to the chat management screen, and open the general chat request with the *Open chat* link."
+msgstr ""
+
+#: ../../content/chat/chat.rst:140
+msgid "General Chat Requests From Customers Widget"
+msgstr ""
+
+#: ../../content/chat/chat.rst:142
+msgid "Accept the chat request."
+msgstr ""
+
+#: ../../content/chat/chat.rst:147
+msgid "Chat Preview Dialog"
+msgstr ""
+
+#: ../../content/chat/chat.rst:149
+msgid "When an agent accepts the chat request, they can chat now."
+msgstr ""
+
+#: ../../content/chat/chat.rst:154
+msgid "Customer User to Agent Chat"
+msgstr ""
+
+#: ../../content/chat/chat.rst:158
+msgid "Public User to Agent"
+msgstr ""
+
+#: ../../content/chat/chat.rst:160
+msgid "Visitors of the external interface are also not able to start a chat directly with a certain agent, but only to create generic chat requests. As they are not logged in, they need to add a name to start the chat."
+msgstr ""
+
+#: ../../content/chat/chat.rst:167
+msgid "The steps are the same as described in *Customer User to Agent* section, but the chat request is displayed in the *General Chat Requests From Public Users* widget."
+msgstr ""
+
+#: ../../content/chat/chat.rst:172
+msgid "General Chat Requests From Public Users Widget"
+msgstr ""
+
+#: ../../content/chat/chat.rst:176
+msgid "Chat Widget"
+msgstr ""
+
+#: ../../content/chat/chat.rst:178
+msgid "The chat widget is the main component when chatting with other people. It provides a history of all messages in the chat as well as list of possible actions depending on your permission level."
+msgstr ""
+
+#: ../../content/chat/chat.rst:180
+msgid "The messages can be sent using the text field of a chat in *My Active Chats* widget by either clicking the send icon next to the text field or hitting the Enter key. Shift + Enter can be used to insert a new line into the message."
+msgstr ""
+
+#: ../../content/chat/chat.rst:182
+msgid "Every chat participant has a colored circle icon before his/her name in the chat widget header, which represents the participant availability."
+msgstr ""
+
+#: ../../content/chat/chat.rst:184
+msgid "Green: participant is active (available and online)."
+msgstr ""
+
+#: ../../content/chat/chat.rst:185
+msgid "Yellow: participant is away (available, but there was no request sent to the server from this user for some time set in ``ChatEngine::AgentOnlineThreshold``)."
+msgstr ""
+
+#: ../../content/chat/chat.rst:186
+msgid "Pink: participant is inactive (chat request is not accepted yet or participant left the chat)."
+msgstr ""
+
+#: ../../content/chat/chat.rst:187
+msgid "Red: participant is unavailable (set via availability button)."
+msgstr ""
+
+#: ../../content/chat/chat.rst:188
+msgid "Black: participant has logged out or session has expired."
+msgstr ""
+
+#: ../../content/chat/chat.rst:190
+msgid "The chat widget has some icons in the top right corner."
+msgstr ""
+
+#: ../../content/chat/chat.rst:195
+msgid "Chat Menu"
+msgstr ""
+
+#: ../../content/chat/chat.rst:197
+msgid "The first triangle icon expands and collapses the chat menu. The menu has several menu items."
+msgstr ""
+
+#: ../../content/chat/chat.rst:200
+#: ../../content/tickets/ticket-zoom.rst:438
+msgid "Phone ticket"
+msgstr ""
+
+#: ../../content/chat/chat.rst:200
+msgid "Allows you to create a phone ticket to which the current chat will be appended to as an article. After the ticket has successfully created, the chat will get closed automatically."
+msgstr ""
+
+#: ../../content/chat/chat.rst:203
+msgid "Append"
+msgstr ""
+
+#: ../../content/chat/chat.rst:203
+msgid "Allows you to append this chat as an article to a selected ticket. After the article has been created, the chat will get closed automatically."
+msgstr ""
+
+#: ../../content/chat/chat.rst:206
+msgid "Invite"
+msgstr ""
+
+#: ../../content/chat/chat.rst:206
+msgid "Allows you to invite another agent to this chat. You can select from a list of available agents who you want to invite. Once the agent has invited, a new agent to agent chat request will be sent to this agent. After the request has accepted, a new internal chat will be established between you and the invited agent. In this internal chat, the invited agent has two more actions available in the advanced actions toolbar: *Observer* and *Participant*."
+msgstr ""
+
+#: ../../content/chat/chat.rst:209
+msgid "Channel change"
+msgstr ""
+
+#: ../../content/chat/chat.rst:209
+msgid "Using this link, you can change the channel for this chat. For the selection of the target channel the same rules apply as for initially selecting a chat channel."
+msgstr ""
+
+#: ../../content/chat/chat.rst:212
+msgid "Download"
+msgstr ""
+
+#: ../../content/chat/chat.rst:212
+msgid "Lets you download the complete history of this chat as PDF."
+msgstr ""
+
+#: ../../content/chat/chat.rst:215
+msgid "New window"
+msgstr ""
+
+#: ../../content/chat/chat.rst:215
+msgid "Opens this chat in a separate popup window. You can use this window in the same way as the chat widget and both the widget and the popup can be used at the same time."
+msgstr ""
+
+#: ../../content/chat/chat.rst:222
+msgid "Observer"
+msgstr ""
+
+#: ../../content/chat/chat.rst:218
+msgid "When you have been invited to a chat by another agent, you can decide if you want to join the chat as observer or participant depending on your permission level. Once you click the action from your toolbar, a new chat widget will be added to the list of your active chats which is the chat you have been invited to."
+msgstr ""
+
+#: ../../content/chat/chat.rst:220
+msgid "If you join the chat as observer, you will only be able to read what others are contributing to the chat and you will be invisible to customer users or public users. Agents will still receive a message that you joined the chat as observer."
+msgstr ""
+
+#: ../../content/chat/chat.rst:222
+msgid "As an observer, you have the possibility to become a participant anytime by using the advanced action toolbar in your chat widget depending on your permission level."
+msgstr ""
+
+#: ../../content/chat/chat.rst:225
+msgid "Participant"
+msgstr ""
+
+#: ../../content/chat/chat.rst:225
+msgid "If you want to contribute something to the chat you have been invited to, you can join it as a participant. Customer users, public users and agents will receive a message that you have entered the chat. As a participant, you can become an observer anytime by using the advanced action toolbar in your chat widget."
+msgstr ""
+
+#: ../../content/chat/chat.rst:227
+msgid "The second circle icon allows the agent to set up a personal monitoring for this chat, which is a three-way switch:"
+msgstr ""
+
+#: ../../content/chat/chat.rst:229
+msgid "Empty circle: no monitoring."
+msgstr ""
+
+#: ../../content/chat/chat.rst:230
+msgid "Empty circle with tick icon: only monitor customer user activity."
+msgstr ""
+
+#: ../../content/chat/chat.rst:231
+msgid "Filled circle with tick icon: monitor all actions."
+msgstr ""
+
+#: ../../content/chat/chat.rst:233
+msgid "When monitoring a chat, browser notifications will show up each time there is a new action in this chat."
+msgstr ""
+
+#: ../../content/chat/chat.rst:235
+msgid "Finally the third close icon makes it possible to close the chat by clicking on the *X*."
+msgstr ""
+
+#: ../../content/chat/chat.rst:239
+msgid "Chat Integration"
+msgstr ""
+
+#: ../../content/chat/chat.rst:241
+msgid "The public chat can be easily integrated into a website with the chat integration configuration and snippet generator."
+msgstr ""
+
+#: ../../content/chat/chat.rst:243
+msgid "To configure the chat and generate code snippet:"
+msgstr ""
+
+#: ../../content/chat/chat.rst:245
+msgid "Click on the *Configure Chat Integration* button in the left sidebar."
+msgstr ""
+
+#: ../../content/chat/chat.rst:246
+msgid "Customize the texts in the *Configuration* tab."
+msgstr ""
+
+#: ../../content/chat/chat.rst:251
+msgid "Chat Integration – Configuration"
+msgstr ""
+
+#: ../../content/chat/chat.rst:255
+msgid "All changes made in the *Configuration* tab will not be saved. Every time you open this dialog, all fields will be reset to default values."
+msgstr ""
+
+#: ../../content/chat/chat.rst:257
+msgid "Copy the code snippet from the *Integration Code* tab and paste it into your website right before the ``</body>`` element."
+msgstr ""
+
+#: ../../content/chat/chat.rst:262
+msgid "Chat Integration – Integration Code"
+msgstr ""
+
+#: ../../content/chat/chat.rst:264
+msgid "You can check the result in the *Preview* tab."
+msgstr ""
+
+#: ../../content/chat/chat.rst:269
+msgid "Chat Integration – Preview"
+msgstr ""
+
+#: ../../content/chat/chat.rst:273
+msgid "The preview uses the real chat module. Other agents have to be available for chatting to preview all features."
+msgstr ""
+
+#: ../../content/chat/chat.rst:275
+msgid "If mixed content warning is displayed in the browser console, an administrator has to check that the system configuration setting ``HttpType`` is properly set. The website must run on the same protocol for chat widget to work."
+msgstr ""
+
+#: ../../content/chat/chat.rst:277
+msgid "For example, if the website is running OTRS on SSL, the system configuration option must be set to ``https``."
 msgstr ""
 
 #: ../../content/customers.rst:2
@@ -1159,73 +1626,73 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:78
 #: ../../content/customers/customer-user-information-center.rst:67
-#: ../../content/dashboard/dashboard.rst:33
+#: ../../content/dashboard/dashboard.rst:49
 msgid "Each ticket widget has own filter for displaying:"
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:80
 #: ../../content/customers/customer-user-information-center.rst:71
-#: ../../content/dashboard/dashboard.rst:35
+#: ../../content/dashboard/dashboard.rst:51
 msgid "My locked tickets: tickets which are locked by the current agent."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:81
 #: ../../content/customers/customer-user-information-center.rst:72
-#: ../../content/dashboard/dashboard.rst:38
+#: ../../content/dashboard/dashboard.rst:54
 msgid "Tickets in My Queues: tickets which are in queues selected in :doc:`../avatar/personal-preferences`."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:82
 #: ../../content/customers/customer-user-information-center.rst:73
-#: ../../content/dashboard/dashboard.rst:40
+#: ../../content/dashboard/dashboard.rst:56
 msgid "All tickets: all tickets in this kind of widget."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:84
 #: ../../content/customers/customer-user-information-center.rst:75
-#: ../../content/dashboard/dashboard.rst:90
+#: ../../content/dashboard/dashboard.rst:106
 msgid "The *Reminder Tickets* widget lists the pending tickets. Pending tickets are set for later work by the agent, and the reminder time is going to expire soon."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:89
 #: ../../content/customers/customer-user-information-center.rst:80
-#: ../../content/dashboard/dashboard.rst:95
+#: ../../content/dashboard/dashboard.rst:111
 msgid "Reminder Tickets Widget"
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:91
 #: ../../content/customers/customer-user-information-center.rst:82
-#: ../../content/dashboard/dashboard.rst:97
+#: ../../content/dashboard/dashboard.rst:113
 msgid "The *Escalated Tickets* widget lists the escalated tickets. Escalated tickets are after the time set in service level agreement, and therefore needs to be worked on them immediately."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:96
 #: ../../content/customers/customer-user-information-center.rst:87
-#: ../../content/dashboard/dashboard.rst:102
+#: ../../content/dashboard/dashboard.rst:118
 msgid "Escalated Tickets Widget"
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:98
 #: ../../content/customers/customer-user-information-center.rst:89
-#: ../../content/dashboard/dashboard.rst:104
+#: ../../content/dashboard/dashboard.rst:120
 msgid "The *New Tickets* widget lists the recently created tickets. New tickets are not handled by an agent yet."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:103
 #: ../../content/customers/customer-user-information-center.rst:94
-#: ../../content/dashboard/dashboard.rst:109
+#: ../../content/dashboard/dashboard.rst:125
 msgid "New Tickets Widget"
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:105
 #: ../../content/customers/customer-user-information-center.rst:96
-#: ../../content/dashboard/dashboard.rst:111
+#: ../../content/dashboard/dashboard.rst:127
 msgid "The *Open Tickets* widget lists the open tickets. Open tickets represent the current work done by the agent."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:110
 #: ../../content/customers/customer-user-information-center.rst:101
-#: ../../content/dashboard/dashboard.rst:116
+#: ../../content/dashboard/dashboard.rst:132
 msgid "Open Tickets Widget"
 msgstr ""
 
@@ -1235,45 +1702,45 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:116
 #: ../../content/customers/customer-user-information-center.rst:107
-#: ../../content/dashboard/dashboard.rst:180
+#: ../../content/dashboard/dashboard.rst:196
 msgid "The following widgets are located on the right sidebar. There is a *Settings* widget to turn other widgets on or off, and some information widgets also displayed here."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:118
 #: ../../content/customers/customer-user-information-center.rst:109
-#: ../../content/dashboard/dashboard.rst:182
+#: ../../content/dashboard/dashboard.rst:198
 msgid "The *Settings* widget lists all available widgets on the screen."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:123
 #: ../../content/customers/customer-user-information-center.rst:114
-#: ../../content/dashboard/dashboard.rst:187
+#: ../../content/dashboard/dashboard.rst:203
 msgid "Settings Widget"
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:125
 #: ../../content/customers/customer-user-information-center.rst:116
-#: ../../content/dashboard/dashboard.rst:189
+#: ../../content/dashboard/dashboard.rst:205
 msgid "To turn on or off a widget:"
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:127
 #: ../../content/customers/customer-user-information-center.rst:118
-#: ../../content/dashboard/dashboard.rst:191
+#: ../../content/dashboard/dashboard.rst:207
 msgid "Expand the *Settings* widget in the right sidebar by clicking on its header bar."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:128
 #: ../../content/customers/customer-user-information-center.rst:119
-#: ../../content/dashboard/dashboard.rst:192
+#: ../../content/dashboard/dashboard.rst:208
 msgid "Modify the checked state of a checkbox."
 msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:129
 #: ../../content/customers/customer-user-information-center.rst:120
-#: ../../content/dashboard/dashboard.rst:48
-#: ../../content/dashboard/dashboard.rst:54
-#: ../../content/dashboard/dashboard.rst:193
+#: ../../content/dashboard/dashboard.rst:64
+#: ../../content/dashboard/dashboard.rst:70
+#: ../../content/dashboard/dashboard.rst:209
 msgid "Click on the *Save settings* button."
 msgstr ""
 
@@ -1610,7 +2077,7 @@ msgstr ""
 msgid "The :doc:`../avatar` and the :doc:`../avatar/logout` possibilities."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:21
+#: ../../content/dashboard/dashboard.rst:37
 msgid "Toolbar icons"
 msgstr ""
 
@@ -1622,303 +2089,327 @@ msgstr ""
 msgid "Icons and search boxes can be activated in settings under *Frontend* → *Agent* → *Toolbar*."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:24
-msgid "Main menu"
+#: ../../content/dashboard/dashboard.rst:23
+msgid "The last icon is the chat availability status."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:24
-msgid "The main menu of the agent interface."
-msgstr ""
-
-#: ../../content/dashboard/dashboard.rst:26
-msgid "The dashboard displays so called *widgets*. A widget is a box, that consists of a header, a filter and a data table. Each widget can be moved with drag and drop, and can have own settings."
+#: ../../content/dashboard/dashboard.rst:29
+msgid "The chat availability status icon is a three-way switch, and can be changed by clicking."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:31
-msgid "Dashboard Widgets"
+msgid "Empty circle: unavailable for chats."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:36
-msgid "My watched tickets: tickets that the agent has in his/her watched list (requires ``Ticket::Watcher`` setting to be turned on)."
+#: ../../content/dashboard/dashboard.rst:32
+msgid "Empty circle with tick sign: available for internal (agent to agent) chats."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:33
+msgid "Filled circle with tick sign: available for internal (agent to agent) and external (customer to agent, public to agent) chats."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:37
-msgid "My responsibilities: tickets that the agent is set as responsible (requires ``Ticket::Responsible`` setting to be turned on)."
+msgid "The chat availability status will be changed from external chats to internal chats each time an agent log in to OTRS again."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:39
-msgid "Tickets in My Services: tickets that are assigned to services selected in :doc:`../avatar/personal-preferences`."
+#: ../../content/dashboard/dashboard.rst:40
+msgid "Main menu"
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:40
+msgid "The main menu of the agent interface."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:42
-msgid "The numbers indicate the number of tickets in each filter term."
-msgstr ""
-
-#: ../../content/dashboard/dashboard.rst:44
-msgid "To add new widgets:"
-msgstr ""
-
-#: ../../content/dashboard/dashboard.rst:46
-#: ../../content/dashboard/dashboard.rst:52
-msgid "Click on the *Settings* widget in the right sidebar to expand it."
+msgid "The dashboard displays so called *widgets*. A widget is a box, that consists of a header, a filter and a data table. Each widget can be moved with drag and drop, and can have own settings."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:47
-msgid "Select the widgets you want to add."
+msgid "Dashboard Widgets"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:50
-msgid "To remove widgets:"
+#: ../../content/dashboard/dashboard.rst:52
+msgid "My watched tickets: tickets that the agent has in his/her watched list (requires ``Ticket::Watcher`` setting to be turned on)."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:53
-msgid "Deselect the widgets you want to remove."
+msgid "My responsibilities: tickets that the agent is set as responsible (requires ``Ticket::Responsible`` setting to be turned on)."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:55
+msgid "Tickets in My Services: tickets that are assigned to services selected in :doc:`../avatar/personal-preferences`."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:58
-msgid "You can also remove a widget, if you hover the mouse over the widget header and click on the *×* on the top right corner to close the widget."
+msgid "The numbers indicate the number of tickets in each filter term."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:60
-msgid "To move widgets:"
+msgid "To add new widgets:"
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:62
-msgid "Click on the widget header and hold down the mouse button."
+#: ../../content/dashboard/dashboard.rst:68
+msgid "Click on the *Settings* widget in the right sidebar to expand it."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:63
-msgid "Drag the widget to the desired position."
-msgstr ""
-
-#: ../../content/dashboard/dashboard.rst:64
-msgid "Drop the widget by releasing the mouse button."
+msgid "Select the widgets you want to add."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:66
-msgid "Widgets can have own settings. To configure a widget:"
-msgstr ""
-
-#: ../../content/dashboard/dashboard.rst:68
-msgid "Hover the mouse over the widget header."
+msgid "To remove widgets:"
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:69
-msgid "Click on the gear icon in the top right corner."
+msgid "Deselect the widgets you want to remove."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:70
-msgid "Change the number and set the visible columns by drag and drop."
-msgstr ""
-
-#: ../../content/dashboard/dashboard.rst:71
-msgid "Click on the *Save Changes* button."
+#: ../../content/dashboard/dashboard.rst:74
+msgid "You can also remove a widget, if you hover the mouse over the widget header and click on the *×* on the top right corner to close the widget."
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:76
-msgid "Widget Settings"
+msgid "To move widgets:"
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:78
+msgid "Click on the widget header and hold down the mouse button."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:79
+msgid "Drag the widget to the desired position."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:80
+msgid "Drop the widget by releasing the mouse button."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:82
+msgid "Widgets can have own settings. To configure a widget:"
 msgstr ""
 
 #: ../../content/dashboard/dashboard.rst:84
+msgid "Hover the mouse over the widget header."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:85
+msgid "Click on the gear icon in the top right corner."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:86
+msgid "Change the number and set the visible columns by drag and drop."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:87
+msgid "Click on the *Save Changes* button."
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:92
+msgid "Widget Settings"
+msgstr ""
+
+#: ../../content/dashboard/dashboard.rst:100
 msgid "Dashboard Content Widgets"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:88
+#: ../../content/dashboard/dashboard.rst:104
 msgid "The widgets can be different depending on the installed packages and system configuration settings."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:118
+#: ../../content/dashboard/dashboard.rst:134
 msgid "The *Running Process Tickets* widget lists the process tickets, that are started, but not finished yet."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:123
+#: ../../content/dashboard/dashboard.rst:139
 msgid "Running Process Tickets Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:125
+#: ../../content/dashboard/dashboard.rst:141
 msgid "The *Ticket Queue Overview* widget gives an overview as a ticket count matrix, where the rows represent queues and the columns represent the ticket states. Each cell displays the number of tickets on a defined state that belongs on a particular queue."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:130
+#: ../../content/dashboard/dashboard.rst:146
 msgid "Ticket Queue Overview Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:132
+#: ../../content/dashboard/dashboard.rst:148
 msgid "The *Events Ticket Calendar* widget displays tickets in a calendar, but this widget does not work out-of-the-box."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:134
+#: ../../content/dashboard/dashboard.rst:150
 msgid "To display the tickets in this calendar, the following settings need to be set by an **admin user**:"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:136
+#: ../../content/dashboard/dashboard.rst:152
 msgid "Create the following dynamic fields:"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:139
+#: ../../content/dashboard/dashboard.rst:155
 msgid "Object"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:139
+#: ../../content/dashboard/dashboard.rst:155
 msgid "Type"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:139
+#: ../../content/dashboard/dashboard.rst:155
 msgid "Name"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:139
+#: ../../content/dashboard/dashboard.rst:155
 msgid "Label"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:141
-#: ../../content/dashboard/dashboard.rst:143
+#: ../../content/dashboard/dashboard.rst:157
+#: ../../content/dashboard/dashboard.rst:159
 msgid "Date / Time"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:141
+#: ../../content/dashboard/dashboard.rst:157
 msgid "``TicketCalendarStartTime``"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:141
+#: ../../content/dashboard/dashboard.rst:157
 msgid "Calendar Start Time"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:143
+#: ../../content/dashboard/dashboard.rst:159
 msgid "``TicketCalendarEndTime``"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:143
+#: ../../content/dashboard/dashboard.rst:159
 msgid "Calendar End Time"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:146
+#: ../../content/dashboard/dashboard.rst:162
 msgid "Navigate to *Frontend* → *Agent* → *View* and select a view to add the dynamic field to."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:148
+#: ../../content/dashboard/dashboard.rst:164
 msgid "For example add these dynamic fields to *New Phone Ticket* screen and *New Email Ticket* screen to set the dates at ticket creation time, or to *Ticket Free Fields* screen to set the dates for existing ticket in the *Miscellaneous* → *Free Fields* menu item of the :doc:`../tickets/ticket-zoom` screen."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:150
+#: ../../content/dashboard/dashboard.rst:166
 msgid "``Ticket::Frontend::AgentTicketPhone###DynamicField``"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:152
-#: ../../content/dashboard/dashboard.rst:157
-#: ../../content/dashboard/dashboard.rst:162
+#: ../../content/dashboard/dashboard.rst:168
+#: ../../content/dashboard/dashboard.rst:173
+#: ../../content/dashboard/dashboard.rst:178
 msgid "``TicketCreateStartTime`` → *1 – Enabled*"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:153
-#: ../../content/dashboard/dashboard.rst:158
-#: ../../content/dashboard/dashboard.rst:163
+#: ../../content/dashboard/dashboard.rst:169
+#: ../../content/dashboard/dashboard.rst:174
+#: ../../content/dashboard/dashboard.rst:179
 msgid "``TicketCreateEndTime`` → *1 – Enabled*"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:155
+#: ../../content/dashboard/dashboard.rst:171
 msgid "``Ticket::Frontend::AgentTicketEmail###DynamicField``"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:160
+#: ../../content/dashboard/dashboard.rst:176
 msgid "``Ticket::Frontend::AgentTicketFreeText###DynamicField``"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:165
+#: ../../content/dashboard/dashboard.rst:181
 msgid "Add more queues to ``DashboardEventsTicketCalendar###Queues`` setting (default is *Raw* queue only)."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:167
+#: ../../content/dashboard/dashboard.rst:183
 msgid "If the dynamic fields contain values for the tickets, the tickets are displayed in the widget."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:169
+#: ../../content/dashboard/dashboard.rst:185
 msgid "Hover the mouse over an entry to see the details of the ticket, or click on it to open the ticket in the :doc:`../tickets/ticket-zoom` screen."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:174
+#: ../../content/dashboard/dashboard.rst:190
 msgid "Events Ticket Calendar Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:178
+#: ../../content/dashboard/dashboard.rst:194
 msgid "Dashboard Sidebar Widgets"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:195
+#: ../../content/dashboard/dashboard.rst:211
 msgid "The *7 Day Stats* widget displays the number of created and closed tickets in the last seven days."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:200
+#: ../../content/dashboard/dashboard.rst:216
 msgid "7 Day Stats Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:202
+#: ../../content/dashboard/dashboard.rst:218
 msgid "The *Upcoming Events* widget displays entries from the :doc:`../calendar`."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:207
+#: ../../content/dashboard/dashboard.rst:223
 msgid "Upcoming Events Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:209
+#: ../../content/dashboard/dashboard.rst:225
 msgid "The *Out Of Office* widget displays the agents, who are currently out of office. This information can be set in the *User Profile* module of the :doc:`../avatar/personal-preferences`."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:213
+#: ../../content/dashboard/dashboard.rst:229
 msgid "If currently no agents are out of office, this widget is not displayed."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:218
+#: ../../content/dashboard/dashboard.rst:234
 msgid "Out Of Office Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:220
+#: ../../content/dashboard/dashboard.rst:236
 #: ../../content/faq/explorer.rst:49
 msgid "The *Latest updated FAQ articles* widget displays the FAQ articles, that are updated recently."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:225
+#: ../../content/dashboard/dashboard.rst:241
 msgid "Latest Updated FAQ Articles Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:227
+#: ../../content/dashboard/dashboard.rst:243
 #: ../../content/faq/explorer.rst:47
 msgid "The *Latest created FAQ articles* widget displays the FAQ articles, that are created recently."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:232
+#: ../../content/dashboard/dashboard.rst:248
 msgid "Latest Created FAQ Articles Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:234
+#: ../../content/dashboard/dashboard.rst:250
 msgid "The *Logged-In Users* widget displays the currently online agents and customer users."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:239
+#: ../../content/dashboard/dashboard.rst:255
 msgid "Logged-In Users Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:241
+#: ../../content/dashboard/dashboard.rst:257
 msgid "The *OTRS News* widget displays news from an RSS feed."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:245
+#: ../../content/dashboard/dashboard.rst:261
 msgid "To change the RSS feed source, see ``DashboardBackend###0410-RSS`` setting."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:250
+#: ../../content/dashboard/dashboard.rst:266
 msgid "OTRS News Widget"
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:252
+#: ../../content/dashboard/dashboard.rst:268
 msgid "The *Appointments* widget displays the appointments for today, tomorrow and for this week."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:254
+#: ../../content/dashboard/dashboard.rst:270
 msgid "Click on the *Add Appointment* button to open the :doc:`../calendar/new-appointment` dialog."
 msgstr ""
 
-#: ../../content/dashboard/dashboard.rst:259
+#: ../../content/dashboard/dashboard.rst:275
 msgid "Appointments Widget"
 msgstr ""
 
@@ -2165,6 +2656,7 @@ msgstr ""
 #: ../../content/faq/faq-zoom.rst:36
 #: ../../content/tickets/escalation-view.rst:80
 #: ../../content/tickets/queue-view.rst:79
+#: ../../content/tickets/service-view.rst:83
 #: ../../content/tickets/status-view.rst:71
 #: ../../content/tickets/ticket-zoom.rst:305
 msgid "History"
@@ -3346,6 +3838,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:6
 #: ../../content/tickets/queue-view.rst:6
+#: ../../content/tickets/service-view.rst:10
 #: ../../content/tickets/status-view.rst:6
 msgid "This screen has three different views: small, medium and large. You can change the views with the buttons in the right side of the widget: *S* means *small*, *M* means *medium* and *L* means *large*."
 msgstr ""
@@ -3388,6 +3881,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:28
 #: ../../content/tickets/queue-view.rst:27
+#: ../../content/tickets/service-view.rst:31
 #: ../../content/tickets/status-view.rst:19
 msgid "This view lists tickets in a table format."
 msgstr ""
@@ -3402,6 +3896,9 @@ msgstr ""
 #: ../../content/tickets/queue-view.rst:34
 #: ../../content/tickets/queue-view.rst:98
 #: ../../content/tickets/queue-view.rst:122
+#: ../../content/tickets/service-view.rst:38
+#: ../../content/tickets/service-view.rst:102
+#: ../../content/tickets/service-view.rst:126
 #: ../../content/tickets/status-view.rst:26
 #: ../../content/tickets/status-view.rst:90
 #: ../../content/tickets/status-view.rst:114
@@ -3414,6 +3911,9 @@ msgstr ""
 #: ../../content/tickets/queue-view.rst:37
 #: ../../content/tickets/queue-view.rst:101
 #: ../../content/tickets/queue-view.rst:125
+#: ../../content/tickets/service-view.rst:41
+#: ../../content/tickets/service-view.rst:105
+#: ../../content/tickets/service-view.rst:129
 #: ../../content/tickets/status-view.rst:29
 #: ../../content/tickets/status-view.rst:93
 #: ../../content/tickets/status-view.rst:117
@@ -3422,114 +3922,133 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:41
 #: ../../content/tickets/queue-view.rst:40
+#: ../../content/tickets/service-view.rst:44
 #: ../../content/tickets/status-view.rst:32
 msgid "To set the displayed columns and adjust order of columns:"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:44
 #: ../../content/tickets/queue-view.rst:43
+#: ../../content/tickets/service-view.rst:47
 #: ../../content/tickets/status-view.rst:35
 msgid "Move columns from *Available Columns* to *Visible Columns* or vice versa."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:45
 #: ../../content/tickets/queue-view.rst:44
+#: ../../content/tickets/service-view.rst:48
 #: ../../content/tickets/status-view.rst:36
 msgid "Rearrange columns in *Visible Columns* by drag and drop."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:50
 #: ../../content/tickets/queue-view.rst:49
+#: ../../content/tickets/service-view.rst:53
 #: ../../content/tickets/status-view.rst:41
 msgid "Use the filter box to find a particular column in *Available Columns* by just typing the name to filter."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:52
 #: ../../content/tickets/queue-view.rst:51
+#: ../../content/tickets/service-view.rst:55
 #: ../../content/tickets/status-view.rst:43
 msgid "To sort tickets by a specific attribute:"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:54
 #: ../../content/tickets/queue-view.rst:53
+#: ../../content/tickets/service-view.rst:57
 #: ../../content/tickets/status-view.rst:45
 msgid "Click on a column header to sort tickets by the selected attribute."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:55
 #: ../../content/tickets/queue-view.rst:54
+#: ../../content/tickets/service-view.rst:58
 #: ../../content/tickets/status-view.rst:46
 msgid "Click on the column header again to change the sort order."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:57
 #: ../../content/tickets/queue-view.rst:56
+#: ../../content/tickets/service-view.rst:60
 #: ../../content/tickets/status-view.rst:48
 msgid "It is possible to filter tickets by a specific attribute, but not all attributes can be used as filter. The filterable attributes are marked with a filter icon in the column header."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:59
 #: ../../content/tickets/queue-view.rst:58
+#: ../../content/tickets/service-view.rst:62
 #: ../../content/tickets/status-view.rst:50
 msgid "To filter tickets:"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:61
 #: ../../content/tickets/queue-view.rst:60
+#: ../../content/tickets/service-view.rst:64
 #: ../../content/tickets/status-view.rst:52
 msgid "Click on the filter icon in the column header."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:62
 #: ../../content/tickets/queue-view.rst:61
+#: ../../content/tickets/service-view.rst:65
 #: ../../content/tickets/status-view.rst:53
 msgid "Select a value for the filter."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:66
 #: ../../content/tickets/queue-view.rst:65
+#: ../../content/tickets/service-view.rst:69
 #: ../../content/tickets/status-view.rst:57
 msgid "Multiple filters can be set. Active filters are marked with a bold filter icon in the column header and a trash icon is displayed in the widget header. Click on this trash icon to remove all active filters."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:68
 #: ../../content/tickets/queue-view.rst:67
+#: ../../content/tickets/service-view.rst:71
 #: ../../content/tickets/status-view.rst:59
 msgid "This view has an own menu to manage tickets. Select a checkbox in the row of a ticket to see this menu."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:74
 #: ../../content/tickets/queue-view.rst:73
+#: ../../content/tickets/service-view.rst:77
 #: ../../content/tickets/status-view.rst:65
 msgid "Bulk"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:74
 #: ../../content/tickets/queue-view.rst:73
+#: ../../content/tickets/service-view.rst:77
 #: ../../content/tickets/status-view.rst:65
 msgid "Bulk action for the ticket, multiple attributes can be changed (see below)."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:77
 #: ../../content/tickets/queue-view.rst:76
+#: ../../content/tickets/service-view.rst:80
 #: ../../content/tickets/status-view.rst:68
 msgid "Zoom"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:77
 #: ../../content/tickets/queue-view.rst:76
+#: ../../content/tickets/service-view.rst:80
 #: ../../content/tickets/status-view.rst:68
 msgid "Open the :doc:`ticket-zoom` screen to see all details of the ticket."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:80
 #: ../../content/tickets/queue-view.rst:79
+#: ../../content/tickets/service-view.rst:83
 #: ../../content/tickets/status-view.rst:71
 msgid "A new window will be opened that displays the history of the ticket."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:83
 #: ../../content/tickets/queue-view.rst:82
+#: ../../content/tickets/service-view.rst:86
 #: ../../content/tickets/status-view.rst:74
 #: ../../content/tickets/ticket-zoom.rst:134
 msgid "Note"
@@ -3537,18 +4056,21 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:83
 #: ../../content/tickets/queue-view.rst:82
+#: ../../content/tickets/service-view.rst:86
 #: ../../content/tickets/status-view.rst:74
 msgid "New note can be added to the ticket."
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:87
 #: ../../content/tickets/queue-view.rst:86
+#: ../../content/tickets/service-view.rst:90
 #: ../../content/tickets/status-view.rst:78
 msgid "Move"
 msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:86
 #: ../../content/tickets/queue-view.rst:85
+#: ../../content/tickets/service-view.rst:89
 #: ../../content/tickets/status-view.rst:77
 msgid "The ticket can be moved to an other queue."
 msgstr ""
@@ -3559,6 +4081,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:92
 #: ../../content/tickets/queue-view.rst:91
+#: ../../content/tickets/service-view.rst:95
 #: ../../content/tickets/status-view.rst:83
 msgid "This view lists tickets in a list view format."
 msgstr ""
@@ -3582,6 +4105,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:116
 #: ../../content/tickets/queue-view.rst:115
+#: ../../content/tickets/service-view.rst:119
 #: ../../content/tickets/status-view.rst:107
 msgid "This view lists tickets in a detailed format."
 msgstr ""
@@ -3600,6 +4124,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:140
 #: ../../content/tickets/queue-view.rst:139
+#: ../../content/tickets/service-view.rst:143
 #: ../../content/tickets/status-view.rst:131
 msgid "Multiple attributes can be changed in this screen at the same time."
 msgstr ""
@@ -3985,22 +4510,27 @@ msgid "Each view has a filter in the top of the widget to list tickets only in a
 msgstr ""
 
 #: ../../content/tickets/queue-view.rst:15
+#: ../../content/tickets/service-view.rst:19
 msgid "There are also filters to view *All tickets* or only *Available tickets*."
 msgstr ""
 
 #: ../../content/tickets/queue-view.rst:18
+#: ../../content/tickets/service-view.rst:22
 msgid "All tickets"
 msgstr ""
 
 #: ../../content/tickets/queue-view.rst:18
+#: ../../content/tickets/service-view.rst:22
 msgid "This option lists all tickets in the selected queue."
 msgstr ""
 
 #: ../../content/tickets/queue-view.rst:22
+#: ../../content/tickets/service-view.rst:26
 msgid "Available tickets"
 msgstr ""
 
 #: ../../content/tickets/queue-view.rst:21
+#: ../../content/tickets/service-view.rst:25
 msgid "This option lists only open tickets which are available for working with them."
 msgstr ""
 
@@ -4059,6 +4589,67 @@ msgstr ""
 
 #: ../../content/tickets/search.rst:46
 msgid "Use the *Profile link* button to go directly to *Search Results* screen. This is the permanent link of the search template."
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:2
+msgid "Service View"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:8
+msgid "Use this screen to view tickets in specific services. The *Service View* screen is available in the *Service View* menu item of the *Tickets* menu."
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:15
+msgid "Service View Widget Header"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:17
+msgid "Each view has a filter in the top of the widget to list tickets only in a specific service or tickets in *My Services* set in :doc:`../avatar/personal-preferences`."
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:29
+msgid "Small Service View"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:36
+msgid "Small Service View Screen"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:93
+msgid "Medium Service View"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:100
+msgid "Medium Service View Screen"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:108
+#: ../../content/tickets/service-view.rst:132
+msgid "Hover the mouse over the ticket row, and a floating menu will appear. The floating menu has the same menu items that are already explained in the *Small Service View* section."
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:113
+msgid "Floating Menu of Medium Service View"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:117
+msgid "Large Service View"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:124
+msgid "Large Service View Screen"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:137
+msgid "Floating Menu of Large Service View"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:141
+msgid "Service View Bulk Actions"
+msgstr ""
+
+#: ../../content/tickets/service-view.rst:148
+msgid "Service View Bulk Action Screen"
 msgstr ""
 
 #: ../../content/tickets/status-view.rst:2
@@ -4599,10 +5190,6 @@ msgstr ""
 
 #: ../../content/tickets/ticket-zoom.rst:435
 msgid "Selecting this will open the :doc:`new-email-ticket` screen and fill in the fields with the current article data."
-msgstr ""
-
-#: ../../content/tickets/ticket-zoom.rst:438
-msgid "Phone ticket"
 msgstr ""
 
 #: ../../content/tickets/ticket-zoom.rst:438

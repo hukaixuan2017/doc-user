@@ -144,7 +144,7 @@ My Queues
 
 In this widget some queues can be selected as preferred queues. Tickets in this queues will be displayed under the *Tickets in My Queues* filter of the ticket widgets, and notifications will be sent, if new tickets are available in one of the selected queues.
 
-In :doc:`../tickets/queue-view` only these queues will be displayed under *My Queues* filter, that are selected in this widget.
+In :doc:`../tickets/queue-view` only those queues will be displayed under *My Queues* filter, that are selected in this widget.
 
 In case of owner or responsible selection, only agents are listed by default as potentially owner or responsible, who are set the queue as preferred queue in this widget.
 
@@ -154,6 +154,25 @@ In case of owner or responsible selection, only agents are listed by default as 
    My Queues Widget
 
 Select one or more queues from the drop-down list.
+
+
+My Services
+~~~~~~~~~~~
+
+.. seealso::
+
+   System configuration ``Ticket::Service`` needs to be activated to use this feature.
+
+In this widget some services can be selected as preferred services.
+
+In :doc:`../tickets/service-view` only those services will be displayed under *My Services* filter, that are selected in this widget.
+
+.. figure:: images/preferences-notification-my-services.png
+   :alt: My Services Widget
+
+   My Services Widget
+
+Select one or more services from the drop-down list.
 
 
 Ticket Notifications
@@ -180,6 +199,25 @@ In this widget can be selected the methods used for appointment notification.
    Appointment Notifications Widget
 
 The possible methods are *Email*, *Web View* or *SMS*.
+
+
+My Chat Channels
+~~~~~~~~~~~~~~~~
+
+.. seealso::
+
+   System configuration ``ChatEngine::Active`` needs to be activated to use this feature.
+
+In this widget some chat channels can be selected as preferred external chat channels. You will be notified about external chat requests in these chat channels.
+
+In :doc:`../chat/chat` screen only those chat channels will be displayed under *My Chat Channels* filter, that are selected in this widget.
+
+.. figure:: images/preferences-notification-my-chat-channels.png
+   :alt: My Chat Channels Widget
+
+   My Chat Channels Widget
+
+Select one or more chat channels from the drop-down list. An agent needs to select in which chat channels want to be available. Customers will only be able to create a new chat request on a certain channel if at least one agent with owner permissions has selected this channel in their preferences and is set as available for external chats by the chat availability icon in the :doc:`../dashboard/dashboard` header toolbar. 
 
 
 Miscellaneous

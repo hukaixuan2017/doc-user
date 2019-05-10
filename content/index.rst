@@ -17,6 +17,7 @@ Permission is granted to copy, distribute and/or modify this document under the 
    calendar
    tickets
    faq
+   chat
    reports
    admin
    search
