@@ -6,16 +6,16 @@
 # Translators:
 # Peter Matyas <mr.peter.matyas@gmail.com>, 2019
 # Martin Gruner <martin.gruner@otrs.com>, 2019
-# Balázs Úr <ur.balazs@fsf.hu>, 2019
+# Balázs Úr, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:22+0000\n"
+"POT-Creation-Date: 2019-05-10 11:50+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
-"Last-Translator: Balázs Úr <ur.balazs@fsf.hu>, 2019\n"
+"Last-Translator: Balázs Úr, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/otrs/teams/23435/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Ez a menüpont az adminisztrátori felületet nyitja meg, amelyet az "
 "`adminisztrátori kézikönyv "
-"<https://doc.otrs.com/doc/manual/admin/stable/en/content/index.html>`__ "
+"<https://doc.otrs.com/doc/manual/admin/stable/hu/content/index.html>`__ "
 "mutat be részletesen."
 
 #: ../../content/admin.rst:8 ../../content/faq/category-management.rst:6
@@ -68,10 +68,10 @@ msgstr ""
 "van hatással, és nem befolyásolja az OTRS működését vagy más ügyintézőket."
 
 #: ../../content/avatar.rst:8 ../../content/calendar.rst:8
-#: ../../content/customers.rst:6 ../../content/dashboard.rst:17
-#: ../../content/faq.rst:8 ../../content/index.rst:9
-#: ../../content/reports.rst:6 ../../content/search.rst:6
-#: ../../content/tickets.rst:17
+#: ../../content/chat.rst:12 ../../content/customers.rst:6
+#: ../../content/dashboard.rst:17 ../../content/faq.rst:8
+#: ../../content/index.rst:9 ../../content/reports.rst:6
+#: ../../content/search.rst:6 ../../content/tickets.rst:17
 msgid "Contents"
 msgstr "Tartalom"
 
@@ -147,6 +147,10 @@ msgstr ""
 #: ../../content/tickets/queue-view.rst:42
 #: ../../content/tickets/queue-view.rst:100
 #: ../../content/tickets/queue-view.rst:124
+#: ../../content/tickets/service-view.rst:40
+#: ../../content/tickets/service-view.rst:46
+#: ../../content/tickets/service-view.rst:104
+#: ../../content/tickets/service-view.rst:128
 #: ../../content/tickets/status-view.rst:28
 #: ../../content/tickets/status-view.rst:34
 #: ../../content/tickets/status-view.rst:92
@@ -173,7 +177,7 @@ msgid "Click on the *Submit* button."
 msgstr "Kattintson az *Elküldés* gombra."
 
 #: ../../content/avatar/notifications.rst:23
-#: ../../content/dashboard/dashboard.rst:80
+#: ../../content/dashboard/dashboard.rst:96
 msgid ""
 "The order of visible columns can be set by rearrange the columns in the "
 "*Visible columns* field."
@@ -210,13 +214,13 @@ msgid "Notification Settings"
 msgstr "Értesítési beállítások"
 
 #: ../../content/avatar/personal-preferences.rst:10
-#: ../../content/avatar/personal-preferences.rst:186
+#: ../../content/avatar/personal-preferences.rst:224
 #: ../../content/tickets/ticket-zoom.rst:367
 msgid "Miscellaneous"
 msgstr "Egyebek"
 
 #: ../../content/avatar/personal-preferences.rst:11
-#: ../../content/avatar/personal-preferences.rst:235
+#: ../../content/avatar/personal-preferences.rst:273
 msgid "Advanced"
 msgstr "Speciális"
 
@@ -410,7 +414,7 @@ msgid ""
 msgstr ""
 "A befejezetlen nyelvek fordítási állapota alacsony, de segíthet a fordítás "
 "növelésében. Nézze meg a `fejlesztői kézikönyvet "
-"<https://doc.otrs.com/doc/manual/developer/7.0/en/content/contributing/translate.html>`__"
+"<https://doc.otrs.com/doc/manual/developer/7.0/hu/content/contributing/translate.html>`__"
 " az OTRS fordításával kapcsolatos további információkért."
 
 #: ../../content/avatar/personal-preferences.rst:104
@@ -498,7 +502,7 @@ msgstr ""
 
 #: ../../content/avatar/personal-preferences.rst:147
 msgid ""
-"In :doc:`../tickets/queue-view` only these queues will be displayed under "
+"In :doc:`../tickets/queue-view` only those queues will be displayed under "
 "*My Queues* filter, that are selected in this widget."
 msgstr ""
 "A :doc:`../tickets/queue-view` csak azokat a várólistákat jeleníti meg a "
@@ -525,10 +529,46 @@ msgid "Select one or more queues from the drop-down list."
 msgstr "Válasszon egy vagy több várólistát a legördülő listából."
 
 #: ../../content/avatar/personal-preferences.rst:160
+msgid "My Services"
+msgstr "Saját szolgáltatások"
+
+#: ../../content/avatar/personal-preferences.rst:164
+#: ../../content/tickets/service-view.rst:6
+msgid ""
+"System configuration ``Ticket::Service`` needs to be activated to use this "
+"feature."
+msgstr ""
+"A ``Ticket::Service`` rendszerbeállítás aktiválása szükséges a funkció "
+"használatához."
+
+#: ../../content/avatar/personal-preferences.rst:166
+msgid "In this widget some services can be selected as preferred services."
+msgstr ""
+"Ezen a felületi elemen néhány szolgáltatás választható ki előnyben "
+"részesített szolgáltatásokként."
+
+#: ../../content/avatar/personal-preferences.rst:168
+msgid ""
+"In :doc:`../tickets/service-view` only those services will be displayed "
+"under *My Services* filter, that are selected in this widget."
+msgstr ""
+"A :doc:`../tickets/service-view` csak azokat a szolgáltatásokat jeleníti meg"
+" a *Saját szolgáltatásaim* szűrő alatt, amelyek ezen a felületi elemen ki "
+"vannak jelölve."
+
+#: ../../content/avatar/personal-preferences.rst:173
+msgid "My Services Widget"
+msgstr "Saját szolgáltatások felületi elem"
+
+#: ../../content/avatar/personal-preferences.rst:175
+msgid "Select one or more services from the drop-down list."
+msgstr "Válasszon egy vagy több szolgáltatást a legördülő listából."
+
+#: ../../content/avatar/personal-preferences.rst:179
 msgid "Ticket Notifications"
 msgstr "Jegyértesítések"
 
-#: ../../content/avatar/personal-preferences.rst:162
+#: ../../content/avatar/personal-preferences.rst:181
 msgid ""
 "In this widget can be selected the methods used for any kind of ticket "
 "notifications."
@@ -536,20 +576,20 @@ msgstr ""
 "Ezen a felületi elemen választhatók ki a bármilyen típusú jegyértesítéshez "
 "használt módszerek."
 
-#: ../../content/avatar/personal-preferences.rst:167
+#: ../../content/avatar/personal-preferences.rst:186
 msgid "Ticket Notifications Widget"
 msgstr "Jegyértesítések felületi elem"
 
-#: ../../content/avatar/personal-preferences.rst:169
-#: ../../content/avatar/personal-preferences.rst:182
+#: ../../content/avatar/personal-preferences.rst:188
+#: ../../content/avatar/personal-preferences.rst:201
 msgid "The possible methods are *Email*, *Web View* or *SMS*."
 msgstr "A lehetséges módszerek: *E-mail*, *Webnézet* vagy *SMS*."
 
-#: ../../content/avatar/personal-preferences.rst:173
+#: ../../content/avatar/personal-preferences.rst:192
 msgid "Appointment Notifications"
 msgstr "Időpont-értesítések"
 
-#: ../../content/avatar/personal-preferences.rst:175
+#: ../../content/avatar/personal-preferences.rst:194
 msgid ""
 "In this widget can be selected the methods used for appointment "
 "notification."
@@ -557,39 +597,93 @@ msgstr ""
 "Ezen a felületi elemen választhatók ki az időpont-értesítéshez használt "
 "módszerek."
 
-#: ../../content/avatar/personal-preferences.rst:180
+#: ../../content/avatar/personal-preferences.rst:199
 msgid "Appointment Notifications Widget"
 msgstr "Időpont-értesítések felületi elem"
 
-#: ../../content/avatar/personal-preferences.rst:188
+#: ../../content/avatar/personal-preferences.rst:205
+msgid "My Chat Channels"
+msgstr "Saját csevegőcsatornák"
+
+#: ../../content/avatar/personal-preferences.rst:209 ../../content/chat.rst:6
+#: ../../content/chat/chat.rst:6 ../../content/dashboard/dashboard.rst:27
+msgid ""
+"System configuration ``ChatEngine::Active`` needs to be activated to use "
+"this feature."
+msgstr ""
+"A ``ChatEngine::Active`` rendszerbeállítás aktiválása szükséges a funkció "
+"használatához."
+
+#: ../../content/avatar/personal-preferences.rst:211
+msgid ""
+"In this widget some chat channels can be selected as preferred external chat"
+" channels. You will be notified about external chat requests in these chat "
+"channels."
+msgstr ""
+"Ezen a felületi elemen néhány csevegőcsatorna választható ki előnyben "
+"részesített csevegőcsatornákként. Értesítést fog kapni az ezekben a "
+"csevegőcsatornákban létrejött külső csevegéskérésekről."
+
+#: ../../content/avatar/personal-preferences.rst:213
+msgid ""
+"In :doc:`../chat/chat` screen only those chat channels will be displayed "
+"under *My Chat Channels* filter, that are selected in this widget."
+msgstr ""
+"A :doc:`../chat/chat` csak azokat a csevegőcsatornákat jeleníti meg a *Saját"
+" csevegőcsatornák* szűrő alatt, amelyek ezen a felületi elemen ki vannak "
+"jelölve."
+
+#: ../../content/avatar/personal-preferences.rst:218
+msgid "My Chat Channels Widget"
+msgstr "Saját csevegőcsatornák felületi elem"
+
+#: ../../content/avatar/personal-preferences.rst:220
+msgid ""
+"Select one or more chat channels from the drop-down list. An agent needs to "
+"select in which chat channels want to be available. Customers will only be "
+"able to create a new chat request on a certain channel if at least one agent"
+" with owner permissions has selected this channel in their preferences and "
+"is set as available for external chats by the chat availability icon in the "
+":doc:`../dashboard/dashboard` header toolbar."
+msgstr ""
+"Válasszon egy vagy több csevegőcsatornát a legördülő listából. Egy "
+"ügyintézőnek ki kell választania, hogy mely csevegőcsatornákban szeretne "
+"elérhető lenni. Az ügyfelek csak akkor lesznek képesek új csevegéskérést "
+"létrehozni egy bizonyos csatornán, ha legalább egy tulajdonos "
+"jogosultságokkal rendelkező ügyintéző kiválasztotta ezt a csatornát a "
+"beállításaiban, és elérhetőként van beállítva a külső csevegésekhez a "
+":doc:`../dashboard/dashboard` fejléceszköztárán lévő csevegés-elérhetőségi "
+"ikonnal."
+
+#: ../../content/avatar/personal-preferences.rst:226
 msgid "These settings are for change some visual appearance of OTRS."
 msgstr ""
 "Ezek a beállítások az OTRS néhány vizuális megjelenésének megváltoztatásához"
 " vannak."
 
-#: ../../content/avatar/personal-preferences.rst:192
+#: ../../content/avatar/personal-preferences.rst:230
 msgid "Skin"
 msgstr "Felszín"
 
-#: ../../content/avatar/personal-preferences.rst:194
+#: ../../content/avatar/personal-preferences.rst:232
 msgid "In this widget can be selected the skin, that OTRS should wear."
 msgstr ""
 "Ezen a felületi elemen választható ki az a felszín, amelyet az OTRS-nek "
 "viselnie kell."
 
-#: ../../content/avatar/personal-preferences.rst:199
+#: ../../content/avatar/personal-preferences.rst:237
 msgid "Skin Widget"
 msgstr "Felszín felületi elem"
 
-#: ../../content/avatar/personal-preferences.rst:201
+#: ../../content/avatar/personal-preferences.rst:239
 msgid "Select a skin from the drop-down list."
 msgstr "Válasszon egy felszínt a legördülő listából."
 
-#: ../../content/avatar/personal-preferences.rst:205
+#: ../../content/avatar/personal-preferences.rst:243
 msgid "Overview Refresh Time"
 msgstr "Áttekintő frissítési ideje"
 
-#: ../../content/avatar/personal-preferences.rst:207
+#: ../../content/avatar/personal-preferences.rst:245
 msgid ""
 "It is possible to make overview screens automatically refreshed after a "
 "period of time."
@@ -597,15 +691,15 @@ msgstr ""
 "Lehetőség van az áttekintő képernyők automatikus frissítésére egy bizonyos "
 "időtartam után."
 
-#: ../../content/avatar/personal-preferences.rst:212
+#: ../../content/avatar/personal-preferences.rst:250
 msgid "Overview Refresh Time Widget"
 msgstr "Áttekintő frissítési ideje felületi elem"
 
-#: ../../content/avatar/personal-preferences.rst:214
+#: ../../content/avatar/personal-preferences.rst:252
 msgid "Select a refresh interval from the drop-down list."
 msgstr "Válasszon egy frissítési időközt a legördülő listából."
 
-#: ../../content/avatar/personal-preferences.rst:218
+#: ../../content/avatar/personal-preferences.rst:256
 msgid ""
 "Refreshing the overview screens too often can cause performance issues on "
 "large systems with many agents."
@@ -614,65 +708,65 @@ msgstr ""
 "teljesítményproblémákat okozhat a sok ügyintézővel rendelkező nagy "
 "rendszereknél."
 
-#: ../../content/avatar/personal-preferences.rst:222
+#: ../../content/avatar/personal-preferences.rst:260
 msgid "Screen after new ticket"
 msgstr "Új jegy utáni képernyő"
 
-#: ../../content/avatar/personal-preferences.rst:224
+#: ../../content/avatar/personal-preferences.rst:262
 msgid ""
 "Select, which screen should be shown after a new ticket has been created."
 msgstr ""
 "Annak kiválasztása, hogy mely képernyő legyen megjelenítve, miután egy új "
 "jegyet létrehoztak."
 
-#: ../../content/avatar/personal-preferences.rst:229
+#: ../../content/avatar/personal-preferences.rst:267
 msgid "Screen After New Ticket Widget"
 msgstr "Új jegy utáni képernyő felületi elem"
 
-#: ../../content/avatar/personal-preferences.rst:231
+#: ../../content/avatar/personal-preferences.rst:269
 msgid "Select a screen from the drop-down list."
 msgstr "Válasszon egy képernyőt a legördülő listából."
 
-#: ../../content/avatar/personal-preferences.rst:237
+#: ../../content/avatar/personal-preferences.rst:275
 msgid "In this module can be configured some system configuration options."
 msgstr "Ebben a modulban állítható be néhány rendszerbeállítási lehetőség."
 
-#: ../../content/avatar/personal-preferences.rst:242
+#: ../../content/avatar/personal-preferences.rst:280
 msgid "Advanced Preferences Screen"
 msgstr "Speciális beállítások képernyő"
 
-#: ../../content/avatar/personal-preferences.rst:244
+#: ../../content/avatar/personal-preferences.rst:282
 msgid "To modify a setting:"
 msgstr "Egy beállítás módosításához:"
 
-#: ../../content/avatar/personal-preferences.rst:246
+#: ../../content/avatar/personal-preferences.rst:284
 msgid ""
 "Use the tree navigation in the left sidebar to find the desired setting."
 msgstr ""
 "Használja a navigációs fát a bal oldalsávban, hogy megtalálja a kívánt "
 "beállítást."
 
-#: ../../content/avatar/personal-preferences.rst:247
+#: ../../content/avatar/personal-preferences.rst:285
 msgid "Modify the value."
 msgstr "Módosítsa az értéket."
 
-#: ../../content/avatar/personal-preferences.rst:248
+#: ../../content/avatar/personal-preferences.rst:286
 msgid "Click on the tick button in the right side of the setting widget."
 msgstr "Kattintson a pipa gombra a beállítási felületi elem jobb oldalán."
 
-#: ../../content/avatar/personal-preferences.rst:253
+#: ../../content/avatar/personal-preferences.rst:291
 msgid "Advanced Preferences - Tree navigation Screen"
 msgstr "Speciális beállítások – fa navigációs képernyő"
 
-#: ../../content/avatar/personal-preferences.rst:255
+#: ../../content/avatar/personal-preferences.rst:293
 msgid "The modified settings have a gray border on the left."
 msgstr "A módosított beállítások szürke szegélyt kapnak a bal oldalon."
 
-#: ../../content/avatar/personal-preferences.rst:257
+#: ../../content/avatar/personal-preferences.rst:295
 msgid "To reset a setting:"
 msgstr "Egy beállítás visszaállításához:"
 
-#: ../../content/avatar/personal-preferences.rst:259
+#: ../../content/avatar/personal-preferences.rst:297
 msgid "Click on the reset icon in the top right corner of the setting widget."
 msgstr ""
 "Kattintson a visszaállítás ikonra a beállítási felületi elem jobb felső "
@@ -866,6 +960,10 @@ msgstr "Töltse ki a szükséges mezőket."
 #: ../../content/tickets/queue-view.rst:45
 #: ../../content/tickets/queue-view.rst:102
 #: ../../content/tickets/queue-view.rst:126
+#: ../../content/tickets/service-view.rst:42
+#: ../../content/tickets/service-view.rst:49
+#: ../../content/tickets/service-view.rst:106
+#: ../../content/tickets/service-view.rst:130
 #: ../../content/tickets/status-view.rst:30
 #: ../../content/tickets/status-view.rst:37
 #: ../../content/tickets/status-view.rst:94
@@ -1111,8 +1209,8 @@ msgstr ""
 " a kapcsolatot a rendszergazdával."
 
 #: ../../content/calendar/new-appointment.rst:61
-#: ../../content/dashboard/dashboard.rst:141
-#: ../../content/dashboard/dashboard.rst:143
+#: ../../content/dashboard/dashboard.rst:157
+#: ../../content/dashboard/dashboard.rst:159
 msgid "Ticket"
 msgstr "Jegy"
 
@@ -1247,6 +1345,670 @@ msgstr ""
 #: ../../content/calendar/resource-overview.rst:11
 msgid "Upgrade Dialog"
 msgstr "Frissítés párbeszédablak"
+
+#: ../../content/chat.rst:2
+msgid "Chat"
+msgstr "Csevegés"
+
+#: ../../content/chat.rst:8
+msgid ""
+"The chat feature allows for chats between agents and customers using the "
+"OTRS front end. Once enabled, customers or public users can start chats with"
+" agents and vice versa. Finished chats can be archived and attached to "
+"tickets, or can be downloaded as PDF by agents, customers and public users."
+msgstr ""
+"A csevegés funkció csevegéseket tesz lehetővé az ügyintézők és az ügyfelek "
+"közt az OTRS előtétprogram használatával. Miután engedélyezve lett, az "
+"ügyfelek vagy a nyilvános felhasználók csevegéseket indíthatnak az "
+"ügyintézőkkel, és fordítva. A befejezett csevegések archiválhatók, és "
+"hozzácsatolhatók a jegyekhez, vagy az ügyintézők, az ügyfelek és a nyilvános"
+" felhasználók letölthetik PDF-formátumban."
+
+#: ../../content/chat.rst:10
+msgid ""
+"Each chat is assigned to a chat channel. Chat channels are like chat rooms. "
+"Each chat channel is assigned to a certain group which controls the "
+"permissions for this channel. If no chat channel is selected when a chat is "
+"created, this chat will be created in the *Default channel*."
+msgstr ""
+"Minden egyes csevegés hozzá van rendelve egy csevegőcsatornához. A "
+"csevegőcsatornák olyanok mint a csevegőszobák. Az egyes csevegőcsatornák "
+"hozzá vannak rendelve egy bizonyos csoporthoz, amely a jogosultságokat "
+"szabályozza a csatornánál. Ha a csevegés létrehozásakor nincs "
+"csevegőcsatorna kiválasztva, akkor a csevegés az *Alapértelmezett "
+"csatornában* lesz létrehozva."
+
+#: ../../content/chat/chat.rst:2
+msgid "Manage Chats"
+msgstr "Csevegések kezelése"
+
+#: ../../content/chat/chat.rst:8
+msgid ""
+"The chat management screen is the central point of the chat feature. Here an"
+" agent can manage the chats as well as see and accept open requests. This "
+"screen provides a list of chat requests from customer users, public users "
+"and other agents, as well as an overview over all active chats."
+msgstr ""
+"A csevegéskezelés képernyő a csevegés funkció középpontja. Egy ügyintéző itt"
+" kezelheti a csevegéseket, valamint láthatja és elfogadhatja a nyitott "
+"kéréseket. Ez a képernyő szolgáltatja a csevegéskérések listáját az ügyfél-"
+"felhasználóktól, a nyilvános felhasználóktól és más ügyintézőktől, valamint "
+"egy áttekintőt az összes aktív csevegésről."
+
+#: ../../content/chat/chat.rst:10
+msgid ""
+"Use this menu item to manage chats. The chat management screen is available "
+"in the *Chat* menu."
+msgstr ""
+"Használja ezt a menüpontot a csevegések kezeléséhez. A csevegéskezelés "
+"képernyő a *Csevegés* menüben érhető el."
+
+#: ../../content/chat/chat.rst:15
+msgid "Chat Management Screen"
+msgstr "Csevegéskezelés képernyő"
+
+#: ../../content/chat/chat.rst:17
+msgid ""
+"Each chat channel can be filtered with the options in the top of the widget "
+"to list *All Chat Channels* or only *My Chat Channels* set in "
+":doc:`../avatar/personal-preferences`."
+msgstr ""
+"Minden egyes csevegőcsatorna szűrhető a felületi elem tetején lévő "
+"lehetőségekkel, hogy az *Összes csevegőcsatorna* vagy csak a :doc:`../avatar"
+"/personal-preferences` képernyőn megadott *Saját csevegőcsatornák* legyenek "
+"felsorolva."
+
+#: ../../content/chat/chat.rst:21
+msgid "Start New Chat"
+msgstr "Új csevegés indítása"
+
+#: ../../content/chat/chat.rst:23
+msgid "A chat participant can be an agent, a customer user or a public user."
+msgstr ""
+"Egy csevegés résztvevője lehet egy ügyintéző, egy ügyfél-felhasználó vagy "
+"egy nyilvános felhasználó."
+
+#: ../../content/chat/chat.rst:27
+msgid "Agent to Agent"
+msgstr "Ügyintéző – ügyintéző"
+
+#: ../../content/chat/chat.rst:29
+msgid "To start a chat with another agent:"
+msgstr "Egy csevegés indításához egy másik ügyintézővel:"
+
+#: ../../content/chat/chat.rst:31
+msgid ""
+"Use the *Logged-In Users* widget in the dashboard. Agents who are able to "
+"use the chat, will have a chat icon next to their name."
+msgstr ""
+"Használja a *Bejelentkezett felhasználók* felületi elemet a vezérlőpulton. "
+"Azok az ügyintézők, akik képesek használni a csevegést, egy csevegés ikonnal"
+" rendelkeznek a nevük mellett."
+
+#: ../../content/chat/chat.rst:36
+msgid "Available Agents"
+msgstr "Elérhető ügyintézők"
+
+#: ../../content/chat/chat.rst:38
+msgid "Click on the chat icon next to an agent name."
+msgstr "Kattintson a csevegés ikonra egy ügyintéző neve mellett."
+
+#: ../../content/chat/chat.rst:39 ../../content/chat/chat.rst:85
+msgid ""
+"Write the first message to the *Start Chat* dialog and send the message."
+msgstr ""
+"Írja be az első üzenetet a *Csevegés indítása* párbeszédablakba, és küldje "
+"le az üzenetet."
+
+#: ../../content/chat/chat.rst:44 ../../content/chat/chat.rst:90
+msgid "Start Chat Dialog"
+msgstr "Csevegés indítása párbeszédablak"
+
+#: ../../content/chat/chat.rst:46 ../../content/chat/chat.rst:92
+msgid ""
+"After the chat request has been sent to the other agent, watch the chat in "
+"the chat management screen. A browser notification is displayed to inform "
+"the agent."
+msgstr ""
+"Miután a csevegéskérés elküldésre került a másik ügyintézőnek, figyelje a "
+"csevegést a csevegéskezelés képernyőn. Egy böngészőértesítés jelenik meg az "
+"ügyintéző tájékoztatásához."
+
+#: ../../content/chat/chat.rst:51 ../../content/chat/chat.rst:97
+msgid "My Active Chats Widget"
+msgstr "Saját aktív csevegések felületi elem"
+
+#: ../../content/chat/chat.rst:53
+msgid ""
+"Wait for the answer. The other agent has to accept the chat request with the"
+" *Open Chat* link."
+msgstr ""
+"Várjon a válaszra. A másik ügyintézőnek el kell fogadnia a csevegéskérést a "
+"*Csevegés megnyitása* hivatkozással."
+
+#: ../../content/chat/chat.rst:58
+msgid "Personal Chat Requests For You Widget"
+msgstr "Személyes csevegéskérések Önnek felületi elem"
+
+#: ../../content/chat/chat.rst:60
+msgid "When the other agent accepts the chat request, you can chat now."
+msgstr ""
+"Ha a másik ügyintéző elfogadja a csevegéskérést, akkor most már "
+"cseveghetnek."
+
+#: ../../content/chat/chat.rst:65
+msgid "Agent to Agent Chat"
+msgstr "Ügyintéző – ügyintéző csevegés"
+
+#: ../../content/chat/chat.rst:69
+msgid "Agent to Customer User"
+msgstr "Ügyintéző – ügyfél-felhasználó"
+
+#: ../../content/chat/chat.rst:71
+msgid "To start a chat with a customer user:"
+msgstr "Egy csevegés indításához egy ügyfél-felhasználóval:"
+
+#: ../../content/chat/chat.rst:73
+msgid ""
+"Use the *Logged-In Users* widget in the dashboard. Customer users who are "
+"able to use the chat, will have a chat icon next to their name."
+msgstr ""
+"Használja a *Bejelentkezett felhasználók* felületi elemet a vezérlőpulton. "
+"Azok az ügyfél-felhasználók, akik képesek használni a csevegést, egy "
+"csevegés ikonnal rendelkeznek a nevük mellett."
+
+#: ../../content/chat/chat.rst:78
+msgid "Available Customer Users"
+msgstr "Elérhető ügyfél-felhasználók"
+
+#: ../../content/chat/chat.rst:82
+msgid ""
+"Customer users can also be selected in *Customer User Information Center* or"
+" from the *Customer Information* widget of the *Ticket Zoom* screen."
+msgstr ""
+"Az ügyfél-felhasználók kiválaszthatók az *Ügyfél-felhasználó információs-"
+"központban* vagy a *Jegynagyítás* képernyő *Ügyfél-információk* felületi "
+"eleméből is."
+
+#: ../../content/chat/chat.rst:84
+msgid "Click on the chat icon next to a customer user name."
+msgstr "Kattintson a csevegés ikonra egy ügyfél-felhasználó neve mellett."
+
+#: ../../content/chat/chat.rst:99
+msgid ""
+"Wait for the answer. The customer user has to accept the chat request which "
+"is displayed in the bottom right corner of the external interface."
+msgstr ""
+"Várjon a válaszra. Az ügyfél-felhasználónak el kell fogadnia a "
+"csevegéskérést, amely a külső felület jobb alsó sarkában jelenik meg."
+
+#: ../../content/chat/chat.rst:104
+msgid "Chat Request on External Interface"
+msgstr "Csevegéskérés a külső felületen"
+
+#: ../../content/chat/chat.rst:106
+msgid "When the customer user accepts the chat request, you can chat now."
+msgstr ""
+"Ha az ügyfél-felhasználó elfogadja a csevegéskérést, akkor most már "
+"cseveghetnek."
+
+#: ../../content/chat/chat.rst:111
+msgid "Agent to Customer User Chat"
+msgstr "Ügyintéző – ügyfél-felhasználó csevegés"
+
+#: ../../content/chat/chat.rst:113
+msgid ""
+"When the customer user closes the chat, it is possible to send the chat via "
+"email or create a ticket from the conversation."
+msgstr ""
+"Ha az ügyfél-felhasználó bezárja a csevegést, akkor lehetőség van a csevegés"
+" elküldésére e-mailben vagy egy jegy létrehozására a beszélgetésből."
+
+#: ../../content/chat/chat.rst:118
+msgid "Save the Conversation on External Interface"
+msgstr "A beszélgetés mentése a külső felületen"
+
+#: ../../content/chat/chat.rst:122
+msgid "Customer User to Agent"
+msgstr "Ügyfél-felhasználó – ügyintéző"
+
+#: ../../content/chat/chat.rst:124
+msgid ""
+"Customer users are not able to start a chat directly with a certain agent, "
+"but only to create generic chat requests."
+msgstr ""
+"Az ügyfél-felhasználók nem tudnak csevegést indítani közvetlenül egy "
+"bizonyos ügyintézővel, hanem csak általános csevegéskéréseket hozhatnak "
+"létre."
+
+#: ../../content/chat/chat.rst:126
+msgid "To receive a chat request from a customer user:"
+msgstr "Egy csevegéskérés fogadásához egy ügyfél-felhasználótól:"
+
+#: ../../content/chat/chat.rst:128
+msgid ""
+"A customer user clicked on the *New conversation* button within the chat "
+"window in the bottom right corner of the external interface."
+msgstr ""
+"Egy ügyfél-felhasználó rákattintott az *Új beszélgetés* gombra a külső "
+"felület jobb alsó sarkában lévő csevegésablakon belül."
+
+#: ../../content/chat/chat.rst:133 ../../content/chat/chat.rst:165
+msgid "Start Chat Window"
+msgstr "Csevegés indítása ablak"
+
+#: ../../content/chat/chat.rst:135
+msgid ""
+"A browser notification is displayed to inform the agent. Go to the chat "
+"management screen, and open the general chat request with the *Open chat* "
+"link."
+msgstr ""
+"Egy böngészőértesítés jelenik meg az ügyintéző tájékoztatásához. Menjen a "
+"csevegéskezelés képernyőhöz, és nyissa meg az általános csevegéskérést a "
+"*Csevegés megnyitása* hivatkozással."
+
+#: ../../content/chat/chat.rst:140
+msgid "General Chat Requests From Customers Widget"
+msgstr "Általános csevegéskérések az ügyfelektől felületi elem"
+
+#: ../../content/chat/chat.rst:142
+msgid "Accept the chat request."
+msgstr "Fogadja el a csevegéskérést."
+
+#: ../../content/chat/chat.rst:147
+msgid "Chat Preview Dialog"
+msgstr "Csevegés előnézet párbeszédablak"
+
+#: ../../content/chat/chat.rst:149
+msgid "When an agent accepts the chat request, they can chat now."
+msgstr ""
+"Ha egy ügyintéző elfogadja a csevegéskérést, akkor most már cseveghetnek."
+
+#: ../../content/chat/chat.rst:154
+msgid "Customer User to Agent Chat"
+msgstr "Ügyfél-felhasználó – ügyintéző csevegés"
+
+#: ../../content/chat/chat.rst:158
+msgid "Public User to Agent"
+msgstr "Nyilvános felhasználó – ügyintéző"
+
+#: ../../content/chat/chat.rst:160
+msgid ""
+"Visitors of the external interface are also not able to start a chat "
+"directly with a certain agent, but only to create generic chat requests. As "
+"they are not logged in, they need to add a name to start the chat."
+msgstr ""
+"A külső felület látogatói sem képesek csevegést indítani közvetlenül egy "
+"bizonyos ügyintézővel, hanem csak általános csevegéskéréseket hozhatnak "
+"létre. Mivel nincsenek bejelentkezve, meg kell adniuk egy nevet a csevegés "
+"indításához."
+
+#: ../../content/chat/chat.rst:167
+msgid ""
+"The steps are the same as described in *Customer User to Agent* section, but"
+" the chat request is displayed in the *General Chat Requests From Public "
+"Users* widget."
+msgstr ""
+"A lépések ugyanazok, mint amelyek az *Ügyfél-felhasználó – ügyintéző* "
+"szakaszban kerültek bemutatásra, azonban a csevegéskérés az *Általános "
+"csevegéskérések a nyilvános felhasználóktól* felületi elemen jelenik meg."
+
+#: ../../content/chat/chat.rst:172
+msgid "General Chat Requests From Public Users Widget"
+msgstr "Általános csevegéskérések a nyilvános felhasználóktól felületi elem"
+
+#: ../../content/chat/chat.rst:176
+msgid "Chat Widget"
+msgstr "Csevegés felületi elem"
+
+#: ../../content/chat/chat.rst:178
+msgid ""
+"The chat widget is the main component when chatting with other people. It "
+"provides a history of all messages in the chat as well as list of possible "
+"actions depending on your permission level."
+msgstr ""
+"A csevegés felületi elem a fő összetevő, ha más emberekkel cseveg. A "
+"csevegésben lévő összes üzenet előzményét, valamint a lehetséges műveletek "
+"listáját szolgáltatja a jogosultsági szintjétől függően."
+
+#: ../../content/chat/chat.rst:180
+msgid ""
+"The messages can be sent using the text field of a chat in *My Active Chats*"
+" widget by either clicking the send icon next to the text field or hitting "
+"the Enter key. Shift + Enter can be used to insert a new line into the "
+"message."
+msgstr ""
+"Az üzenetek elküldhetők a *Saját aktív csevegések* felületi elemben lévő "
+"csevegés szövegmezőjének használatával, ha rákattint a szövegmező melletti "
+"küldés ikonra, vagy ha lenyomja az Enter billentyűt. A Shift + Enter "
+"használható új sor beszúrásához az üzenetbe."
+
+#: ../../content/chat/chat.rst:182
+msgid ""
+"Every chat participant has a colored circle icon before his/her name in the "
+"chat widget header, which represents the participant availability."
+msgstr ""
+"Minden csevegésrésztvevő rendelkezik egy színes kör ikonnal a neve előtt a "
+"csevegés felületi elem fejlécében, amely a résztvevő elérhetőségét "
+"ábrázolja."
+
+#: ../../content/chat/chat.rst:184
+msgid "Green: participant is active (available and online)."
+msgstr "Zöld: a résztvevő aktív (elérhető és kapcsolatban van)."
+
+#: ../../content/chat/chat.rst:185
+msgid ""
+"Yellow: participant is away (available, but there was no request sent to the"
+" server from this user for some time set in "
+"``ChatEngine::AgentOnlineThreshold``)."
+msgstr ""
+"Sárga: a résztvevő távol van (elérhető, de nem lett kérés küldve a "
+"kiszolgáló felé ettől a felhasználótól a "
+"``ChatEngine::AgentOnlineThreshold`` beállításban megadott időn belül)."
+
+#: ../../content/chat/chat.rst:186
+msgid ""
+"Pink: participant is inactive (chat request is not accepted yet or "
+"participant left the chat)."
+msgstr ""
+"Rózsaszín: a résztvevő inaktív (a csevegéskérés még nem lett elfogadva vagy "
+"a résztvevő elhagyta a csevegést)."
+
+#: ../../content/chat/chat.rst:187
+msgid "Red: participant is unavailable (set via availability button)."
+msgstr ""
+"Piros: a résztvevő nem érhető el (az elérhetőségi gombon keresztül "
+"beállítva)."
+
+#: ../../content/chat/chat.rst:188
+msgid "Black: participant has logged out or session has expired."
+msgstr "Fekete: a résztvevő kijelentkezett vagy a munkamenet lejárt."
+
+#: ../../content/chat/chat.rst:190
+msgid "The chat widget has some icons in the top right corner."
+msgstr ""
+"A csevegés felületi elem rendelkezik néhány ikonnal a jobb felső sarokban."
+
+#: ../../content/chat/chat.rst:195
+msgid "Chat Menu"
+msgstr "Csevegésmenü"
+
+#: ../../content/chat/chat.rst:197
+msgid ""
+"The first triangle icon expands and collapses the chat menu. The menu has "
+"several menu items."
+msgstr ""
+"Az első háromszög ikon kinyitja és összecsukja a csevegésmenüt. A menü "
+"számos menüponttal rendelkezik."
+
+#: ../../content/chat/chat.rst:200 ../../content/tickets/ticket-zoom.rst:438
+msgid "Phone ticket"
+msgstr "Telefonos jegy"
+
+#: ../../content/chat/chat.rst:200
+msgid ""
+"Allows you to create a phone ticket to which the current chat will be "
+"appended to as an article. After the ticket has successfully created, the "
+"chat will get closed automatically."
+msgstr ""
+"Lehetővé teszi egy olyan telefonos jegy létrehozását, amelyhez a jelenlegi "
+"csevegés hozzá lesz fűzve egy bejegyzésként. Miután sikeresen létrehozta a "
+"jegyet, a csevegés automatikusan be lesz zárva."
+
+#: ../../content/chat/chat.rst:203
+msgid "Append"
+msgstr "Hozzáfűzés"
+
+#: ../../content/chat/chat.rst:203
+msgid ""
+"Allows you to append this chat as an article to a selected ticket. After the"
+" article has been created, the chat will get closed automatically."
+msgstr ""
+"Lehetővé teszi ennek a csevegésnek a hozzáfűzését bejegyzésként egy "
+"kiválasztott jegyhez. Miután a bejegyzés létrejött, a csevegés automatikusan"
+" be lesz zárva."
+
+#: ../../content/chat/chat.rst:206
+msgid "Invite"
+msgstr "Meghívás"
+
+#: ../../content/chat/chat.rst:206
+msgid ""
+"Allows you to invite another agent to this chat. You can select from a list "
+"of available agents who you want to invite. Once the agent has invited, a "
+"new agent to agent chat request will be sent to this agent. After the "
+"request has accepted, a new internal chat will be established between you "
+"and the invited agent. In this internal chat, the invited agent has two more"
+" actions available in the advanced actions toolbar: *Observer* and "
+"*Participant*."
+msgstr ""
+"Lehetővé teszi egy másik ügyintéző meghívást ebbe a csevegésbe. Az elérhető "
+"ügyintézők listájáról választhatja ki, hogy kit szeretne meghívni. Amikor "
+"meghívta az ügyintézőt, egy új ügyintéző-ügyintéző csevegéskérés lesz "
+"elküldve annak az ügyintézőnek. Miután elfogadta a kérést, egy új belső "
+"csevegés lesz létrehozva ön és a meghívott ügyintéző között. Ebben a belső "
+"csevegésben a meghívott ügyintézőnek további két művelet lesz elérhető a "
+"speciális műveletek eszköztárán: *Megfigyelő* és *Résztvevő*."
+
+#: ../../content/chat/chat.rst:209
+msgid "Channel change"
+msgstr "Csatornaváltoztatás"
+
+#: ../../content/chat/chat.rst:209
+msgid ""
+"Using this link, you can change the channel for this chat. For the selection"
+" of the target channel the same rules apply as for initially selecting a "
+"chat channel."
+msgstr ""
+"A hivatkozás használatával megváltoztathatja a csatornát ennél a "
+"csevegésnél. A célcsatorna kiválasztásánál ugyanazok a szabályok "
+"alkalmazhatók mint az eredetileg kiválasztott csevegőcsatornánál."
+
+#: ../../content/chat/chat.rst:212
+msgid "Download"
+msgstr "Letöltés"
+
+#: ../../content/chat/chat.rst:212
+msgid "Lets you download the complete history of this chat as PDF."
+msgstr "Lehetővé teszi a csevegés teljes előzményeinek letöltését PDF-ként."
+
+#: ../../content/chat/chat.rst:215
+msgid "New window"
+msgstr "Új ablak"
+
+#: ../../content/chat/chat.rst:215
+msgid ""
+"Opens this chat in a separate popup window. You can use this window in the "
+"same way as the chat widget and both the widget and the popup can be used at"
+" the same time."
+msgstr ""
+"Megnyitja ezt a csevegést egy különálló felugró ablakban. Ezt az ablakot "
+"ugyanolyan módon használhatja mint a csevegés felületi elemet, és mind a "
+"felületi elem, mind a felugró ablak egyszerre használható."
+
+#: ../../content/chat/chat.rst:222
+msgid "Observer"
+msgstr "Megfigyelő"
+
+#: ../../content/chat/chat.rst:218
+msgid ""
+"When you have been invited to a chat by another agent, you can decide if you"
+" want to join the chat as observer or participant depending on your "
+"permission level. Once you click the action from your toolbar, a new chat "
+"widget will be added to the list of your active chats which is the chat you "
+"have been invited to."
+msgstr ""
+"Amikor egy másik ügyintéző meghívta önt egy csevegésbe, akkor eldöntheti, "
+"hogy megfigyelőként vagy résztvevőként szeretne csatlakozni a csevegéshez a "
+"jogosultsági szintjétől függően. Miután rákattint az eszköztárról elérhető "
+"műveletre, egy új csevegés felületi elem lesz hozzáadva az aktív "
+"csevegéseinek listájához, amely az a csevegés, amelybe meghívták."
+
+#: ../../content/chat/chat.rst:220
+msgid ""
+"If you join the chat as observer, you will only be able to read what others "
+"are contributing to the chat and you will be invisible to customer users or "
+"public users. Agents will still receive a message that you joined the chat "
+"as observer."
+msgstr ""
+"Ha megfigyelőként csatlakozik egy csevegéshez, akkor csak olvasni lesz képes"
+" azokat, amikkel a többiek hozzájárulnak a csevegéshez, valamint láthatatlan"
+" lesz az ügyfél-felhasználóknak vagy a nyilvános felhasználóknak. Az "
+"ügyintézők mégis fogadhatnak majd olyan üzenetet, hogy megfigyelőként "
+"csatlakozott a csevegéshez."
+
+#: ../../content/chat/chat.rst:222
+msgid ""
+"As an observer, you have the possibility to become a participant anytime by "
+"using the advanced action toolbar in your chat widget depending on your "
+"permission level."
+msgstr ""
+"Megfigyelőként lehetősége van bármikor résztvevővé válni a csevegés felületi"
+" elemen lévő speciális művelet eszköztár használatával a jogosultsági "
+"szintjétől függően."
+
+#: ../../content/chat/chat.rst:225
+msgid "Participant"
+msgstr "Résztvevő"
+
+#: ../../content/chat/chat.rst:225
+msgid ""
+"If you want to contribute something to the chat you have been invited to, "
+"you can join it as a participant. Customer users, public users and agents "
+"will receive a message that you have entered the chat. As a participant, you"
+" can become an observer anytime by using the advanced action toolbar in your"
+" chat widget."
+msgstr ""
+"Ha szeretne valamivel hozzájárulni a csevegéshez, amelybe meghívták, akkor "
+"csatlakozhat résztvevőként. Az ügyfél-felhasználók, a nyilvános felhasználók"
+" és az ügyintézők egy üzenetet fognak kapni, hogy belépett a csevegésbe. "
+"Résztvevőként lehetősége van bármikor megfigyelővé válni a csevegés felületi"
+" elemen lévő speciális művelet eszköztár használatával."
+
+#: ../../content/chat/chat.rst:227
+msgid ""
+"The second circle icon allows the agent to set up a personal monitoring for "
+"this chat, which is a three-way switch:"
+msgstr ""
+"A második kör ikon lehetővé teszi az ügyintézőnek, hogy személyes "
+"megfigyelést állítson be ehhez a csevegéshez, amely egy háromállású "
+"kapcsoló:"
+
+#: ../../content/chat/chat.rst:229
+msgid "Empty circle: no monitoring."
+msgstr "Üres kör: nincs megfigyelés."
+
+#: ../../content/chat/chat.rst:230
+msgid "Empty circle with tick icon: only monitor customer user activity."
+msgstr ""
+"Üres kör egy pipával: csak az ügyfél-felhasználói tevékenység megfigyelése."
+
+#: ../../content/chat/chat.rst:231
+msgid "Filled circle with tick icon: monitor all actions."
+msgstr "Kitöltött kör egy pipával: minden művelet megfigyelése."
+
+#: ../../content/chat/chat.rst:233
+msgid ""
+"When monitoring a chat, browser notifications will show up each time there "
+"is a new action in this chat."
+msgstr ""
+"Egy csevegés megfigyelésekor böngészőértesítések fognak megjelenni minden "
+"alkalommal, amikor új művelet történik a csevegésben."
+
+#: ../../content/chat/chat.rst:235
+msgid ""
+"Finally the third close icon makes it possible to close the chat by clicking"
+" on the *X*."
+msgstr ""
+"Végül a harmadik bezárás ikon lehetővé teszi a csevegés bezárását az *X*-re "
+"kattintva."
+
+#: ../../content/chat/chat.rst:239
+msgid "Chat Integration"
+msgstr "Csevegés beágyazása"
+
+#: ../../content/chat/chat.rst:241
+msgid ""
+"The public chat can be easily integrated into a website with the chat "
+"integration configuration and snippet generator."
+msgstr ""
+"A nyilvános csevegés egyszerűen beágyazható egy weboldalba a csevegés "
+"beágyazásának beállításával és a kódrészlet előállítóval."
+
+#: ../../content/chat/chat.rst:243
+msgid "To configure the chat and generate code snippet:"
+msgstr "A csevegés beállításához és a kódrészlet előállításához:"
+
+#: ../../content/chat/chat.rst:245
+msgid "Click on the *Configure Chat Integration* button in the left sidebar."
+msgstr ""
+"Kattintson a *Csevegés beágyazásának beállítása* gombra a bal oldalsávban."
+
+#: ../../content/chat/chat.rst:246
+msgid "Customize the texts in the *Configuration* tab."
+msgstr "Szabja személyre a szövegeket a *Beállítás* lapon."
+
+#: ../../content/chat/chat.rst:251
+msgid "Chat Integration – Configuration"
+msgstr "Csevegés beágyazása – beállítás"
+
+#: ../../content/chat/chat.rst:255
+msgid ""
+"All changes made in the *Configuration* tab will not be saved. Every time "
+"you open this dialog, all fields will be reset to default values."
+msgstr ""
+"A *Beállítás* lapon elvégzett változtatások nem lesznek elmentve. Minden "
+"alkalommal, amikor megnyitja ezt a párbeszédablakot, az összes mező az "
+"alapértelmezett értékeire lesz visszaállítva."
+
+#: ../../content/chat/chat.rst:257
+msgid ""
+"Copy the code snippet from the *Integration Code* tab and paste it into your"
+" website right before the ``</body>`` element."
+msgstr ""
+"Másolja ki a kódrészletet a *Beágyazási kód* lapról, és illessze be a "
+"weboldalba közvetlenül a ``</body>`` elem elé."
+
+#: ../../content/chat/chat.rst:262
+msgid "Chat Integration – Integration Code"
+msgstr "Csevegés beágyazása – beágyazási kód"
+
+#: ../../content/chat/chat.rst:264
+msgid "You can check the result in the *Preview* tab."
+msgstr "Ellenőrizheti az eredményt az *Előnézet* lapon."
+
+#: ../../content/chat/chat.rst:269
+msgid "Chat Integration – Preview"
+msgstr "Csevegés beágyazása – előnézet"
+
+#: ../../content/chat/chat.rst:273
+msgid ""
+"The preview uses the real chat module. Other agents have to be available for"
+" chatting to preview all features."
+msgstr ""
+"Az előnézet a valódi csevegésmodult használja. Más ügyintézőknek is "
+"elérhetőnek kell lenniük a csevegéshez az összes funkció előnézetéhez."
+
+#: ../../content/chat/chat.rst:275
+msgid ""
+"If mixed content warning is displayed in the browser console, an "
+"administrator has to check that the system configuration setting "
+"``HttpType`` is properly set. The website must run on the same protocol for "
+"chat widget to work."
+msgstr ""
+"Ha kevert tartalom figyelmeztetés jelenik meg a böngésző konzoljában, akkor "
+"egy adminisztrátornak ellenőriznie kell, hogy a ``HttpType`` "
+"rendszerbeállítási lehetőség helyesen van-e beállítva. A weboldalnak "
+"ugyanilyen protokollon kell futnia ahhoz, hogy a csevegés felületi elem "
+"működjön."
+
+#: ../../content/chat/chat.rst:277
+msgid ""
+"For example, if the website is running OTRS on SSL, the system configuration"
+" option must be set to ``https``."
+msgstr ""
+"Például ha a weboldal SSL-en futtatja az OTRS-t, akkor a rendszerbeállítási "
+"lehetőséget ``https`` értékre kell állítani."
 
 #: ../../content/customers.rst:2
 msgid "Customers"
@@ -1654,7 +2416,7 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:78
 #: ../../content/customers/customer-user-information-center.rst:67
-#: ../../content/dashboard/dashboard.rst:33
+#: ../../content/dashboard/dashboard.rst:49
 msgid "Each ticket widget has own filter for displaying:"
 msgstr ""
 "Minden egyes jegy felületi elemnek saját szűrője van az alábbiak "
@@ -1662,14 +2424,14 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:80
 #: ../../content/customers/customer-user-information-center.rst:71
-#: ../../content/dashboard/dashboard.rst:35
+#: ../../content/dashboard/dashboard.rst:51
 msgid "My locked tickets: tickets which are locked by the current agent."
 msgstr ""
 "Saját zárolt jegyek: azok a jegyek, amelyeket az aktuális ügyintéző zárolt."
 
 #: ../../content/customers/customer-information-center.rst:81
 #: ../../content/customers/customer-user-information-center.rst:72
-#: ../../content/dashboard/dashboard.rst:38
+#: ../../content/dashboard/dashboard.rst:54
 msgid ""
 "Tickets in My Queues: tickets which are in queues selected in "
 ":doc:`../avatar/personal-preferences`."
@@ -1679,13 +2441,13 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:82
 #: ../../content/customers/customer-user-information-center.rst:73
-#: ../../content/dashboard/dashboard.rst:40
+#: ../../content/dashboard/dashboard.rst:56
 msgid "All tickets: all tickets in this kind of widget."
 msgstr "Összes jegy: ezen típusú felületi elem összes jegye."
 
 #: ../../content/customers/customer-information-center.rst:84
 #: ../../content/customers/customer-user-information-center.rst:75
-#: ../../content/dashboard/dashboard.rst:90
+#: ../../content/dashboard/dashboard.rst:106
 msgid ""
 "The *Reminder Tickets* widget lists the pending tickets. Pending tickets are"
 " set for later work by the agent, and the reminder time is going to expire "
@@ -1697,13 +2459,13 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:89
 #: ../../content/customers/customer-user-information-center.rst:80
-#: ../../content/dashboard/dashboard.rst:95
+#: ../../content/dashboard/dashboard.rst:111
 msgid "Reminder Tickets Widget"
 msgstr "Emlékeztető jegyek felületi elem"
 
 #: ../../content/customers/customer-information-center.rst:91
 #: ../../content/customers/customer-user-information-center.rst:82
-#: ../../content/dashboard/dashboard.rst:97
+#: ../../content/dashboard/dashboard.rst:113
 msgid ""
 "The *Escalated Tickets* widget lists the escalated tickets. Escalated "
 "tickets are after the time set in service level agreement, and therefore "
@@ -1715,13 +2477,13 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:96
 #: ../../content/customers/customer-user-information-center.rst:87
-#: ../../content/dashboard/dashboard.rst:102
+#: ../../content/dashboard/dashboard.rst:118
 msgid "Escalated Tickets Widget"
 msgstr "Eszkalált jegyek felületi elem"
 
 #: ../../content/customers/customer-information-center.rst:98
 #: ../../content/customers/customer-user-information-center.rst:89
-#: ../../content/dashboard/dashboard.rst:104
+#: ../../content/dashboard/dashboard.rst:120
 msgid ""
 "The *New Tickets* widget lists the recently created tickets. New tickets are"
 " not handled by an agent yet."
@@ -1731,13 +2493,13 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:103
 #: ../../content/customers/customer-user-information-center.rst:94
-#: ../../content/dashboard/dashboard.rst:109
+#: ../../content/dashboard/dashboard.rst:125
 msgid "New Tickets Widget"
 msgstr "Új jegyek felületi elem"
 
 #: ../../content/customers/customer-information-center.rst:105
 #: ../../content/customers/customer-user-information-center.rst:96
-#: ../../content/dashboard/dashboard.rst:111
+#: ../../content/dashboard/dashboard.rst:127
 msgid ""
 "The *Open Tickets* widget lists the open tickets. Open tickets represent the"
 " current work done by the agent."
@@ -1747,7 +2509,7 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:110
 #: ../../content/customers/customer-user-information-center.rst:101
-#: ../../content/dashboard/dashboard.rst:116
+#: ../../content/dashboard/dashboard.rst:132
 msgid "Open Tickets Widget"
 msgstr "Nyitott jegyek felületi elem"
 
@@ -1757,7 +2519,7 @@ msgstr "Ügyfélinformációs-központ oldalsáv felületi elemek"
 
 #: ../../content/customers/customer-information-center.rst:116
 #: ../../content/customers/customer-user-information-center.rst:107
-#: ../../content/dashboard/dashboard.rst:180
+#: ../../content/dashboard/dashboard.rst:196
 msgid ""
 "The following widgets are located on the right sidebar. There is a "
 "*Settings* widget to turn other widgets on or off, and some information "
@@ -1770,7 +2532,7 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:118
 #: ../../content/customers/customer-user-information-center.rst:109
-#: ../../content/dashboard/dashboard.rst:182
+#: ../../content/dashboard/dashboard.rst:198
 msgid "The *Settings* widget lists all available widgets on the screen."
 msgstr ""
 "A *Beállítások* felületi elem sorolja fel a képernyőn lévő az összes "
@@ -1778,19 +2540,19 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:123
 #: ../../content/customers/customer-user-information-center.rst:114
-#: ../../content/dashboard/dashboard.rst:187
+#: ../../content/dashboard/dashboard.rst:203
 msgid "Settings Widget"
 msgstr "Beállítások felületi elem"
 
 #: ../../content/customers/customer-information-center.rst:125
 #: ../../content/customers/customer-user-information-center.rst:116
-#: ../../content/dashboard/dashboard.rst:189
+#: ../../content/dashboard/dashboard.rst:205
 msgid "To turn on or off a widget:"
 msgstr "Egy felület elem be- vagy kikapcsolásához:"
 
 #: ../../content/customers/customer-information-center.rst:127
 #: ../../content/customers/customer-user-information-center.rst:118
-#: ../../content/dashboard/dashboard.rst:191
+#: ../../content/dashboard/dashboard.rst:207
 msgid ""
 "Expand the *Settings* widget in the right sidebar by clicking on its header "
 "bar."
@@ -1800,15 +2562,15 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:128
 #: ../../content/customers/customer-user-information-center.rst:119
-#: ../../content/dashboard/dashboard.rst:192
+#: ../../content/dashboard/dashboard.rst:208
 msgid "Modify the checked state of a checkbox."
 msgstr "Módosítsa egy jelölőnégyzet bejelölési állapotát."
 
 #: ../../content/customers/customer-information-center.rst:129
 #: ../../content/customers/customer-user-information-center.rst:120
-#: ../../content/dashboard/dashboard.rst:48
-#: ../../content/dashboard/dashboard.rst:54
-#: ../../content/dashboard/dashboard.rst:193
+#: ../../content/dashboard/dashboard.rst:64
+#: ../../content/dashboard/dashboard.rst:70
+#: ../../content/dashboard/dashboard.rst:209
 msgid "Click on the *Save settings* button."
 msgstr "Kattintson a *Beállítások mentése* gombra."
 
@@ -2339,7 +3101,7 @@ msgstr "Avatárkép"
 msgid "The :doc:`../avatar` and the :doc:`../avatar/logout` possibilities."
 msgstr "A :doc:`../avatar` és a :doc:`../avatar/logout` lehetőségek."
 
-#: ../../content/dashboard/dashboard.rst:21
+#: ../../content/dashboard/dashboard.rst:37
 msgid "Toolbar icons"
 msgstr "Eszköztár ikonok"
 
@@ -2360,15 +3122,54 @@ msgstr ""
 "Az ikonok és a keresődobozok a *Frontend* → *Agent* → *Toolbar* beállítások "
 "alatt kapcsolhatók be."
 
-#: ../../content/dashboard/dashboard.rst:24
+#: ../../content/dashboard/dashboard.rst:23
+msgid "The last icon is the chat availability status."
+msgstr "Az utolsó ikon a csevegés elérhetőségének állapota."
+
+#: ../../content/dashboard/dashboard.rst:29
+msgid ""
+"The chat availability status icon is a three-way switch, and can be changed "
+"by clicking."
+msgstr ""
+"A csevegés elérhetőségének állapota ikon egy háromállású kapcsoló, amely "
+"kattintással változtatható meg."
+
+#: ../../content/dashboard/dashboard.rst:31
+msgid "Empty circle: unavailable for chats."
+msgstr "Üres kör: nem érhető el csevegésekhez."
+
+#: ../../content/dashboard/dashboard.rst:32
+msgid ""
+"Empty circle with tick sign: available for internal (agent to agent) chats."
+msgstr ""
+"Üres kör egy pipával: elérhető belső (ügyintéző – ügyintéző) csevegésekhez."
+
+#: ../../content/dashboard/dashboard.rst:33
+msgid ""
+"Filled circle with tick sign: available for internal (agent to agent) and "
+"external (customer to agent, public to agent) chats."
+msgstr ""
+"Kitöltött kör egy pipával: elérhető belső (ügyintéző – ügyintéző) és külső "
+"(ügyfél – ügyintéző, nyilvános felhasználó – ügyintéző) csevegésekhez."
+
+#: ../../content/dashboard/dashboard.rst:37
+msgid ""
+"The chat availability status will be changed from external chats to internal"
+" chats each time an agent log in to OTRS again."
+msgstr ""
+"A csevegés elérhetőségének állapota meg lesz változtatva külső csevegésekről"
+" belső csevegésekre minden alkalommal, amikor egy ügyintéző újra "
+"bejelentkezik az OTRS-be."
+
+#: ../../content/dashboard/dashboard.rst:40
 msgid "Main menu"
 msgstr "Főmenü"
 
-#: ../../content/dashboard/dashboard.rst:24
+#: ../../content/dashboard/dashboard.rst:40
 msgid "The main menu of the agent interface."
 msgstr "Az ügyintézői felület főmenüje."
 
-#: ../../content/dashboard/dashboard.rst:26
+#: ../../content/dashboard/dashboard.rst:42
 msgid ""
 "The dashboard displays so called *widgets*. A widget is a box, that consists"
 " of a header, a filter and a data table. Each widget can be moved with drag "
@@ -2379,11 +3180,11 @@ msgstr ""
 "áll. Minden egyes felületi elem áthelyezhető fogd és vidd módon, valamint "
 "saját beállításokkal rendelkezhet."
 
-#: ../../content/dashboard/dashboard.rst:31
+#: ../../content/dashboard/dashboard.rst:47
 msgid "Dashboard Widgets"
 msgstr "Vezérlőpult felületi elemek"
 
-#: ../../content/dashboard/dashboard.rst:36
+#: ../../content/dashboard/dashboard.rst:52
 msgid ""
 "My watched tickets: tickets that the agent has in his/her watched list "
 "(requires ``Ticket::Watcher`` setting to be turned on)."
@@ -2391,7 +3192,7 @@ msgstr ""
 "Saját megfigyelt jegyek: azok a jegyek, amelyek az ügyintéző megfigyelési "
 "listáján vannak (a ``Ticket::Watcher`` beállítás bekapcsolását igényli)."
 
-#: ../../content/dashboard/dashboard.rst:37
+#: ../../content/dashboard/dashboard.rst:53
 msgid ""
 "My responsibilities: tickets that the agent is set as responsible (requires "
 "``Ticket::Responsible`` setting to be turned on)."
@@ -2399,7 +3200,7 @@ msgstr ""
 "Saját felelősségek: azok a jegyek, amelyeknél az ügyintéző felelősként van "
 "beállítva (a ``Ticket::Responsible`` beállítás bekapcsolását igényli)."
 
-#: ../../content/dashboard/dashboard.rst:39
+#: ../../content/dashboard/dashboard.rst:55
 msgid ""
 "Tickets in My Services: tickets that are assigned to services selected in "
 ":doc:`../avatar/personal-preferences`."
@@ -2408,37 +3209,37 @@ msgstr ""
 "/personal-preferences` képernyőn kiválasztott szolgáltatásokhoz vannak "
 "rendelve."
 
-#: ../../content/dashboard/dashboard.rst:42
+#: ../../content/dashboard/dashboard.rst:58
 msgid "The numbers indicate the number of tickets in each filter term."
 msgstr "A számok a jegyek számát jelzik minden egyes szűrőkifejezésnél."
 
-#: ../../content/dashboard/dashboard.rst:44
+#: ../../content/dashboard/dashboard.rst:60
 msgid "To add new widgets:"
 msgstr "Új felületi elemek hozzáadásához:"
 
-#: ../../content/dashboard/dashboard.rst:46
-#: ../../content/dashboard/dashboard.rst:52
+#: ../../content/dashboard/dashboard.rst:62
+#: ../../content/dashboard/dashboard.rst:68
 msgid "Click on the *Settings* widget in the right sidebar to expand it."
 msgstr ""
 "Kattintson a *Beállítások* felületi elemre a jobb oldalsávban a "
 "kinyitásához."
 
-#: ../../content/dashboard/dashboard.rst:47
+#: ../../content/dashboard/dashboard.rst:63
 msgid "Select the widgets you want to add."
 msgstr ""
 "Válassza ki azokat a felületi elemeket, amelyeket hozzá szeretne adni."
 
-#: ../../content/dashboard/dashboard.rst:50
+#: ../../content/dashboard/dashboard.rst:66
 msgid "To remove widgets:"
 msgstr "Felületi elemek eltávolításához:"
 
-#: ../../content/dashboard/dashboard.rst:53
+#: ../../content/dashboard/dashboard.rst:69
 msgid "Deselect the widgets you want to remove."
 msgstr ""
 "Szüntesse meg azoknak a felületi elemeknek a kijelölését, amelyeket el "
 "szeretne távolítani."
 
-#: ../../content/dashboard/dashboard.rst:58
+#: ../../content/dashboard/dashboard.rst:74
 msgid ""
 "You can also remove a widget, if you hover the mouse over the widget header "
 "and click on the *×* on the top right corner to close the widget."
@@ -2447,56 +3248,56 @@ msgstr ""
 "húzza az egeret, majd rákattint a jobb felső sarokban lévő *×* ikonra a "
 "felületi elem bezárásához."
 
-#: ../../content/dashboard/dashboard.rst:60
+#: ../../content/dashboard/dashboard.rst:76
 msgid "To move widgets:"
 msgstr "Felületi elemek áthelyezéséhez:"
 
-#: ../../content/dashboard/dashboard.rst:62
+#: ../../content/dashboard/dashboard.rst:78
 msgid "Click on the widget header and hold down the mouse button."
 msgstr ""
 "Kattintson a felületi elem fejlécére, és tartja lenyomva az egérgombot."
 
-#: ../../content/dashboard/dashboard.rst:63
+#: ../../content/dashboard/dashboard.rst:79
 msgid "Drag the widget to the desired position."
 msgstr "Húzza a felületi elemet a kívánt helyre."
 
-#: ../../content/dashboard/dashboard.rst:64
+#: ../../content/dashboard/dashboard.rst:80
 msgid "Drop the widget by releasing the mouse button."
 msgstr "Ejtse le a felületi elemet az egérgomb elengedésével."
 
-#: ../../content/dashboard/dashboard.rst:66
+#: ../../content/dashboard/dashboard.rst:82
 msgid "Widgets can have own settings. To configure a widget:"
 msgstr ""
 "A felületi elemek saját beállításokkal rendelkezhetnek. Egy felületi elem "
 "beállításához:"
 
-#: ../../content/dashboard/dashboard.rst:68
+#: ../../content/dashboard/dashboard.rst:84
 msgid "Hover the mouse over the widget header."
 msgstr "Vigye az egeret a felületi elem fejléce fölé."
 
-#: ../../content/dashboard/dashboard.rst:69
+#: ../../content/dashboard/dashboard.rst:85
 msgid "Click on the gear icon in the top right corner."
 msgstr "Kattintson a fogaskerék ikonra a jobb felső sarokban."
 
-#: ../../content/dashboard/dashboard.rst:70
+#: ../../content/dashboard/dashboard.rst:86
 msgid "Change the number and set the visible columns by drag and drop."
 msgstr ""
 "Változtassa meg a számot, és állítsa be a látható oszlopokat fogd és vidd "
 "módon."
 
-#: ../../content/dashboard/dashboard.rst:71
+#: ../../content/dashboard/dashboard.rst:87
 msgid "Click on the *Save Changes* button."
 msgstr "Kattintson a *Változtatások mentése* gombra."
 
-#: ../../content/dashboard/dashboard.rst:76
+#: ../../content/dashboard/dashboard.rst:92
 msgid "Widget Settings"
 msgstr "Felületi elem beállítások"
 
-#: ../../content/dashboard/dashboard.rst:84
+#: ../../content/dashboard/dashboard.rst:100
 msgid "Dashboard Content Widgets"
 msgstr "Vezérlőpult tartalmi felületi elemek"
 
-#: ../../content/dashboard/dashboard.rst:88
+#: ../../content/dashboard/dashboard.rst:104
 msgid ""
 "The widgets can be different depending on the installed packages and system "
 "configuration settings."
@@ -2504,7 +3305,7 @@ msgstr ""
 "A felületi elemek eltérőek lehetnek a telepített csomagoktól és a "
 "rendszerbeállításoktól függően."
 
-#: ../../content/dashboard/dashboard.rst:118
+#: ../../content/dashboard/dashboard.rst:134
 msgid ""
 "The *Running Process Tickets* widget lists the process tickets, that are "
 "started, but not finished yet."
@@ -2512,11 +3313,11 @@ msgstr ""
 "A *Futó folyamatjegyek* felületi elem azokat a folyamatjegyeket sorolja fel,"
 " amelyek elindultak, de még nem fejeződtek be."
 
-#: ../../content/dashboard/dashboard.rst:123
+#: ../../content/dashboard/dashboard.rst:139
 msgid "Running Process Tickets Widget"
 msgstr "Futó folyamatjegyek felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:125
+#: ../../content/dashboard/dashboard.rst:141
 msgid ""
 "The *Ticket Queue Overview* widget gives an overview as a ticket count "
 "matrix, where the rows represent queues and the columns represent the ticket"
@@ -2528,11 +3329,11 @@ msgstr ""
 "jegyállapotokat képviselik. Minden egyes cella azon meghatározott állapotú "
 "jegyek számát jeleníti meg, amelyek az egyes várólistákhoz tartoznak."
 
-#: ../../content/dashboard/dashboard.rst:130
+#: ../../content/dashboard/dashboard.rst:146
 msgid "Ticket Queue Overview Widget"
 msgstr "Jegyvárólista áttekintő felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:132
+#: ../../content/dashboard/dashboard.rst:148
 msgid ""
 "The *Events Ticket Calendar* widget displays tickets in a calendar, but this"
 " widget does not work out-of-the-box."
@@ -2540,7 +3341,7 @@ msgstr ""
 "Az *Események jegynaptár* felületi elem egy naptárban sorolja fel a "
 "jegyeket, de ez a felületi elem nem működik előzetes beállítások nélkül."
 
-#: ../../content/dashboard/dashboard.rst:134
+#: ../../content/dashboard/dashboard.rst:150
 msgid ""
 "To display the tickets in this calendar, the following settings need to be "
 "set by an **admin user**:"
@@ -2548,48 +3349,48 @@ msgstr ""
 "Ahhoz, hogy jegyeket jelenítsen meg ebben a naptárban, a következő "
 "beállításokat kell beállítania egy **adminisztrátor felhasználónak**:"
 
-#: ../../content/dashboard/dashboard.rst:136
+#: ../../content/dashboard/dashboard.rst:152
 msgid "Create the following dynamic fields:"
 msgstr "Hozza létre a következő dinamikus mezőket:"
 
-#: ../../content/dashboard/dashboard.rst:139
+#: ../../content/dashboard/dashboard.rst:155
 msgid "Object"
 msgstr "Objektum"
 
-#: ../../content/dashboard/dashboard.rst:139
+#: ../../content/dashboard/dashboard.rst:155
 msgid "Type"
 msgstr "Típus"
 
-#: ../../content/dashboard/dashboard.rst:139
+#: ../../content/dashboard/dashboard.rst:155
 msgid "Name"
 msgstr "Név"
 
-#: ../../content/dashboard/dashboard.rst:139
+#: ../../content/dashboard/dashboard.rst:155
 msgid "Label"
 msgstr "Címke"
 
-#: ../../content/dashboard/dashboard.rst:141
-#: ../../content/dashboard/dashboard.rst:143
+#: ../../content/dashboard/dashboard.rst:157
+#: ../../content/dashboard/dashboard.rst:159
 msgid "Date / Time"
 msgstr "Dátum / Idő"
 
-#: ../../content/dashboard/dashboard.rst:141
+#: ../../content/dashboard/dashboard.rst:157
 msgid "``TicketCalendarStartTime``"
 msgstr "``TicketCalendarStartTime``"
 
-#: ../../content/dashboard/dashboard.rst:141
+#: ../../content/dashboard/dashboard.rst:157
 msgid "Calendar Start Time"
 msgstr "Naptár kezdési idő"
 
-#: ../../content/dashboard/dashboard.rst:143
+#: ../../content/dashboard/dashboard.rst:159
 msgid "``TicketCalendarEndTime``"
 msgstr "``TicketCalendarEndTime``"
 
-#: ../../content/dashboard/dashboard.rst:143
+#: ../../content/dashboard/dashboard.rst:159
 msgid "Calendar End Time"
 msgstr "Naptár befejezési idő"
 
-#: ../../content/dashboard/dashboard.rst:146
+#: ../../content/dashboard/dashboard.rst:162
 msgid ""
 "Navigate to *Frontend* → *Agent* → *View* and select a view to add the "
 "dynamic field to."
@@ -2597,7 +3398,7 @@ msgstr ""
 "Navigáljon a *Frontend* → *Agent* → *View* ághoz és válasszon egy nézetet, "
 "amelyhez a dinamikus mezőt hozzá kell adni."
 
-#: ../../content/dashboard/dashboard.rst:148
+#: ../../content/dashboard/dashboard.rst:164
 msgid ""
 "For example add these dynamic fields to *New Phone Ticket* screen and *New "
 "Email Ticket* screen to set the dates at ticket creation time, or to *Ticket"
@@ -2611,31 +3412,31 @@ msgstr ""
 "beállítsa a dátumokat a meglévő jegyeknél a :doc:`../tickets/ticket-zoom` "
 "képernyő *Egyebek* → *Szabad mezők* menüpontjában."
 
-#: ../../content/dashboard/dashboard.rst:150
+#: ../../content/dashboard/dashboard.rst:166
 msgid "``Ticket::Frontend::AgentTicketPhone###DynamicField``"
 msgstr "``Ticket::Frontend::AgentTicketPhone###DynamicField``"
 
-#: ../../content/dashboard/dashboard.rst:152
-#: ../../content/dashboard/dashboard.rst:157
-#: ../../content/dashboard/dashboard.rst:162
+#: ../../content/dashboard/dashboard.rst:168
+#: ../../content/dashboard/dashboard.rst:173
+#: ../../content/dashboard/dashboard.rst:178
 msgid "``TicketCreateStartTime`` → *1 – Enabled*"
 msgstr "``TicketCreateStartTime`` → *1 – Engedélyezve*"
 
-#: ../../content/dashboard/dashboard.rst:153
-#: ../../content/dashboard/dashboard.rst:158
-#: ../../content/dashboard/dashboard.rst:163
+#: ../../content/dashboard/dashboard.rst:169
+#: ../../content/dashboard/dashboard.rst:174
+#: ../../content/dashboard/dashboard.rst:179
 msgid "``TicketCreateEndTime`` → *1 – Enabled*"
 msgstr "``TicketCreateEndTime`` → *1 – Engedélyezve*"
 
-#: ../../content/dashboard/dashboard.rst:155
+#: ../../content/dashboard/dashboard.rst:171
 msgid "``Ticket::Frontend::AgentTicketEmail###DynamicField``"
 msgstr "``Ticket::Frontend::AgentTicketEmail###DynamicField``"
 
-#: ../../content/dashboard/dashboard.rst:160
+#: ../../content/dashboard/dashboard.rst:176
 msgid "``Ticket::Frontend::AgentTicketFreeText###DynamicField``"
 msgstr "``Ticket::Frontend::AgentTicketFreeText###DynamicField``"
 
-#: ../../content/dashboard/dashboard.rst:165
+#: ../../content/dashboard/dashboard.rst:181
 msgid ""
 "Add more queues to ``DashboardEventsTicketCalendar###Queues`` setting "
 "(default is *Raw* queue only)."
@@ -2643,7 +3444,7 @@ msgstr ""
 "Adjon több várólistát a ``DashboardEventsTicketCalendar###Queues`` "
 "beállításhoz (alapértelmezetten csak a *Raw* várólista van hozzáadva)."
 
-#: ../../content/dashboard/dashboard.rst:167
+#: ../../content/dashboard/dashboard.rst:183
 msgid ""
 "If the dynamic fields contain values for the tickets, the tickets are "
 "displayed in the widget."
@@ -2651,7 +3452,7 @@ msgstr ""
 "Ha a dinamikus mezők tartalmaznak értéket a jegyeknél, akkor a jegyek "
 "megjelennek a felületi elemen."
 
-#: ../../content/dashboard/dashboard.rst:169
+#: ../../content/dashboard/dashboard.rst:185
 msgid ""
 "Hover the mouse over an entry to see the details of the ticket, or click on "
 "it to open the ticket in the :doc:`../tickets/ticket-zoom` screen."
@@ -2660,15 +3461,15 @@ msgstr ""
 " kattintson rá, hogy megnyissa a jegyet a :doc:`../tickets/ticket-zoom` "
 "képernyőn."
 
-#: ../../content/dashboard/dashboard.rst:174
+#: ../../content/dashboard/dashboard.rst:190
 msgid "Events Ticket Calendar Widget"
 msgstr "Események jegynaptár felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:178
+#: ../../content/dashboard/dashboard.rst:194
 msgid "Dashboard Sidebar Widgets"
 msgstr "Vezérlőpult oldalsáv felületi elemek"
 
-#: ../../content/dashboard/dashboard.rst:195
+#: ../../content/dashboard/dashboard.rst:211
 msgid ""
 "The *7 Day Stats* widget displays the number of created and closed tickets "
 "in the last seven days."
@@ -2676,22 +3477,22 @@ msgstr ""
 "A *7 napos statisztika* felületi elem az elmúlt hét napon létrehozott és "
 "lezárt jegyek számát jeleníti meg."
 
-#: ../../content/dashboard/dashboard.rst:200
+#: ../../content/dashboard/dashboard.rst:216
 msgid "7 Day Stats Widget"
 msgstr "7 napos statisztika felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:202
+#: ../../content/dashboard/dashboard.rst:218
 msgid ""
 "The *Upcoming Events* widget displays entries from the :doc:`../calendar`."
 msgstr ""
 "A *Közelgő események* felületi elem a :doc:`../calendar` bejegyzéseit "
 "jeleníti meg."
 
-#: ../../content/dashboard/dashboard.rst:207
+#: ../../content/dashboard/dashboard.rst:223
 msgid "Upcoming Events Widget"
 msgstr "Közelgő események felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:209
+#: ../../content/dashboard/dashboard.rst:225
 msgid ""
 "The *Out Of Office* widget displays the agents, who are currently out of "
 "office. This information can be set in the *User Profile* module of the "
@@ -2701,18 +3502,18 @@ msgstr ""
 "jelenleg irodán kívül vannak. Ezt az információt a :doc:`../avatar/personal-"
 "preferences` képernyő *Felhasználói profil* moduljában lehet beállítani."
 
-#: ../../content/dashboard/dashboard.rst:213
+#: ../../content/dashboard/dashboard.rst:229
 msgid ""
 "If currently no agents are out of office, this widget is not displayed."
 msgstr ""
 "Ha jelenleg egyetlen ügyintéző sincs irodán kívül, akkor ez a felületi nem "
 "jelenik meg."
 
-#: ../../content/dashboard/dashboard.rst:218
+#: ../../content/dashboard/dashboard.rst:234
 msgid "Out Of Office Widget"
 msgstr "Irodán kívül felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:220 ../../content/faq/explorer.rst:49
+#: ../../content/dashboard/dashboard.rst:236 ../../content/faq/explorer.rst:49
 msgid ""
 "The *Latest updated FAQ articles* widget displays the FAQ articles, that are"
 " updated recently."
@@ -2720,11 +3521,11 @@ msgstr ""
 "A *Legutóbb frissített GyIK bejegyzések* felületi elem azokat a GyIK "
 "bejegyzéseket jeleníti meg, amelyeket nemrég frissítettek."
 
-#: ../../content/dashboard/dashboard.rst:225
+#: ../../content/dashboard/dashboard.rst:241
 msgid "Latest Updated FAQ Articles Widget"
 msgstr "Legutóbb frissített GyIK bejegyzések felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:227 ../../content/faq/explorer.rst:47
+#: ../../content/dashboard/dashboard.rst:243 ../../content/faq/explorer.rst:47
 msgid ""
 "The *Latest created FAQ articles* widget displays the FAQ articles, that are"
 " created recently."
@@ -2732,11 +3533,11 @@ msgstr ""
 "A *Legutóbb létrehozott GyIK bejegyzések* felületi elem azokat a GyIK "
 "bejegyzéseket jeleníti meg, amelyeket nemrég hoztak létre."
 
-#: ../../content/dashboard/dashboard.rst:232
+#: ../../content/dashboard/dashboard.rst:248
 msgid "Latest Created FAQ Articles Widget"
 msgstr "Legutóbb létrehozott GyIK bejegyzések felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:234
+#: ../../content/dashboard/dashboard.rst:250
 msgid ""
 "The *Logged-In Users* widget displays the currently online agents and "
 "customer users."
@@ -2744,27 +3545,27 @@ msgstr ""
 "A *Bejelentkezett felhasználók* felületi elem a jelenleg elérhető "
 "ügyintézőket és ügyfél-felhasználókat jeleníti meg."
 
-#: ../../content/dashboard/dashboard.rst:239
+#: ../../content/dashboard/dashboard.rst:255
 msgid "Logged-In Users Widget"
 msgstr "Bejelentkezett felhasználók felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:241
+#: ../../content/dashboard/dashboard.rst:257
 msgid "The *OTRS News* widget displays news from an RSS feed."
 msgstr ""
 "Az *OTRS hírek* felületi elem híreket jelenít meg egy RSS hírforrásból."
 
-#: ../../content/dashboard/dashboard.rst:245
+#: ../../content/dashboard/dashboard.rst:261
 msgid ""
 "To change the RSS feed source, see ``DashboardBackend###0410-RSS`` setting."
 msgstr ""
 "Az RSS hírforrás megváltoztatásához nézze meg a "
 "``DashboardBackend###0410-RSS`` beállítást."
 
-#: ../../content/dashboard/dashboard.rst:250
+#: ../../content/dashboard/dashboard.rst:266
 msgid "OTRS News Widget"
 msgstr "OTRS hírek felületi elem"
 
-#: ../../content/dashboard/dashboard.rst:252
+#: ../../content/dashboard/dashboard.rst:268
 msgid ""
 "The *Appointments* widget displays the appointments for today, tomorrow and "
 "for this week."
@@ -2772,7 +3573,7 @@ msgstr ""
 "Az *Időpontok* felületi elem a mai, a holnapi és az erre a hétre megadott "
 "időpontokat jeleníti meg."
 
-#: ../../content/dashboard/dashboard.rst:254
+#: ../../content/dashboard/dashboard.rst:270
 msgid ""
 "Click on the *Add Appointment* button to open the :doc:`../calendar/new-"
 "appointment` dialog."
@@ -2780,7 +3581,7 @@ msgstr ""
 "Kattintson az *Időpont hozzáadása* gombra az :doc:`../calendar/new-"
 "appointment` párbeszédablak megnyitásához."
 
-#: ../../content/dashboard/dashboard.rst:259
+#: ../../content/dashboard/dashboard.rst:275
 msgid "Appointments Widget"
 msgstr "Időpontok felületi elem"
 
@@ -3089,6 +3890,7 @@ msgstr "GyIK szerkesztése képernyő"
 #: ../../content/faq/faq-zoom.rst:36
 #: ../../content/tickets/escalation-view.rst:80
 #: ../../content/tickets/queue-view.rst:79
+#: ../../content/tickets/service-view.rst:83
 #: ../../content/tickets/status-view.rst:71
 #: ../../content/tickets/ticket-zoom.rst:305
 msgid "History"
@@ -4674,6 +5476,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:6
 #: ../../content/tickets/queue-view.rst:6
+#: ../../content/tickets/service-view.rst:10
 #: ../../content/tickets/status-view.rst:6
 msgid ""
 "This screen has three different views: small, medium and large. You can "
@@ -4726,6 +5529,7 @@ msgstr "Kis eszkalációs nézet"
 
 #: ../../content/tickets/escalation-view.rst:28
 #: ../../content/tickets/queue-view.rst:27
+#: ../../content/tickets/service-view.rst:31
 #: ../../content/tickets/status-view.rst:19
 msgid "This view lists tickets in a table format."
 msgstr "Ez a nézet táblázatos formátumban sorolja fel a jegyeket."
@@ -4740,6 +5544,9 @@ msgstr "Kis eszkalációs nézet képernyő"
 #: ../../content/tickets/queue-view.rst:34
 #: ../../content/tickets/queue-view.rst:98
 #: ../../content/tickets/queue-view.rst:122
+#: ../../content/tickets/service-view.rst:38
+#: ../../content/tickets/service-view.rst:102
+#: ../../content/tickets/service-view.rst:126
 #: ../../content/tickets/status-view.rst:26
 #: ../../content/tickets/status-view.rst:90
 #: ../../content/tickets/status-view.rst:114
@@ -4752,6 +5559,9 @@ msgstr "Az oldalanként megjelenített jegyek számának korlátozásához:"
 #: ../../content/tickets/queue-view.rst:37
 #: ../../content/tickets/queue-view.rst:101
 #: ../../content/tickets/queue-view.rst:125
+#: ../../content/tickets/service-view.rst:41
+#: ../../content/tickets/service-view.rst:105
+#: ../../content/tickets/service-view.rst:129
 #: ../../content/tickets/status-view.rst:29
 #: ../../content/tickets/status-view.rst:93
 #: ../../content/tickets/status-view.rst:117
@@ -4760,6 +5570,7 @@ msgstr "Válassza ki az oldalanként megjelenített jegyek legnagyobb számát."
 
 #: ../../content/tickets/escalation-view.rst:41
 #: ../../content/tickets/queue-view.rst:40
+#: ../../content/tickets/service-view.rst:44
 #: ../../content/tickets/status-view.rst:32
 msgid "To set the displayed columns and adjust order of columns:"
 msgstr ""
@@ -4767,6 +5578,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:44
 #: ../../content/tickets/queue-view.rst:43
+#: ../../content/tickets/service-view.rst:47
 #: ../../content/tickets/status-view.rst:35
 msgid ""
 "Move columns from *Available Columns* to *Visible Columns* or vice versa."
@@ -4776,6 +5588,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:45
 #: ../../content/tickets/queue-view.rst:44
+#: ../../content/tickets/service-view.rst:48
 #: ../../content/tickets/status-view.rst:36
 msgid "Rearrange columns in *Visible Columns* by drag and drop."
 msgstr ""
@@ -4783,6 +5596,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:50
 #: ../../content/tickets/queue-view.rst:49
+#: ../../content/tickets/service-view.rst:53
 #: ../../content/tickets/status-view.rst:41
 msgid ""
 "Use the filter box to find a particular column in *Available Columns* by "
@@ -4793,12 +5607,14 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:52
 #: ../../content/tickets/queue-view.rst:51
+#: ../../content/tickets/service-view.rst:55
 #: ../../content/tickets/status-view.rst:43
 msgid "To sort tickets by a specific attribute:"
 msgstr "Jegyek rendezéséhez egy bizonyos attribútum alapján:"
 
 #: ../../content/tickets/escalation-view.rst:54
 #: ../../content/tickets/queue-view.rst:53
+#: ../../content/tickets/service-view.rst:57
 #: ../../content/tickets/status-view.rst:45
 msgid "Click on a column header to sort tickets by the selected attribute."
 msgstr ""
@@ -4807,6 +5623,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:55
 #: ../../content/tickets/queue-view.rst:54
+#: ../../content/tickets/service-view.rst:58
 #: ../../content/tickets/status-view.rst:46
 msgid "Click on the column header again to change the sort order."
 msgstr ""
@@ -4814,6 +5631,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:57
 #: ../../content/tickets/queue-view.rst:56
+#: ../../content/tickets/service-view.rst:60
 #: ../../content/tickets/status-view.rst:48
 msgid ""
 "It is possible to filter tickets by a specific attribute, but not all "
@@ -4826,24 +5644,28 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:59
 #: ../../content/tickets/queue-view.rst:58
+#: ../../content/tickets/service-view.rst:62
 #: ../../content/tickets/status-view.rst:50
 msgid "To filter tickets:"
 msgstr "Jegyek szűréséhez:"
 
 #: ../../content/tickets/escalation-view.rst:61
 #: ../../content/tickets/queue-view.rst:60
+#: ../../content/tickets/service-view.rst:64
 #: ../../content/tickets/status-view.rst:52
 msgid "Click on the filter icon in the column header."
 msgstr "Kattintson a szűrő ikonra az oszlopfejlécben."
 
 #: ../../content/tickets/escalation-view.rst:62
 #: ../../content/tickets/queue-view.rst:61
+#: ../../content/tickets/service-view.rst:65
 #: ../../content/tickets/status-view.rst:53
 msgid "Select a value for the filter."
 msgstr "Válasszon egy értéket a szűrőhöz."
 
 #: ../../content/tickets/escalation-view.rst:66
 #: ../../content/tickets/queue-view.rst:65
+#: ../../content/tickets/service-view.rst:69
 #: ../../content/tickets/status-view.rst:57
 msgid ""
 "Multiple filters can be set. Active filters are marked with a bold filter "
@@ -4857,6 +5679,7 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:68
 #: ../../content/tickets/queue-view.rst:67
+#: ../../content/tickets/service-view.rst:71
 #: ../../content/tickets/status-view.rst:59
 msgid ""
 "This view has an own menu to manage tickets. Select a checkbox in the row of"
@@ -4867,12 +5690,14 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:74
 #: ../../content/tickets/queue-view.rst:73
+#: ../../content/tickets/service-view.rst:77
 #: ../../content/tickets/status-view.rst:65
 msgid "Bulk"
 msgstr "Tömeges"
 
 #: ../../content/tickets/escalation-view.rst:74
 #: ../../content/tickets/queue-view.rst:73
+#: ../../content/tickets/service-view.rst:77
 #: ../../content/tickets/status-view.rst:65
 msgid ""
 "Bulk action for the ticket, multiple attributes can be changed (see below)."
@@ -4882,12 +5707,14 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:77
 #: ../../content/tickets/queue-view.rst:76
+#: ../../content/tickets/service-view.rst:80
 #: ../../content/tickets/status-view.rst:68
 msgid "Zoom"
 msgstr "Részletek"
 
 #: ../../content/tickets/escalation-view.rst:77
 #: ../../content/tickets/queue-view.rst:76
+#: ../../content/tickets/service-view.rst:80
 #: ../../content/tickets/status-view.rst:68
 msgid "Open the :doc:`ticket-zoom` screen to see all details of the ticket."
 msgstr ""
@@ -4896,12 +5723,14 @@ msgstr ""
 
 #: ../../content/tickets/escalation-view.rst:80
 #: ../../content/tickets/queue-view.rst:79
+#: ../../content/tickets/service-view.rst:83
 #: ../../content/tickets/status-view.rst:71
 msgid "A new window will be opened that displays the history of the ticket."
 msgstr "Egy új ablak fog megnyílni, amely megjeleníti a jegy előzményeit."
 
 #: ../../content/tickets/escalation-view.rst:83
 #: ../../content/tickets/queue-view.rst:82
+#: ../../content/tickets/service-view.rst:86
 #: ../../content/tickets/status-view.rst:74
 #: ../../content/tickets/ticket-zoom.rst:134
 msgid "Note"
@@ -4909,18 +5738,21 @@ msgstr "Jegyzet"
 
 #: ../../content/tickets/escalation-view.rst:83
 #: ../../content/tickets/queue-view.rst:82
+#: ../../content/tickets/service-view.rst:86
 #: ../../content/tickets/status-view.rst:74
 msgid "New note can be added to the ticket."
 msgstr "Új jegyzet adható hozzá a jegyhez."
 
 #: ../../content/tickets/escalation-view.rst:87
 #: ../../content/tickets/queue-view.rst:86
+#: ../../content/tickets/service-view.rst:90
 #: ../../content/tickets/status-view.rst:78
 msgid "Move"
 msgstr "Áthelyezés"
 
 #: ../../content/tickets/escalation-view.rst:86
 #: ../../content/tickets/queue-view.rst:85
+#: ../../content/tickets/service-view.rst:89
 #: ../../content/tickets/status-view.rst:77
 msgid "The ticket can be moved to an other queue."
 msgstr "A jegy áthelyezhető egy másik várólistába."
@@ -4931,6 +5763,7 @@ msgstr "Közepes eszkalációs nézet"
 
 #: ../../content/tickets/escalation-view.rst:92
 #: ../../content/tickets/queue-view.rst:91
+#: ../../content/tickets/service-view.rst:95
 #: ../../content/tickets/status-view.rst:83
 msgid "This view lists tickets in a list view format."
 msgstr "Ez a nézet listanézet formátumban sorolja fel a jegyeket."
@@ -4960,6 +5793,7 @@ msgstr "Nagy eszkalációs nézet"
 
 #: ../../content/tickets/escalation-view.rst:116
 #: ../../content/tickets/queue-view.rst:115
+#: ../../content/tickets/service-view.rst:119
 #: ../../content/tickets/status-view.rst:107
 msgid "This view lists tickets in a detailed format."
 msgstr "Ez a nézet részletes formátumban sorolja fel a jegyeket."
@@ -4978,6 +5812,7 @@ msgstr "Eszkalációs nézet tömeges műveletek"
 
 #: ../../content/tickets/escalation-view.rst:140
 #: ../../content/tickets/queue-view.rst:139
+#: ../../content/tickets/service-view.rst:143
 #: ../../content/tickets/status-view.rst:131
 msgid "Multiple attributes can be changed in this screen at the same time."
 msgstr "Több attribútum is megváltoztatható egyszerre ezen a képernyőn."
@@ -5460,9 +6295,10 @@ msgid ""
 msgstr ""
 "Minden nézetnek van egy szűrője a felületi elem tetején, hogy csak egy adott"
 " várólistában vagy a :doc:`../avatar/personal-preferences` képernyőn "
-"megadott *Saját várólistáimban* lévő jegyeket sorolja fel."
+"megadott *Saját várólistákban* lévő jegyeket sorolja fel."
 
 #: ../../content/tickets/queue-view.rst:15
+#: ../../content/tickets/service-view.rst:19
 msgid ""
 "There are also filters to view *All tickets* or only *Available tickets*."
 msgstr ""
@@ -5470,19 +6306,23 @@ msgstr ""
 "megtekintéséhez is."
 
 #: ../../content/tickets/queue-view.rst:18
+#: ../../content/tickets/service-view.rst:22
 msgid "All tickets"
 msgstr "Összes jegy"
 
 #: ../../content/tickets/queue-view.rst:18
+#: ../../content/tickets/service-view.rst:22
 msgid "This option lists all tickets in the selected queue."
 msgstr ""
 "Ez a lehetőség a kiválasztott várólistában lévő összes jegyet felsorolja."
 
 #: ../../content/tickets/queue-view.rst:22
+#: ../../content/tickets/service-view.rst:26
 msgid "Available tickets"
 msgstr "Elérhető jegyek"
 
 #: ../../content/tickets/queue-view.rst:21
+#: ../../content/tickets/service-view.rst:25
 msgid ""
 "This option lists only open tickets which are available for working with "
 "them."
@@ -5567,6 +6407,84 @@ msgid ""
 msgstr ""
 "Használja a *Profil hivatkozás* gombot a *Keresési eredmények* képernyőre "
 "történő közvetlen eljutáshoz. Ez a keresési sablon állandó hivatkozása."
+
+#: ../../content/tickets/service-view.rst:2
+msgid "Service View"
+msgstr "Szolgáltatás nézet"
+
+#: ../../content/tickets/service-view.rst:8
+msgid ""
+"Use this screen to view tickets in specific services. The *Service View* "
+"screen is available in the *Service View* menu item of the *Tickets* menu."
+msgstr ""
+"Használja ezt a képernyőt a bizonyos szolgáltatásokban lévő jegyek "
+"megtekintéséhez. A *Szolgáltatás nézet* képernyő a *Jegyek* menü "
+"*Szolgáltatás nézet* menüpontjában érhető el."
+
+#: ../../content/tickets/service-view.rst:15
+msgid "Service View Widget Header"
+msgstr "Szolgáltatás nézet felületi elem fejléce"
+
+#: ../../content/tickets/service-view.rst:17
+msgid ""
+"Each view has a filter in the top of the widget to list tickets only in a "
+"specific service or tickets in *My Services* set in :doc:`../avatar"
+"/personal-preferences`."
+msgstr ""
+"Minden nézetnek van egy szűrője a felületi elem tetején, hogy csak egy adott"
+" szolgáltatásban vagy a :doc:`../avatar/personal-preferences` képernyőn "
+"megadott *Saját szolgáltatásokban* lévő jegyeket sorolja fel."
+
+#: ../../content/tickets/service-view.rst:29
+msgid "Small Service View"
+msgstr "Kis szolgáltatás nézet"
+
+#: ../../content/tickets/service-view.rst:36
+msgid "Small Service View Screen"
+msgstr "Kis szolgáltatás nézet képernyő"
+
+#: ../../content/tickets/service-view.rst:93
+msgid "Medium Service View"
+msgstr "Közepes szolgáltatás nézet"
+
+#: ../../content/tickets/service-view.rst:100
+msgid "Medium Service View Screen"
+msgstr "Közepes szolgáltatás nézet képernyő"
+
+#: ../../content/tickets/service-view.rst:108
+#: ../../content/tickets/service-view.rst:132
+msgid ""
+"Hover the mouse over the ticket row, and a floating menu will appear. The "
+"floating menu has the same menu items that are already explained in the "
+"*Small Service View* section."
+msgstr ""
+"Vigye az egeret a jegy sora fölé, és egy lebegő menü fog megjelenni. A "
+"lebegő menü ugyanazokkal a menüpontokkal rendelkezik, mint amelyek a *Kis "
+"szolgáltatás nézet* szakaszban kerültek bemutatásra."
+
+#: ../../content/tickets/service-view.rst:113
+msgid "Floating Menu of Medium Service View"
+msgstr "Közepes szolgáltatás nézet lebegő menüje"
+
+#: ../../content/tickets/service-view.rst:117
+msgid "Large Service View"
+msgstr "Nagy szolgáltatás nézet"
+
+#: ../../content/tickets/service-view.rst:124
+msgid "Large Service View Screen"
+msgstr "Nagy szolgáltatás nézet képernyő"
+
+#: ../../content/tickets/service-view.rst:137
+msgid "Floating Menu of Large Service View"
+msgstr "Nagy szolgáltatás nézet lebegő menüje"
+
+#: ../../content/tickets/service-view.rst:141
+msgid "Service View Bulk Actions"
+msgstr "Szolgáltatás nézet tömeges műveletek"
+
+#: ../../content/tickets/service-view.rst:148
+msgid "Service View Bulk Action Screen"
+msgstr "Szolgáltatás nézet tömeges művelet képernyő"
 
 #: ../../content/tickets/status-view.rst:2
 msgid "Status View"
@@ -6269,10 +7187,6 @@ msgid ""
 msgstr ""
 "Ennek választásakor az :doc:`new-email-ticket` képernyőt nyitja meg, és "
 "kitölti a mezőket a jelenlegi bejegyzés adataival."
-
-#: ../../content/tickets/ticket-zoom.rst:438
-msgid "Phone ticket"
-msgstr "Telefonos jegy"
 
 #: ../../content/tickets/ticket-zoom.rst:438
 msgid ""
