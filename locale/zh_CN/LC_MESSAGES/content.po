@@ -12,8 +12,8 @@
 # 光中 杨 <yangkwch@163.com>, 2019
 # Martin Gruner <martin.gruner@otrs.com>, 2019
 # 文浩坚 <never.min@gmail.com>, 2019
-# 汇民 王 <whuim@qq.com>, 2019
 # 汇民 王 <whuim@163.com>, 2019
+# 汇民 王 <whuim@qq.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 11:50+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
-"Last-Translator: 汇民 王 <whuim@163.com>, 2019\n"
+"Last-Translator: 汇民 王 <whuim@qq.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otrs/teams/23435/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -440,7 +440,7 @@ msgstr ""
 msgid ""
 "In :doc:`../tickets/queue-view` only those queues will be displayed under "
 "*My Queues* filter, that are selected in this widget."
-msgstr ""
+msgstr "只有在此小部件中选择的这些队列才会在 :doc:`../tickets/queue-view` 中 *我的队列* 过滤器下显示。"
 
 #: ../../content/avatar/personal-preferences.rst:149
 msgid ""
@@ -451,7 +451,7 @@ msgstr "在选择所有者或责任人的时候，默认情况下仅把在此小
 
 #: ../../content/avatar/personal-preferences.rst:154
 msgid "My Queues Widget"
-msgstr "我的队列小部件"
+msgstr "我的队列 小部件"
 
 #: ../../content/avatar/personal-preferences.rst:156
 msgid "Select one or more queues from the drop-down list."
@@ -466,25 +466,25 @@ msgstr "我的服务"
 msgid ""
 "System configuration ``Ticket::Service`` needs to be activated to use this "
 "feature."
-msgstr ""
+msgstr "需要激活系统配置 ``Ticket::Service`` 才能使用此功能。"
 
 #: ../../content/avatar/personal-preferences.rst:166
 msgid "In this widget some services can be selected as preferred services."
-msgstr ""
+msgstr "在这个小部件中，可以选择一些服务作为首选服务。"
 
 #: ../../content/avatar/personal-preferences.rst:168
 msgid ""
 "In :doc:`../tickets/service-view` only those services will be displayed "
 "under *My Services* filter, that are selected in this widget."
-msgstr ""
+msgstr "只有在此小部件中选择的这些服务才会在 :doc:`../tickets/service-view` 中 *我的服务* 过滤器下显示。"
 
 #: ../../content/avatar/personal-preferences.rst:173
 msgid "My Services Widget"
-msgstr ""
+msgstr "我的服务 小部件"
 
 #: ../../content/avatar/personal-preferences.rst:175
 msgid "Select one or more services from the drop-down list."
-msgstr ""
+msgstr "从下拉列表中选择一个或多个服务。"
 
 #: ../../content/avatar/personal-preferences.rst:179
 msgid "Ticket Notifications"
@@ -528,24 +528,24 @@ msgstr "我的聊天频道"
 msgid ""
 "System configuration ``ChatEngine::Active`` needs to be activated to use "
 "this feature."
-msgstr ""
+msgstr "需要激活系统配置 ``ChatEngine::Active`` 才能使用此功能。"
 
 #: ../../content/avatar/personal-preferences.rst:211
 msgid ""
 "In this widget some chat channels can be selected as preferred external chat"
 " channels. You will be notified about external chat requests in these chat "
 "channels."
-msgstr ""
+msgstr "在这个小部件中，可以选择一些聊天频道作为首选的外部聊天频道。您将会收到关于这些聊天频道中的外部聊天请求的通知。"
 
 #: ../../content/avatar/personal-preferences.rst:213
 msgid ""
 "In :doc:`../chat/chat` screen only those chat channels will be displayed "
 "under *My Chat Channels* filter, that are selected in this widget."
-msgstr ""
+msgstr "只有在此小部件中选择的这些聊天频道才会在 :doc:`../chat/chat` 中 *我的聊天频道* 过滤器下显示。"
 
 #: ../../content/avatar/personal-preferences.rst:218
 msgid "My Chat Channels Widget"
-msgstr ""
+msgstr "我的聊天频道 小部件"
 
 #: ../../content/avatar/personal-preferences.rst:220
 msgid ""
@@ -556,6 +556,9 @@ msgid ""
 "is set as available for external chats by the chat availability icon in the "
 ":doc:`../dashboard/dashboard` header toolbar."
 msgstr ""
+"从下拉列表中选择一个或多个聊天频道。服务人员需要选择哪些聊天频道可用。只有当至少一个具有所有者权限的服务人员在其首选项中选择了该通道，并通过 "
+":doc:`../dashboard/dashboard`  "
+"顶部工具栏中的聊天可用性图标将其设置为可用于外部聊天时，客户才能够在特定通道上创建新的聊天请求。"
 
 #: ../../content/avatar/personal-preferences.rst:226
 msgid "These settings are for change some visual appearance of OTRS."
@@ -1153,6 +1156,9 @@ msgid ""
 " agents and vice versa. Finished chats can be archived and attached to "
 "tickets, or can be downloaded as PDF by agents, customers and public users."
 msgstr ""
+"聊天功能允许使用 OTRS "
+"前端在服务人员和客户之间进行聊天。一旦启用，客户或公共用户就可以开始与服务人员聊天，反之亦然。完成的聊天记录可以存档并附加到工单上，也可以由服务人员、客户和公众用户以"
+" PDF 格式下载。"
 
 #: ../../content/chat.rst:10
 msgid ""
@@ -1161,6 +1167,8 @@ msgid ""
 "permissions for this channel. If no chat channel is selected when a chat is "
 "created, this chat will be created in the *Default channel*."
 msgstr ""
+"每个聊天都被分配到一个聊天频道。聊天频道就像聊天室。每个聊天频道都被分配给一个特定的组，该组控制该通道的权限。如果在创建聊天时没有选择聊天频道，则此聊天将在"
+" *默认频道* 中创建。"
 
 #: ../../content/chat/chat.rst:2
 msgid "Manage Chats"
@@ -1173,16 +1181,17 @@ msgid ""
 "screen provides a list of chat requests from customer users, public users "
 "and other agents, as well as an overview over all active chats."
 msgstr ""
+"聊天管理屏幕是聊天功能的中心点。在这里，服务人员可以管理聊天以及查看和接受打开的请求。此屏幕提供来自客户用户、公共用户和其他服务人员的聊天请求列表，以及所有活动聊天的概览。"
 
 #: ../../content/chat/chat.rst:10
 msgid ""
 "Use this menu item to manage chats. The chat management screen is available "
 "in the *Chat* menu."
-msgstr ""
+msgstr "使用此菜单项管理聊天。聊天管理屏幕在 *聊天* 菜单中可用。"
 
 #: ../../content/chat/chat.rst:15
 msgid "Chat Management Screen"
-msgstr ""
+msgstr "聊天管理 屏幕"
 
 #: ../../content/chat/chat.rst:17
 msgid ""
@@ -1190,192 +1199,194 @@ msgid ""
 "to list *All Chat Channels* or only *My Chat Channels* set in "
 ":doc:`../avatar/personal-preferences`."
 msgstr ""
+"每个聊天频道都可以通过小部件顶部的选项进行筛选，列出 *所有聊天频道* 或仅在 :doc:`../avatar/personal-"
+"preferences` 中设置的 *我的聊天频道* 。"
 
 #: ../../content/chat/chat.rst:21
 msgid "Start New Chat"
-msgstr ""
+msgstr "开始新的聊天"
 
 #: ../../content/chat/chat.rst:23
 msgid "A chat participant can be an agent, a customer user or a public user."
-msgstr ""
+msgstr "聊天参与者可以是服务人员、客户用户或公共用户。"
 
 #: ../../content/chat/chat.rst:27
 msgid "Agent to Agent"
-msgstr ""
+msgstr "服务人员到服务人员"
 
 #: ../../content/chat/chat.rst:29
 msgid "To start a chat with another agent:"
-msgstr ""
+msgstr "若要开始与另一个服务人员聊天："
 
 #: ../../content/chat/chat.rst:31
 msgid ""
 "Use the *Logged-In Users* widget in the dashboard. Agents who are able to "
 "use the chat, will have a chat icon next to their name."
-msgstr ""
+msgstr "在仪表板中使用 *已登录用户* 小部件。能够聊天的服务人员在其名称旁边会有一个聊天图标。"
 
 #: ../../content/chat/chat.rst:36
 msgid "Available Agents"
-msgstr ""
+msgstr "可用的服务人员"
 
 #: ../../content/chat/chat.rst:38
 msgid "Click on the chat icon next to an agent name."
-msgstr ""
+msgstr "单击服务人员名称旁边的聊天图标。"
 
 #: ../../content/chat/chat.rst:39 ../../content/chat/chat.rst:85
 msgid ""
 "Write the first message to the *Start Chat* dialog and send the message."
-msgstr ""
+msgstr "输入第一条消息到 *开始聊天* 对话框并发送该消息。"
 
 #: ../../content/chat/chat.rst:44 ../../content/chat/chat.rst:90
 msgid "Start Chat Dialog"
-msgstr ""
+msgstr "开始聊天对话框"
 
 #: ../../content/chat/chat.rst:46 ../../content/chat/chat.rst:92
 msgid ""
 "After the chat request has been sent to the other agent, watch the chat in "
 "the chat management screen. A browser notification is displayed to inform "
 "the agent."
-msgstr ""
+msgstr "将聊天请求发送给其他服务人员后，在聊天管理屏幕中查看该聊天。将显示一个浏览器通知，通知该服务人员。"
 
 #: ../../content/chat/chat.rst:51 ../../content/chat/chat.rst:97
 msgid "My Active Chats Widget"
-msgstr ""
+msgstr "我的活动聊天 小部件"
 
 #: ../../content/chat/chat.rst:53
 msgid ""
 "Wait for the answer. The other agent has to accept the chat request with the"
 " *Open Chat* link."
-msgstr ""
+msgstr "等待答复。另一个服务人员必须接受带有 *打开聊天* 链接的聊天请求。"
 
 #: ../../content/chat/chat.rst:58
 msgid "Personal Chat Requests For You Widget"
-msgstr ""
+msgstr "你的个人聊天请求 小部件"
 
 #: ../../content/chat/chat.rst:60
 msgid "When the other agent accepts the chat request, you can chat now."
-msgstr ""
+msgstr "当其他服务人员接受聊天请求时，您现在就可以聊天了。"
 
 #: ../../content/chat/chat.rst:65
 msgid "Agent to Agent Chat"
-msgstr ""
+msgstr "服务人员到服务人员的聊天"
 
 #: ../../content/chat/chat.rst:69
 msgid "Agent to Customer User"
-msgstr ""
+msgstr "服务人员到客户用户"
 
 #: ../../content/chat/chat.rst:71
 msgid "To start a chat with a customer user:"
-msgstr ""
+msgstr "若要开始与一个客户用户聊天："
 
 #: ../../content/chat/chat.rst:73
 msgid ""
 "Use the *Logged-In Users* widget in the dashboard. Customer users who are "
 "able to use the chat, will have a chat icon next to their name."
-msgstr ""
+msgstr "在仪表板中使用 *已登录用户* 小部件。能够使用聊天功能的客户用户的名字旁边会有一个聊天图标。"
 
 #: ../../content/chat/chat.rst:78
 msgid "Available Customer Users"
-msgstr ""
+msgstr "可用的客户用户"
 
 #: ../../content/chat/chat.rst:82
 msgid ""
 "Customer users can also be selected in *Customer User Information Center* or"
 " from the *Customer Information* widget of the *Ticket Zoom* screen."
-msgstr ""
+msgstr "客户用户也可以在 *客户用户信息中心* 或 *工单详情* 屏幕的 *客户信息* 小部件中选择。"
 
 #: ../../content/chat/chat.rst:84
 msgid "Click on the chat icon next to a customer user name."
-msgstr ""
+msgstr "单击客户用户名称旁边的聊天图标。"
 
 #: ../../content/chat/chat.rst:99
 msgid ""
 "Wait for the answer. The customer user has to accept the chat request which "
 "is displayed in the bottom right corner of the external interface."
-msgstr ""
+msgstr "等待答复。客户用户必须接受显示在外部人员界面右下角的聊天请求。"
 
 #: ../../content/chat/chat.rst:104
 msgid "Chat Request on External Interface"
-msgstr ""
+msgstr "外部人员界面中的聊天请求"
 
 #: ../../content/chat/chat.rst:106
 msgid "When the customer user accepts the chat request, you can chat now."
-msgstr ""
+msgstr "当客户用户接受聊天请求时，您现在就可以聊天了。"
 
 #: ../../content/chat/chat.rst:111
 msgid "Agent to Customer User Chat"
-msgstr ""
+msgstr "服务人员到客户用户的聊天"
 
 #: ../../content/chat/chat.rst:113
 msgid ""
 "When the customer user closes the chat, it is possible to send the chat via "
 "email or create a ticket from the conversation."
-msgstr ""
+msgstr "当客户用户关闭聊天时，可以通过电子邮件发送该聊天或从该对话中创建一个工单。"
 
 #: ../../content/chat/chat.rst:118
 msgid "Save the Conversation on External Interface"
-msgstr ""
+msgstr "在外部人员界面中保存对话"
 
 #: ../../content/chat/chat.rst:122
 msgid "Customer User to Agent"
-msgstr ""
+msgstr "客户用户到服务人员"
 
 #: ../../content/chat/chat.rst:124
 msgid ""
 "Customer users are not able to start a chat directly with a certain agent, "
 "but only to create generic chat requests."
-msgstr ""
+msgstr "客户用户不能直接与某个服务人员开始聊天，只能创建一般的聊天请求。"
 
 #: ../../content/chat/chat.rst:126
 msgid "To receive a chat request from a customer user:"
-msgstr ""
+msgstr "若要接受来自一个客户用户的聊天请求："
 
 #: ../../content/chat/chat.rst:128
 msgid ""
 "A customer user clicked on the *New conversation* button within the chat "
 "window in the bottom right corner of the external interface."
-msgstr ""
+msgstr "客户用户单击外部人员界面右下角聊天窗口中的 *新建对话* 按钮。"
 
 #: ../../content/chat/chat.rst:133 ../../content/chat/chat.rst:165
 msgid "Start Chat Window"
-msgstr ""
+msgstr "开始聊天窗口"
 
 #: ../../content/chat/chat.rst:135
 msgid ""
 "A browser notification is displayed to inform the agent. Go to the chat "
 "management screen, and open the general chat request with the *Open chat* "
 "link."
-msgstr ""
+msgstr "将显示一个浏览器通知，通知服务人员。转到聊天管理屏幕，通过 *打开聊天* 链接打开一般聊天请求。"
 
 #: ../../content/chat/chat.rst:140
 msgid "General Chat Requests From Customers Widget"
-msgstr ""
+msgstr "由客户发起的一般聊天请求"
 
 #: ../../content/chat/chat.rst:142
 msgid "Accept the chat request."
-msgstr ""
+msgstr "接受该聊天请求。"
 
 #: ../../content/chat/chat.rst:147
 msgid "Chat Preview Dialog"
-msgstr ""
+msgstr "聊天预览对话框"
 
 #: ../../content/chat/chat.rst:149
 msgid "When an agent accepts the chat request, they can chat now."
-msgstr ""
+msgstr "当服务人员接受聊天请求后，他们就可以聊天了。"
 
 #: ../../content/chat/chat.rst:154
 msgid "Customer User to Agent Chat"
-msgstr ""
+msgstr "客户用户到服务人员的聊天"
 
 #: ../../content/chat/chat.rst:158
 msgid "Public User to Agent"
-msgstr ""
+msgstr "公共用户到服务人员"
 
 #: ../../content/chat/chat.rst:160
 msgid ""
 "Visitors of the external interface are also not able to start a chat "
 "directly with a certain agent, but only to create generic chat requests. As "
 "they are not logged in, they need to add a name to start the chat."
-msgstr ""
+msgstr "外部人员界面的访客也不能直接与某个服务人员开始开始聊天，而只能创建一般的聊天请求。由于没有登录，他们需要添加一个名称来开始聊天。"
 
 #: ../../content/chat/chat.rst:167
 msgid ""
@@ -1383,21 +1394,23 @@ msgid ""
 " the chat request is displayed in the *General Chat Requests From Public "
 "Users* widget."
 msgstr ""
+"与 *客户用户到服务人员* 小节中描述的步骤相同，但是聊天请求显示在 *General chat Requests From Public Users*"
+" 小部件中。"
 
 #: ../../content/chat/chat.rst:172
 msgid "General Chat Requests From Public Users Widget"
-msgstr ""
+msgstr "由访客发起的一般聊天请求 小部件"
 
 #: ../../content/chat/chat.rst:176
 msgid "Chat Widget"
-msgstr ""
+msgstr "聊天 小部件"
 
 #: ../../content/chat/chat.rst:178
 msgid ""
 "The chat widget is the main component when chatting with other people. It "
 "provides a history of all messages in the chat as well as list of possible "
 "actions depending on your permission level."
-msgstr ""
+msgstr "聊天小部件是与他人聊天时的主要组件。它提供了聊天中所有消息的历史记录，并根据您的权限级别提供了可用的操作列表。"
 
 #: ../../content/chat/chat.rst:180
 msgid ""
@@ -1406,16 +1419,17 @@ msgid ""
 "the Enter key. Shift + Enter can be used to insert a new line into the "
 "message."
 msgstr ""
+"通过单击文本框旁边的发送图标或按回车键，可以使用 *我的活动聊天* 小部件中的聊天文本框发送消息。可用 Shift + Enter 在消息中插入新行。"
 
 #: ../../content/chat/chat.rst:182
 msgid ""
 "Every chat participant has a colored circle icon before his/her name in the "
 "chat widget header, which represents the participant availability."
-msgstr ""
+msgstr "在聊天小部件顶部，每个聊天参与者的名字前面都有一个彩色圆圈图标，它表示参与者的可用性。"
 
 #: ../../content/chat/chat.rst:184
 msgid "Green: participant is active (available and online)."
-msgstr ""
+msgstr "绿色： 参与者处于活动状态(可用的和在线的)。"
 
 #: ../../content/chat/chat.rst:185
 msgid ""
@@ -1423,34 +1437,35 @@ msgid ""
 " server from this user for some time set in "
 "``ChatEngine::AgentOnlineThreshold``)."
 msgstr ""
+"黄色： 参与者不在(可用，但在 ``ChatEngine::AgentOnlineThreshold`` 中设置的时间段内此用户没有向服务器发送请求)。"
 
 #: ../../content/chat/chat.rst:186
 msgid ""
 "Pink: participant is inactive (chat request is not accepted yet or "
 "participant left the chat)."
-msgstr ""
+msgstr "粉红色： 参与者处于非活动状态(聊天请求尚未被接受或参与者离开聊天)。"
 
 #: ../../content/chat/chat.rst:187
 msgid "Red: participant is unavailable (set via availability button)."
-msgstr ""
+msgstr "红色： 参与者不可用(通过可用性按钮设置)。"
 
 #: ../../content/chat/chat.rst:188
 msgid "Black: participant has logged out or session has expired."
-msgstr ""
+msgstr "黑色： 参与者已退出或会话已过期。"
 
 #: ../../content/chat/chat.rst:190
 msgid "The chat widget has some icons in the top right corner."
-msgstr ""
+msgstr "聊天小部件的右上角有一些图标。"
 
 #: ../../content/chat/chat.rst:195
 msgid "Chat Menu"
-msgstr ""
+msgstr "聊天菜单"
 
 #: ../../content/chat/chat.rst:197
 msgid ""
 "The first triangle icon expands and collapses the chat menu. The menu has "
 "several menu items."
-msgstr ""
+msgstr "第一个三角形图标展开并折叠聊天菜单。该菜单有几个菜单项。"
 
 #: ../../content/chat/chat.rst:200 ../../content/tickets/ticket-zoom.rst:438
 msgid "Phone ticket"
@@ -1461,7 +1476,7 @@ msgid ""
 "Allows you to create a phone ticket to which the current chat will be "
 "appended to as an article. After the ticket has successfully created, the "
 "chat will get closed automatically."
-msgstr ""
+msgstr "允许您创建一个电话工单，将当前聊天附加到其中作为信件。创建成功后，聊天将自动关闭。"
 
 #: ../../content/chat/chat.rst:203
 msgid "Append"
@@ -1487,10 +1502,12 @@ msgid ""
 " actions available in the advanced actions toolbar: *Observer* and "
 "*Participant*."
 msgstr ""
+"允许您邀请其他服务人员参与此聊天。您可以从要邀请的可用服务人员列表中选择。一旦服务人员发出邀请，将向该服务人员发送一个新的服务人员到服务人员的聊天请求。当请求被接受后，您和被邀请的服务人员之间将建立一个新的内部聊天。在这个内部聊天中，被邀请的服务人员在高级操作工具栏中还有两个操作可用：*观察者*"
+" 和 *参与者*。"
 
 #: ../../content/chat/chat.rst:209
 msgid "Channel change"
-msgstr "频道更改"
+msgstr "更改频道"
 
 #: ../../content/chat/chat.rst:209
 msgid ""
@@ -1520,7 +1537,7 @@ msgstr "在单独的弹出窗口中打开此聊天。 您可以以与聊天小�
 
 #: ../../content/chat/chat.rst:222
 msgid "Observer"
-msgstr "观察人员"
+msgstr "观察者"
 
 #: ../../content/chat/chat.rst:218
 msgid ""
@@ -1530,6 +1547,7 @@ msgid ""
 "widget will be added to the list of your active chats which is the chat you "
 "have been invited to."
 msgstr ""
+"当您被其他服务人员邀请到一个聊天时，您可以根据您的权限级别决定是否以观察者或参与者的身份加入聊天。一旦您从工具栏中单击该操作，一个新的聊天小部件（就是您被邀请进行的聊天）将添加到您的活动聊天列表中。"
 
 #: ../../content/chat/chat.rst:220
 msgid ""
@@ -1538,13 +1556,14 @@ msgid ""
 "public users. Agents will still receive a message that you joined the chat "
 "as observer."
 msgstr ""
+"如果您以观察者的身份加入聊天，您将只能查看其他人对聊天的参与情况，并且您将对客户用户或公共用户不可见。服务人员仍然会收到一条消息，表明您以观察员身份加入了该聊天。"
 
 #: ../../content/chat/chat.rst:222
 msgid ""
 "As an observer, you have the possibility to become a participant anytime by "
 "using the advanced action toolbar in your chat widget depending on your "
 "permission level."
-msgstr ""
+msgstr "作为一个观察者，您可以随时通过使用聊天小部件中的高级操作工具栏成为参与者，这取决于您的权限级别。"
 
 #: ../../content/chat/chat.rst:225
 msgid "Participant"
@@ -1558,36 +1577,37 @@ msgid ""
 " can become an observer anytime by using the advanced action toolbar in your"
 " chat widget."
 msgstr ""
+"如果你想在被邀请的聊天中有所贡献，你可以作为参与者加入。客户用户、公共用户和服务人员将收到一条消息，表明您已经进入了该聊天。作为参与者，您可以通过使用聊天小部件中的高级操作工具栏随时成为观察者。"
 
 #: ../../content/chat/chat.rst:227
 msgid ""
 "The second circle icon allows the agent to set up a personal monitoring for "
 "this chat, which is a three-way switch:"
-msgstr ""
+msgstr "第二个圆圈图标允许服务人员为这个聊天设置一个个人监控，这是一个三态开关："
 
 #: ../../content/chat/chat.rst:229
 msgid "Empty circle: no monitoring."
-msgstr ""
+msgstr "空圆圈：没有监视。"
 
 #: ../../content/chat/chat.rst:230
 msgid "Empty circle with tick icon: only monitor customer user activity."
-msgstr ""
+msgstr "带有勾号图标的空圆圈：只监视客户用户活动。"
 
 #: ../../content/chat/chat.rst:231
 msgid "Filled circle with tick icon: monitor all actions."
-msgstr ""
+msgstr "带有勾号图标的满圆圈：监视所有操作。"
 
 #: ../../content/chat/chat.rst:233
 msgid ""
 "When monitoring a chat, browser notifications will show up each time there "
 "is a new action in this chat."
-msgstr ""
+msgstr "在监视聊天时，每次聊天中出现新操作时，浏览器都会显示通知。"
 
 #: ../../content/chat/chat.rst:235
 msgid ""
 "Finally the third close icon makes it possible to close the chat by clicking"
 " on the *X*."
-msgstr ""
+msgstr "最后，第三个关闭图标可以通过单击 *X* 关闭聊天。"
 
 #: ../../content/chat/chat.rst:239
 msgid "Chat Integration"
@@ -1597,53 +1617,53 @@ msgstr "聊天集成"
 msgid ""
 "The public chat can be easily integrated into a website with the chat "
 "integration configuration and snippet generator."
-msgstr ""
+msgstr "使用聊天集成配置和代码片段生成器，可以轻松地将公共聊天集成到一个网站中。"
 
 #: ../../content/chat/chat.rst:243
 msgid "To configure the chat and generate code snippet:"
-msgstr ""
+msgstr "若要配置聊天并生成代码片段："
 
 #: ../../content/chat/chat.rst:245
 msgid "Click on the *Configure Chat Integration* button in the left sidebar."
-msgstr ""
+msgstr "单击左侧边栏中的 *配置聊天集成* 按钮。"
 
 #: ../../content/chat/chat.rst:246
 msgid "Customize the texts in the *Configuration* tab."
-msgstr ""
+msgstr "自定义 *配置* 选项卡中的文本。"
 
 #: ../../content/chat/chat.rst:251
 msgid "Chat Integration – Configuration"
-msgstr ""
+msgstr "聊天集成 - 配置"
 
 #: ../../content/chat/chat.rst:255
 msgid ""
 "All changes made in the *Configuration* tab will not be saved. Every time "
 "you open this dialog, all fields will be reset to default values."
-msgstr ""
+msgstr "在 *配置* 选项卡中所做的所有更改将不会保存。每次打开此对话框时，所有字段都将重置为默认值。"
 
 #: ../../content/chat/chat.rst:257
 msgid ""
 "Copy the code snippet from the *Integration Code* tab and paste it into your"
 " website right before the ``</body>`` element."
-msgstr ""
+msgstr "从 *集成代码* 选项卡复制代码片段，并将其粘贴到您网站的 ``</body>`` 元素之前。"
 
 #: ../../content/chat/chat.rst:262
 msgid "Chat Integration – Integration Code"
-msgstr ""
+msgstr "聊天集成 - 集成代码"
 
 #: ../../content/chat/chat.rst:264
 msgid "You can check the result in the *Preview* tab."
-msgstr ""
+msgstr "您可以在 *预览* 选项卡中检查结果。"
 
 #: ../../content/chat/chat.rst:269
 msgid "Chat Integration – Preview"
-msgstr ""
+msgstr "聊天集成 - 预览"
 
 #: ../../content/chat/chat.rst:273
 msgid ""
 "The preview uses the real chat module. Other agents have to be available for"
 " chatting to preview all features."
-msgstr ""
+msgstr "预览版使用了真正的聊天模块。必须设置其他服务人员可用于聊天才能预览所有功能。"
 
 #: ../../content/chat/chat.rst:275
 msgid ""
@@ -1652,12 +1672,14 @@ msgid ""
 "``HttpType`` is properly set. The website must run on the same protocol for "
 "chat widget to work."
 msgstr ""
+"如果浏览器控制台显示混合内容警告，管理员必须检查系统配置设置 ``HttpType`` "
+"是否正确设置。网站必须运行在相同的协议上，才能让聊天小部件正常工作。"
 
 #: ../../content/chat/chat.rst:277
 msgid ""
 "For example, if the website is running OTRS on SSL, the system configuration"
 " option must be set to ``https``."
-msgstr ""
+msgstr "例如，如果网站在 SSL 上运行 OTRS，系统配置选项必须设置为 ``https``。"
 
 #: ../../content/customers.rst:2
 msgid "Customers"
@@ -2591,34 +2613,34 @@ msgstr "可以在 *前端* → *服务人员* → *工具栏* 的设置中激活
 
 #: ../../content/dashboard/dashboard.rst:23
 msgid "The last icon is the chat availability status."
-msgstr ""
+msgstr "最后一个图标是聊天可用性状态。"
 
 #: ../../content/dashboard/dashboard.rst:29
 msgid ""
 "The chat availability status icon is a three-way switch, and can be changed "
 "by clicking."
-msgstr ""
+msgstr "聊天可用性状态图标是一个三态开关，可以通过单击来更改。"
 
 #: ../../content/dashboard/dashboard.rst:31
 msgid "Empty circle: unavailable for chats."
-msgstr ""
+msgstr "空圆圈：不可聊天。"
 
 #: ../../content/dashboard/dashboard.rst:32
 msgid ""
 "Empty circle with tick sign: available for internal (agent to agent) chats."
-msgstr ""
+msgstr "带勾号的空圆圈：可内部（服务人员到服务人员）聊天。"
 
 #: ../../content/dashboard/dashboard.rst:33
 msgid ""
 "Filled circle with tick sign: available for internal (agent to agent) and "
 "external (customer to agent, public to agent) chats."
-msgstr ""
+msgstr "带勾号的满圆圈：可内部（服务人员到服务人员）和外部(客户对服务人员、访客对服务人员)聊天。"
 
 #: ../../content/dashboard/dashboard.rst:37
 msgid ""
 "The chat availability status will be changed from external chats to internal"
 " chats each time an agent log in to OTRS again."
-msgstr ""
+msgstr "服务人员每次重新登录 OTRS 时，聊天可用性状态将从可外部聊天更改为可内部聊天。"
 
 #: ../../content/dashboard/dashboard.rst:40
 msgid "Main menu"
@@ -5468,11 +5490,11 @@ msgstr "服务视图"
 msgid ""
 "Use this screen to view tickets in specific services. The *Service View* "
 "screen is available in the *Service View* menu item of the *Tickets* menu."
-msgstr ""
+msgstr "使用此屏幕可以查看特定服务中的工单。*服务视图* 屏幕在 *工单* 菜单的 *服务视图* 菜单项中可用。"
 
 #: ../../content/tickets/service-view.rst:15
 msgid "Service View Widget Header"
-msgstr ""
+msgstr "服务视图 小部件顶部"
 
 #: ../../content/tickets/service-view.rst:17
 msgid ""
@@ -5480,22 +5502,24 @@ msgid ""
 "specific service or tickets in *My Services* set in :doc:`../avatar"
 "/personal-preferences`."
 msgstr ""
+"每个视图在小部件的顶部都有一个过滤器，用于列出仅在特定服务中的工单，或者在 :doc:`../avatar/personal-preferences` "
+"中设置的 *我的服务* 中的工单。"
 
 #: ../../content/tickets/service-view.rst:29
 msgid "Small Service View"
-msgstr ""
+msgstr "简洁版式服务视图"
 
 #: ../../content/tickets/service-view.rst:36
 msgid "Small Service View Screen"
-msgstr ""
+msgstr "简洁版式服务视图屏幕"
 
 #: ../../content/tickets/service-view.rst:93
 msgid "Medium Service View"
-msgstr ""
+msgstr "基本版式服务视图"
 
 #: ../../content/tickets/service-view.rst:100
 msgid "Medium Service View Screen"
-msgstr ""
+msgstr "基本版式服务视图屏幕"
 
 #: ../../content/tickets/service-view.rst:108
 #: ../../content/tickets/service-view.rst:132
@@ -5503,31 +5527,31 @@ msgid ""
 "Hover the mouse over the ticket row, and a floating menu will appear. The "
 "floating menu has the same menu items that are already explained in the "
 "*Small Service View* section."
-msgstr ""
+msgstr "将鼠标悬停在工单行上，将出现一个浮动菜单。浮动菜单具有与已经在 *简洁版式服务视图* 小节中解释过的相同的菜单项。"
 
 #: ../../content/tickets/service-view.rst:113
 msgid "Floating Menu of Medium Service View"
-msgstr ""
+msgstr "基本版式服务视图中的浮动菜单"
 
 #: ../../content/tickets/service-view.rst:117
 msgid "Large Service View"
-msgstr ""
+msgstr "详细版式服务视图"
 
 #: ../../content/tickets/service-view.rst:124
 msgid "Large Service View Screen"
-msgstr ""
+msgstr "详细版式服务视图屏幕"
 
 #: ../../content/tickets/service-view.rst:137
 msgid "Floating Menu of Large Service View"
-msgstr ""
+msgstr "详细版式服务视图中的浮动菜单"
 
 #: ../../content/tickets/service-view.rst:141
 msgid "Service View Bulk Actions"
-msgstr ""
+msgstr "服务视图批量操作"
 
 #: ../../content/tickets/service-view.rst:148
 msgid "Service View Bulk Action Screen"
-msgstr ""
+msgstr "服务视图批量操作屏幕"
 
 #: ../../content/tickets/status-view.rst:2
 msgid "Status View"
