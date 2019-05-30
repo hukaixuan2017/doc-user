@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 16:51+0200\n"
+"POT-Creation-Date: 2019-05-30 23:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2479,8 +2479,7 @@ msgid "Click on the *Yes* button in the confirmation dialog."
 msgstr ""
 
 #: ../../content/faq/category-management.rst:49
-#: ../../content/faq/language-management.rst:49
-msgid "Delete Language Screen"
+msgid "Delete Category Screen"
 msgstr ""
 
 #: ../../content/faq/category-management.rst:53
@@ -2828,6 +2827,10 @@ msgstr ""
 
 #: ../../content/faq/language-management.rst:43
 msgid "Click on the trash icon in the list of languages."
+msgstr ""
+
+#: ../../content/faq/language-management.rst:49
+msgid "Delete Language Screen"
 msgstr ""
 
 #: ../../content/faq/language-management.rst:53
@@ -5149,7 +5152,7 @@ msgid "White: the article is visible for the customer user in the external inter
 msgstr ""
 
 #: ../../content/tickets/ticket-zoom.rst:404
-msgid "Red: the article not visible for the customer user in the external interface, but it is visible for agents in the agent interface."
+msgid "Red: the article is not visible for the customer user in the external interface, but it is visible for agents in the agent interface."
 msgstr ""
 
 #: ../../content/tickets/ticket-zoom.rst:405

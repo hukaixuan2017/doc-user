@@ -401,7 +401,7 @@ Most of the columns are sortable by clicking on the header. Click again to chang
 There are three possible colors used to mark the type of article.
 
 - White: the article is visible for the customer user in the external interface and for agents in the agent interface.
-- Red: the article not visible for the customer user in the external interface, but it is visible for agents in the agent interface.
+- Red: the article is not visible for the customer user in the external interface, but it is visible for agents in the agent interface.
 - Yellow: the article is a system message and the visibility can be changed in the system configuration.
 
 .. note::

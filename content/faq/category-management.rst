@@ -46,7 +46,7 @@ To delete a category:
 .. figure:: images/faq-category-delete.png
    :alt: Delete Category Screen
 
-   Delete Language Screen
+   Delete Category Screen
 
 
 FAQ Category Settings
