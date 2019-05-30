@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 16:42+0200\n"
+"POT-Creation-Date: 2019-05-30 16:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2434,11 +2434,11 @@ msgid "Use this screen to manage categories available in FAQ articles. A fresh O
 msgstr ""
 
 #: ../../content/faq/category-management.rst:13
-msgid "Category Management Screen"
+msgid "FAQ Category Management Screen"
 msgstr ""
 
 #: ../../content/faq/category-management.rst:17
-msgid "Manage Categories"
+msgid "Manage FAQ Categories"
 msgstr ""
 
 #: ../../content/faq/category-management.rst:19
@@ -2484,7 +2484,7 @@ msgid "Delete Language Screen"
 msgstr ""
 
 #: ../../content/faq/category-management.rst:53
-msgid "Category Settings"
+msgid "FAQ Category Settings"
 msgstr ""
 
 #: ../../content/faq/category-management.rst:58
@@ -2783,11 +2783,11 @@ msgid "Use this screen to manage languages available in FAQ articles. A fresh OT
 msgstr ""
 
 #: ../../content/faq/language-management.rst:13
-msgid "Language Management Screen"
+msgid "FAQ Language Management Screen"
 msgstr ""
 
 #: ../../content/faq/language-management.rst:17
-msgid "Manage Languages"
+msgid "Manage FAQ Languages"
 msgstr ""
 
 #: ../../content/faq/language-management.rst:19
@@ -2831,7 +2831,7 @@ msgid "Click on the trash icon in the list of languages."
 msgstr ""
 
 #: ../../content/faq/language-management.rst:53
-msgid "Language Settings"
+msgid "FAQ Language Settings"
 msgstr ""
 
 #: ../../content/faq/language-management.rst:55

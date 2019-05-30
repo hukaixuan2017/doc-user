@@ -8,13 +8,13 @@ Language Management
 Use this screen to manage languages available in FAQ articles. A fresh OTRS installation already contains some languages by default. The language management screen is available in the *Language Management* menu item of the *FAQ* menu.
 
 .. figure:: images/faq-language-management.png
-   :alt: Language Management Screen
+   :alt: FAQ Language Management Screen
 
-   Language Management Screen
+   FAQ Language Management Screen
 
 
-Manage Languages
-----------------
+Manage FAQ Languages
+--------------------
 
 To add a language:
 
@@ -49,8 +49,8 @@ To delete a language:
    Delete Language Screen
 
 
-Language Settings
------------------
+FAQ Language Settings
+---------------------
 
 The following setting is available when adding or editing this resource. The fields marked with an asterisk are mandatory.
 

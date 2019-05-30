@@ -8,13 +8,13 @@ Category Management
 Use this screen to manage categories available in FAQ articles. A fresh OTRS installation already contains a category by default. The category management screen is available in the *Category Management* menu item of the *FAQ* menu.
 
 .. figure:: images/faq-category-management.png
-   :alt: Category Management Screen
+   :alt: FAQ Category Management Screen
 
-   Category Management Screen
+   FAQ Category Management Screen
 
 
-Manage Categories
------------------
+Manage FAQ Categories
+---------------------
 
 To add a category:
 
@@ -49,8 +49,8 @@ To delete a category:
    Delete Language Screen
 
 
-Category Settings
------------------
+FAQ Category Settings
+---------------------
 
 The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
 
