@@ -398,9 +398,15 @@ This widget lists all articles of the ticket in a table.
 
 Most of the columns are sortable by clicking on the header. Click again to change the sort order.
 
+There are three possible colors used to mark the type of article.
+
+- White: the article is visible for the customer user in the external interface and for agents in the agent interface.
+- Red: the article not visible for the customer user in the external interface, but it is visible for agents in the agent interface.
+- Yellow: the article is a system message and the visibility can be changed in the system configuration.
+
 .. note::
 
-   This widget is not displayed in timeline view.
+   This widget is not displayed in ticket timeline view.
 
 
 Article Zoom
@@ -572,6 +578,23 @@ Reply
 
    Time units (work units)
       Enter any amount of time units for time accounting.
+
+
+Ticket Timeline View
+--------------------
+
+The ticket timeline view provides a chronological view of all actions which happened on a ticket, like articles, owner changes, incoming mails and other actions. With this view, agents are able to get a good overview of a ticket in less time.
+
+.. figure:: images/ticket-zoom-article-ticket-timeline-view.png
+   :alt: Ticket Timeline View Widget
+
+   Ticket Timeline View Widget
+
+In this view you can work on the ticket as you are used to. You can inspect the time of each event in the timeline by hovering the little square next to each event with your mouse cursor. You can view the full content of articles by using the zoom icon on top of the certain articles box, where you will find all common article actions.
+
+.. seealso::
+
+   The ticket timeline view can be activated in the *Settings* menu item (gear icon) in the ticket menu.
 
 
 Linked Objects
