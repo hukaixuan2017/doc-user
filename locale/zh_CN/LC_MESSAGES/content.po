@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-10 11:50+0200\n"
+"POT-Creation-Date: 2019-05-30 23:16+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: 汇民 王 <whuim@qq.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otrs/teams/23435/zh_CN/)\n"
@@ -1467,7 +1467,7 @@ msgid ""
 "several menu items."
 msgstr "第一个三角形图标展开并折叠聊天菜单。该菜单有几个菜单项。"
 
-#: ../../content/chat/chat.rst:200 ../../content/tickets/ticket-zoom.rst:438
+#: ../../content/chat/chat.rst:200 ../../content/tickets/ticket-zoom.rst:444
 msgid "Phone ticket"
 msgstr "电话工单"
 
@@ -2186,7 +2186,7 @@ msgstr "*客户信息* 小部件显示有关当前客户的信息。"
 
 #: ../../content/customers/customer-information-center.rst:143
 #: ../../content/customers/customer-user-information-center.rst:134
-#: ../../content/tickets/ticket-zoom.rst:620
+#: ../../content/tickets/ticket-zoom.rst:643
 msgid "Customer Information Widget"
 msgstr "客户信息 小部件"
 
@@ -2435,8 +2435,8 @@ msgstr "客户用户搜索对话框"
 #: ../../content/tickets/new-email-ticket.rst:21
 #: ../../content/tickets/new-phone-ticket.rst:18
 #: ../../content/tickets/ticket-zoom.rst:194
-#: ../../content/tickets/ticket-zoom.rst:500
-#: ../../content/tickets/ticket-zoom.rst:550
+#: ../../content/tickets/ticket-zoom.rst:506
+#: ../../content/tickets/ticket-zoom.rst:556
 msgid ""
 "Usage of wildcards (\\*) is also possible. Enter two asterisks (\\*\\*) to "
 "list all customer users."
@@ -3034,12 +3034,12 @@ msgstr ""
 "菜单项中。"
 
 #: ../../content/faq/category-management.rst:13
-msgid "Category Management Screen"
-msgstr "类别管理屏幕"
+msgid "FAQ Category Management Screen"
+msgstr "FAQ类别管理屏幕"
 
 #: ../../content/faq/category-management.rst:17
-msgid "Manage Categories"
-msgstr "管理类别"
+msgid "Manage FAQ Categories"
+msgstr "管理 FAQ 类别"
 
 #: ../../content/faq/category-management.rst:19
 msgid "To add a category:"
@@ -3079,13 +3079,12 @@ msgid "Click on the *Yes* button in the confirmation dialog."
 msgstr "单击确认屏幕上的 *是* 按钮。"
 
 #: ../../content/faq/category-management.rst:49
-#: ../../content/faq/language-management.rst:49
-msgid "Delete Language Screen"
-msgstr "删除语言屏幕"
+msgid "Delete Category Screen"
+msgstr "删除服务目录屏幕"
 
 #: ../../content/faq/category-management.rst:53
-msgid "Category Settings"
-msgstr "类别设置"
+msgid "FAQ Category Settings"
+msgstr "FAQ 类别设置"
 
 #: ../../content/faq/category-management.rst:58
 #: ../../content/faq/language-management.rst:57
@@ -3286,7 +3285,7 @@ msgid "FAQ History Screen"
 msgstr "FAQ历史记录屏幕"
 
 #: ../../content/faq/faq-zoom.rst:39 ../../content/tickets/ticket-zoom.rst:30
-#: ../../content/tickets/ticket-zoom.rst:422
+#: ../../content/tickets/ticket-zoom.rst:428
 msgid "Print"
 msgstr "打印"
 
@@ -3367,7 +3366,7 @@ msgid ""
 "links between the FAQ article and other objects."
 msgstr "FAQ文章可以链接到其它对象。 使用此小部件可以查看FAQ文章与其它对象之间的链接。"
 
-#: ../../content/faq/faq-zoom.rst:81 ../../content/tickets/ticket-zoom.rst:585
+#: ../../content/faq/faq-zoom.rst:81 ../../content/tickets/ticket-zoom.rst:608
 msgid "Linked Objects Widget"
 msgstr "链接对象 小部件"
 
@@ -3377,17 +3376,17 @@ msgid ""
 "Existing links can also be managed there."
 msgstr "可以通过 *FAQ详情* 菜单的 *链接* 菜单项添加新链接。 现有的链接也可以在那里管理。"
 
-#: ../../content/faq/faq-zoom.rst:85 ../../content/tickets/ticket-zoom.rst:589
+#: ../../content/faq/faq-zoom.rst:85 ../../content/tickets/ticket-zoom.rst:612
 msgid "To see the linked object details, click on an entry in this widget."
 msgstr "若要查看链接对象详细信息，请单击此小部件中的条目。"
 
-#: ../../content/faq/faq-zoom.rst:89 ../../content/tickets/ticket-zoom.rst:593
+#: ../../content/faq/faq-zoom.rst:89 ../../content/tickets/ticket-zoom.rst:616
 msgid ""
 "Change setting ``LinkObject::ViewMode`` to *Complex* to display detailed "
 "information about linked objects."
 msgstr "将 ``LinkObject::ViewMode`` 设置为 *复杂* 以显示有关链接对象的详细信息。"
 
-#: ../../content/faq/faq-zoom.rst:94 ../../content/tickets/ticket-zoom.rst:598
+#: ../../content/faq/faq-zoom.rst:94 ../../content/tickets/ticket-zoom.rst:621
 msgid "Complex Linked Objects Widget"
 msgstr "复杂链接对象 小部件"
 
@@ -3420,12 +3419,12 @@ msgstr ""
 "菜单项中。"
 
 #: ../../content/faq/language-management.rst:13
-msgid "Language Management Screen"
-msgstr "管理语言屏幕"
+msgid "FAQ Language Management Screen"
+msgstr "FAQ 语言管理屏幕"
 
 #: ../../content/faq/language-management.rst:17
-msgid "Manage Languages"
-msgstr "管理语言"
+msgid "Manage FAQ Languages"
+msgstr "管理 FAQ 语言"
 
 #: ../../content/faq/language-management.rst:19
 msgid "To add a language:"
@@ -3467,9 +3466,13 @@ msgstr "若要删除一个语言："
 msgid "Click on the trash icon in the list of languages."
 msgstr "点击语言列表中的垃圾桶图标。"
 
+#: ../../content/faq/language-management.rst:49
+msgid "Delete Language Screen"
+msgstr "删除语言屏幕"
+
 #: ../../content/faq/language-management.rst:53
-msgid "Language Settings"
-msgstr "语言设置"
+msgid "FAQ Language Settings"
+msgstr "FAQ 语言设置"
 
 #: ../../content/faq/language-management.rst:55
 msgid ""
@@ -5000,29 +5003,29 @@ msgstr "为其创建工单的人员。 这将是电子邮件的 *收件人* 字�
 
 #: ../../content/tickets/new-email-ticket.rst:24
 #: ../../content/tickets/ticket-zoom.rst:185
-#: ../../content/tickets/ticket-zoom.rst:491
-#: ../../content/tickets/ticket-zoom.rst:541
+#: ../../content/tickets/ticket-zoom.rst:497
+#: ../../content/tickets/ticket-zoom.rst:547
 msgid "Cc"
 msgstr "抄送"
 
 #: ../../content/tickets/new-email-ticket.rst:24
 #: ../../content/tickets/ticket-zoom.rst:185
-#: ../../content/tickets/ticket-zoom.rst:491
-#: ../../content/tickets/ticket-zoom.rst:541
+#: ../../content/tickets/ticket-zoom.rst:497
+#: ../../content/tickets/ticket-zoom.rst:547
 msgid "Select other customer users as carbon copy of the email, if needed."
 msgstr "如果需要，请选择其他客户用户作为电子邮件的抄送人。"
 
 #: ../../content/tickets/new-email-ticket.rst:27
 #: ../../content/tickets/ticket-zoom.rst:188
-#: ../../content/tickets/ticket-zoom.rst:494
-#: ../../content/tickets/ticket-zoom.rst:544
+#: ../../content/tickets/ticket-zoom.rst:500
+#: ../../content/tickets/ticket-zoom.rst:550
 msgid "Bcc"
 msgstr "密件抄送"
 
 #: ../../content/tickets/new-email-ticket.rst:27
 #: ../../content/tickets/ticket-zoom.rst:188
-#: ../../content/tickets/ticket-zoom.rst:494
-#: ../../content/tickets/ticket-zoom.rst:544
+#: ../../content/tickets/ticket-zoom.rst:500
+#: ../../content/tickets/ticket-zoom.rst:550
 msgid ""
 "Select other customer users as blind carbon copy of the email, if needed."
 msgstr "如果需要，选择其他客户用户作为电子邮件的密件抄送人。"
@@ -5076,9 +5079,9 @@ msgstr "启用 ``Ticket::Responsible`` 设置，以将其他服务人员设置�
 #: ../../content/tickets/ticket-zoom.rst:235
 #: ../../content/tickets/ticket-zoom.rst:264
 #: ../../content/tickets/ticket-zoom.rst:361
-#: ../../content/tickets/ticket-zoom.rst:471
-#: ../../content/tickets/ticket-zoom.rst:503
-#: ../../content/tickets/ticket-zoom.rst:553
+#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:509
+#: ../../content/tickets/ticket-zoom.rst:559
 msgid "Subject \\*"
 msgstr "主题 \\*"
 
@@ -5092,9 +5095,9 @@ msgstr "主题 \\*"
 #: ../../content/tickets/ticket-zoom.rst:235
 #: ../../content/tickets/ticket-zoom.rst:264
 #: ../../content/tickets/ticket-zoom.rst:361
-#: ../../content/tickets/ticket-zoom.rst:471
-#: ../../content/tickets/ticket-zoom.rst:503
-#: ../../content/tickets/ticket-zoom.rst:553
+#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:509
+#: ../../content/tickets/ticket-zoom.rst:559
 msgid "The subject of the ticket like the subject of an email."
 msgstr "工单的主题就像电子邮件的主题一样。"
 
@@ -5107,8 +5110,8 @@ msgstr "工单的主题就像电子邮件的主题一样。"
 #: ../../content/tickets/ticket-zoom.rst:200
 #: ../../content/tickets/ticket-zoom.rst:238
 #: ../../content/tickets/ticket-zoom.rst:267
-#: ../../content/tickets/ticket-zoom.rst:506
-#: ../../content/tickets/ticket-zoom.rst:556
+#: ../../content/tickets/ticket-zoom.rst:512
+#: ../../content/tickets/ticket-zoom.rst:562
 msgid "Options"
 msgstr "选项"
 
@@ -5121,8 +5124,8 @@ msgstr "选项"
 #: ../../content/tickets/ticket-zoom.rst:200
 #: ../../content/tickets/ticket-zoom.rst:238
 #: ../../content/tickets/ticket-zoom.rst:267
-#: ../../content/tickets/ticket-zoom.rst:506
-#: ../../content/tickets/ticket-zoom.rst:556
+#: ../../content/tickets/ticket-zoom.rst:512
+#: ../../content/tickets/ticket-zoom.rst:562
 msgid ""
 "It is possible to add other objects like customer users or FAQ articles to "
 "the ticket."
@@ -5138,9 +5141,9 @@ msgstr "可以将其它对象（如客户用户或FAQ文章）添加到工单中
 #: ../../content/tickets/ticket-zoom.rst:241
 #: ../../content/tickets/ticket-zoom.rst:270
 #: ../../content/tickets/ticket-zoom.rst:364
-#: ../../content/tickets/ticket-zoom.rst:474
-#: ../../content/tickets/ticket-zoom.rst:509
-#: ../../content/tickets/ticket-zoom.rst:559
+#: ../../content/tickets/ticket-zoom.rst:480
+#: ../../content/tickets/ticket-zoom.rst:515
+#: ../../content/tickets/ticket-zoom.rst:565
 msgid "Text \\*"
 msgstr "正文 \\*"
 
@@ -5168,8 +5171,8 @@ msgstr "分配给所选队列的签名。 请与您的管理员联系以更改�
 #: ../../content/tickets/ticket-zoom.rst:206
 #: ../../content/tickets/ticket-zoom.rst:244
 #: ../../content/tickets/ticket-zoom.rst:273
-#: ../../content/tickets/ticket-zoom.rst:512
-#: ../../content/tickets/ticket-zoom.rst:562
+#: ../../content/tickets/ticket-zoom.rst:518
+#: ../../content/tickets/ticket-zoom.rst:568
 msgid "Attachments"
 msgstr "附件"
 
@@ -5182,8 +5185,8 @@ msgstr "附件"
 #: ../../content/tickets/ticket-zoom.rst:206
 #: ../../content/tickets/ticket-zoom.rst:244
 #: ../../content/tickets/ticket-zoom.rst:273
-#: ../../content/tickets/ticket-zoom.rst:512
-#: ../../content/tickets/ticket-zoom.rst:562
+#: ../../content/tickets/ticket-zoom.rst:518
+#: ../../content/tickets/ticket-zoom.rst:568
 msgid ""
 "It is possible to add attachments to the ticket. Click on the field to add "
 "an attachment, or just drop some files here."
@@ -5193,9 +5196,9 @@ msgstr "可以向工单添加附件。 单击该字段以添加附件，或者�
 #: ../../content/tickets/new-phone-ticket.rst:46
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
-#: ../../content/tickets/ticket-zoom.rst:459
-#: ../../content/tickets/ticket-zoom.rst:515
-#: ../../content/tickets/ticket-zoom.rst:565
+#: ../../content/tickets/ticket-zoom.rst:465
+#: ../../content/tickets/ticket-zoom.rst:521
+#: ../../content/tickets/ticket-zoom.rst:571
 msgid "Next ticket state"
 msgstr "工单下一状态"
 
@@ -5211,8 +5214,8 @@ msgstr "默认情况下，新工单处于 *处理中* 状态。 如果要更改�
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
-#: ../../content/tickets/ticket-zoom.rst:518
-#: ../../content/tickets/ticket-zoom.rst:568
+#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:574
 msgid "Pending date"
 msgstr "挂起时间"
 
@@ -5221,8 +5224,8 @@ msgstr "挂起时间"
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
-#: ../../content/tickets/ticket-zoom.rst:518
-#: ../../content/tickets/ticket-zoom.rst:568
+#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:574
 msgid ""
 "Select a date and time as reminder for the ticket. If the pending time is "
 "reached, the ticket can be escalated."
@@ -5251,8 +5254,8 @@ msgstr "默认情况下，新工单的优先级为 *3-正常* 。 如果要更�
 #: ../../content/tickets/ticket-zoom.rst:218
 #: ../../content/tickets/ticket-zoom.rst:250
 #: ../../content/tickets/ticket-zoom.rst:279
-#: ../../content/tickets/ticket-zoom.rst:524
-#: ../../content/tickets/ticket-zoom.rst:575
+#: ../../content/tickets/ticket-zoom.rst:530
+#: ../../content/tickets/ticket-zoom.rst:581
 msgid "Time units (work units)"
 msgstr "时间单元（工作单元）"
 
@@ -5265,8 +5268,8 @@ msgstr "时间单元（工作单元）"
 #: ../../content/tickets/ticket-zoom.rst:218
 #: ../../content/tickets/ticket-zoom.rst:250
 #: ../../content/tickets/ticket-zoom.rst:279
-#: ../../content/tickets/ticket-zoom.rst:524
-#: ../../content/tickets/ticket-zoom.rst:574
+#: ../../content/tickets/ticket-zoom.rst:530
+#: ../../content/tickets/ticket-zoom.rst:580
 msgid "Enter any amount of time units for time accounting."
 msgstr "输入任意数量的时间单元以用于工时核算。"
 
@@ -5312,7 +5315,7 @@ msgstr "创建流程工单"
 
 #: ../../content/tickets/new-process-ticket.rst:6
 #: ../../content/tickets/ticket-zoom.rst:286
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid ""
 "This option is available only, if at least one process is deployed in the "
 "system."
@@ -5641,7 +5644,7 @@ msgid "The *Ticket Zoom* screen has an own menu."
 msgstr "*工单详情* 屏幕有一个自己的菜单。"
 
 #: ../../content/tickets/ticket-zoom.rst:19
-#: ../../content/tickets/ticket-zoom.rst:416
+#: ../../content/tickets/ticket-zoom.rst:422
 msgid ""
 "The menu is extensible and menu items can be grouped into drop-down lists."
 msgstr "菜单是可扩展的，菜单项可以分组到下拉列表中。"
@@ -5666,8 +5669,8 @@ msgstr "为该工单选择新的优先级。"
 #: ../../content/tickets/ticket-zoom.rst:203
 #: ../../content/tickets/ticket-zoom.rst:241
 #: ../../content/tickets/ticket-zoom.rst:270
-#: ../../content/tickets/ticket-zoom.rst:509
-#: ../../content/tickets/ticket-zoom.rst:559
+#: ../../content/tickets/ticket-zoom.rst:515
+#: ../../content/tickets/ticket-zoom.rst:565
 msgid "The body text of the note to be added to the ticket."
 msgstr "要添加到工单备注的正文文本。"
 
@@ -5685,8 +5688,8 @@ msgstr "对客户可见"
 #: ../../content/tickets/ticket-zoom.rst:215
 #: ../../content/tickets/ticket-zoom.rst:247
 #: ../../content/tickets/ticket-zoom.rst:276
-#: ../../content/tickets/ticket-zoom.rst:521
-#: ../../content/tickets/ticket-zoom.rst:571
+#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:577
 msgid "Define, if the note is an internal note or customer can view it."
 msgstr "定义备注是内部备注还是客户可以查看它。"
 
@@ -5769,8 +5772,8 @@ msgstr "致电客户屏幕"
 
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
-#: ../../content/tickets/ticket-zoom.rst:515
-#: ../../content/tickets/ticket-zoom.rst:565
+#: ../../content/tickets/ticket-zoom.rst:521
+#: ../../content/tickets/ticket-zoom.rst:571
 msgid "Select an other state if you want to change it."
 msgstr "如果要更改，请选择其它状态。"
 
@@ -5805,47 +5808,47 @@ msgstr "外发邮件屏幕"
 
 #: ../../content/tickets/ticket-zoom.rst:179
 #: ../../content/tickets/ticket-zoom.rst:355
-#: ../../content/tickets/ticket-zoom.rst:465
-#: ../../content/tickets/ticket-zoom.rst:485
-#: ../../content/tickets/ticket-zoom.rst:535
+#: ../../content/tickets/ticket-zoom.rst:471
+#: ../../content/tickets/ticket-zoom.rst:491
+#: ../../content/tickets/ticket-zoom.rst:541
 msgid "From"
 msgstr "发件人"
 
 #: ../../content/tickets/ticket-zoom.rst:179
 #: ../../content/tickets/ticket-zoom.rst:355
-#: ../../content/tickets/ticket-zoom.rst:465
-#: ../../content/tickets/ticket-zoom.rst:485
-#: ../../content/tickets/ticket-zoom.rst:535
+#: ../../content/tickets/ticket-zoom.rst:471
+#: ../../content/tickets/ticket-zoom.rst:491
+#: ../../content/tickets/ticket-zoom.rst:541
 msgid "This field is read only and holds the queue address."
 msgstr "该字段是只读的，保存队列地址。"
 
 #: ../../content/tickets/ticket-zoom.rst:182
 #: ../../content/tickets/ticket-zoom.rst:358
-#: ../../content/tickets/ticket-zoom.rst:468
-#: ../../content/tickets/ticket-zoom.rst:488
-#: ../../content/tickets/ticket-zoom.rst:538
+#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:494
+#: ../../content/tickets/ticket-zoom.rst:544
 msgid "To \\*"
 msgstr "收件人 \\*"
 
 #: ../../content/tickets/ticket-zoom.rst:182
 #: ../../content/tickets/ticket-zoom.rst:358
-#: ../../content/tickets/ticket-zoom.rst:468
-#: ../../content/tickets/ticket-zoom.rst:488
-#: ../../content/tickets/ticket-zoom.rst:538
+#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:494
+#: ../../content/tickets/ticket-zoom.rst:544
 msgid "This will be the *To* field of the email."
 msgstr "这将是电子邮件的 *收件人* 字段。"
 
 #: ../../content/tickets/ticket-zoom.rst:192
-#: ../../content/tickets/ticket-zoom.rst:498
-#: ../../content/tickets/ticket-zoom.rst:548
+#: ../../content/tickets/ticket-zoom.rst:504
+#: ../../content/tickets/ticket-zoom.rst:554
 msgid ""
 "You can select a customer user from OTRS or any valid email address can be "
 "added here."
 msgstr "您可以从 OTRS 中选择客户用户，也可以在此处添加任何有效的电子邮件地址。"
 
 #: ../../content/tickets/ticket-zoom.rst:215
-#: ../../content/tickets/ticket-zoom.rst:521
-#: ../../content/tickets/ticket-zoom.rst:571
+#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:577
 msgid "Visible for customer"
 msgstr "对客户的可见性"
 
@@ -5881,7 +5884,7 @@ msgid "This menu item opens a new window to close the ticket."
 msgstr "此菜单项打开一个新窗口以关闭工单。"
 
 #: ../../content/tickets/ticket-zoom.rst:261
-#: ../../content/tickets/ticket-zoom.rst:459
+#: ../../content/tickets/ticket-zoom.rst:465
 msgid "Select the closed state of the ticket."
 msgstr "设置该工单的关闭状态。"
 
@@ -6011,7 +6014,7 @@ msgid ""
 msgstr "尝试输入工单编号或标题的一部分，以便进行搜索。"
 
 #: ../../content/tickets/ticket-zoom.rst:352
-#: ../../content/tickets/ticket-zoom.rst:462
+#: ../../content/tickets/ticket-zoom.rst:468
 msgid "Inform sender"
 msgstr "通知发送者"
 
@@ -6022,7 +6025,7 @@ msgid ""
 msgstr "如果您想通知发件人有关工单合并的信息，请选中此框。 如果选中此框，则必须填写以下字段。"
 
 #: ../../content/tickets/ticket-zoom.rst:364
-#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:480
 msgid "The body text of the email to be sent."
 msgstr "要发送的邮件的正文文本。"
 
@@ -6105,174 +6108,230 @@ msgid ""
 "change the sort order."
 msgstr "通过点击列标题可以对大多数列进行排序。 再次点击可更改排序顺序。"
 
-#: ../../content/tickets/ticket-zoom.rst:403
-msgid "This widget is not displayed in timeline view."
-msgstr "此小组件不会显示在时间轴视图中。"
+#: ../../content/tickets/ticket-zoom.rst:401
+msgid "There are three possible colors used to mark the type of article."
+msgstr "有三种可能的颜色用于标记文章的类型。"
 
-#: ../../content/tickets/ticket-zoom.rst:407
+#: ../../content/tickets/ticket-zoom.rst:403
+msgid ""
+"White: the article is visible for the customer user in the external "
+"interface and for agents in the agent interface."
+msgstr "白色：对于外部人员界面中的客户用户和服务人员界面中的服务人员，文章是可见的。"
+
+#: ../../content/tickets/ticket-zoom.rst:404
+msgid ""
+"Red: the article is not visible for the customer user in the external "
+"interface, but it is visible for agents in the agent interface."
+msgstr "红色：外部人员界面中的客户用户看不到该文章，但服务人员界面中的服务人员可以看到该文章。"
+
+#: ../../content/tickets/ticket-zoom.rst:405
+msgid ""
+"Yellow: the article is a system message and the visibility can be changed in"
+" the system configuration."
+msgstr "黄色：文章是系统消息，可以在系统配置中更改其可见性。"
+
+#: ../../content/tickets/ticket-zoom.rst:409
+msgid "This widget is not displayed in ticket timeline view."
+msgstr "此小组件不会显示在工单时间轴视图中。"
+
+#: ../../content/tickets/ticket-zoom.rst:413
 msgid "Article Zoom"
 msgstr "信件详情"
 
-#: ../../content/tickets/ticket-zoom.rst:409
+#: ../../content/tickets/ticket-zoom.rst:415
 msgid ""
 "This widget displays the details of the article. The widget has an own menu."
 msgstr "此小部件显示信件的详细信息。 此小部件有自己的菜单。"
 
-#: ../../content/tickets/ticket-zoom.rst:414
+#: ../../content/tickets/ticket-zoom.rst:420
 msgid "Article Zoom Widget"
 msgstr "信件详情 小部件"
 
-#: ../../content/tickets/ticket-zoom.rst:419
+#: ../../content/tickets/ticket-zoom.rst:425
 msgid "Mark or Unmark"
 msgstr "标记或取消标记"
 
-#: ../../content/tickets/ticket-zoom.rst:419
+#: ../../content/tickets/ticket-zoom.rst:425
 msgid ""
 "Use this menu item to mark article as important or to remove the important "
 "flag from the article. Important articles have a red information flag in the"
 " *Article Overview* widget."
 msgstr "使用此菜单项将信件标记为重要或从信件中删除重要标记。 重要信件在 *信件概览* 小部件中有一个红色信息标志。"
 
-#: ../../content/tickets/ticket-zoom.rst:422
+#: ../../content/tickets/ticket-zoom.rst:428
 msgid ""
 "This menu item opens a PDF file to show the printer friendly version of the "
 "current article. You can save or print this PDF file."
 msgstr "此菜单项打开一个PDF文件，显示当前信件适合打印机的版本。 您可以保存或打印此PDF文件。"
 
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid "Split"
 msgstr "拆分"
 
-#: ../../content/tickets/ticket-zoom.rst:425
+#: ../../content/tickets/ticket-zoom.rst:431
 msgid ""
 "Use this menu item to split the article to an other ticket. Select the new "
 "ticket type and click on the *Submit* button."
 msgstr "使用此菜单项将信件拆分到另一工单。 选择新的工单类型，然后单击 *提交* 按钮。"
 
-#: ../../content/tickets/ticket-zoom.rst:430
+#: ../../content/tickets/ticket-zoom.rst:436
 msgid "Article Split Dialog"
 msgstr "信件拆分对话框"
 
-#: ../../content/tickets/ticket-zoom.rst:432
+#: ../../content/tickets/ticket-zoom.rst:438
 msgid "It is possible to split the article into several type of ticket."
 msgstr "可以将信件拆分到几种类型的工单。"
 
-#: ../../content/tickets/ticket-zoom.rst:435
+#: ../../content/tickets/ticket-zoom.rst:441
 msgid "Email ticket"
 msgstr "邮件工单"
 
-#: ../../content/tickets/ticket-zoom.rst:435
+#: ../../content/tickets/ticket-zoom.rst:441
 msgid ""
 "Selecting this will open the :doc:`new-email-ticket` screen and fill in the "
 "fields with the current article data."
 msgstr "选择此选项将打开 :doc:`new-email-ticket` 屏幕并使用当前信件数据填写字段。"
 
-#: ../../content/tickets/ticket-zoom.rst:438
+#: ../../content/tickets/ticket-zoom.rst:444
 msgid ""
 "Selecting this will open the :doc:`new-phone-ticket` screen and fill in the "
 "fields with the current article data."
 msgstr "选择此选项将打开 :doc:`new-phone-ticket` 屏幕并使用当前信件数据填写字段。"
 
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid "Process ticket"
 msgstr "流程工单"
 
-#: ../../content/tickets/ticket-zoom.rst:441
+#: ../../content/tickets/ticket-zoom.rst:447
 msgid ""
 "Selecting this will open the :doc:`new-process-ticket` screen and fill in "
 "the fields with the current article data."
 msgstr "选择此选项将打开 :doc:`new-process-ticket` 屏幕并使用当前信件数据填写字段。"
 
-#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:480
 msgid "Bounce"
 msgstr "退回"
 
-#: ../../content/tickets/ticket-zoom.rst:448
+#: ../../content/tickets/ticket-zoom.rst:454
 msgid ""
 "Use this menu item to redirect the article. The original article will be "
 "sent, so the new *To* person will see the email as it was originally sent to"
 " him or her."
 msgstr "使用此菜单项重定向信件。 原始信件将被发送，因此新的 *收件人* 看到的电子邮件，就像是原始发送给他或她的一样。"
 
-#: ../../content/tickets/ticket-zoom.rst:453
+#: ../../content/tickets/ticket-zoom.rst:459
 msgid "Article Bounce Screen"
 msgstr "信件退回屏幕"
 
-#: ../../content/tickets/ticket-zoom.rst:456
+#: ../../content/tickets/ticket-zoom.rst:462
 msgid "Bounce to \\*"
 msgstr "退回给 \\*"
 
-#: ../../content/tickets/ticket-zoom.rst:456
+#: ../../content/tickets/ticket-zoom.rst:462
 msgid ""
 "The email address where the article needs to be redirected. The sender of "
 "the redirected email is the original sender of the article."
 msgstr "需要重定向信件的电子邮件地址。 重定向电子邮件的发件人是信件的原始发件人。"
 
-#: ../../content/tickets/ticket-zoom.rst:462
+#: ../../content/tickets/ticket-zoom.rst:468
 msgid ""
 "Check this box, if you would like to inform sender about bouncing. If this "
 "box is checked, the following fields must be filled."
 msgstr "如果您想通知发件人有关退回的信息，请选中此框。 如果选中此框，则必须填写以下字段。"
 
-#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:530
 msgid "Forward"
 msgstr "转发"
 
-#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:483
 msgid "Use this menu item to forward the article via email."
 msgstr "使用此菜单项通过电子邮件转发信件。"
 
-#: ../../content/tickets/ticket-zoom.rst:482
+#: ../../content/tickets/ticket-zoom.rst:488
 msgid "Article Forward Screen"
 msgstr "信件转发屏幕"
 
-#: ../../content/tickets/ticket-zoom.rst:575
+#: ../../content/tickets/ticket-zoom.rst:581
 msgid "Reply"
 msgstr "回复"
 
-#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:533
 msgid ""
 "Use this menu item to compose an answer to the article via email. Reply is "
 "created from a response template set in *Templates* module of the "
 "administrator interface."
 msgstr "使用此菜单项通过电子邮件撰写信件的答复。 回复是从管理员界面的 *模板* 模块中设置的响应模板创建的。"
 
-#: ../../content/tickets/ticket-zoom.rst:532
+#: ../../content/tickets/ticket-zoom.rst:538
 msgid "Compose Answer Screen"
 msgstr "撰写答复屏幕"
 
-#: ../../content/tickets/ticket-zoom.rst:578
+#: ../../content/tickets/ticket-zoom.rst:584
+msgid "Ticket Timeline View"
+msgstr "工单时间轴视图"
+
+#: ../../content/tickets/ticket-zoom.rst:586
+msgid ""
+"The ticket timeline view provides a chronological view of all actions which "
+"happened on a ticket, like articles, owner changes, incoming mails and other"
+" actions. With this view, agents are able to get a good overview of a ticket"
+" in less time."
+msgstr ""
+"工单时间轴视图按时间顺序显示工单上发生的所有操作，如信件、所有者更改、传入邮件和其它操作。 通过此视图，服务人员可以在更短的时间内获得对工单的良好概览。"
+
+#: ../../content/tickets/ticket-zoom.rst:591
+msgid "Ticket Timeline View Widget"
+msgstr "工单时间轴视图 小部件"
+
+#: ../../content/tickets/ticket-zoom.rst:593
+msgid ""
+"In this view you can work on the ticket as you are used to. You can inspect "
+"the time of each event in the timeline by hovering the little square next to"
+" each event with your mouse cursor. You can view the full content of "
+"articles by using the zoom icon on top of the certain articles box, where "
+"you will find all common article actions."
+msgstr ""
+"在此视图中，您可以像往常一样在工单上工作。 您可以通过鼠标光标将每个事件旁边的小方块悬停，来检查时间轴中每个事件的时间。 "
+"您可以通过使用某些信件框顶部的缩放图标查看信件的完整内容，您可以在其中找到所有常见的信件操作。"
+
+#: ../../content/tickets/ticket-zoom.rst:597
+msgid ""
+"The ticket timeline view can be activated in the *Settings* menu item (gear "
+"icon) in the ticket menu."
+msgstr "可以在工单菜单中的 *设置* 菜单项（齿轮图标）中激活工单时间轴视图。"
+
+#: ../../content/tickets/ticket-zoom.rst:601
 msgid "Linked Objects"
 msgstr "链接的对象"
 
-#: ../../content/tickets/ticket-zoom.rst:580
+#: ../../content/tickets/ticket-zoom.rst:603
 msgid ""
 "Tickets can be linked to other objects. Use this widget to see the links "
 "between the ticket and other objects."
 msgstr "工单可以链接到其它对象。 使用此小部件可查看工单与其它对象之间的链接。"
 
-#: ../../content/tickets/ticket-zoom.rst:587
+#: ../../content/tickets/ticket-zoom.rst:610
 msgid ""
 "New links can be added by the *Link* menu item of the *Ticket Zoom* menu. "
 "Existing links can also be managed there."
 msgstr "可以通过 *工单详情* 菜单的 *链接* 菜单项添加新链接。 现有的链接也可以在那里管理。"
 
-#: ../../content/tickets/ticket-zoom.rst:602
+#: ../../content/tickets/ticket-zoom.rst:625
 msgid "Ticket Information"
 msgstr "工单信息"
 
-#: ../../content/tickets/ticket-zoom.rst:604
+#: ../../content/tickets/ticket-zoom.rst:627
 msgid "This widget contains information about the ticket."
 msgstr "此小部件包含关于工单的信息。"
 
-#: ../../content/tickets/ticket-zoom.rst:609
+#: ../../content/tickets/ticket-zoom.rst:632
 msgid "Ticket Information Widget"
 msgstr "工单信息 小部件"
 
-#: ../../content/tickets/ticket-zoom.rst:613
+#: ../../content/tickets/ticket-zoom.rst:636
 msgid "Customer Information"
 msgstr "客户信息"
 
-#: ../../content/tickets/ticket-zoom.rst:615
+#: ../../content/tickets/ticket-zoom.rst:638
 msgid "This widget contains information about the customer."
 msgstr "此小部件包含关于客户的信息。"

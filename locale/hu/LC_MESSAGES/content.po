@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-10 11:50+0200\n"
+"POT-Creation-Date: 2019-05-30 23:16+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: Balázs Úr, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/otrs/teams/23435/hu/)\n"
@@ -1741,7 +1741,7 @@ msgstr ""
 "Az első háromszög ikon kinyitja és összecsukja a csevegésmenüt. A menü "
 "számos menüponttal rendelkezik."
 
-#: ../../content/chat/chat.rst:200 ../../content/tickets/ticket-zoom.rst:438
+#: ../../content/chat/chat.rst:200 ../../content/tickets/ticket-zoom.rst:444
 msgid "Phone ticket"
 msgstr "Telefonos jegy"
 
@@ -2597,7 +2597,7 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:143
 #: ../../content/customers/customer-user-information-center.rst:134
-#: ../../content/tickets/ticket-zoom.rst:620
+#: ../../content/tickets/ticket-zoom.rst:643
 msgid "Customer Information Widget"
 msgstr "Ügyfél-információk felületi elem"
 
@@ -2899,8 +2899,8 @@ msgstr "Ügyfél-felhasználó keresés párbeszédablak"
 #: ../../content/tickets/new-email-ticket.rst:21
 #: ../../content/tickets/new-phone-ticket.rst:18
 #: ../../content/tickets/ticket-zoom.rst:194
-#: ../../content/tickets/ticket-zoom.rst:500
-#: ../../content/tickets/ticket-zoom.rst:550
+#: ../../content/tickets/ticket-zoom.rst:506
+#: ../../content/tickets/ticket-zoom.rst:556
 msgid ""
 "Usage of wildcards (\\*) is also possible. Enter two asterisks (\\*\\*) to "
 "list all customer users."
@@ -3628,12 +3628,12 @@ msgstr ""
 "menüpontjában érhető el."
 
 #: ../../content/faq/category-management.rst:13
-msgid "Category Management Screen"
-msgstr "Kategóriakezelés képernyő"
+msgid "FAQ Category Management Screen"
+msgstr "GyIK kategóriakezelés képernyő"
 
 #: ../../content/faq/category-management.rst:17
-msgid "Manage Categories"
-msgstr "Kategóriák kezelése"
+msgid "Manage FAQ Categories"
+msgstr "GyIK kategóriák kezelése"
 
 #: ../../content/faq/category-management.rst:19
 msgid "To add a category:"
@@ -3673,13 +3673,12 @@ msgid "Click on the *Yes* button in the confirmation dialog."
 msgstr "Kattintson az *Igen* gombra a megerősítő párbeszédablakban."
 
 #: ../../content/faq/category-management.rst:49
-#: ../../content/faq/language-management.rst:49
-msgid "Delete Language Screen"
-msgstr "Nyelv törlése képernyő"
+msgid "Delete Category Screen"
+msgstr "Kategória törlése képernyő"
 
 #: ../../content/faq/category-management.rst:53
-msgid "Category Settings"
-msgstr "Kategória beállításai"
+msgid "FAQ Category Settings"
+msgstr "GyIK kategória beállításai"
 
 #: ../../content/faq/category-management.rst:58
 #: ../../content/faq/language-management.rst:57
@@ -3908,7 +3907,7 @@ msgid "FAQ History Screen"
 msgstr "GyIK előzmények képernyő"
 
 #: ../../content/faq/faq-zoom.rst:39 ../../content/tickets/ticket-zoom.rst:30
-#: ../../content/tickets/ticket-zoom.rst:422
+#: ../../content/tickets/ticket-zoom.rst:428
 msgid "Print"
 msgstr "Nyomtatás"
 
@@ -4006,7 +4005,7 @@ msgstr ""
 "felületi elemet a GyIK bejegyzés és az egyéb objektumok közötti kapcsolatok "
 "megtekintéséhez."
 
-#: ../../content/faq/faq-zoom.rst:81 ../../content/tickets/ticket-zoom.rst:585
+#: ../../content/faq/faq-zoom.rst:81 ../../content/tickets/ticket-zoom.rst:608
 msgid "Linked Objects Widget"
 msgstr "Kapcsolt objektumok felületi elem"
 
@@ -4018,13 +4017,13 @@ msgstr ""
 "Új kapcsolatok a *GyIK nagyítás* menü *Összekapcsolás* menüpontjával adhatók"
 " hozzá. A meglévő kapcsolatok is ott kezelhetők."
 
-#: ../../content/faq/faq-zoom.rst:85 ../../content/tickets/ticket-zoom.rst:589
+#: ../../content/faq/faq-zoom.rst:85 ../../content/tickets/ticket-zoom.rst:612
 msgid "To see the linked object details, click on an entry in this widget."
 msgstr ""
 "A kapcsolt objektumok részleteinek megtekintéséhez kattintson egy "
 "bejegyzésre ezen a felületi elemen."
 
-#: ../../content/faq/faq-zoom.rst:89 ../../content/tickets/ticket-zoom.rst:593
+#: ../../content/faq/faq-zoom.rst:89 ../../content/tickets/ticket-zoom.rst:616
 msgid ""
 "Change setting ``LinkObject::ViewMode`` to *Complex* to display detailed "
 "information about linked objects."
@@ -4032,7 +4031,7 @@ msgstr ""
 "Változtassa meg a ``LinkObject::ViewMode`` beállítást *Összetett* értékre, "
 "hogy részletes információkat jelenítsen meg a kapcsolt objektumokról."
 
-#: ../../content/faq/faq-zoom.rst:94 ../../content/tickets/ticket-zoom.rst:598
+#: ../../content/faq/faq-zoom.rst:94 ../../content/tickets/ticket-zoom.rst:621
 msgid "Complex Linked Objects Widget"
 msgstr "Összetett kapcsolt objektumok felületi elem"
 
@@ -4066,16 +4065,16 @@ msgid ""
 msgstr ""
 "Használja ezt a képernyőt a GyIK bejegyzésekben elérhető nyelvek "
 "kezeléséhez. Egy friss OTRS telepítés alapértelmezetten már tartalmaz néhány"
-" nyelvet. A nyelvkezelő képernyő a *GyIK* menü *Nyelvkezelés* menüpontjában "
-"érhető el."
+" nyelvet. A nyelvkezelés képernyő a *GyIK* menü *Nyelvkezelés* menüpontjában"
+" érhető el."
 
 #: ../../content/faq/language-management.rst:13
-msgid "Language Management Screen"
-msgstr "Nyelvkezelés képernyő"
+msgid "FAQ Language Management Screen"
+msgstr "GyIK nyelvkezelés képernyő"
 
 #: ../../content/faq/language-management.rst:17
-msgid "Manage Languages"
-msgstr "Nyelvek kezelése"
+msgid "Manage FAQ Languages"
+msgstr "GyIK nyelvek kezelése"
 
 #: ../../content/faq/language-management.rst:19
 msgid "To add a language:"
@@ -4117,9 +4116,13 @@ msgstr "Egy nyelv törléséhez:"
 msgid "Click on the trash icon in the list of languages."
 msgstr "Kattintson a kuka ikonra a nyelvek listájában."
 
+#: ../../content/faq/language-management.rst:49
+msgid "Delete Language Screen"
+msgstr "Nyelv törlése képernyő"
+
 #: ../../content/faq/language-management.rst:53
-msgid "Language Settings"
-msgstr "Nyelvbeállítások"
+msgid "FAQ Language Settings"
+msgstr "GyIK nyelv beállításai"
 
 #: ../../content/faq/language-management.rst:55
 msgid ""
@@ -5865,30 +5868,30 @@ msgstr ""
 
 #: ../../content/tickets/new-email-ticket.rst:24
 #: ../../content/tickets/ticket-zoom.rst:185
-#: ../../content/tickets/ticket-zoom.rst:491
-#: ../../content/tickets/ticket-zoom.rst:541
+#: ../../content/tickets/ticket-zoom.rst:497
+#: ../../content/tickets/ticket-zoom.rst:547
 msgid "Cc"
 msgstr "Másolat"
 
 #: ../../content/tickets/new-email-ticket.rst:24
 #: ../../content/tickets/ticket-zoom.rst:185
-#: ../../content/tickets/ticket-zoom.rst:491
-#: ../../content/tickets/ticket-zoom.rst:541
+#: ../../content/tickets/ticket-zoom.rst:497
+#: ../../content/tickets/ticket-zoom.rst:547
 msgid "Select other customer users as carbon copy of the email, if needed."
 msgstr ""
 "Egyéb ügyfél-felhasználók kiválasztása az e-mail másolataként, ha szükséges."
 
 #: ../../content/tickets/new-email-ticket.rst:27
 #: ../../content/tickets/ticket-zoom.rst:188
-#: ../../content/tickets/ticket-zoom.rst:494
-#: ../../content/tickets/ticket-zoom.rst:544
+#: ../../content/tickets/ticket-zoom.rst:500
+#: ../../content/tickets/ticket-zoom.rst:550
 msgid "Bcc"
 msgstr "Titkos másolat"
 
 #: ../../content/tickets/new-email-ticket.rst:27
 #: ../../content/tickets/ticket-zoom.rst:188
-#: ../../content/tickets/ticket-zoom.rst:494
-#: ../../content/tickets/ticket-zoom.rst:544
+#: ../../content/tickets/ticket-zoom.rst:500
+#: ../../content/tickets/ticket-zoom.rst:550
 msgid ""
 "Select other customer users as blind carbon copy of the email, if needed."
 msgstr ""
@@ -5949,9 +5952,9 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:235
 #: ../../content/tickets/ticket-zoom.rst:264
 #: ../../content/tickets/ticket-zoom.rst:361
-#: ../../content/tickets/ticket-zoom.rst:471
-#: ../../content/tickets/ticket-zoom.rst:503
-#: ../../content/tickets/ticket-zoom.rst:553
+#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:509
+#: ../../content/tickets/ticket-zoom.rst:559
 msgid "Subject \\*"
 msgstr "Tárgy \\*"
 
@@ -5965,9 +5968,9 @@ msgstr "Tárgy \\*"
 #: ../../content/tickets/ticket-zoom.rst:235
 #: ../../content/tickets/ticket-zoom.rst:264
 #: ../../content/tickets/ticket-zoom.rst:361
-#: ../../content/tickets/ticket-zoom.rst:471
-#: ../../content/tickets/ticket-zoom.rst:503
-#: ../../content/tickets/ticket-zoom.rst:553
+#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:509
+#: ../../content/tickets/ticket-zoom.rst:559
 msgid "The subject of the ticket like the subject of an email."
 msgstr "A jegy tárgya, akárcsak egy e-mail tárgya."
 
@@ -5980,8 +5983,8 @@ msgstr "A jegy tárgya, akárcsak egy e-mail tárgya."
 #: ../../content/tickets/ticket-zoom.rst:200
 #: ../../content/tickets/ticket-zoom.rst:238
 #: ../../content/tickets/ticket-zoom.rst:267
-#: ../../content/tickets/ticket-zoom.rst:506
-#: ../../content/tickets/ticket-zoom.rst:556
+#: ../../content/tickets/ticket-zoom.rst:512
+#: ../../content/tickets/ticket-zoom.rst:562
 msgid "Options"
 msgstr "Beállítások"
 
@@ -5994,8 +5997,8 @@ msgstr "Beállítások"
 #: ../../content/tickets/ticket-zoom.rst:200
 #: ../../content/tickets/ticket-zoom.rst:238
 #: ../../content/tickets/ticket-zoom.rst:267
-#: ../../content/tickets/ticket-zoom.rst:506
-#: ../../content/tickets/ticket-zoom.rst:556
+#: ../../content/tickets/ticket-zoom.rst:512
+#: ../../content/tickets/ticket-zoom.rst:562
 msgid ""
 "It is possible to add other objects like customer users or FAQ articles to "
 "the ticket."
@@ -6013,9 +6016,9 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:241
 #: ../../content/tickets/ticket-zoom.rst:270
 #: ../../content/tickets/ticket-zoom.rst:364
-#: ../../content/tickets/ticket-zoom.rst:474
-#: ../../content/tickets/ticket-zoom.rst:509
-#: ../../content/tickets/ticket-zoom.rst:559
+#: ../../content/tickets/ticket-zoom.rst:480
+#: ../../content/tickets/ticket-zoom.rst:515
+#: ../../content/tickets/ticket-zoom.rst:565
 msgid "Text \\*"
 msgstr "Szöveg \\*"
 
@@ -6045,8 +6048,8 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:206
 #: ../../content/tickets/ticket-zoom.rst:244
 #: ../../content/tickets/ticket-zoom.rst:273
-#: ../../content/tickets/ticket-zoom.rst:512
-#: ../../content/tickets/ticket-zoom.rst:562
+#: ../../content/tickets/ticket-zoom.rst:518
+#: ../../content/tickets/ticket-zoom.rst:568
 msgid "Attachments"
 msgstr "Mellékletek"
 
@@ -6059,8 +6062,8 @@ msgstr "Mellékletek"
 #: ../../content/tickets/ticket-zoom.rst:206
 #: ../../content/tickets/ticket-zoom.rst:244
 #: ../../content/tickets/ticket-zoom.rst:273
-#: ../../content/tickets/ticket-zoom.rst:512
-#: ../../content/tickets/ticket-zoom.rst:562
+#: ../../content/tickets/ticket-zoom.rst:518
+#: ../../content/tickets/ticket-zoom.rst:568
 msgid ""
 "It is possible to add attachments to the ticket. Click on the field to add "
 "an attachment, or just drop some files here."
@@ -6072,9 +6075,9 @@ msgstr ""
 #: ../../content/tickets/new-phone-ticket.rst:46
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
-#: ../../content/tickets/ticket-zoom.rst:459
-#: ../../content/tickets/ticket-zoom.rst:515
-#: ../../content/tickets/ticket-zoom.rst:565
+#: ../../content/tickets/ticket-zoom.rst:465
+#: ../../content/tickets/ticket-zoom.rst:521
+#: ../../content/tickets/ticket-zoom.rst:571
 msgid "Next ticket state"
 msgstr "Következő jegyállapot"
 
@@ -6092,8 +6095,8 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
-#: ../../content/tickets/ticket-zoom.rst:518
-#: ../../content/tickets/ticket-zoom.rst:568
+#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:574
 msgid "Pending date"
 msgstr "Várakozási dátum"
 
@@ -6102,8 +6105,8 @@ msgstr "Várakozási dátum"
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
-#: ../../content/tickets/ticket-zoom.rst:518
-#: ../../content/tickets/ticket-zoom.rst:568
+#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:574
 msgid ""
 "Select a date and time as reminder for the ticket. If the pending time is "
 "reached, the ticket can be escalated."
@@ -6136,8 +6139,8 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:218
 #: ../../content/tickets/ticket-zoom.rst:250
 #: ../../content/tickets/ticket-zoom.rst:279
-#: ../../content/tickets/ticket-zoom.rst:524
-#: ../../content/tickets/ticket-zoom.rst:575
+#: ../../content/tickets/ticket-zoom.rst:530
+#: ../../content/tickets/ticket-zoom.rst:581
 msgid "Time units (work units)"
 msgstr "Időegységek (munkaegységek)"
 
@@ -6150,8 +6153,8 @@ msgstr "Időegységek (munkaegységek)"
 #: ../../content/tickets/ticket-zoom.rst:218
 #: ../../content/tickets/ticket-zoom.rst:250
 #: ../../content/tickets/ticket-zoom.rst:279
-#: ../../content/tickets/ticket-zoom.rst:524
-#: ../../content/tickets/ticket-zoom.rst:574
+#: ../../content/tickets/ticket-zoom.rst:530
+#: ../../content/tickets/ticket-zoom.rst:580
 msgid "Enter any amount of time units for time accounting."
 msgstr "Adjon meg valamilyen időegység-mennyiséget az időelszámoláshoz."
 
@@ -6205,7 +6208,7 @@ msgstr "Új folyamatjegy"
 
 #: ../../content/tickets/new-process-ticket.rst:6
 #: ../../content/tickets/ticket-zoom.rst:286
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid ""
 "This option is available only, if at least one process is deployed in the "
 "system."
@@ -6585,7 +6588,7 @@ msgid "The *Ticket Zoom* screen has an own menu."
 msgstr "A *Jegynagyítás* képernyő saját menüvel rendelkezik."
 
 #: ../../content/tickets/ticket-zoom.rst:19
-#: ../../content/tickets/ticket-zoom.rst:416
+#: ../../content/tickets/ticket-zoom.rst:422
 msgid ""
 "The menu is extensible and menu items can be grouped into drop-down lists."
 msgstr "A menü bővíthető és a menüpontok legördülő listákba csoportosíthatók."
@@ -6611,8 +6614,8 @@ msgstr "Válassza ki az új prioritást a jegyhez."
 #: ../../content/tickets/ticket-zoom.rst:203
 #: ../../content/tickets/ticket-zoom.rst:241
 #: ../../content/tickets/ticket-zoom.rst:270
-#: ../../content/tickets/ticket-zoom.rst:509
-#: ../../content/tickets/ticket-zoom.rst:559
+#: ../../content/tickets/ticket-zoom.rst:515
+#: ../../content/tickets/ticket-zoom.rst:565
 msgid "The body text of the note to be added to the ticket."
 msgstr "A jegyhez hozzáadandó jegyzet törzsszövege."
 
@@ -6630,8 +6633,8 @@ msgstr "Látható az ügyfélnek"
 #: ../../content/tickets/ticket-zoom.rst:215
 #: ../../content/tickets/ticket-zoom.rst:247
 #: ../../content/tickets/ticket-zoom.rst:276
-#: ../../content/tickets/ticket-zoom.rst:521
-#: ../../content/tickets/ticket-zoom.rst:571
+#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:577
 msgid "Define, if the note is an internal note or customer can view it."
 msgstr ""
 "Annak meghatározása, hogy a jegyzet egy belső jegyzet vagy az ügyfél "
@@ -6725,8 +6728,8 @@ msgstr "Telefonhívás képernyő"
 
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
-#: ../../content/tickets/ticket-zoom.rst:515
-#: ../../content/tickets/ticket-zoom.rst:565
+#: ../../content/tickets/ticket-zoom.rst:521
+#: ../../content/tickets/ticket-zoom.rst:571
 msgid "Select an other state if you want to change it."
 msgstr "Válasszon egy másik állapotot, ha meg szeretné változtatni."
 
@@ -6766,39 +6769,39 @@ msgstr "Kimenő e-mail képernyő"
 
 #: ../../content/tickets/ticket-zoom.rst:179
 #: ../../content/tickets/ticket-zoom.rst:355
-#: ../../content/tickets/ticket-zoom.rst:465
-#: ../../content/tickets/ticket-zoom.rst:485
-#: ../../content/tickets/ticket-zoom.rst:535
+#: ../../content/tickets/ticket-zoom.rst:471
+#: ../../content/tickets/ticket-zoom.rst:491
+#: ../../content/tickets/ticket-zoom.rst:541
 msgid "From"
 msgstr "Feladó"
 
 #: ../../content/tickets/ticket-zoom.rst:179
 #: ../../content/tickets/ticket-zoom.rst:355
-#: ../../content/tickets/ticket-zoom.rst:465
-#: ../../content/tickets/ticket-zoom.rst:485
-#: ../../content/tickets/ticket-zoom.rst:535
+#: ../../content/tickets/ticket-zoom.rst:471
+#: ../../content/tickets/ticket-zoom.rst:491
+#: ../../content/tickets/ticket-zoom.rst:541
 msgid "This field is read only and holds the queue address."
 msgstr "Ez a mező csak olvasható és a várólista címét tárolja."
 
 #: ../../content/tickets/ticket-zoom.rst:182
 #: ../../content/tickets/ticket-zoom.rst:358
-#: ../../content/tickets/ticket-zoom.rst:468
-#: ../../content/tickets/ticket-zoom.rst:488
-#: ../../content/tickets/ticket-zoom.rst:538
+#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:494
+#: ../../content/tickets/ticket-zoom.rst:544
 msgid "To \\*"
 msgstr "Címzett \\*"
 
 #: ../../content/tickets/ticket-zoom.rst:182
 #: ../../content/tickets/ticket-zoom.rst:358
-#: ../../content/tickets/ticket-zoom.rst:468
-#: ../../content/tickets/ticket-zoom.rst:488
-#: ../../content/tickets/ticket-zoom.rst:538
+#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:494
+#: ../../content/tickets/ticket-zoom.rst:544
 msgid "This will be the *To* field of the email."
 msgstr "Ez lesz az e-mail *Címzett* mezője."
 
 #: ../../content/tickets/ticket-zoom.rst:192
-#: ../../content/tickets/ticket-zoom.rst:498
-#: ../../content/tickets/ticket-zoom.rst:548
+#: ../../content/tickets/ticket-zoom.rst:504
+#: ../../content/tickets/ticket-zoom.rst:554
 msgid ""
 "You can select a customer user from OTRS or any valid email address can be "
 "added here."
@@ -6807,8 +6810,8 @@ msgstr ""
 "e-mail cím megadható itt."
 
 #: ../../content/tickets/ticket-zoom.rst:215
-#: ../../content/tickets/ticket-zoom.rst:521
-#: ../../content/tickets/ticket-zoom.rst:571
+#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:577
 msgid "Visible for customer"
 msgstr "Látható az ügyfélnek"
 
@@ -6845,7 +6848,7 @@ msgid "This menu item opens a new window to close the ticket."
 msgstr "Ez a menüpont új ablakot nyit meg a jegy lezárásához."
 
 #: ../../content/tickets/ticket-zoom.rst:261
-#: ../../content/tickets/ticket-zoom.rst:459
+#: ../../content/tickets/ticket-zoom.rst:465
 msgid "Select the closed state of the ticket."
 msgstr "Válassza ki a jegy lezárási állapotát."
 
@@ -6999,7 +7002,7 @@ msgstr ""
 "Próbálja meg beírni a jegyszám vagy a cím egy részét annak kereséséhez."
 
 #: ../../content/tickets/ticket-zoom.rst:352
-#: ../../content/tickets/ticket-zoom.rst:462
+#: ../../content/tickets/ticket-zoom.rst:468
 msgid "Inform sender"
 msgstr "Küldő tájékoztatása"
 
@@ -7013,7 +7016,7 @@ msgstr ""
 "is ki kell tölteni."
 
 #: ../../content/tickets/ticket-zoom.rst:364
-#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:480
 msgid "The body text of the email to be sent."
 msgstr "Az elküldendő e-mail törzsszövege."
 
@@ -7114,30 +7117,60 @@ msgstr ""
 "A legtöbb oszlop rendezhető a fejlécre kattintva. Kattintson ismét a "
 "rendezési sorrend megváltoztatásához."
 
-#: ../../content/tickets/ticket-zoom.rst:403
-msgid "This widget is not displayed in timeline view."
-msgstr "Ez a felületi elem nem jelenik meg az idővonal nézetben."
+#: ../../content/tickets/ticket-zoom.rst:401
+msgid "There are three possible colors used to mark the type of article."
+msgstr ""
+"Három lehetséges szín létezik, amelyeket a bejegyzés típusának megjelölésére"
+" használnak."
 
-#: ../../content/tickets/ticket-zoom.rst:407
+#: ../../content/tickets/ticket-zoom.rst:403
+msgid ""
+"White: the article is visible for the customer user in the external "
+"interface and for agents in the agent interface."
+msgstr ""
+"Fehér: a bejegyzés látható az ügyfél-felhasználónak a külső felületen és az "
+"ügyintézőknek az ügyintézői felületen."
+
+#: ../../content/tickets/ticket-zoom.rst:404
+msgid ""
+"Red: the article is not visible for the customer user in the external "
+"interface, but it is visible for agents in the agent interface."
+msgstr ""
+"Piros: a bejegyzés nem látható az ügyfél-felhasználónak a külső felületen, "
+"de látható az ügyintézőknek az ügyintézői felületen."
+
+#: ../../content/tickets/ticket-zoom.rst:405
+msgid ""
+"Yellow: the article is a system message and the visibility can be changed in"
+" the system configuration."
+msgstr ""
+"Sárga: a bejegyzés egy rendszerüzenet, és a láthatósága a "
+"rendszerbeállításokban változtatható meg."
+
+#: ../../content/tickets/ticket-zoom.rst:409
+msgid "This widget is not displayed in ticket timeline view."
+msgstr "Ez a felületi elem nem jelenik meg a jegy idővonal nézetben."
+
+#: ../../content/tickets/ticket-zoom.rst:413
 msgid "Article Zoom"
 msgstr "Bejegyzésnagyítás"
 
-#: ../../content/tickets/ticket-zoom.rst:409
+#: ../../content/tickets/ticket-zoom.rst:415
 msgid ""
 "This widget displays the details of the article. The widget has an own menu."
 msgstr ""
 "Ez a felületi elem a bejegyzés részleteit jeleníti meg. A felületi elem "
 "saját menüvel rendelkezik."
 
-#: ../../content/tickets/ticket-zoom.rst:414
+#: ../../content/tickets/ticket-zoom.rst:420
 msgid "Article Zoom Widget"
 msgstr "Bejegyzésnagyítás felületi elem"
 
-#: ../../content/tickets/ticket-zoom.rst:419
+#: ../../content/tickets/ticket-zoom.rst:425
 msgid "Mark or Unmark"
 msgstr "Megjelölés vagy megjelölés megszüntetése"
 
-#: ../../content/tickets/ticket-zoom.rst:419
+#: ../../content/tickets/ticket-zoom.rst:425
 msgid ""
 "Use this menu item to mark article as important or to remove the important "
 "flag from the article. Important articles have a red information flag in the"
@@ -7147,7 +7180,7 @@ msgstr ""
 "vagy a fontosság jelző eltávolításához a bejegyzésből. A fontos bejegyzések "
 "egy piros információs jelzőt kapnak a *Bejegyzés áttekintő* felületi elemen."
 
-#: ../../content/tickets/ticket-zoom.rst:422
+#: ../../content/tickets/ticket-zoom.rst:428
 msgid ""
 "This menu item opens a PDF file to show the printer friendly version of the "
 "current article. You can save or print this PDF file."
@@ -7155,11 +7188,11 @@ msgstr ""
 "Ez a menüpont egy PDF-fájlt nyit meg a jelenlegi bejegyzés nyomtatóbarát "
 "verziójának megtekintéséhez. Elmentheti vagy kinyomtathatja ezt a PDF-fájlt."
 
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid "Split"
 msgstr "Felosztás"
 
-#: ../../content/tickets/ticket-zoom.rst:425
+#: ../../content/tickets/ticket-zoom.rst:431
 msgid ""
 "Use this menu item to split the article to an other ticket. Select the new "
 "ticket type and click on the *Submit* button."
@@ -7167,20 +7200,20 @@ msgstr ""
 "Használja ezt a menüpontot a bejegyzés felosztásához egy másik jegybe. "
 "Válassza ki az új jegytípust, majd kattintson az *Elküldés* gombra."
 
-#: ../../content/tickets/ticket-zoom.rst:430
+#: ../../content/tickets/ticket-zoom.rst:436
 msgid "Article Split Dialog"
 msgstr "Bejegyzésfelosztás párbeszédablak"
 
-#: ../../content/tickets/ticket-zoom.rst:432
+#: ../../content/tickets/ticket-zoom.rst:438
 msgid "It is possible to split the article into several type of ticket."
 msgstr ""
 "Lehetőség van a bejegyzés többféle típusú jegybe történő felosztására."
 
-#: ../../content/tickets/ticket-zoom.rst:435
+#: ../../content/tickets/ticket-zoom.rst:441
 msgid "Email ticket"
 msgstr "E-mail jegy"
 
-#: ../../content/tickets/ticket-zoom.rst:435
+#: ../../content/tickets/ticket-zoom.rst:441
 msgid ""
 "Selecting this will open the :doc:`new-email-ticket` screen and fill in the "
 "fields with the current article data."
@@ -7188,7 +7221,7 @@ msgstr ""
 "Ennek választásakor az :doc:`new-email-ticket` képernyőt nyitja meg, és "
 "kitölti a mezőket a jelenlegi bejegyzés adataival."
 
-#: ../../content/tickets/ticket-zoom.rst:438
+#: ../../content/tickets/ticket-zoom.rst:444
 msgid ""
 "Selecting this will open the :doc:`new-phone-ticket` screen and fill in the "
 "fields with the current article data."
@@ -7196,11 +7229,11 @@ msgstr ""
 "Ennek választásakor az :doc:`new-phone-ticket` képernyőt nyitja meg, és "
 "kitölti a mezőket a jelenlegi bejegyzés adataival."
 
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid "Process ticket"
 msgstr "Folyamatjegy"
 
-#: ../../content/tickets/ticket-zoom.rst:441
+#: ../../content/tickets/ticket-zoom.rst:447
 msgid ""
 "Selecting this will open the :doc:`new-process-ticket` screen and fill in "
 "the fields with the current article data."
@@ -7208,11 +7241,11 @@ msgstr ""
 "Ennek választásakor az :doc:`new-process-ticket` képernyőt nyitja meg, és "
 "kitölti a mezőket a jelenlegi bejegyzés adataival."
 
-#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:480
 msgid "Bounce"
 msgstr "Átirányítás"
 
-#: ../../content/tickets/ticket-zoom.rst:448
+#: ../../content/tickets/ticket-zoom.rst:454
 msgid ""
 "Use this menu item to redirect the article. The original article will be "
 "sent, so the new *To* person will see the email as it was originally sent to"
@@ -7222,15 +7255,15 @@ msgstr ""
 " lesz elküldve, így az új *Címzett* személy úgy fogja látni az e-mailt, "
 "mintha eredetileg is neki küldték volna."
 
-#: ../../content/tickets/ticket-zoom.rst:453
+#: ../../content/tickets/ticket-zoom.rst:459
 msgid "Article Bounce Screen"
 msgstr "Bejegyzés-átirányítás képernyő"
 
-#: ../../content/tickets/ticket-zoom.rst:456
+#: ../../content/tickets/ticket-zoom.rst:462
 msgid "Bounce to \\*"
 msgstr "Átirányítás ide \\*"
 
-#: ../../content/tickets/ticket-zoom.rst:456
+#: ../../content/tickets/ticket-zoom.rst:462
 msgid ""
 "The email address where the article needs to be redirected. The sender of "
 "the redirected email is the original sender of the article."
@@ -7238,7 +7271,7 @@ msgstr ""
 "Az az e-mail cím, ahova a bejegyzést át kell irányítani. Az átirányított "
 "e-mail küldője a bejegyzés eredeti küldője lesz."
 
-#: ../../content/tickets/ticket-zoom.rst:462
+#: ../../content/tickets/ticket-zoom.rst:468
 msgid ""
 "Check this box, if you would like to inform sender about bouncing. If this "
 "box is checked, the following fields must be filled."
@@ -7247,24 +7280,24 @@ msgstr ""
 "átirányításról. Ha ez a négyzet be van jelölve, akkor a következő mezőket is"
 " ki kell tölteni."
 
-#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:530
 msgid "Forward"
 msgstr "Továbbítás"
 
-#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:483
 msgid "Use this menu item to forward the article via email."
 msgstr ""
 "Használja ezt a menüpontot a bejegyzés e-mailben történő továbbításához."
 
-#: ../../content/tickets/ticket-zoom.rst:482
+#: ../../content/tickets/ticket-zoom.rst:488
 msgid "Article Forward Screen"
 msgstr "Bejegyzés-továbbítás képernyő"
 
-#: ../../content/tickets/ticket-zoom.rst:575
+#: ../../content/tickets/ticket-zoom.rst:581
 msgid "Reply"
 msgstr "Válasz"
 
-#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:533
 msgid ""
 "Use this menu item to compose an answer to the article via email. Reply is "
 "created from a response template set in *Templates* module of the "
@@ -7274,15 +7307,58 @@ msgstr ""
 "bejegyezésre. A válasz egy olyan válaszsablonból lesz létrehozva, amely az "
 "adminisztrátori felület *Sablonok* moduljában van beállítva."
 
-#: ../../content/tickets/ticket-zoom.rst:532
+#: ../../content/tickets/ticket-zoom.rst:538
 msgid "Compose Answer Screen"
 msgstr "Válasz írása képernyő"
 
-#: ../../content/tickets/ticket-zoom.rst:578
+#: ../../content/tickets/ticket-zoom.rst:584
+msgid "Ticket Timeline View"
+msgstr "Jegy idővonal nézet"
+
+#: ../../content/tickets/ticket-zoom.rst:586
+msgid ""
+"The ticket timeline view provides a chronological view of all actions which "
+"happened on a ticket, like articles, owner changes, incoming mails and other"
+" actions. With this view, agents are able to get a good overview of a ticket"
+" in less time."
+msgstr ""
+"A jegy idővonal nézete biztosítja az összes olyan művelet időrendi nézetét, "
+"amely egy jegyen történt, mint például bejegyzéseket, tulajdonosváltásokat, "
+"bejövő leveleket és egyéb műveleteket. Ezzel a nézettel az ügyintézők "
+"kevesebb idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban."
+
+#: ../../content/tickets/ticket-zoom.rst:591
+msgid "Ticket Timeline View Widget"
+msgstr "Jegy idővonal nézet felületi elem"
+
+#: ../../content/tickets/ticket-zoom.rst:593
+msgid ""
+"In this view you can work on the ticket as you are used to. You can inspect "
+"the time of each event in the timeline by hovering the little square next to"
+" each event with your mouse cursor. You can view the full content of "
+"articles by using the zoom icon on top of the certain articles box, where "
+"you will find all common article actions."
+msgstr ""
+"Ebben a nézetben úgy dolgozhat a jeggyel, ahogy azt megszokta. "
+"Megvizsgálhatja az egyes események idejét az idővonalon, ha az egérkurzorral"
+" rámutat az egyes események mellett lévő kis négyzetre. Megtekintheti a "
+"bejegyzések teljes tartalmát a nagyítás ikon használatával az egyes "
+"bejegyzésdobozok tetején, ahol meg fogja találni az összes gyakori "
+"bejegyzésműveletet."
+
+#: ../../content/tickets/ticket-zoom.rst:597
+msgid ""
+"The ticket timeline view can be activated in the *Settings* menu item (gear "
+"icon) in the ticket menu."
+msgstr ""
+"A jegy idővonal nézet a *Beállítások* menüpontban (fogaskerék ikon) "
+"kapcsolható be a jegymenüben."
+
+#: ../../content/tickets/ticket-zoom.rst:601
 msgid "Linked Objects"
 msgstr "Kapcsolt objektumok"
 
-#: ../../content/tickets/ticket-zoom.rst:580
+#: ../../content/tickets/ticket-zoom.rst:603
 msgid ""
 "Tickets can be linked to other objects. Use this widget to see the links "
 "between the ticket and other objects."
@@ -7290,7 +7366,7 @@ msgstr ""
 "A jegyek összekapcsolhatók egyéb objektumokkal. Használja ezt a felületi "
 "elemet a jegy és az egyéb objektumok közötti kapcsolatok megtekintéséhez."
 
-#: ../../content/tickets/ticket-zoom.rst:587
+#: ../../content/tickets/ticket-zoom.rst:610
 msgid ""
 "New links can be added by the *Link* menu item of the *Ticket Zoom* menu. "
 "Existing links can also be managed there."
@@ -7298,23 +7374,23 @@ msgstr ""
 "Új kapcsolatok a *Jegynagyítás* menü *Összekapcsolás* menüpontjával adhatók "
 "hozzá. A meglévő kapcsolatok is ott kezelhetők."
 
-#: ../../content/tickets/ticket-zoom.rst:602
+#: ../../content/tickets/ticket-zoom.rst:625
 msgid "Ticket Information"
 msgstr "Jegyinformációk"
 
-#: ../../content/tickets/ticket-zoom.rst:604
+#: ../../content/tickets/ticket-zoom.rst:627
 msgid "This widget contains information about the ticket."
 msgstr "Ez a felületi elem a jeggyel kapcsolatos információkat tartalmazza."
 
-#: ../../content/tickets/ticket-zoom.rst:609
+#: ../../content/tickets/ticket-zoom.rst:632
 msgid "Ticket Information Widget"
 msgstr "Jegyinformációk felületi elem"
 
-#: ../../content/tickets/ticket-zoom.rst:613
+#: ../../content/tickets/ticket-zoom.rst:636
 msgid "Customer Information"
 msgstr "Ügyfél-információk"
 
-#: ../../content/tickets/ticket-zoom.rst:615
+#: ../../content/tickets/ticket-zoom.rst:638
 msgid "This widget contains information about the customer."
 msgstr ""
 "Ez a felületi elem az ügyféllel kapcsolatos információkat tartalmazza."

@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-10 11:50+0200\n"
+"POT-Creation-Date: 2019-05-30 23:16+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: Michael Reuther <michael.reuther@otrs.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/otrs/teams/23435/de/)\n"
@@ -1739,7 +1739,7 @@ msgstr ""
 "Das erste Dreieckssymbol vergrößert und verkleinert das Chat-Menü. Das Menü "
 "verfügt über mehrere Menüpunkte."
 
-#: ../../content/chat/chat.rst:200 ../../content/tickets/ticket-zoom.rst:438
+#: ../../content/chat/chat.rst:200 ../../content/tickets/ticket-zoom.rst:444
 msgid "Phone ticket"
 msgstr "Telefon-Ticket"
 
@@ -2605,7 +2605,7 @@ msgstr ""
 
 #: ../../content/customers/customer-information-center.rst:143
 #: ../../content/customers/customer-user-information-center.rst:134
-#: ../../content/tickets/ticket-zoom.rst:620
+#: ../../content/tickets/ticket-zoom.rst:643
 msgid "Customer Information Widget"
 msgstr "Widget \"Kundeninformationen\""
 
@@ -2906,8 +2906,8 @@ msgstr "Suchdialog für Kunden und Kundenbenutzer"
 #: ../../content/tickets/new-email-ticket.rst:21
 #: ../../content/tickets/new-phone-ticket.rst:18
 #: ../../content/tickets/ticket-zoom.rst:194
-#: ../../content/tickets/ticket-zoom.rst:500
-#: ../../content/tickets/ticket-zoom.rst:550
+#: ../../content/tickets/ticket-zoom.rst:506
+#: ../../content/tickets/ticket-zoom.rst:556
 msgid ""
 "Usage of wildcards (\\*) is also possible. Enter two asterisks (\\*\\*) to "
 "list all customer users."
@@ -3638,12 +3638,12 @@ msgstr ""
 "*Kategorienverwaltung* im Menü *FAQ* verfügbar."
 
 #: ../../content/faq/category-management.rst:13
-msgid "Category Management Screen"
-msgstr "Kategorien verwalten"
+msgid "FAQ Category Management Screen"
+msgstr "FAQ-Kategorienverwaltung"
 
 #: ../../content/faq/category-management.rst:17
-msgid "Manage Categories"
-msgstr "Kategorien verwalten"
+msgid "Manage FAQ Categories"
+msgstr "FAQ-Kategorien verwalten"
 
 #: ../../content/faq/category-management.rst:19
 msgid "To add a category:"
@@ -3686,12 +3686,11 @@ msgid "Click on the *Yes* button in the confirmation dialog."
 msgstr "Klicken Sie im Bestätigungs-Dialog auf die Schaltfläche *Ja*."
 
 #: ../../content/faq/category-management.rst:49
-#: ../../content/faq/language-management.rst:49
-msgid "Delete Language Screen"
-msgstr "Sprache löschen"
+msgid "Delete Category Screen"
+msgstr "Kategorie löschen"
 
 #: ../../content/faq/category-management.rst:53
-msgid "Category Settings"
+msgid "FAQ Category Settings"
 msgstr "Einstellungen für FAQ-Kategorien"
 
 #: ../../content/faq/category-management.rst:58
@@ -3921,7 +3920,7 @@ msgid "FAQ History Screen"
 msgstr "FAQ-Historie"
 
 #: ../../content/faq/faq-zoom.rst:39 ../../content/tickets/ticket-zoom.rst:30
-#: ../../content/tickets/ticket-zoom.rst:422
+#: ../../content/tickets/ticket-zoom.rst:428
 msgid "Print"
 msgstr "Drucken"
 
@@ -4018,7 +4017,7 @@ msgstr ""
 "FAQ-Artikel können mit anderen Objekten verknüpft werden. Verwenden Sie "
 "dieses Widget, um die existierenden Verknüpfungen anzuschauen."
 
-#: ../../content/faq/faq-zoom.rst:81 ../../content/tickets/ticket-zoom.rst:585
+#: ../../content/faq/faq-zoom.rst:81 ../../content/tickets/ticket-zoom.rst:608
 msgid "Linked Objects Widget"
 msgstr "Widget „Verknüpfte Objekte“"
 
@@ -4031,13 +4030,13 @@ msgstr ""
 "Detailansicht*-Menü hinzugefügt werden. Bestehende Verknüpfungen können hier"
 " ebenfalls verwaltet werden."
 
-#: ../../content/faq/faq-zoom.rst:85 ../../content/tickets/ticket-zoom.rst:589
+#: ../../content/faq/faq-zoom.rst:85 ../../content/tickets/ticket-zoom.rst:612
 msgid "To see the linked object details, click on an entry in this widget."
 msgstr ""
 "Um die Details der verknüpften Objekte zu sehen, klicken Sie auf einen "
 "Eintrag in diesem Widget."
 
-#: ../../content/faq/faq-zoom.rst:89 ../../content/tickets/ticket-zoom.rst:593
+#: ../../content/faq/faq-zoom.rst:89 ../../content/tickets/ticket-zoom.rst:616
 msgid ""
 "Change setting ``LinkObject::ViewMode`` to *Complex* to display detailed "
 "information about linked objects."
@@ -4045,7 +4044,7 @@ msgstr ""
 "Ändern Sie die Einstellung ``LinkObject::ViewMode`` zu *Komplex*, um "
 "detaillierte Informationen über verknüpfte Objekte anzuzeigen."
 
-#: ../../content/faq/faq-zoom.rst:94 ../../content/tickets/ticket-zoom.rst:598
+#: ../../content/faq/faq-zoom.rst:94 ../../content/tickets/ticket-zoom.rst:621
 msgid "Complex Linked Objects Widget"
 msgstr "Widget „Verknüpfte Objekte“"
 
@@ -4083,12 +4082,12 @@ msgstr ""
 "*Sprachenverwaltung* im Menü *FAQ* verfügbar."
 
 #: ../../content/faq/language-management.rst:13
-msgid "Language Management Screen"
-msgstr "Sprachenverwaltung"
+msgid "FAQ Language Management Screen"
+msgstr "FAQ-Sprachenverwaltung"
 
 #: ../../content/faq/language-management.rst:17
-msgid "Manage Languages"
-msgstr "Sprachen verwalten"
+msgid "Manage FAQ Languages"
+msgstr "FAQ-Sprachen verwalten"
 
 #: ../../content/faq/language-management.rst:19
 msgid "To add a language:"
@@ -4132,9 +4131,13 @@ msgstr "So löschen Sie eine Sprache:"
 msgid "Click on the trash icon in the list of languages."
 msgstr "Klicken Sie in der Liste mit den Sprachen auf das Papierkorb-Symbol."
 
+#: ../../content/faq/language-management.rst:49
+msgid "Delete Language Screen"
+msgstr "Sprache löschen"
+
 #: ../../content/faq/language-management.rst:53
-msgid "Language Settings"
-msgstr "Spracheinstellungen"
+msgid "FAQ Language Settings"
+msgstr "Einstellungen für FAQ-Sprachen"
 
 #: ../../content/faq/language-management.rst:55
 msgid ""
@@ -5904,15 +5907,15 @@ msgstr ""
 
 #: ../../content/tickets/new-email-ticket.rst:24
 #: ../../content/tickets/ticket-zoom.rst:185
-#: ../../content/tickets/ticket-zoom.rst:491
-#: ../../content/tickets/ticket-zoom.rst:541
+#: ../../content/tickets/ticket-zoom.rst:497
+#: ../../content/tickets/ticket-zoom.rst:547
 msgid "Cc"
 msgstr "Cc"
 
 #: ../../content/tickets/new-email-ticket.rst:24
 #: ../../content/tickets/ticket-zoom.rst:185
-#: ../../content/tickets/ticket-zoom.rst:491
-#: ../../content/tickets/ticket-zoom.rst:541
+#: ../../content/tickets/ticket-zoom.rst:497
+#: ../../content/tickets/ticket-zoom.rst:547
 msgid "Select other customer users as carbon copy of the email, if needed."
 msgstr ""
 "Wählen Sie, falls benötigt, einen anderen Kundenbenutzer als \"Cc\" für die "
@@ -5920,15 +5923,15 @@ msgstr ""
 
 #: ../../content/tickets/new-email-ticket.rst:27
 #: ../../content/tickets/ticket-zoom.rst:188
-#: ../../content/tickets/ticket-zoom.rst:494
-#: ../../content/tickets/ticket-zoom.rst:544
+#: ../../content/tickets/ticket-zoom.rst:500
+#: ../../content/tickets/ticket-zoom.rst:550
 msgid "Bcc"
 msgstr "Bcc"
 
 #: ../../content/tickets/new-email-ticket.rst:27
 #: ../../content/tickets/ticket-zoom.rst:188
-#: ../../content/tickets/ticket-zoom.rst:494
-#: ../../content/tickets/ticket-zoom.rst:544
+#: ../../content/tickets/ticket-zoom.rst:500
+#: ../../content/tickets/ticket-zoom.rst:550
 msgid ""
 "Select other customer users as blind carbon copy of the email, if needed."
 msgstr ""
@@ -5987,9 +5990,9 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:235
 #: ../../content/tickets/ticket-zoom.rst:264
 #: ../../content/tickets/ticket-zoom.rst:361
-#: ../../content/tickets/ticket-zoom.rst:471
-#: ../../content/tickets/ticket-zoom.rst:503
-#: ../../content/tickets/ticket-zoom.rst:553
+#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:509
+#: ../../content/tickets/ticket-zoom.rst:559
 msgid "Subject \\*"
 msgstr "Betreff \\*"
 
@@ -6003,9 +6006,9 @@ msgstr "Betreff \\*"
 #: ../../content/tickets/ticket-zoom.rst:235
 #: ../../content/tickets/ticket-zoom.rst:264
 #: ../../content/tickets/ticket-zoom.rst:361
-#: ../../content/tickets/ticket-zoom.rst:471
-#: ../../content/tickets/ticket-zoom.rst:503
-#: ../../content/tickets/ticket-zoom.rst:553
+#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:509
+#: ../../content/tickets/ticket-zoom.rst:559
 msgid "The subject of the ticket like the subject of an email."
 msgstr "Der Betreff des Tickets, wie der Betreff einer E-Mail."
 
@@ -6018,8 +6021,8 @@ msgstr "Der Betreff des Tickets, wie der Betreff einer E-Mail."
 #: ../../content/tickets/ticket-zoom.rst:200
 #: ../../content/tickets/ticket-zoom.rst:238
 #: ../../content/tickets/ticket-zoom.rst:267
-#: ../../content/tickets/ticket-zoom.rst:506
-#: ../../content/tickets/ticket-zoom.rst:556
+#: ../../content/tickets/ticket-zoom.rst:512
+#: ../../content/tickets/ticket-zoom.rst:562
 msgid "Options"
 msgstr "Optionen"
 
@@ -6032,8 +6035,8 @@ msgstr "Optionen"
 #: ../../content/tickets/ticket-zoom.rst:200
 #: ../../content/tickets/ticket-zoom.rst:238
 #: ../../content/tickets/ticket-zoom.rst:267
-#: ../../content/tickets/ticket-zoom.rst:506
-#: ../../content/tickets/ticket-zoom.rst:556
+#: ../../content/tickets/ticket-zoom.rst:512
+#: ../../content/tickets/ticket-zoom.rst:562
 msgid ""
 "It is possible to add other objects like customer users or FAQ articles to "
 "the ticket."
@@ -6051,9 +6054,9 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:241
 #: ../../content/tickets/ticket-zoom.rst:270
 #: ../../content/tickets/ticket-zoom.rst:364
-#: ../../content/tickets/ticket-zoom.rst:474
-#: ../../content/tickets/ticket-zoom.rst:509
-#: ../../content/tickets/ticket-zoom.rst:559
+#: ../../content/tickets/ticket-zoom.rst:480
+#: ../../content/tickets/ticket-zoom.rst:515
+#: ../../content/tickets/ticket-zoom.rst:565
 msgid "Text \\*"
 msgstr "Text \\*"
 
@@ -6083,8 +6086,8 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:206
 #: ../../content/tickets/ticket-zoom.rst:244
 #: ../../content/tickets/ticket-zoom.rst:273
-#: ../../content/tickets/ticket-zoom.rst:512
-#: ../../content/tickets/ticket-zoom.rst:562
+#: ../../content/tickets/ticket-zoom.rst:518
+#: ../../content/tickets/ticket-zoom.rst:568
 msgid "Attachments"
 msgstr "Anhänge"
 
@@ -6097,8 +6100,8 @@ msgstr "Anhänge"
 #: ../../content/tickets/ticket-zoom.rst:206
 #: ../../content/tickets/ticket-zoom.rst:244
 #: ../../content/tickets/ticket-zoom.rst:273
-#: ../../content/tickets/ticket-zoom.rst:512
-#: ../../content/tickets/ticket-zoom.rst:562
+#: ../../content/tickets/ticket-zoom.rst:518
+#: ../../content/tickets/ticket-zoom.rst:568
 msgid ""
 "It is possible to add attachments to the ticket. Click on the field to add "
 "an attachment, or just drop some files here."
@@ -6110,9 +6113,9 @@ msgstr ""
 #: ../../content/tickets/new-phone-ticket.rst:46
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
-#: ../../content/tickets/ticket-zoom.rst:459
-#: ../../content/tickets/ticket-zoom.rst:515
-#: ../../content/tickets/ticket-zoom.rst:565
+#: ../../content/tickets/ticket-zoom.rst:465
+#: ../../content/tickets/ticket-zoom.rst:521
+#: ../../content/tickets/ticket-zoom.rst:571
 msgid "Next ticket state"
 msgstr "Nächster Status des Tickets"
 
@@ -6130,8 +6133,8 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
-#: ../../content/tickets/ticket-zoom.rst:518
-#: ../../content/tickets/ticket-zoom.rst:568
+#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:574
 msgid "Pending date"
 msgstr "Warten bis"
 
@@ -6140,8 +6143,8 @@ msgstr "Warten bis"
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
-#: ../../content/tickets/ticket-zoom.rst:518
-#: ../../content/tickets/ticket-zoom.rst:568
+#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:574
 msgid ""
 "Select a date and time as reminder for the ticket. If the pending time is "
 "reached, the ticket can be escalated."
@@ -6174,8 +6177,8 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:218
 #: ../../content/tickets/ticket-zoom.rst:250
 #: ../../content/tickets/ticket-zoom.rst:279
-#: ../../content/tickets/ticket-zoom.rst:524
-#: ../../content/tickets/ticket-zoom.rst:575
+#: ../../content/tickets/ticket-zoom.rst:530
+#: ../../content/tickets/ticket-zoom.rst:581
 msgid "Time units (work units)"
 msgstr "Zeiteinheiten (Arbeitseinheiten)"
 
@@ -6188,8 +6191,8 @@ msgstr "Zeiteinheiten (Arbeitseinheiten)"
 #: ../../content/tickets/ticket-zoom.rst:218
 #: ../../content/tickets/ticket-zoom.rst:250
 #: ../../content/tickets/ticket-zoom.rst:279
-#: ../../content/tickets/ticket-zoom.rst:524
-#: ../../content/tickets/ticket-zoom.rst:574
+#: ../../content/tickets/ticket-zoom.rst:530
+#: ../../content/tickets/ticket-zoom.rst:580
 msgid "Enter any amount of time units for time accounting."
 msgstr "Tragen Sie hier die Menge der Zeit für die Zeitbuchung ein."
 
@@ -6243,7 +6246,7 @@ msgstr "Neues Prozess-Ticket"
 
 #: ../../content/tickets/new-process-ticket.rst:6
 #: ../../content/tickets/ticket-zoom.rst:286
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid ""
 "This option is available only, if at least one process is deployed in the "
 "system."
@@ -6621,7 +6624,7 @@ msgid "The *Ticket Zoom* screen has an own menu."
 msgstr "Die *Ticket-Detailansicht* hat ein eigenes Menü."
 
 #: ../../content/tickets/ticket-zoom.rst:19
-#: ../../content/tickets/ticket-zoom.rst:416
+#: ../../content/tickets/ticket-zoom.rst:422
 msgid ""
 "The menu is extensible and menu items can be grouped into drop-down lists."
 msgstr ""
@@ -6650,8 +6653,8 @@ msgstr "Wählen Sie die neue Priorität für das Ticket."
 #: ../../content/tickets/ticket-zoom.rst:203
 #: ../../content/tickets/ticket-zoom.rst:241
 #: ../../content/tickets/ticket-zoom.rst:270
-#: ../../content/tickets/ticket-zoom.rst:509
-#: ../../content/tickets/ticket-zoom.rst:559
+#: ../../content/tickets/ticket-zoom.rst:515
+#: ../../content/tickets/ticket-zoom.rst:565
 msgid "The body text of the note to be added to the ticket."
 msgstr "Der Text der Notiz, die dem Ticket hinzugefügt werden soll."
 
@@ -6669,8 +6672,8 @@ msgstr "Ist sichtbar für Kunde"
 #: ../../content/tickets/ticket-zoom.rst:215
 #: ../../content/tickets/ticket-zoom.rst:247
 #: ../../content/tickets/ticket-zoom.rst:276
-#: ../../content/tickets/ticket-zoom.rst:521
-#: ../../content/tickets/ticket-zoom.rst:571
+#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:577
 msgid "Define, if the note is an internal note or customer can view it."
 msgstr "Legen Sie fest, ob die Notiz intern oder sichtbar für Kunden ist."
 
@@ -6765,8 +6768,8 @@ msgstr "Telefonanruf"
 
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
-#: ../../content/tickets/ticket-zoom.rst:515
-#: ../../content/tickets/ticket-zoom.rst:565
+#: ../../content/tickets/ticket-zoom.rst:521
+#: ../../content/tickets/ticket-zoom.rst:571
 msgid "Select an other state if you want to change it."
 msgstr "Wählen Sie einen anderen Status, wenn Sie ihn ändern möchten."
 
@@ -6806,39 +6809,39 @@ msgstr "Ausgehende E-Mail"
 
 #: ../../content/tickets/ticket-zoom.rst:179
 #: ../../content/tickets/ticket-zoom.rst:355
-#: ../../content/tickets/ticket-zoom.rst:465
-#: ../../content/tickets/ticket-zoom.rst:485
-#: ../../content/tickets/ticket-zoom.rst:535
+#: ../../content/tickets/ticket-zoom.rst:471
+#: ../../content/tickets/ticket-zoom.rst:491
+#: ../../content/tickets/ticket-zoom.rst:541
 msgid "From"
 msgstr "Von"
 
 #: ../../content/tickets/ticket-zoom.rst:179
 #: ../../content/tickets/ticket-zoom.rst:355
-#: ../../content/tickets/ticket-zoom.rst:465
-#: ../../content/tickets/ticket-zoom.rst:485
-#: ../../content/tickets/ticket-zoom.rst:535
+#: ../../content/tickets/ticket-zoom.rst:471
+#: ../../content/tickets/ticket-zoom.rst:491
+#: ../../content/tickets/ticket-zoom.rst:541
 msgid "This field is read only and holds the queue address."
 msgstr "Dieses Feld ist \"nur lesen\" und beinhaltet die Queue."
 
 #: ../../content/tickets/ticket-zoom.rst:182
 #: ../../content/tickets/ticket-zoom.rst:358
-#: ../../content/tickets/ticket-zoom.rst:468
-#: ../../content/tickets/ticket-zoom.rst:488
-#: ../../content/tickets/ticket-zoom.rst:538
+#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:494
+#: ../../content/tickets/ticket-zoom.rst:544
 msgid "To \\*"
 msgstr "An \\*"
 
 #: ../../content/tickets/ticket-zoom.rst:182
 #: ../../content/tickets/ticket-zoom.rst:358
-#: ../../content/tickets/ticket-zoom.rst:468
-#: ../../content/tickets/ticket-zoom.rst:488
-#: ../../content/tickets/ticket-zoom.rst:538
+#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:494
+#: ../../content/tickets/ticket-zoom.rst:544
 msgid "This will be the *To* field of the email."
 msgstr "Das wird das *An*-Feld der E-Mail."
 
 #: ../../content/tickets/ticket-zoom.rst:192
-#: ../../content/tickets/ticket-zoom.rst:498
-#: ../../content/tickets/ticket-zoom.rst:548
+#: ../../content/tickets/ticket-zoom.rst:504
+#: ../../content/tickets/ticket-zoom.rst:554
 msgid ""
 "You can select a customer user from OTRS or any valid email address can be "
 "added here."
@@ -6847,8 +6850,8 @@ msgstr ""
 "gültige E-Mail-Adresse hinzufügen."
 
 #: ../../content/tickets/ticket-zoom.rst:215
-#: ../../content/tickets/ticket-zoom.rst:521
-#: ../../content/tickets/ticket-zoom.rst:571
+#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:577
 msgid "Visible for customer"
 msgstr "Sichtbar für Kunde"
 
@@ -6887,7 +6890,7 @@ msgstr ""
 "Dieser Menüeintrag öffnet ein neues Fenster, um das Ticket zu schließen."
 
 #: ../../content/tickets/ticket-zoom.rst:261
-#: ../../content/tickets/ticket-zoom.rst:459
+#: ../../content/tickets/ticket-zoom.rst:465
 msgid "Select the closed state of the ticket."
 msgstr "Wählen Sie den \"Schließen\"-Status des Tickets."
 
@@ -7043,7 +7046,7 @@ msgstr ""
 "suchen."
 
 #: ../../content/tickets/ticket-zoom.rst:352
-#: ../../content/tickets/ticket-zoom.rst:462
+#: ../../content/tickets/ticket-zoom.rst:468
 msgid "Inform sender"
 msgstr "Sender informieren"
 
@@ -7058,7 +7061,7 @@ msgstr ""
 "werden."
 
 #: ../../content/tickets/ticket-zoom.rst:364
-#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:480
 msgid "The body text of the email to be sent."
 msgstr "Der Text der zu sendenden E-Mail."
 
@@ -7158,30 +7161,60 @@ msgstr ""
 "Die meisten Spalten sind durch Klicken auf den Spaltenkopf sortierbar. "
 "Klicken Sie noch einmal, um die Sortierreihenfolge zu ändern."
 
-#: ../../content/tickets/ticket-zoom.rst:403
-msgid "This widget is not displayed in timeline view."
-msgstr "Dieses Widget wird in der Zeitlinien-Ansicht nicht angezeigt."
+#: ../../content/tickets/ticket-zoom.rst:401
+msgid "There are three possible colors used to mark the type of article."
+msgstr ""
+"Es gibt drei mögliche Farben, um den Typ des Artikels zu kennzeichnen."
 
-#: ../../content/tickets/ticket-zoom.rst:407
+#: ../../content/tickets/ticket-zoom.rst:403
+msgid ""
+"White: the article is visible for the customer user in the external "
+"interface and for agents in the agent interface."
+msgstr ""
+"Weiß: Der Artikel ist für den Kundenbenutzer im externen Interface und für "
+"Agenten im Agenten-Interface sichtbar."
+
+#: ../../content/tickets/ticket-zoom.rst:404
+msgid ""
+"Red: the article is not visible for the customer user in the external "
+"interface, but it is visible for agents in the agent interface."
+msgstr ""
+"Rot: Der Artikel ist für den Kundenbenutzer im externen Interface nicht "
+"sichtbar, aber für Agenten im Agenten-Interface."
+
+#: ../../content/tickets/ticket-zoom.rst:405
+msgid ""
+"Yellow: the article is a system message and the visibility can be changed in"
+" the system configuration."
+msgstr ""
+"Gelb: Der Artikel ist eine Systemnachricht und die Sichtbarkeit kann in der "
+"Systemkonfiguration geändert werden."
+
+#: ../../content/tickets/ticket-zoom.rst:409
+msgid "This widget is not displayed in ticket timeline view."
+msgstr ""
+"Dieses Widget wird in der Zeitlinien-Ansicht des Tickets nicht angezeigt."
+
+#: ../../content/tickets/ticket-zoom.rst:413
 msgid "Article Zoom"
 msgstr "Artikel-Detailansicht"
 
-#: ../../content/tickets/ticket-zoom.rst:409
+#: ../../content/tickets/ticket-zoom.rst:415
 msgid ""
 "This widget displays the details of the article. The widget has an own menu."
 msgstr ""
 "Das Widget zeigt die Details eines Artikels. Das Widget hat ein eigenes "
 "Menü."
 
-#: ../../content/tickets/ticket-zoom.rst:414
+#: ../../content/tickets/ticket-zoom.rst:420
 msgid "Article Zoom Widget"
 msgstr "Widget \"Artikel-Detailansicht\""
 
-#: ../../content/tickets/ticket-zoom.rst:419
+#: ../../content/tickets/ticket-zoom.rst:425
 msgid "Mark or Unmark"
 msgstr "Markieren oder Markierung aufheben"
 
-#: ../../content/tickets/ticket-zoom.rst:419
+#: ../../content/tickets/ticket-zoom.rst:425
 msgid ""
 "Use this menu item to mark article as important or to remove the important "
 "flag from the article. Important articles have a red information flag in the"
@@ -7192,7 +7225,7 @@ msgstr ""
 "Wichtige Artikel haben ein rotes Informationssymbol im Widget "
 "*Artikelübersicht*."
 
-#: ../../content/tickets/ticket-zoom.rst:422
+#: ../../content/tickets/ticket-zoom.rst:428
 msgid ""
 "This menu item opens a PDF file to show the printer friendly version of the "
 "current article. You can save or print this PDF file."
@@ -7201,11 +7234,11 @@ msgstr ""
 "des aktuellen Artikels anzuzeigen. Sie können diese PDF-Datei speichern oder"
 " ausdrucken."
 
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid "Split"
 msgstr "Teilen"
 
-#: ../../content/tickets/ticket-zoom.rst:425
+#: ../../content/tickets/ticket-zoom.rst:431
 msgid ""
 "Use this menu item to split the article to an other ticket. Select the new "
 "ticket type and click on the *Submit* button."
@@ -7214,19 +7247,19 @@ msgstr ""
 "aufzuteilen. Wählen Sie den neuen Ticket-Typ aus und klicken Sie auf die "
 "Schaltfläche *Übermitteln*."
 
-#: ../../content/tickets/ticket-zoom.rst:430
+#: ../../content/tickets/ticket-zoom.rst:436
 msgid "Article Split Dialog"
 msgstr "Dialog \"Artikel teilen\""
 
-#: ../../content/tickets/ticket-zoom.rst:432
+#: ../../content/tickets/ticket-zoom.rst:438
 msgid "It is possible to split the article into several type of ticket."
 msgstr "Es ist möglich, den Artikel in mehrere Ticket-Typen aufzuteilen."
 
-#: ../../content/tickets/ticket-zoom.rst:435
+#: ../../content/tickets/ticket-zoom.rst:441
 msgid "Email ticket"
 msgstr "E-Mail-Ticket"
 
-#: ../../content/tickets/ticket-zoom.rst:435
+#: ../../content/tickets/ticket-zoom.rst:441
 msgid ""
 "Selecting this will open the :doc:`new-email-ticket` screen and fill in the "
 "fields with the current article data."
@@ -7234,7 +7267,7 @@ msgstr ""
 "Wenn diese Option ausgewählt ist, öffnet sich die Ansicht :doc:`new-email-"
 "ticket` und die Felder werden mit den derzeitigen Artikeldaten ausgefüllt."
 
-#: ../../content/tickets/ticket-zoom.rst:438
+#: ../../content/tickets/ticket-zoom.rst:444
 msgid ""
 "Selecting this will open the :doc:`new-phone-ticket` screen and fill in the "
 "fields with the current article data."
@@ -7242,11 +7275,11 @@ msgstr ""
 "Wenn diese Option ausgewählt ist, öffnet sich die Ansicht :doc:`new-phone-"
 "ticket` und die Felder werden mit den derzeitigen Artikeldaten ausgefüllt."
 
-#: ../../content/tickets/ticket-zoom.rst:445
+#: ../../content/tickets/ticket-zoom.rst:451
 msgid "Process ticket"
 msgstr "Prozess-Ticket"
 
-#: ../../content/tickets/ticket-zoom.rst:441
+#: ../../content/tickets/ticket-zoom.rst:447
 msgid ""
 "Selecting this will open the :doc:`new-process-ticket` screen and fill in "
 "the fields with the current article data."
@@ -7254,11 +7287,11 @@ msgstr ""
 "Wenn diese Option ausgewählt ist, öffnet sich die Ansicht :doc:`new-process-"
 "ticket` und die Felder werden mit den derzeitigen Artikeldaten ausgefüllt."
 
-#: ../../content/tickets/ticket-zoom.rst:474
+#: ../../content/tickets/ticket-zoom.rst:480
 msgid "Bounce"
 msgstr "Umleiten"
 
-#: ../../content/tickets/ticket-zoom.rst:448
+#: ../../content/tickets/ticket-zoom.rst:454
 msgid ""
 "Use this menu item to redirect the article. The original article will be "
 "sent, so the new *To* person will see the email as it was originally sent to"
@@ -7268,15 +7301,15 @@ msgstr ""
 "Originalartikel wird gesendet, so dass die neue Person im Feld \"Zu\" die "
 "E-Mail so sehen wird, als wenn sie original zu ihr gesendet wurde."
 
-#: ../../content/tickets/ticket-zoom.rst:453
+#: ../../content/tickets/ticket-zoom.rst:459
 msgid "Article Bounce Screen"
 msgstr "Artikel umleiten"
 
-#: ../../content/tickets/ticket-zoom.rst:456
+#: ../../content/tickets/ticket-zoom.rst:462
 msgid "Bounce to \\*"
 msgstr "Umleiten an \\*"
 
-#: ../../content/tickets/ticket-zoom.rst:456
+#: ../../content/tickets/ticket-zoom.rst:462
 msgid ""
 "The email address where the article needs to be redirected. The sender of "
 "the redirected email is the original sender of the article."
@@ -7284,7 +7317,7 @@ msgstr ""
 "Die E-Mail-Adresse, an die der Artikel umgeleitet werden soll. Der Sender "
 "der umgeleiteten E-Mail ist der Originalsender des Artikels."
 
-#: ../../content/tickets/ticket-zoom.rst:462
+#: ../../content/tickets/ticket-zoom.rst:468
 msgid ""
 "Check this box, if you would like to inform sender about bouncing. If this "
 "box is checked, the following fields must be filled."
@@ -7293,24 +7326,24 @@ msgstr ""
 "Umleitung informieren möchten. Wenn dieses Kontrollkästchen ausgewählt ist, "
 "müssen die folgenden Felder gefüllt werden."
 
-#: ../../content/tickets/ticket-zoom.rst:524
+#: ../../content/tickets/ticket-zoom.rst:530
 msgid "Forward"
 msgstr "Weiterleiten"
 
-#: ../../content/tickets/ticket-zoom.rst:477
+#: ../../content/tickets/ticket-zoom.rst:483
 msgid "Use this menu item to forward the article via email."
 msgstr ""
 "Nutzen Sie diesen Menüeintrag, um den Artikel via E-Mail weiterzuleiten."
 
-#: ../../content/tickets/ticket-zoom.rst:482
+#: ../../content/tickets/ticket-zoom.rst:488
 msgid "Article Forward Screen"
 msgstr "Artikel weiterleiten"
 
-#: ../../content/tickets/ticket-zoom.rst:575
+#: ../../content/tickets/ticket-zoom.rst:581
 msgid "Reply"
 msgstr "Antworten"
 
-#: ../../content/tickets/ticket-zoom.rst:527
+#: ../../content/tickets/ticket-zoom.rst:533
 msgid ""
 "Use this menu item to compose an answer to the article via email. Reply is "
 "created from a response template set in *Templates* module of the "
@@ -7320,15 +7353,59 @@ msgstr ""
 " zu verfassen. Die Antwort wird aus einer Antwortvorlage erstellt, die im "
 "Modul *Vorlagen* des Administrator-Interface eingestellt ist."
 
-#: ../../content/tickets/ticket-zoom.rst:532
+#: ../../content/tickets/ticket-zoom.rst:538
 msgid "Compose Answer Screen"
 msgstr "Antwort verfassen"
 
-#: ../../content/tickets/ticket-zoom.rst:578
+#: ../../content/tickets/ticket-zoom.rst:584
+msgid "Ticket Timeline View"
+msgstr "Ticket-Verlaufsansicht"
+
+#: ../../content/tickets/ticket-zoom.rst:586
+msgid ""
+"The ticket timeline view provides a chronological view of all actions which "
+"happened on a ticket, like articles, owner changes, incoming mails and other"
+" actions. With this view, agents are able to get a good overview of a ticket"
+" in less time."
+msgstr ""
+"Die Ticket-Verlaufsansicht bietet eine chronologische Ansicht aller "
+"Aktionen, die auf einem Ticket stattgefunden haben, wie Artikel, "
+"Besitzerwechsel, eingehende E-Mails und andere Aktionen. Mit dieser Ansicht "
+"sind Agenten in der Lage, sich in kürzerer Zeit einen guten Überblick über "
+"ein Ticket zu verschaffen."
+
+#: ../../content/tickets/ticket-zoom.rst:591
+msgid "Ticket Timeline View Widget"
+msgstr "Ticket-Verlaufsansicht"
+
+#: ../../content/tickets/ticket-zoom.rst:593
+msgid ""
+"In this view you can work on the ticket as you are used to. You can inspect "
+"the time of each event in the timeline by hovering the little square next to"
+" each event with your mouse cursor. You can view the full content of "
+"articles by using the zoom icon on top of the certain articles box, where "
+"you will find all common article actions."
+msgstr ""
+"In dieser Ansicht können Sie das Ticket wie gewohnt bearbeiten. Sie können "
+"die Zeit jedes Ereignisses in der Zeitleiste einsehen, indem Sie mit dem "
+"Mauszeiger über das kleine Feld neben jedem Ereignis fahren. Sie können den "
+"gesamten Inhalt der Artikel ansehen, indem Sie das Lupensymbol oben in der "
+"Box für bestimmte Artikel verwenden, wo Sie alle gängigen Artikelaktionen "
+"finden."
+
+#: ../../content/tickets/ticket-zoom.rst:597
+msgid ""
+"The ticket timeline view can be activated in the *Settings* menu item (gear "
+"icon) in the ticket menu."
+msgstr ""
+"Die Ticket-Verlaufsansicht kann unter dem Menüpunkt *Einstellungen* "
+"(Zahnradsymbol) rechts oben im Widget aktiviert werden."
+
+#: ../../content/tickets/ticket-zoom.rst:601
 msgid "Linked Objects"
 msgstr "Verknüpfte Objekte"
 
-#: ../../content/tickets/ticket-zoom.rst:580
+#: ../../content/tickets/ticket-zoom.rst:603
 msgid ""
 "Tickets can be linked to other objects. Use this widget to see the links "
 "between the ticket and other objects."
@@ -7336,7 +7413,7 @@ msgstr ""
 "Tickets können mit anderen Objekten verknüpft werden. Verwenden Sie dieses "
 "Widget, um die existierenden Verknüpfungen anzuschauen."
 
-#: ../../content/tickets/ticket-zoom.rst:587
+#: ../../content/tickets/ticket-zoom.rst:610
 msgid ""
 "New links can be added by the *Link* menu item of the *Ticket Zoom* menu. "
 "Existing links can also be managed there."
@@ -7345,22 +7422,22 @@ msgstr ""
 "Detailansicht* hinzugefügt werden. Bestehende Verknüpfungen können hier "
 "ebenfalls verwaltet werden."
 
-#: ../../content/tickets/ticket-zoom.rst:602
+#: ../../content/tickets/ticket-zoom.rst:625
 msgid "Ticket Information"
 msgstr "Ticket-Informationen"
 
-#: ../../content/tickets/ticket-zoom.rst:604
+#: ../../content/tickets/ticket-zoom.rst:627
 msgid "This widget contains information about the ticket."
 msgstr "Dieses Widget enthält Informationen über das Ticket."
 
-#: ../../content/tickets/ticket-zoom.rst:609
+#: ../../content/tickets/ticket-zoom.rst:632
 msgid "Ticket Information Widget"
 msgstr "Ticket-Informationen"
 
-#: ../../content/tickets/ticket-zoom.rst:613
+#: ../../content/tickets/ticket-zoom.rst:636
 msgid "Customer Information"
 msgstr "Kundeninformationen"
 
-#: ../../content/tickets/ticket-zoom.rst:615
+#: ../../content/tickets/ticket-zoom.rst:638
 msgid "This widget contains information about the customer."
 msgstr "Dieses Widget enthält Informationen über den Kunden."
