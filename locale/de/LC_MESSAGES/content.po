@@ -6,13 +6,14 @@
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2019
 # Udo Bretz, 2019
-# zottto <mail@marcnilius.de>, 2019
+# bce0ba3cf0737f4654586bd1fe5e7d63, 2019
 # mathiasbraeunling <mathias.braeunling@otrs.com>, 2019
 # Marco Buchholz <mabu@debian-admin.de>, 2019
 # Marc A. Bonsels, 2019
-# Martin Gruner <martin.gruner@otrs.com>, 2019
 # ru_otrs <robert.ullrich@otrs.com>, 2019
 # sb_otrs <stefan.bedorf@otrs.com>, 2019
+# Martin Gruner <martin.gruner@otrs.com>, 2019
+# Harald Eisenmenger <harald.eisenmenger@otrs.com>, 2019
 # Michael Reuther <michael.reuther@otrs.com>, 2019
 # 
 #, fuzzy
@@ -20,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 23:16+0200\n"
+"POT-Creation-Date: 2019-08-28 17:26+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: Michael Reuther <michael.reuther@otrs.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/otrs/teams/23435/de/)\n"
@@ -2224,7 +2225,7 @@ msgstr ""
 #: ../../content/customers/customer-administration.rst:89
 #: ../../content/customers/customer-user-administration.rst:138
 #: ../../content/reports/reports.rst:67
-#: ../../content/reports/statistics.rst:141
+#: ../../content/reports/statistics.rst:143
 msgid "Validity \\*"
 msgstr "Gültigkeit \\*"
 
@@ -3368,6 +3369,7 @@ msgid "Object"
 msgstr "Objekt"
 
 #: ../../content/dashboard/dashboard.rst:155
+#: ../../content/reports/statistics.rst:193
 msgid "Type"
 msgstr "Typ"
 
@@ -4205,7 +4207,7 @@ msgstr "Wählen Sie eine Kategorie aus den verfügbaren Kategorien."
 msgid "Categories can be managed on the :doc:`category-management` screen."
 msgstr "Kategorien können in :doc:`category-management` verwaltet werden."
 
-#: ../../content/faq/new.rst:36
+#: ../../content/faq/new.rst:36 ../../content/reports/statistics.rst:175
 msgid "State"
 msgstr "Status"
 
@@ -4726,6 +4728,7 @@ msgid "This text will be used as headline text of the report."
 msgstr "Dieser Text wird als Überschrift für den Bericht verwendet."
 
 #: ../../content/reports/reports.rst:103
+#: ../../content/reports/statistics.rst:160
 msgid "Title"
 msgstr "Titel"
 
@@ -5073,6 +5076,537 @@ msgstr ""
 "verwendet werden, wenn dieses Feld auf *gültig* gesetzt ist. Wenn Sie dieses"
 " Feld auf *ungültig* oder *ungültig-temporär* setzen, wird die Nutzung der "
 "Ressource deaktiviert."
+
+#: ../../content/reports/statistics.rst:146
+msgid "Ticket Attributes for Statistics"
+msgstr "Ticket-Attribute für Statistiken"
+
+#: ../../content/reports/statistics.rst:148
+msgid ""
+"The following ticket attributes can be included in statistics using the "
+"*X-axis* button, if *Dynamic Lists* statistics are selected."
+msgstr ""
+"Die folgenden Ticket-Attribute können über die Schaltfläche *X-Achse* in die"
+" Statistik aufgenommen werden, wenn *Dynamische Listen* Statistik ausgewählt"
+" sind."
+
+#: ../../content/reports/statistics.rst:151
+msgid "Number"
+msgstr "Nummer"
+
+#: ../../content/reports/statistics.rst:151
+msgid ""
+"An auto-increment integer number in the output to show the line numbers."
+msgstr ""
+"Eine Ganzzahl in der Ausgabe, die automatisch erhöht wird, um die "
+"Zeilennummern anzuzeigen."
+
+#: ../../content/reports/statistics.rst:154
+msgid "Ticket#"
+msgstr "Ticket#"
+
+#: ../../content/reports/statistics.rst:154
+msgid "The ticket number."
+msgstr "Die Ticket-Nummer."
+
+#: ../../content/reports/statistics.rst:157
+msgid "Age"
+msgstr "Alter"
+
+#: ../../content/reports/statistics.rst:157
+msgid "The relative age since ticket creation and now."
+msgstr "Das relative Alter seit Ticket-Erstellung und jetzt."
+
+#: ../../content/reports/statistics.rst:160
+#: ../../content/tickets/ticket-zoom.rst:325
+msgid "The title of the ticket."
+msgstr "Der Titel des Tickets."
+
+#: ../../content/reports/statistics.rst:163
+msgid "Created"
+msgstr "Erstellt"
+
+#: ../../content/reports/statistics.rst:163
+msgid "The absolute date and time with timezone when the ticket was created."
+msgstr ""
+"Das absolute Datum und die absolute Uhrzeit mit Zeitzone, als das Ticket "
+"erstellt wurde."
+
+#: ../../content/reports/statistics.rst:166
+msgid "Last Changed"
+msgstr "Zuletzt geändert"
+
+#: ../../content/reports/statistics.rst:166
+msgid "The absolute date and time with timezone when the ticket was changed."
+msgstr ""
+"Das absolute Datum und die absolute Uhrzeit mit Zeitzone, wann das Ticket "
+"geändert wurde."
+
+#: ../../content/reports/statistics.rst:169
+msgid "Close Time"
+msgstr "Schließzeit"
+
+#: ../../content/reports/statistics.rst:169
+msgid ""
+"The absolute date and time with timezone when the ticket was closed. This "
+"field is empty for open tickets."
+msgstr ""
+"Das absolute Datum und die absolute Uhrzeit mit Zeitzone, wann das Ticket "
+"geschlossen wurde. Dieses Feld ist bei offenen Tickets leer."
+
+#: ../../content/reports/statistics.rst:172
+#: ../../content/tickets/ticket-zoom.rst:374
+msgid "Queue"
+msgstr "Queue"
+
+#: ../../content/reports/statistics.rst:172
+msgid "The queue in which the ticket is located."
+msgstr "Die Queue, in der sich das Ticket befindet."
+
+#: ../../content/reports/statistics.rst:175
+msgid "The state of the ticket."
+msgstr "Der Status des Tickets."
+
+#: ../../content/reports/statistics.rst:178
+#: ../../content/tickets/new-email-ticket.rst:64
+#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/ticket-zoom.rst:59
+#: ../../content/tickets/ticket-zoom.rst:41
+msgid "Priority"
+msgstr "Priorität"
+
+#: ../../content/reports/statistics.rst:178
+msgid "The priority of the ticket."
+msgstr "Die Priorität des Tickets."
+
+#: ../../content/reports/statistics.rst:181
+msgid "Customer User"
+msgstr "Kundenbenutzer"
+
+#: ../../content/reports/statistics.rst:181
+msgid "The login name of the customer user of the ticket."
+msgstr "Der Benutzername des Kundenbenutzers des Tickets."
+
+#: ../../content/reports/statistics.rst:184
+#: ../../content/tickets/new-email-ticket.rst:30
+#: ../../content/tickets/new-phone-ticket.rst:21
+#: ../../content/tickets/ticket-zoom.rst:105
+msgid "Customer ID"
+msgstr "Kundennummer"
+
+#: ../../content/reports/statistics.rst:184
+msgid "The customer of the customer user of the ticket."
+msgstr "Der Kunde des Kundenbenutzers des Tickets."
+
+#: ../../content/reports/statistics.rst:187
+msgid "Service"
+msgstr "Service"
+
+#: ../../content/reports/statistics.rst:187
+msgid ""
+"The service of the ticket. If no service is assigned, this field is empty."
+msgstr ""
+"Der Service des Tickets. Wenn kein Service zugeordnet ist, ist dieses Feld "
+"leer."
+
+#: ../../content/reports/statistics.rst:190
+msgid "SLA"
+msgstr "SLA"
+
+#: ../../content/reports/statistics.rst:190
+msgid "The SLA of the ticket. If no SLA is assigned, this field is empty."
+msgstr ""
+"Das SLA des Tickets. Wenn kein SLA zugeordnet ist, ist dieses Feld leer."
+
+#: ../../content/reports/statistics.rst:193
+msgid "The type of the ticket."
+msgstr "Der Typ des Tickets."
+
+#: ../../content/reports/statistics.rst:196
+msgid "Agent/Owner"
+msgstr "Agent/Besitzer"
+
+#: ../../content/reports/statistics.rst:196
+msgid "The owner agent of the ticket."
+msgstr "Der Besitzer des Tickets."
+
+#: ../../content/reports/statistics.rst:199
+msgid "Responsible"
+msgstr "Verantwortlicher"
+
+#: ../../content/reports/statistics.rst:199
+msgid "The responsible agent of the ticket."
+msgstr "Der Verantwortliche des Tickets."
+
+#: ../../content/reports/statistics.rst:202
+msgid "Accounted time"
+msgstr "Erfasste Zeit"
+
+#: ../../content/reports/statistics.rst:202
+msgid "Accumulated time of the times stored in the articles."
+msgstr "Akkumulierte Zeit der an Artikeln gespeicherten Zeiten."
+
+#: ../../content/reports/statistics.rst:205
+msgid "EscalationDestinationIn"
+msgstr "EscalationDestinationIn"
+
+#: ../../content/reports/statistics.rst:205
+msgid "The relative time from the current time to the time of escalation."
+msgstr ""
+"Die relative Zeit von der aktuellen Zeit bis zum Zeitpunkt der Eskalation."
+
+#: ../../content/reports/statistics.rst:208
+msgid "EscalationDestinationDate"
+msgstr "EscalationDestinationDate"
+
+#: ../../content/reports/statistics.rst:208
+msgid "The absolute date and time with timezone when the ticket is escalated."
+msgstr ""
+"Das absolute Datum und die absolute Uhrzeit mit Zeitzone, wenn das Ticket "
+"eskaliert."
+
+#: ../../content/reports/statistics.rst:211
+msgid "EscalationTimeWorkingTime"
+msgstr "EscalationTimeWorkingTime"
+
+#: ../../content/reports/statistics.rst:211
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" escalation."
+msgstr ""
+"Die Zeit in Sekunden innerhalb der definierten Arbeitszeit oder Servicezeit "
+"bis zu einer Eskalation."
+
+#: ../../content/reports/statistics.rst:214
+msgid "EscalationTime"
+msgstr "Eskalationszeit"
+
+#: ../../content/reports/statistics.rst:214
+msgid ""
+"The total time in seconds until escalation of nearest escalation time type: "
+"response, update or solution time."
+msgstr ""
+"Die Gesamtzeit in Sekunden bis zur Eskalation der nächsten "
+"Eskalationszeitart: Reaktions-, Aktualisierungs- oder Lösungszeit."
+
+#: ../../content/reports/statistics.rst:217
+msgid "FirstResponse"
+msgstr "Reaktionszeit"
+
+#: ../../content/reports/statistics.rst:217
+msgid "The timestamp of first response."
+msgstr "Der Zeitstempel der ersten Antwort."
+
+#: ../../content/reports/statistics.rst:220
+msgid "FirstResponseInMin"
+msgstr "Reaktionszeit in Minuten"
+
+#: ../../content/reports/statistics.rst:220
+msgid ""
+"The time in minutes from ticket creation to first response (based on working"
+" time)."
+msgstr ""
+"Die Zeit in Minuten von der Ticket-Erstellung bis zur ersten Reaktion "
+"(basierend auf der Arbeitszeit)."
+
+#: ../../content/reports/statistics.rst:223
+msgid "FirstResponseDiffInMin"
+msgstr "Reaktionszeit-Differenz in Minuten"
+
+#: ../../content/reports/statistics.rst:223
+msgid ""
+"The difference in minutes between the specified response time and the actual"
+" response time."
+msgstr ""
+"Die Differenz in Minuten zwischen der angegebenen Reaktionszeit und der "
+"tatsächlichen Reaktionszeit."
+
+#: ../../content/reports/statistics.rst:226
+msgid "FirstResponseTimeWorkingTime"
+msgstr "FirstResponseTimeWorkingTime"
+
+#: ../../content/reports/statistics.rst:226
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" escalation of a first response."
+msgstr ""
+"Die Zeit in Sekunden innerhalb der definierten Arbeitszeit oder Servicezeit "
+"bis zur Eskalation einer ersten Antwort."
+
+#: ../../content/reports/statistics.rst:229
+msgid "FirstResponseTimeEscalation"
+msgstr "FirstResponseTimeEscalation"
+
+#: ../../content/reports/statistics.rst:229
+#: ../../content/reports/statistics.rst:271
+msgid "Defines, whether the ticket has escalated or not."
+msgstr "Stellt ein, ob das Ticket eskaliert ist oder nicht."
+
+#: ../../content/reports/statistics.rst:232
+msgid "FirstResponseTimeNotification"
+msgstr "FirstResponseTimeNotification"
+
+#: ../../content/reports/statistics.rst:232
+#: ../../content/reports/statistics.rst:244
+#: ../../content/reports/statistics.rst:274
+msgid ""
+"Defines, whether the defined escalation notification time is reached or not."
+msgstr ""
+"Legt fest, ob der definierte Eskalationsmeldezeitpunkt erreicht wird oder "
+"nicht."
+
+#: ../../content/reports/statistics.rst:235
+msgid "FirstResponseTimeDestinationTime"
+msgstr "FirstResponseTimeDestinationTime"
+
+#: ../../content/reports/statistics.rst:235
+msgid "The escalation time as Unix timestamp."
+msgstr "Die Eskalationszeit als Unix-Zeitstempel."
+
+#: ../../content/reports/statistics.rst:238
+msgid "FirstResponseTimeDestinationDate"
+msgstr "FirstResponseTimeDestinationDate"
+
+#: ../../content/reports/statistics.rst:238
+msgid "The absolute date of a first response time escalation."
+msgstr "Das absolute Datum einer Eskalation der Reaktionszeit."
+
+#: ../../content/reports/statistics.rst:241
+msgid "FirstResponseTime"
+msgstr "FirstResponseTime"
+
+#: ../../content/reports/statistics.rst:241
+msgid "The total time in seconds until the first response time escalation."
+msgstr ""
+"Die Gesamtzeit in Sekunden bis zur ersten Eskalation der Reaktionszeit."
+
+#: ../../content/reports/statistics.rst:244
+msgid "UpdateTimeNotification"
+msgstr "UpdateTimeNotification"
+
+#: ../../content/reports/statistics.rst:247
+msgid "UpdateTimeDestinationTime"
+msgstr "UpdateTimeDestinationTime"
+
+#: ../../content/reports/statistics.rst:247
+msgid "The update time escalation as Unix timestamp."
+msgstr "Die Updatezeit-Eskalation als Unix-Zeitstempel."
+
+#: ../../content/reports/statistics.rst:250
+msgid "UpdateTimeDestinationDate"
+msgstr "UpdateTimeDestinationDate"
+
+#: ../../content/reports/statistics.rst:250
+msgid "The absolute date of an update time escalation."
+msgstr "Das absolute Datum einer Eskalation der Aktualisierungszeit."
+
+#: ../../content/reports/statistics.rst:253
+msgid "UpdateTimeWorkingTime"
+msgstr "UpdateTimeWorkingTime"
+
+#: ../../content/reports/statistics.rst:253
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" update time escalation."
+msgstr ""
+"Die Zeit in Sekunden innerhalb der definierten Arbeitszeit oder Servicezeit "
+"bis zu einer Eskalation der Aktualisierungszeit."
+
+#: ../../content/reports/statistics.rst:256
+msgid "UpdateTime"
+msgstr "UpdateTime"
+
+#: ../../content/reports/statistics.rst:256
+msgid "The total time in seconds until an update time escalation."
+msgstr ""
+"Die Gesamtzeit in Sekunden bis zu einer Eskalation der Aktualisierungszeit."
+
+#: ../../content/reports/statistics.rst:259
+msgid "SolutionTime"
+msgstr "SolutionTime"
+
+#: ../../content/reports/statistics.rst:259
+msgid "The total time in seconds until a solution time escalation."
+msgstr "Die Gesamtzeit in Sekunden bis zur Eskalation einer Lösungszeit."
+
+#: ../../content/reports/statistics.rst:262
+msgid "SolutionInMin"
+msgstr "Lösungszeit in Minuten"
+
+#: ../../content/reports/statistics.rst:262
+msgid "The total time in minutes until a solution time escalation."
+msgstr "Die Gesamtzeit in Minuten bis zur Eskalation einer Lösungszeit."
+
+#: ../../content/reports/statistics.rst:265
+msgid "SolutionDiffInMin"
+msgstr "Lösungszeitdifferenz in Minuten"
+
+#: ../../content/reports/statistics.rst:265
+msgid ""
+"The difference in minutes between the specified solution time and the actual"
+" solution time."
+msgstr ""
+"Die Differenz in Minuten zwischen der angegebenen Lösungszeit und der "
+"tatsächlichen Lösungszeit."
+
+#: ../../content/reports/statistics.rst:268
+msgid "SolutionTimeWorkingTime"
+msgstr "SolutionTimeWorkingTime"
+
+#: ../../content/reports/statistics.rst:268
+msgid ""
+"The time in seconds within the defined working time or service time until a "
+"solution time escalation."
+msgstr ""
+"Die Zeit in Sekunden innerhalb der definierten Arbeitszeit oder Servicezeit "
+"bis zur Eskalation einer Lösungszeit."
+
+#: ../../content/reports/statistics.rst:271
+msgid "SolutionTimeEscalation"
+msgstr "SolutionTimeEscalation"
+
+#: ../../content/reports/statistics.rst:274
+msgid "SolutionTimeNotification"
+msgstr "SolutionTimeNotification"
+
+#: ../../content/reports/statistics.rst:277
+msgid "SolutionTimeDestinationTime"
+msgstr "SolutionTimeDestinationTime"
+
+#: ../../content/reports/statistics.rst:277
+msgid "The solution time escalation as Unix timestamp."
+msgstr "Die Eskalation der Lösungszeit als Unix-Zeitstempel."
+
+#: ../../content/reports/statistics.rst:280
+msgid "SolutionTimeDestinationDate"
+msgstr "SolutionTimeDestinationDate"
+
+#: ../../content/reports/statistics.rst:280
+msgid "The absolute date of a solution time escalation."
+msgstr "Das absolute Datum einer Lösungszeit-Eskalation."
+
+#: ../../content/reports/statistics.rst:283
+msgid "First Lock"
+msgstr "Erstmals gesperrt"
+
+#: ../../content/reports/statistics.rst:283
+msgid ""
+"The absolute date and time with timezone when the ticket was locked first. "
+"This field is empty for tickets, that are not locked yet."
+msgstr ""
+"Das absolute Datum und die absolute Uhrzeit mit Zeitzone, wann das Ticket "
+"zuerst gesperrt wurde. Dieses Feld ist leer für Tickets, die noch nicht "
+"gesperrt sind."
+
+#: ../../content/reports/statistics.rst:286
+#: ../../content/tickets/ticket-zoom.rst:295
+msgid "Lock"
+msgstr "Sperren"
+
+#: ../../content/reports/statistics.rst:286
+msgid "The lock state of the ticket."
+msgstr "Der Sperrstatus des Tickets."
+
+#: ../../content/reports/statistics.rst:289
+msgid "StateType"
+msgstr "StateType"
+
+#: ../../content/reports/statistics.rst:289
+msgid "State type of the ticket."
+msgstr "Der Statustyp des Tickets."
+
+#: ../../content/reports/statistics.rst:292
+msgid "UntilTime"
+msgstr "UntilTime"
+
+#: ../../content/reports/statistics.rst:292
+msgid "Total seconds till pending."
+msgstr "Gesamtzahl der Sekunden bis zur Auslösung."
+
+#: ../../content/reports/statistics.rst:295
+msgid "UnlockTimeout"
+msgstr "UnlockTimeout"
+
+#: ../../content/reports/statistics.rst:295
+msgid "Time until the ticket is automatically unlocked."
+msgstr "Zeit, bis das Ticket automatisch entsperrt wird."
+
+#: ../../content/reports/statistics.rst:298
+msgid "EscalationResponseTime"
+msgstr "EscalationResponseTime"
+
+#: ../../content/reports/statistics.rst:298
+msgid "Unix timestamp of response time escalation."
+msgstr "Unix-Zeitstempel der Reaktionszeit-Eskalation."
+
+#: ../../content/reports/statistics.rst:301
+msgid "EscalationSolutionTime"
+msgstr "EscalationSolutionTime"
+
+#: ../../content/reports/statistics.rst:301
+msgid "Unix timestamp of solution time escalation."
+msgstr "Unix-Zeitstempel der Lösungszeit-Eskalation."
+
+#: ../../content/reports/statistics.rst:304
+msgid "EscalationUpdateTime"
+msgstr "EscalationUpdateTime"
+
+#: ../../content/reports/statistics.rst:304
+msgid "Unix timestamp of update time escalation."
+msgstr "Unix-Zeitstempel der Eskalation der Aktualisierungszeit."
+
+#: ../../content/reports/statistics.rst:307
+msgid "RealTillTimeNotUsed"
+msgstr "RealTillTimeNotUsed"
+
+#: ../../content/reports/statistics.rst:307
+msgid "Unix timestamp of pending time."
+msgstr "Unix-Zeitstempel der Wartezeit."
+
+#: ../../content/reports/statistics.rst:310
+msgid "Number of Articles"
+msgstr "Anzahl der Artikel"
+
+#: ../../content/reports/statistics.rst:310
+msgid "The number of articles in the ticket."
+msgstr "Die Anzahl der Artikel im Ticket."
+
+#: ../../content/reports/statistics.rst:313
+#: ../../content/tickets/ticket-zoom.rst:286
+msgid "Process"
+msgstr "Prozess"
+
+#: ../../content/reports/statistics.rst:313
+msgid "The name of the process in which a process ticket is involved."
+msgstr "Der Name des Prozesses, an dem ein Prozessticket beteiligt ist."
+
+#: ../../content/reports/statistics.rst:316
+msgid "Activity"
+msgstr "Aktivität"
+
+#: ../../content/reports/statistics.rst:316
+msgid "The name of the activity in the process."
+msgstr "Der Name der Aktivität im Prozess."
+
+#: ../../content/reports/statistics.rst:319
+msgid "Activity Status"
+msgstr "Activity Status"
+
+#: ../../content/reports/statistics.rst:319
+msgid "The status of the activity in the process."
+msgstr "Der Status der Aktivität im Prozess."
+
+#: ../../content/reports/statistics.rst:321
+msgid "DynamicField_NameX"
+msgstr "DynamicField_NameX"
+
+#: ../../content/reports/statistics.rst:322
+msgid ""
+"The name of the dynamic fields added to the system. The list of dynamic "
+"fields is different in each system."
+msgstr ""
+"Der Name der dynamischen Felder, die dem System hinzugefügt wurden. Die "
+"Liste der dynamischen Felder ist in jedem System unterschiedlich."
 
 #: ../../content/search.rst:4
 msgid ""
@@ -5940,12 +6474,6 @@ msgstr ""
 
 #: ../../content/tickets/new-email-ticket.rst:30
 #: ../../content/tickets/new-phone-ticket.rst:21
-#: ../../content/tickets/ticket-zoom.rst:105
-msgid "Customer ID"
-msgstr "Kundennummer"
-
-#: ../../content/tickets/new-email-ticket.rst:30
-#: ../../content/tickets/new-phone-ticket.rst:21
 msgid "This field will be auto-populated by selecting a customer user."
 msgstr ""
 "Das Feld erweitert sich automatisch, wenn ein Kundenbenutzer gewählt wird."
@@ -6151,13 +6679,6 @@ msgid ""
 msgstr ""
 "Wählen Sie ein Datum und eine Zeit als Erinnerung für das Ticket. Wenn die "
 "Wartezeit erreicht ist, könnte das Ticket eskalieren."
-
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
-#: ../../content/tickets/ticket-zoom.rst:59
-#: ../../content/tickets/ticket-zoom.rst:41
-msgid "Priority"
-msgstr "Priorität"
 
 #: ../../content/tickets/new-email-ticket.rst:64
 #: ../../content/tickets/new-phone-ticket.rst:52
@@ -6894,10 +7415,6 @@ msgstr ""
 msgid "Select the closed state of the ticket."
 msgstr "Wählen Sie den \"Schließen\"-Status des Tickets."
 
-#: ../../content/tickets/ticket-zoom.rst:286
-msgid "Process"
-msgstr "Prozess"
-
 #: ../../content/tickets/ticket-zoom.rst:282
 msgid ""
 "This menu item opens the :doc:`new-process-ticket` screen to start a process"
@@ -6913,10 +7430,6 @@ msgstr "Sperren oder Entsperren"
 #: ../../content/tickets/ticket-zoom.rst:292
 msgid "The name of the menu item depends on the lock state of the ticket."
 msgstr "Der Name des Menüeintrages hängt vom Sperrstatus des Tickets ab."
-
-#: ../../content/tickets/ticket-zoom.rst:295
-msgid "Lock"
-msgstr "Sperren"
 
 #: ../../content/tickets/ticket-zoom.rst:295
 msgid ""
@@ -6979,10 +7492,6 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:322
 msgid "Ticket Free Text Screen"
 msgstr "Ticket - Freie Felder"
-
-#: ../../content/tickets/ticket-zoom.rst:325
-msgid "The title of the ticket."
-msgstr "Der Titel des Tickets."
 
 #: ../../content/tickets/ticket-zoom.rst:328
 msgid ""
@@ -7072,10 +7581,6 @@ msgid ""
 msgstr ""
 "Dieser Menüeintrag öffnet den Dialog :doc:`../calendar/new-appointment` und "
 "wählt das derzeitige Ticket im Feld *Ticket* zum Verknüpfen aus."
-
-#: ../../content/tickets/ticket-zoom.rst:374
-msgid "Queue"
-msgstr "Queue"
 
 #: ../../content/tickets/ticket-zoom.rst:370
 msgid ""

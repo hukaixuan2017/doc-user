@@ -12,17 +12,17 @@
 # 光中 杨 <yangkwch@163.com>, 2019
 # Martin Gruner <martin.gruner@otrs.com>, 2019
 # 文浩坚 <never.min@gmail.com>, 2019
-# 汇民 王 <whuim@163.com>, 2019
 # 汇民 王 <whuim@qq.com>, 2019
+# 汇民 王 <whuim@163.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 23:16+0200\n"
+"POT-Creation-Date: 2019-08-28 17:26+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
-"Last-Translator: 汇民 王 <whuim@qq.com>, 2019\n"
+"Last-Translator: 汇民 王 <whuim@163.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otrs/teams/23435/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1869,7 +1869,7 @@ msgstr "向此资源添加其它信息。 为了更清晰，建议始终将此�
 #: ../../content/customers/customer-administration.rst:89
 #: ../../content/customers/customer-user-administration.rst:138
 #: ../../content/reports/reports.rst:67
-#: ../../content/reports/statistics.rst:141
+#: ../../content/reports/statistics.rst:143
 msgid "Validity \\*"
 msgstr "有效性 \\*"
 
@@ -2803,6 +2803,7 @@ msgid "Object"
 msgstr "对象"
 
 #: ../../content/dashboard/dashboard.rst:155
+#: ../../content/reports/statistics.rst:193
 msgid "Type"
 msgstr "类型"
 
@@ -3529,7 +3530,7 @@ msgstr "从可用类别中选择一个类别。"
 msgid "Categories can be managed on the :doc:`category-management` screen."
 msgstr "可以在 :doc:`category-management` 屏幕上管理类别。"
 
-#: ../../content/faq/new.rst:36
+#: ../../content/faq/new.rst:36 ../../content/reports/statistics.rst:175
 msgid "State"
 msgstr "状态"
 
@@ -3993,6 +3994,7 @@ msgid "This text will be used as headline text of the report."
 msgstr "此文本将用作报告的标题文本。"
 
 #: ../../content/reports/reports.rst:103
+#: ../../content/reports/statistics.rst:160
 msgid "Title"
 msgstr "标题"
 
@@ -4302,6 +4304,495 @@ msgid ""
 "if this field is set to *valid*. Setting this field to *invalid* will "
 "disable the use of the resource."
 msgstr "设置此资源的有效性。 如果此字段设置为 *有效*，则每个资源只能在 OTRS 中使用。 将此字段设置为 *无效* 将禁用此资源的使用。"
+
+#: ../../content/reports/statistics.rst:146
+msgid "Ticket Attributes for Statistics"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:148
+msgid ""
+"The following ticket attributes can be included in statistics using the "
+"*X-axis* button, if *Dynamic Lists* statistics are selected."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:151
+msgid "Number"
+msgstr "编号"
+
+#: ../../content/reports/statistics.rst:151
+msgid ""
+"An auto-increment integer number in the output to show the line numbers."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:154
+msgid "Ticket#"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:154
+msgid "The ticket number."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:157
+msgid "Age"
+msgstr "总时长"
+
+#: ../../content/reports/statistics.rst:157
+msgid "The relative age since ticket creation and now."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:160
+#: ../../content/tickets/ticket-zoom.rst:325
+msgid "The title of the ticket."
+msgstr "工单的标题。"
+
+#: ../../content/reports/statistics.rst:163
+msgid "Created"
+msgstr "创建时间"
+
+#: ../../content/reports/statistics.rst:163
+msgid "The absolute date and time with timezone when the ticket was created."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:166
+msgid "Last Changed"
+msgstr "最近更改"
+
+#: ../../content/reports/statistics.rst:166
+msgid "The absolute date and time with timezone when the ticket was changed."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:169
+msgid "Close Time"
+msgstr "关闭时间"
+
+#: ../../content/reports/statistics.rst:169
+msgid ""
+"The absolute date and time with timezone when the ticket was closed. This "
+"field is empty for open tickets."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:172
+#: ../../content/tickets/ticket-zoom.rst:374
+msgid "Queue"
+msgstr "队列"
+
+#: ../../content/reports/statistics.rst:172
+msgid "The queue in which the ticket is located."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:175
+msgid "The state of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:178
+#: ../../content/tickets/new-email-ticket.rst:64
+#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/ticket-zoom.rst:59
+#: ../../content/tickets/ticket-zoom.rst:41
+msgid "Priority"
+msgstr "优先级"
+
+#: ../../content/reports/statistics.rst:178
+msgid "The priority of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:181
+msgid "Customer User"
+msgstr "客户用户"
+
+#: ../../content/reports/statistics.rst:181
+msgid "The login name of the customer user of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:184
+#: ../../content/tickets/new-email-ticket.rst:30
+#: ../../content/tickets/new-phone-ticket.rst:21
+#: ../../content/tickets/ticket-zoom.rst:105
+msgid "Customer ID"
+msgstr "客户ID"
+
+#: ../../content/reports/statistics.rst:184
+msgid "The customer of the customer user of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:187
+msgid "Service"
+msgstr "服务"
+
+#: ../../content/reports/statistics.rst:187
+msgid ""
+"The service of the ticket. If no service is assigned, this field is empty."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:190
+msgid "SLA"
+msgstr "SLA"
+
+#: ../../content/reports/statistics.rst:190
+msgid "The SLA of the ticket. If no SLA is assigned, this field is empty."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:193
+msgid "The type of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:196
+msgid "Agent/Owner"
+msgstr "服务人员/所有者"
+
+#: ../../content/reports/statistics.rst:196
+msgid "The owner agent of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:199
+msgid "Responsible"
+msgstr "负责人"
+
+#: ../../content/reports/statistics.rst:199
+msgid "The responsible agent of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:202
+msgid "Accounted time"
+msgstr "所用工时"
+
+#: ../../content/reports/statistics.rst:202
+msgid "Accumulated time of the times stored in the articles."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:205
+msgid "EscalationDestinationIn"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:205
+msgid "The relative time from the current time to the time of escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:208
+msgid "EscalationDestinationDate"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:208
+msgid "The absolute date and time with timezone when the ticket is escalated."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:211
+msgid "EscalationTimeWorkingTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:211
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:214
+msgid "EscalationTime"
+msgstr "升级时间"
+
+#: ../../content/reports/statistics.rst:214
+msgid ""
+"The total time in seconds until escalation of nearest escalation time type: "
+"response, update or solution time."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:217
+msgid "FirstResponse"
+msgstr "首次响应"
+
+#: ../../content/reports/statistics.rst:217
+msgid "The timestamp of first response."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:220
+msgid "FirstResponseInMin"
+msgstr "首次响应时间（分钟）"
+
+#: ../../content/reports/statistics.rst:220
+msgid ""
+"The time in minutes from ticket creation to first response (based on working"
+" time)."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:223
+msgid "FirstResponseDiffInMin"
+msgstr "首次响应时间差（分钟）"
+
+#: ../../content/reports/statistics.rst:223
+msgid ""
+"The difference in minutes between the specified response time and the actual"
+" response time."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:226
+msgid "FirstResponseTimeWorkingTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:226
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" escalation of a first response."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:229
+msgid "FirstResponseTimeEscalation"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:229
+#: ../../content/reports/statistics.rst:271
+msgid "Defines, whether the ticket has escalated or not."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:232
+msgid "FirstResponseTimeNotification"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:232
+#: ../../content/reports/statistics.rst:244
+#: ../../content/reports/statistics.rst:274
+msgid ""
+"Defines, whether the defined escalation notification time is reached or not."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:235
+msgid "FirstResponseTimeDestinationTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:235
+msgid "The escalation time as Unix timestamp."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:238
+msgid "FirstResponseTimeDestinationDate"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:238
+msgid "The absolute date of a first response time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:241
+msgid "FirstResponseTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:241
+msgid "The total time in seconds until the first response time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:244
+msgid "UpdateTimeNotification"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:247
+msgid "UpdateTimeDestinationTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:247
+msgid "The update time escalation as Unix timestamp."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:250
+msgid "UpdateTimeDestinationDate"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:250
+msgid "The absolute date of an update time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:253
+msgid "UpdateTimeWorkingTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:253
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" update time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:256
+msgid "UpdateTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:256
+msgid "The total time in seconds until an update time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:259
+msgid "SolutionTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:259
+msgid "The total time in seconds until a solution time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:262
+msgid "SolutionInMin"
+msgstr "解决时间（分钟）"
+
+#: ../../content/reports/statistics.rst:262
+msgid "The total time in minutes until a solution time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:265
+msgid "SolutionDiffInMin"
+msgstr "解决时间差（分钟）"
+
+#: ../../content/reports/statistics.rst:265
+msgid ""
+"The difference in minutes between the specified solution time and the actual"
+" solution time."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:268
+msgid "SolutionTimeWorkingTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:268
+msgid ""
+"The time in seconds within the defined working time or service time until a "
+"solution time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:271
+msgid "SolutionTimeEscalation"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:274
+msgid "SolutionTimeNotification"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:277
+msgid "SolutionTimeDestinationTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:277
+msgid "The solution time escalation as Unix timestamp."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:280
+msgid "SolutionTimeDestinationDate"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:280
+msgid "The absolute date of a solution time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:283
+msgid "First Lock"
+msgstr "首次锁定"
+
+#: ../../content/reports/statistics.rst:283
+msgid ""
+"The absolute date and time with timezone when the ticket was locked first. "
+"This field is empty for tickets, that are not locked yet."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:286
+#: ../../content/tickets/ticket-zoom.rst:295
+msgid "Lock"
+msgstr "锁定"
+
+#: ../../content/reports/statistics.rst:286
+msgid "The lock state of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:289
+msgid "StateType"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:289
+msgid "State type of the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:292
+msgid "UntilTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:292
+msgid "Total seconds till pending."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:295
+msgid "UnlockTimeout"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:295
+msgid "Time until the ticket is automatically unlocked."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:298
+msgid "EscalationResponseTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:298
+msgid "Unix timestamp of response time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:301
+msgid "EscalationSolutionTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:301
+msgid "Unix timestamp of solution time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:304
+msgid "EscalationUpdateTime"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:304
+msgid "Unix timestamp of update time escalation."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:307
+msgid "RealTillTimeNotUsed"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:307
+msgid "Unix timestamp of pending time."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:310
+msgid "Number of Articles"
+msgstr "信件数"
+
+#: ../../content/reports/statistics.rst:310
+msgid "The number of articles in the ticket."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:313
+#: ../../content/tickets/ticket-zoom.rst:286
+msgid "Process"
+msgstr "流程"
+
+#: ../../content/reports/statistics.rst:313
+msgid "The name of the process in which a process ticket is involved."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:316
+msgid "Activity"
+msgstr "活动"
+
+#: ../../content/reports/statistics.rst:316
+msgid "The name of the activity in the process."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:319
+msgid "Activity Status"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:319
+msgid "The status of the activity in the process."
+msgstr ""
+
+#: ../../content/reports/statistics.rst:321
+msgid "DynamicField_NameX"
+msgstr ""
+
+#: ../../content/reports/statistics.rst:322
+msgid ""
+"The name of the dynamic fields added to the system. The list of dynamic "
+"fields is different in each system."
+msgstr ""
 
 #: ../../content/search.rst:4
 msgid ""
@@ -5032,12 +5523,6 @@ msgstr "如果需要，选择其他客户用户作为电子邮件的密件抄送
 
 #: ../../content/tickets/new-email-ticket.rst:30
 #: ../../content/tickets/new-phone-ticket.rst:21
-#: ../../content/tickets/ticket-zoom.rst:105
-msgid "Customer ID"
-msgstr "客户ID"
-
-#: ../../content/tickets/new-email-ticket.rst:30
-#: ../../content/tickets/new-phone-ticket.rst:21
 msgid "This field will be auto-populated by selecting a customer user."
 msgstr "通过选择客户用户自动填充此字段。"
 
@@ -5230,13 +5715,6 @@ msgid ""
 "Select a date and time as reminder for the ticket. If the pending time is "
 "reached, the ticket can be escalated."
 msgstr "选择日期和时间作为工单的提醒时间。 如果达到挂起时间，则会升级工单。"
-
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
-#: ../../content/tickets/ticket-zoom.rst:59
-#: ../../content/tickets/ticket-zoom.rst:41
-msgid "Priority"
-msgstr "优先级"
 
 #: ../../content/tickets/new-email-ticket.rst:64
 #: ../../content/tickets/new-phone-ticket.rst:52
@@ -5888,10 +6366,6 @@ msgstr "此菜单项打开一个新窗口以关闭工单。"
 msgid "Select the closed state of the ticket."
 msgstr "设置该工单的关闭状态。"
 
-#: ../../content/tickets/ticket-zoom.rst:286
-msgid "Process"
-msgstr "流程"
-
 #: ../../content/tickets/ticket-zoom.rst:282
 msgid ""
 "This menu item opens the :doc:`new-process-ticket` screen to start a process"
@@ -5905,10 +6379,6 @@ msgstr "锁定或解锁"
 #: ../../content/tickets/ticket-zoom.rst:292
 msgid "The name of the menu item depends on the lock state of the ticket."
 msgstr "菜单项的名称取决于工单的锁定状态。"
-
-#: ../../content/tickets/ticket-zoom.rst:295
-msgid "Lock"
-msgstr "锁定"
 
 #: ../../content/tickets/ticket-zoom.rst:295
 msgid ""
@@ -5959,10 +6429,6 @@ msgstr "此菜单项打开一个新窗口以更改工单的自定义字段值。
 #: ../../content/tickets/ticket-zoom.rst:322
 msgid "Ticket Free Text Screen"
 msgstr "工单自定义文本屏幕"
-
-#: ../../content/tickets/ticket-zoom.rst:325
-msgid "The title of the ticket."
-msgstr "工单的标题。"
 
 #: ../../content/tickets/ticket-zoom.rst:328
 msgid ""
@@ -6034,10 +6500,6 @@ msgid ""
 "This menu item opens the :doc:`../calendar/new-appointment` dialog, and "
 "selects the current ticket in the *Ticket* field for linking."
 msgstr "此菜单项打开 :doc:`../calendar/new-appointment` 对话框，并在 *工单* 字段中选择当前工单进行链接。"
-
-#: ../../content/tickets/ticket-zoom.rst:374
-msgid "Queue"
-msgstr "队列"
 
 #: ../../content/tickets/ticket-zoom.rst:370
 msgid ""

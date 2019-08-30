@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-30 23:16+0200\n"
+"POT-Creation-Date: 2019-08-28 17:26+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: Balázs Úr, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/otrs/teams/23435/hu/)\n"
@@ -2220,7 +2220,7 @@ msgstr ""
 #: ../../content/customers/customer-administration.rst:89
 #: ../../content/customers/customer-user-administration.rst:138
 #: ../../content/reports/reports.rst:67
-#: ../../content/reports/statistics.rst:141
+#: ../../content/reports/statistics.rst:143
 msgid "Validity \\*"
 msgstr "Érvényesség \\*"
 
@@ -3358,6 +3358,7 @@ msgid "Object"
 msgstr "Objektum"
 
 #: ../../content/dashboard/dashboard.rst:155
+#: ../../content/reports/statistics.rst:193
 msgid "Type"
 msgstr "Típus"
 
@@ -4187,7 +4188,7 @@ msgstr "Válasszon egy kategóriát az elérhető kategóriák közül."
 msgid "Categories can be managed on the :doc:`category-management` screen."
 msgstr "A kategóriák a :doc:`category-management` képernyőn kezelhetők."
 
-#: ../../content/faq/new.rst:36
+#: ../../content/faq/new.rst:36 ../../content/reports/statistics.rst:175
 msgid "State"
 msgstr "Állapot"
 
@@ -4700,6 +4701,7 @@ msgid "This text will be used as headline text of the report."
 msgstr "Ez a szöveg lesz használva a jelentés főcím szövegeként."
 
 #: ../../content/reports/reports.rst:103
+#: ../../content/reports/statistics.rst:160
 msgid "Title"
 msgstr "Cím"
 
@@ -5043,6 +5045,524 @@ msgstr ""
 "akkor használható az OTRS-ben, ha ez a mező *érvényes* értékre van állítva. "
 "Ennek a mezőnek az *érvénytelen* értékre állításával letiltja az erőforrás "
 "használatát."
+
+#: ../../content/reports/statistics.rst:146
+msgid "Ticket Attributes for Statistics"
+msgstr "Jegyattribútumok a statisztikákhoz"
+
+#: ../../content/reports/statistics.rst:148
+msgid ""
+"The following ticket attributes can be included in statistics using the "
+"*X-axis* button, if *Dynamic Lists* statistics are selected."
+msgstr ""
+"A következő jegyattribútumok vehetők fel a statisztikákba az *X-tengely* "
+"gomb használatával, ha a *Dinamikus listák* statisztikák lettek kiválasztva."
+
+#: ../../content/reports/statistics.rst:151
+msgid "Number"
+msgstr "Szám"
+
+#: ../../content/reports/statistics.rst:151
+msgid ""
+"An auto-increment integer number in the output to show the line numbers."
+msgstr ""
+"Egy automatikusan növelt egész szám a kimenetben a sorszámok "
+"megjelenítéséhez."
+
+#: ../../content/reports/statistics.rst:154
+msgid "Ticket#"
+msgstr "Ticket#"
+
+#: ../../content/reports/statistics.rst:154
+msgid "The ticket number."
+msgstr "A jegy száma."
+
+#: ../../content/reports/statistics.rst:157
+msgid "Age"
+msgstr "Életkor"
+
+#: ../../content/reports/statistics.rst:157
+msgid "The relative age since ticket creation and now."
+msgstr "A relatív életkor a jegylétrehozástól mostanáig."
+
+#: ../../content/reports/statistics.rst:160
+#: ../../content/tickets/ticket-zoom.rst:325
+msgid "The title of the ticket."
+msgstr "A jegy címe."
+
+#: ../../content/reports/statistics.rst:163
+msgid "Created"
+msgstr "Létrehozva"
+
+#: ../../content/reports/statistics.rst:163
+msgid "The absolute date and time with timezone when the ticket was created."
+msgstr "Az abszolút dátum és idő időzónával, amikor a jegyet létrehozták."
+
+#: ../../content/reports/statistics.rst:166
+msgid "Last Changed"
+msgstr "Utoljára módosítva"
+
+#: ../../content/reports/statistics.rst:166
+msgid "The absolute date and time with timezone when the ticket was changed."
+msgstr "Az abszolút dátum és idő időzónával, amikor a jegyet megváltoztatták."
+
+#: ../../content/reports/statistics.rst:169
+msgid "Close Time"
+msgstr "Lezárás ideje"
+
+#: ../../content/reports/statistics.rst:169
+msgid ""
+"The absolute date and time with timezone when the ticket was closed. This "
+"field is empty for open tickets."
+msgstr ""
+"Az abszolút dátum és idő időzónával, amikor a jegyet lezárták. Ez a mező "
+"üres a nyitott jegyeknél."
+
+#: ../../content/reports/statistics.rst:172
+#: ../../content/tickets/ticket-zoom.rst:374
+msgid "Queue"
+msgstr "Várólista"
+
+#: ../../content/reports/statistics.rst:172
+msgid "The queue in which the ticket is located."
+msgstr "A várólista, amelyben a jegy található."
+
+#: ../../content/reports/statistics.rst:175
+msgid "The state of the ticket."
+msgstr "A jegy állapota."
+
+#: ../../content/reports/statistics.rst:178
+#: ../../content/tickets/new-email-ticket.rst:64
+#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/ticket-zoom.rst:59
+#: ../../content/tickets/ticket-zoom.rst:41
+msgid "Priority"
+msgstr "Prioritás"
+
+#: ../../content/reports/statistics.rst:178
+msgid "The priority of the ticket."
+msgstr "A jegy prioritása."
+
+#: ../../content/reports/statistics.rst:181
+msgid "Customer User"
+msgstr "Ügyfél-felhasználó"
+
+#: ../../content/reports/statistics.rst:181
+msgid "The login name of the customer user of the ticket."
+msgstr "A jegy ügyfél-felhasználójának bejelentkezési neve."
+
+#: ../../content/reports/statistics.rst:184
+#: ../../content/tickets/new-email-ticket.rst:30
+#: ../../content/tickets/new-phone-ticket.rst:21
+#: ../../content/tickets/ticket-zoom.rst:105
+msgid "Customer ID"
+msgstr "Ügyfél-azonosító"
+
+#: ../../content/reports/statistics.rst:184
+msgid "The customer of the customer user of the ticket."
+msgstr "A jegy ügyfél-felhasználójának ügyfele."
+
+#: ../../content/reports/statistics.rst:187
+msgid "Service"
+msgstr "Szolgáltatás"
+
+#: ../../content/reports/statistics.rst:187
+msgid ""
+"The service of the ticket. If no service is assigned, this field is empty."
+msgstr ""
+"A jegy szolgáltatása. Ha nincs szolgáltatás hozzárendelve, akkor ez a mező "
+"üres."
+
+#: ../../content/reports/statistics.rst:190
+msgid "SLA"
+msgstr "SLA"
+
+#: ../../content/reports/statistics.rst:190
+msgid "The SLA of the ticket. If no SLA is assigned, this field is empty."
+msgstr "A jegy SLA-ja. Ha nincs SLA hozzárendelve, akkor ez a mező üres."
+
+#: ../../content/reports/statistics.rst:193
+msgid "The type of the ticket."
+msgstr "A jegy típusa."
+
+#: ../../content/reports/statistics.rst:196
+msgid "Agent/Owner"
+msgstr "Ügyintéző/Tulajdonos"
+
+#: ../../content/reports/statistics.rst:196
+msgid "The owner agent of the ticket."
+msgstr "A jegy tulajdonos ügyintézője."
+
+#: ../../content/reports/statistics.rst:199
+msgid "Responsible"
+msgstr "Felelős"
+
+#: ../../content/reports/statistics.rst:199
+msgid "The responsible agent of the ticket."
+msgstr "A jegy felelős ügyintézője."
+
+#: ../../content/reports/statistics.rst:202
+msgid "Accounted time"
+msgstr "Elszámolt idő"
+
+#: ../../content/reports/statistics.rst:202
+msgid "Accumulated time of the times stored in the articles."
+msgstr "A bejegyzésekben tárolt idők összesített ideje."
+
+#: ../../content/reports/statistics.rst:205
+msgid "EscalationDestinationIn"
+msgstr "EscalationDestinationIn"
+
+#: ../../content/reports/statistics.rst:205
+msgid "The relative time from the current time to the time of escalation."
+msgstr "A relatív idő a jelenlegi időtől az eszkaláció idejéig."
+
+#: ../../content/reports/statistics.rst:208
+msgid "EscalationDestinationDate"
+msgstr "EscalationDestinationDate"
+
+#: ../../content/reports/statistics.rst:208
+msgid "The absolute date and time with timezone when the ticket is escalated."
+msgstr "Az abszolút dátum és idő időzónával, amikor a jegy eszkalálódik."
+
+#: ../../content/reports/statistics.rst:211
+msgid "EscalationTimeWorkingTime"
+msgstr "EscalationTimeWorkingTime"
+
+#: ../../content/reports/statistics.rst:211
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" escalation."
+msgstr ""
+"A meghatározott munkaidőben vagy szolgáltatási időben lévő idő másodpercben "
+"az eszkalációig."
+
+#: ../../content/reports/statistics.rst:214
+msgid "EscalationTime"
+msgstr "Eszkalációs idő"
+
+#: ../../content/reports/statistics.rst:214
+msgid ""
+"The total time in seconds until escalation of nearest escalation time type: "
+"response, update or solution time."
+msgstr ""
+"A legközelebbi eszkalációs idő típusának eszkalálódásáig hátralévő összes "
+"idő másodpercben: válaszidőig, frissítési időig vagy megoldási időig."
+
+#: ../../content/reports/statistics.rst:217
+msgid "FirstResponse"
+msgstr "FirstResponse"
+
+#: ../../content/reports/statistics.rst:217
+msgid "The timestamp of first response."
+msgstr "Az első válasz időbélyege."
+
+#: ../../content/reports/statistics.rst:220
+msgid "FirstResponseInMin"
+msgstr "FirstResponseInMin"
+
+#: ../../content/reports/statistics.rst:220
+msgid ""
+"The time in minutes from ticket creation to first response (based on working"
+" time)."
+msgstr ""
+"A jegy létrehozásától az első válaszig eltelt idő percben (munkaidő "
+"alapján)."
+
+#: ../../content/reports/statistics.rst:223
+msgid "FirstResponseDiffInMin"
+msgstr "FirstResponseDiffInMin"
+
+#: ../../content/reports/statistics.rst:223
+msgid ""
+"The difference in minutes between the specified response time and the actual"
+" response time."
+msgstr ""
+"A megadott válaszidő és a tényleges válaszidő közötti különbség percben."
+
+#: ../../content/reports/statistics.rst:226
+msgid "FirstResponseTimeWorkingTime"
+msgstr "FirstResponseTimeWorkingTime"
+
+#: ../../content/reports/statistics.rst:226
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" escalation of a first response."
+msgstr ""
+"A meghatározott munkaidőben vagy szolgáltatási időben lévő idő másodpercben "
+"egy első válasz eszkalációjáig."
+
+#: ../../content/reports/statistics.rst:229
+msgid "FirstResponseTimeEscalation"
+msgstr "FirstResponseTimeEscalation"
+
+#: ../../content/reports/statistics.rst:229
+#: ../../content/reports/statistics.rst:271
+msgid "Defines, whether the ticket has escalated or not."
+msgstr "Meghatározza, hogy a jegy eszkalálódott-e vagy sem."
+
+#: ../../content/reports/statistics.rst:232
+msgid "FirstResponseTimeNotification"
+msgstr "FirstResponseTimeNotification"
+
+#: ../../content/reports/statistics.rst:232
+#: ../../content/reports/statistics.rst:244
+#: ../../content/reports/statistics.rst:274
+msgid ""
+"Defines, whether the defined escalation notification time is reached or not."
+msgstr ""
+"Meghatározza, hogy a meghatározott eszkalációs értesítési idő el lett-e érve"
+" vagy sem."
+
+#: ../../content/reports/statistics.rst:235
+msgid "FirstResponseTimeDestinationTime"
+msgstr "FirstResponseTimeDestinationTime"
+
+#: ../../content/reports/statistics.rst:235
+msgid "The escalation time as Unix timestamp."
+msgstr "Az eszkalációs idő Unix időbélyegként."
+
+#: ../../content/reports/statistics.rst:238
+msgid "FirstResponseTimeDestinationDate"
+msgstr "FirstResponseTimeDestinationDate"
+
+#: ../../content/reports/statistics.rst:238
+msgid "The absolute date of a first response time escalation."
+msgstr "Egy első válaszidő eszkalációjának abszolút dátuma."
+
+#: ../../content/reports/statistics.rst:241
+msgid "FirstResponseTime"
+msgstr "FirstResponseTime"
+
+#: ../../content/reports/statistics.rst:241
+msgid "The total time in seconds until the first response time escalation."
+msgstr "Az első válaszidő eszkalációjáig hátralévő teljes idő másodpercben."
+
+#: ../../content/reports/statistics.rst:244
+msgid "UpdateTimeNotification"
+msgstr "UpdateTimeNotification"
+
+#: ../../content/reports/statistics.rst:247
+msgid "UpdateTimeDestinationTime"
+msgstr "UpdateTimeDestinationTime"
+
+#: ../../content/reports/statistics.rst:247
+msgid "The update time escalation as Unix timestamp."
+msgstr "A frissítési idő eszkalációja Unix időbélyegként."
+
+#: ../../content/reports/statistics.rst:250
+msgid "UpdateTimeDestinationDate"
+msgstr "UpdateTimeDestinationDate"
+
+#: ../../content/reports/statistics.rst:250
+msgid "The absolute date of an update time escalation."
+msgstr "Egy frissítési idő eszkalációjának abszolút dátuma."
+
+#: ../../content/reports/statistics.rst:253
+msgid "UpdateTimeWorkingTime"
+msgstr "UpdateTimeWorkingTime"
+
+#: ../../content/reports/statistics.rst:253
+msgid ""
+"The time in seconds within the defined working time or service time until an"
+" update time escalation."
+msgstr ""
+"A meghatározott munkaidőben vagy szolgáltatási időben lévő idő másodpercben "
+"egy frissítési idő eszkalációjáig."
+
+#: ../../content/reports/statistics.rst:256
+msgid "UpdateTime"
+msgstr "UpdateTime"
+
+#: ../../content/reports/statistics.rst:256
+msgid "The total time in seconds until an update time escalation."
+msgstr "A frissítési idő eszkalációjáig hátralévő teljes idő másodpercben."
+
+#: ../../content/reports/statistics.rst:259
+msgid "SolutionTime"
+msgstr "SolutionTime"
+
+#: ../../content/reports/statistics.rst:259
+msgid "The total time in seconds until a solution time escalation."
+msgstr "A megoldási idő eszkalációjáig hátralévő teljes idő másodpercben."
+
+#: ../../content/reports/statistics.rst:262
+msgid "SolutionInMin"
+msgstr "SolutionInMin"
+
+#: ../../content/reports/statistics.rst:262
+msgid "The total time in minutes until a solution time escalation."
+msgstr "A megoldási idő eszkalációjáig hátralévő teljes idő percben."
+
+#: ../../content/reports/statistics.rst:265
+msgid "SolutionDiffInMin"
+msgstr "SolutionDiffInMin"
+
+#: ../../content/reports/statistics.rst:265
+msgid ""
+"The difference in minutes between the specified solution time and the actual"
+" solution time."
+msgstr ""
+"A megadott megoldási idő és a tényleges megoldási idő közötti különbség "
+"percben."
+
+#: ../../content/reports/statistics.rst:268
+msgid "SolutionTimeWorkingTime"
+msgstr "SolutionTimeWorkingTime"
+
+#: ../../content/reports/statistics.rst:268
+msgid ""
+"The time in seconds within the defined working time or service time until a "
+"solution time escalation."
+msgstr ""
+"A meghatározott munkaidőben vagy szolgáltatási időben lévő idő másodpercben "
+"egy megoldási idő eszkalációjáig."
+
+#: ../../content/reports/statistics.rst:271
+msgid "SolutionTimeEscalation"
+msgstr "SolutionTimeEscalation"
+
+#: ../../content/reports/statistics.rst:274
+msgid "SolutionTimeNotification"
+msgstr "SolutionTimeNotification"
+
+#: ../../content/reports/statistics.rst:277
+msgid "SolutionTimeDestinationTime"
+msgstr "SolutionTimeDestinationTime"
+
+#: ../../content/reports/statistics.rst:277
+msgid "The solution time escalation as Unix timestamp."
+msgstr "A megoldási idő eszkalációja Unix időbélyegként."
+
+#: ../../content/reports/statistics.rst:280
+msgid "SolutionTimeDestinationDate"
+msgstr "SolutionTimeDestinationDate"
+
+#: ../../content/reports/statistics.rst:280
+msgid "The absolute date of a solution time escalation."
+msgstr "Egy megoldási idő eszkalációjának abszolút dátuma."
+
+#: ../../content/reports/statistics.rst:283
+msgid "First Lock"
+msgstr "Első zárolás"
+
+#: ../../content/reports/statistics.rst:283
+msgid ""
+"The absolute date and time with timezone when the ticket was locked first. "
+"This field is empty for tickets, that are not locked yet."
+msgstr ""
+"Az abszolút dátum és idő időzónával, amikor a jegyet először zárolták. Ez a "
+"mező üres az olyan jegyeknél, amelyek még nem lettek zárolva."
+
+#: ../../content/reports/statistics.rst:286
+#: ../../content/tickets/ticket-zoom.rst:295
+msgid "Lock"
+msgstr "Zárolás"
+
+#: ../../content/reports/statistics.rst:286
+msgid "The lock state of the ticket."
+msgstr "A jegy zárolási állapota."
+
+#: ../../content/reports/statistics.rst:289
+msgid "StateType"
+msgstr "StateType"
+
+#: ../../content/reports/statistics.rst:289
+msgid "State type of the ticket."
+msgstr "A jegy állapottípusa."
+
+#: ../../content/reports/statistics.rst:292
+msgid "UntilTime"
+msgstr "UntilTime"
+
+#: ../../content/reports/statistics.rst:292
+msgid "Total seconds till pending."
+msgstr "Az összes másodperc a felfüggesztésig."
+
+#: ../../content/reports/statistics.rst:295
+msgid "UnlockTimeout"
+msgstr "UnlockTimeout"
+
+#: ../../content/reports/statistics.rst:295
+msgid "Time until the ticket is automatically unlocked."
+msgstr "Az idő, amíg a jegy automatikusan feloldódik."
+
+#: ../../content/reports/statistics.rst:298
+msgid "EscalationResponseTime"
+msgstr "EscalationResponseTime"
+
+#: ../../content/reports/statistics.rst:298
+msgid "Unix timestamp of response time escalation."
+msgstr "A válaszidő eszkalációjának Unix időbélyege."
+
+#: ../../content/reports/statistics.rst:301
+msgid "EscalationSolutionTime"
+msgstr "EscalationSolutionTime"
+
+#: ../../content/reports/statistics.rst:301
+msgid "Unix timestamp of solution time escalation."
+msgstr "A megoldási idő eszkalációjának Unix időbélyege."
+
+#: ../../content/reports/statistics.rst:304
+msgid "EscalationUpdateTime"
+msgstr "EscalationUpdateTime"
+
+#: ../../content/reports/statistics.rst:304
+msgid "Unix timestamp of update time escalation."
+msgstr "A frissítési idő eszkalációjának Unix időbélyege."
+
+#: ../../content/reports/statistics.rst:307
+msgid "RealTillTimeNotUsed"
+msgstr "RealTillTimeNotUsed"
+
+#: ../../content/reports/statistics.rst:307
+msgid "Unix timestamp of pending time."
+msgstr "A függőben lévő idő Unix időbélyege."
+
+#: ../../content/reports/statistics.rst:310
+msgid "Number of Articles"
+msgstr "Bejegyzések száma"
+
+#: ../../content/reports/statistics.rst:310
+msgid "The number of articles in the ticket."
+msgstr "A jegyben lévő bejegyzések száma."
+
+#: ../../content/reports/statistics.rst:313
+#: ../../content/tickets/ticket-zoom.rst:286
+msgid "Process"
+msgstr "Folyamat"
+
+#: ../../content/reports/statistics.rst:313
+msgid "The name of the process in which a process ticket is involved."
+msgstr "A folyamat neve, amelyben egy folyamatjegy részt vesz."
+
+#: ../../content/reports/statistics.rst:316
+msgid "Activity"
+msgstr "Tevékenység"
+
+#: ../../content/reports/statistics.rst:316
+msgid "The name of the activity in the process."
+msgstr "A folyamatban lévő tevékenység neve."
+
+#: ../../content/reports/statistics.rst:319
+msgid "Activity Status"
+msgstr "Tevékenység állapota"
+
+#: ../../content/reports/statistics.rst:319
+msgid "The status of the activity in the process."
+msgstr "A folyamatban lévő tevékenység állapota."
+
+#: ../../content/reports/statistics.rst:321
+msgid "DynamicField_NameX"
+msgstr "DynamicField_NévX"
+
+#: ../../content/reports/statistics.rst:322
+msgid ""
+"The name of the dynamic fields added to the system. The list of dynamic "
+"fields is different in each system."
+msgstr ""
+"A rendszerhez hozzáadott dinamikus mezők neve. A dinamikus mezők listája "
+"minden egyes rendszeren eltérő."
 
 #: ../../content/search.rst:4
 msgid ""
@@ -5900,12 +6420,6 @@ msgstr ""
 
 #: ../../content/tickets/new-email-ticket.rst:30
 #: ../../content/tickets/new-phone-ticket.rst:21
-#: ../../content/tickets/ticket-zoom.rst:105
-msgid "Customer ID"
-msgstr "Ügyfél-azonosító"
-
-#: ../../content/tickets/new-email-ticket.rst:30
-#: ../../content/tickets/new-phone-ticket.rst:21
 msgid "This field will be auto-populated by selecting a customer user."
 msgstr ""
 "Ez a mező automatikusan kitöltésre kerül egy ügyfél-felhasználó "
@@ -6113,13 +6627,6 @@ msgid ""
 msgstr ""
 "Válasszon egy dátumot és időt a jegy emlékeztetőjeként. Ha a várakozási időt"
 " eléri, akkor a jegy eszkalálódhat."
-
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
-#: ../../content/tickets/ticket-zoom.rst:59
-#: ../../content/tickets/ticket-zoom.rst:41
-msgid "Priority"
-msgstr "Prioritás"
 
 #: ../../content/tickets/new-email-ticket.rst:64
 #: ../../content/tickets/new-phone-ticket.rst:52
@@ -6852,10 +7359,6 @@ msgstr "Ez a menüpont új ablakot nyit meg a jegy lezárásához."
 msgid "Select the closed state of the ticket."
 msgstr "Válassza ki a jegy lezárási állapotát."
 
-#: ../../content/tickets/ticket-zoom.rst:286
-msgid "Process"
-msgstr "Folyamat"
-
 #: ../../content/tickets/ticket-zoom.rst:282
 msgid ""
 "This menu item opens the :doc:`new-process-ticket` screen to start a process"
@@ -6871,10 +7374,6 @@ msgstr "Zárolás vagy feloldás"
 #: ../../content/tickets/ticket-zoom.rst:292
 msgid "The name of the menu item depends on the lock state of the ticket."
 msgstr "A menüpont neve a jegy zárolási állapotától függ."
-
-#: ../../content/tickets/ticket-zoom.rst:295
-msgid "Lock"
-msgstr "Zárolás"
 
 #: ../../content/tickets/ticket-zoom.rst:295
 msgid ""
@@ -6937,10 +7436,6 @@ msgstr ""
 #: ../../content/tickets/ticket-zoom.rst:322
 msgid "Ticket Free Text Screen"
 msgstr "Jegy szabad szöveg képernyő"
-
-#: ../../content/tickets/ticket-zoom.rst:325
-msgid "The title of the ticket."
-msgstr "A jegy címe."
 
 #: ../../content/tickets/ticket-zoom.rst:328
 msgid ""
@@ -7028,10 +7523,6 @@ msgstr ""
 "Ez a menüpont az :doc:`../calendar/new-appointment` párbeszédablakot nyitja "
 "meg, és kiválasztja a jelenlegi jegyet a *Jegy* mezőben az "
 "összekapcsoláshoz."
-
-#: ../../content/tickets/ticket-zoom.rst:374
-msgid "Queue"
-msgstr "Várólista"
 
 #: ../../content/tickets/ticket-zoom.rst:370
 msgid ""
