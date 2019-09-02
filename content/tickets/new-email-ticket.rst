@@ -42,6 +42,11 @@ Owner
 Subject \*
    The subject of the ticket like the subject of an email.
 
+This might be helpful
+   This field is not visible by default, but it displays related :doc:`../faq` articles based on the keywords entered in the *Subject* and/or the *Text* fields. Clicking on a FAQ article opens the :doc:`../faq/faq-zoom` screen.
+
+   The related FAQ articles are displayed as the agent types, so the list of suggested FAQ articles is updated after any word typed into the *Subject* and/or the *Text* fields. The suggested FAQ articles are sorted based on the number of matched keywords.
+
 Options
    It is possible to add other objects like customer users or FAQ articles to the ticket.
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-28 17:26+0200\n"
+"POT-Creation-Date: 2019-09-02 13:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3696,8 +3696,8 @@ msgid "The state of the ticket."
 msgstr ""
 
 #: ../../content/reports/statistics.rst:178
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-phone-ticket.rst:57
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:41
 msgid "Priority"
@@ -4720,8 +4720,23 @@ msgstr ""
 msgid "The subject of the ticket like the subject of an email."
 msgstr ""
 
+#: ../../content/tickets/new-email-ticket.rst:48
+#: ../../content/tickets/new-phone-ticket.rst:39
+msgid "This might be helpful"
+msgstr ""
+
 #: ../../content/tickets/new-email-ticket.rst:46
 #: ../../content/tickets/new-phone-ticket.rst:37
+msgid "This field is not visible by default, but it displays related :doc:`../faq` articles based on the keywords entered in the *Subject* and/or the *Text* fields. Clicking on a FAQ article opens the :doc:`../faq/faq-zoom` screen."
+msgstr ""
+
+#: ../../content/tickets/new-email-ticket.rst:48
+#: ../../content/tickets/new-phone-ticket.rst:39
+msgid "The related FAQ articles are displayed as the agent types, so the list of suggested FAQ articles is updated after any word typed into the *Subject* and/or the *Text* fields. The suggested FAQ articles are sorted based on the number of matched keywords."
+msgstr ""
+
+#: ../../content/tickets/new-email-ticket.rst:51
+#: ../../content/tickets/new-phone-ticket.rst:42
 #: ../../content/tickets/ticket-zoom.rst:47
 #: ../../content/tickets/ticket-zoom.rst:79
 #: ../../content/tickets/ticket-zoom.rst:122
@@ -4734,8 +4749,8 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:46
-#: ../../content/tickets/new-phone-ticket.rst:37
+#: ../../content/tickets/new-email-ticket.rst:51
+#: ../../content/tickets/new-phone-ticket.rst:42
 #: ../../content/tickets/ticket-zoom.rst:47
 #: ../../content/tickets/ticket-zoom.rst:79
 #: ../../content/tickets/ticket-zoom.rst:122
@@ -4748,8 +4763,8 @@ msgstr ""
 msgid "It is possible to add other objects like customer users or FAQ articles to the ticket."
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:49
-#: ../../content/tickets/new-phone-ticket.rst:40
+#: ../../content/tickets/new-email-ticket.rst:54
+#: ../../content/tickets/new-phone-ticket.rst:45
 #: ../../content/tickets/ticket-zoom.rst:50
 #: ../../content/tickets/ticket-zoom.rst:82
 #: ../../content/tickets/ticket-zoom.rst:125
@@ -4764,21 +4779,21 @@ msgstr ""
 msgid "Text \\*"
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:49
-#: ../../content/tickets/new-phone-ticket.rst:40
+#: ../../content/tickets/new-email-ticket.rst:54
+#: ../../content/tickets/new-phone-ticket.rst:45
 msgid "The body text of the first article of the ticket."
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:57
 msgid "Signature"
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:57
 msgid "The signature assigned to the selected queue. Please contact your administrator to change the signature."
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:55
-#: ../../content/tickets/new-phone-ticket.rst:43
+#: ../../content/tickets/new-email-ticket.rst:60
+#: ../../content/tickets/new-phone-ticket.rst:48
 #: ../../content/tickets/ticket-zoom.rst:53
 #: ../../content/tickets/ticket-zoom.rst:85
 #: ../../content/tickets/ticket-zoom.rst:128
@@ -4791,8 +4806,8 @@ msgstr ""
 msgid "Attachments"
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:55
-#: ../../content/tickets/new-phone-ticket.rst:43
+#: ../../content/tickets/new-email-ticket.rst:60
+#: ../../content/tickets/new-phone-ticket.rst:48
 #: ../../content/tickets/ticket-zoom.rst:53
 #: ../../content/tickets/ticket-zoom.rst:85
 #: ../../content/tickets/ticket-zoom.rst:128
@@ -4805,8 +4820,8 @@ msgstr ""
 msgid "It is possible to add attachments to the ticket. Click on the field to add an attachment, or just drop some files here."
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:58
-#: ../../content/tickets/new-phone-ticket.rst:46
+#: ../../content/tickets/new-email-ticket.rst:63
+#: ../../content/tickets/new-phone-ticket.rst:51
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
 #: ../../content/tickets/ticket-zoom.rst:465
@@ -4815,13 +4830,13 @@ msgstr ""
 msgid "Next ticket state"
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:58
-#: ../../content/tickets/new-phone-ticket.rst:46
+#: ../../content/tickets/new-email-ticket.rst:63
+#: ../../content/tickets/new-phone-ticket.rst:51
 msgid "New tickets are in *open* state by default. Select an other state if you want to change it."
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:61
-#: ../../content/tickets/new-phone-ticket.rst:49
+#: ../../content/tickets/new-email-ticket.rst:66
+#: ../../content/tickets/new-phone-ticket.rst:54
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
@@ -4830,8 +4845,8 @@ msgstr ""
 msgid "Pending date"
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:61
-#: ../../content/tickets/new-phone-ticket.rst:49
+#: ../../content/tickets/new-email-ticket.rst:66
+#: ../../content/tickets/new-phone-ticket.rst:54
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
@@ -4840,13 +4855,13 @@ msgstr ""
 msgid "Select a date and time as reminder for the ticket. If the pending time is reached, the ticket can be escalated."
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-phone-ticket.rst:57
 msgid "New tickets have *3 normal* priority by default. Select an other priority if you want to change it."
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:67
-#: ../../content/tickets/new-phone-ticket.rst:55
+#: ../../content/tickets/new-email-ticket.rst:72
+#: ../../content/tickets/new-phone-ticket.rst:60
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:91
 #: ../../content/tickets/ticket-zoom.rst:134
@@ -4859,8 +4874,8 @@ msgstr ""
 msgid "Time units (work units)"
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:67
-#: ../../content/tickets/new-phone-ticket.rst:55
+#: ../../content/tickets/new-email-ticket.rst:72
+#: ../../content/tickets/new-phone-ticket.rst:60
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:91
 #: ../../content/tickets/ticket-zoom.rst:134
@@ -4873,7 +4888,7 @@ msgstr ""
 msgid "Enter any amount of time units for time accounting."
 msgstr ""
 
-#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-email-ticket.rst:74
 msgid "After all information is collected and set, click on the *Send mail* button to create the new ticket and send the email to the selected customer users."
 msgstr ""
 
@@ -4898,7 +4913,7 @@ msgstr ""
 msgid "The person, to whom the ticket is created for."
 msgstr ""
 
-#: ../../content/tickets/new-phone-ticket.rst:57
+#: ../../content/tickets/new-phone-ticket.rst:62
 msgid "After all information is collected and set, click on the *Create* button to create the new ticket."
 msgstr ""
 
