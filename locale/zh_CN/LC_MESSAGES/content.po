@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-28 17:26+0200\n"
+"POT-Creation-Date: 2019-09-02 13:28+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: 汇民 王 <whuim@163.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otrs/teams/23435/zh_CN/)\n"
@@ -4385,8 +4385,8 @@ msgid "The state of the ticket."
 msgstr ""
 
 #: ../../content/reports/statistics.rst:178
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-phone-ticket.rst:57
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:41
 msgid "Priority"
@@ -5586,8 +5586,30 @@ msgstr "主题 \\*"
 msgid "The subject of the ticket like the subject of an email."
 msgstr "工单的主题就像电子邮件的主题一样。"
 
+#: ../../content/tickets/new-email-ticket.rst:48
+#: ../../content/tickets/new-phone-ticket.rst:39
+msgid "This might be helpful"
+msgstr "这有助于"
+
 #: ../../content/tickets/new-email-ticket.rst:46
 #: ../../content/tickets/new-phone-ticket.rst:37
+msgid ""
+"This field is not visible by default, but it displays related :doc:`../faq` "
+"articles based on the keywords entered in the *Subject* and/or the *Text* "
+"fields. Clicking on a FAQ article opens the :doc:`../faq/faq-zoom` screen."
+msgstr ""
+
+#: ../../content/tickets/new-email-ticket.rst:48
+#: ../../content/tickets/new-phone-ticket.rst:39
+msgid ""
+"The related FAQ articles are displayed as the agent types, so the list of "
+"suggested FAQ articles is updated after any word typed into the *Subject* "
+"and/or the *Text* fields. The suggested FAQ articles are sorted based on the"
+" number of matched keywords."
+msgstr ""
+
+#: ../../content/tickets/new-email-ticket.rst:51
+#: ../../content/tickets/new-phone-ticket.rst:42
 #: ../../content/tickets/ticket-zoom.rst:47
 #: ../../content/tickets/ticket-zoom.rst:79
 #: ../../content/tickets/ticket-zoom.rst:122
@@ -5600,8 +5622,8 @@ msgstr "工单的主题就像电子邮件的主题一样。"
 msgid "Options"
 msgstr "选项"
 
-#: ../../content/tickets/new-email-ticket.rst:46
-#: ../../content/tickets/new-phone-ticket.rst:37
+#: ../../content/tickets/new-email-ticket.rst:51
+#: ../../content/tickets/new-phone-ticket.rst:42
 #: ../../content/tickets/ticket-zoom.rst:47
 #: ../../content/tickets/ticket-zoom.rst:79
 #: ../../content/tickets/ticket-zoom.rst:122
@@ -5616,8 +5638,8 @@ msgid ""
 "the ticket."
 msgstr "可以将其它对象（如客户用户或FAQ文章）添加到工单中。"
 
-#: ../../content/tickets/new-email-ticket.rst:49
-#: ../../content/tickets/new-phone-ticket.rst:40
+#: ../../content/tickets/new-email-ticket.rst:54
+#: ../../content/tickets/new-phone-ticket.rst:45
 #: ../../content/tickets/ticket-zoom.rst:50
 #: ../../content/tickets/ticket-zoom.rst:82
 #: ../../content/tickets/ticket-zoom.rst:125
@@ -5632,23 +5654,23 @@ msgstr "可以将其它对象（如客户用户或FAQ文章）添加到工单中
 msgid "Text \\*"
 msgstr "正文 \\*"
 
-#: ../../content/tickets/new-email-ticket.rst:49
-#: ../../content/tickets/new-phone-ticket.rst:40
+#: ../../content/tickets/new-email-ticket.rst:54
+#: ../../content/tickets/new-phone-ticket.rst:45
 msgid "The body text of the first article of the ticket."
 msgstr "工单首个信件的正文文本。"
 
-#: ../../content/tickets/new-email-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:57
 msgid "Signature"
 msgstr "签名"
 
-#: ../../content/tickets/new-email-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:57
 msgid ""
 "The signature assigned to the selected queue. Please contact your "
 "administrator to change the signature."
 msgstr "分配给所选队列的签名。 请与您的管理员联系以更改签名。"
 
-#: ../../content/tickets/new-email-ticket.rst:55
-#: ../../content/tickets/new-phone-ticket.rst:43
+#: ../../content/tickets/new-email-ticket.rst:60
+#: ../../content/tickets/new-phone-ticket.rst:48
 #: ../../content/tickets/ticket-zoom.rst:53
 #: ../../content/tickets/ticket-zoom.rst:85
 #: ../../content/tickets/ticket-zoom.rst:128
@@ -5661,8 +5683,8 @@ msgstr "分配给所选队列的签名。 请与您的管理员联系以更改�
 msgid "Attachments"
 msgstr "附件"
 
-#: ../../content/tickets/new-email-ticket.rst:55
-#: ../../content/tickets/new-phone-ticket.rst:43
+#: ../../content/tickets/new-email-ticket.rst:60
+#: ../../content/tickets/new-phone-ticket.rst:48
 #: ../../content/tickets/ticket-zoom.rst:53
 #: ../../content/tickets/ticket-zoom.rst:85
 #: ../../content/tickets/ticket-zoom.rst:128
@@ -5677,8 +5699,8 @@ msgid ""
 "an attachment, or just drop some files here."
 msgstr "可以向工单添加附件。 单击该字段以添加附件，或者拖放一些文件到此处。"
 
-#: ../../content/tickets/new-email-ticket.rst:58
-#: ../../content/tickets/new-phone-ticket.rst:46
+#: ../../content/tickets/new-email-ticket.rst:63
+#: ../../content/tickets/new-phone-ticket.rst:51
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
 #: ../../content/tickets/ticket-zoom.rst:465
@@ -5687,15 +5709,15 @@ msgstr "可以向工单添加附件。 单击该字段以添加附件，或者�
 msgid "Next ticket state"
 msgstr "工单下一状态"
 
-#: ../../content/tickets/new-email-ticket.rst:58
-#: ../../content/tickets/new-phone-ticket.rst:46
+#: ../../content/tickets/new-email-ticket.rst:63
+#: ../../content/tickets/new-phone-ticket.rst:51
 msgid ""
 "New tickets are in *open* state by default. Select an other state if you "
 "want to change it."
 msgstr "默认情况下，新工单处于 *处理中* 状态。 如果要更改，请选择其它状态。"
 
-#: ../../content/tickets/new-email-ticket.rst:61
-#: ../../content/tickets/new-phone-ticket.rst:49
+#: ../../content/tickets/new-email-ticket.rst:66
+#: ../../content/tickets/new-phone-ticket.rst:54
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
@@ -5704,8 +5726,8 @@ msgstr "默认情况下，新工单处于 *处理中* 状态。 如果要更改�
 msgid "Pending date"
 msgstr "挂起时间"
 
-#: ../../content/tickets/new-email-ticket.rst:61
-#: ../../content/tickets/new-phone-ticket.rst:49
+#: ../../content/tickets/new-email-ticket.rst:66
+#: ../../content/tickets/new-phone-ticket.rst:54
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
@@ -5716,15 +5738,15 @@ msgid ""
 "reached, the ticket can be escalated."
 msgstr "选择日期和时间作为工单的提醒时间。 如果达到挂起时间，则会升级工单。"
 
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-phone-ticket.rst:57
 msgid ""
 "New tickets have *3 normal* priority by default. Select an other priority if"
 " you want to change it."
 msgstr "默认情况下，新工单的优先级为 *3-正常* 。 如果要更改，请选择其它优先级。"
 
-#: ../../content/tickets/new-email-ticket.rst:67
-#: ../../content/tickets/new-phone-ticket.rst:55
+#: ../../content/tickets/new-email-ticket.rst:72
+#: ../../content/tickets/new-phone-ticket.rst:60
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:91
 #: ../../content/tickets/ticket-zoom.rst:134
@@ -5737,8 +5759,8 @@ msgstr "默认情况下，新工单的优先级为 *3-正常* 。 如果要更�
 msgid "Time units (work units)"
 msgstr "时间单元（工作单元）"
 
-#: ../../content/tickets/new-email-ticket.rst:67
-#: ../../content/tickets/new-phone-ticket.rst:55
+#: ../../content/tickets/new-email-ticket.rst:72
+#: ../../content/tickets/new-phone-ticket.rst:60
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:91
 #: ../../content/tickets/ticket-zoom.rst:134
@@ -5751,7 +5773,7 @@ msgstr "时间单元（工作单元）"
 msgid "Enter any amount of time units for time accounting."
 msgstr "输入任意数量的时间单元以用于工时核算。"
 
-#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-email-ticket.rst:74
 msgid ""
 "After all information is collected and set, click on the *Send mail* button "
 "to create the new ticket and send the email to the selected customer users."
@@ -5781,7 +5803,7 @@ msgstr "客户用户 \\*"
 msgid "The person, to whom the ticket is created for."
 msgstr "为其创建工单的人员。"
 
-#: ../../content/tickets/new-phone-ticket.rst:57
+#: ../../content/tickets/new-phone-ticket.rst:62
 msgid ""
 "After all information is collected and set, click on the *Create* button to "
 "create the new ticket."

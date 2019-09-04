@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS User Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-28 17:26+0200\n"
+"POT-Creation-Date: 2019-09-02 13:28+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
 "Last-Translator: Balázs Úr, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/otrs/teams/23435/hu/)\n"
@@ -5132,8 +5132,8 @@ msgid "The state of the ticket."
 msgstr "A jegy állapota."
 
 #: ../../content/reports/statistics.rst:178
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-phone-ticket.rst:57
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:41
 msgid "Priority"
@@ -6488,8 +6488,38 @@ msgstr "Tárgy \\*"
 msgid "The subject of the ticket like the subject of an email."
 msgstr "A jegy tárgya, akárcsak egy e-mail tárgya."
 
+#: ../../content/tickets/new-email-ticket.rst:48
+#: ../../content/tickets/new-phone-ticket.rst:39
+msgid "This might be helpful"
+msgstr "Ez hasznos lehet"
+
 #: ../../content/tickets/new-email-ticket.rst:46
 #: ../../content/tickets/new-phone-ticket.rst:37
+msgid ""
+"This field is not visible by default, but it displays related :doc:`../faq` "
+"articles based on the keywords entered in the *Subject* and/or the *Text* "
+"fields. Clicking on a FAQ article opens the :doc:`../faq/faq-zoom` screen."
+msgstr ""
+"Ez a mező nem jelenik meg alapértelmezetten, de kapcsolódó :doc:`../faq` "
+"bejegyzéseket jelenít meg a *Tárgy* és a *Szöveg* mezőkbe beírt kulcsszavak "
+"alapján. Egy GyIK bejegyzésre kattintva megnyitja a :doc:`../faq/faq-zoom` "
+"képernyőt."
+
+#: ../../content/tickets/new-email-ticket.rst:48
+#: ../../content/tickets/new-phone-ticket.rst:39
+msgid ""
+"The related FAQ articles are displayed as the agent types, so the list of "
+"suggested FAQ articles is updated after any word typed into the *Subject* "
+"and/or the *Text* fields. The suggested FAQ articles are sorted based on the"
+" number of matched keywords."
+msgstr ""
+"A kapcsolódó GyIK bejegyzések úgy jelennek meg, ahogy az ügyintéző gépel, "
+"vagyis az ajánlott GyIK bejegyzések listája akkor frissül, miután egy szót "
+"begépeltek a *Tárgy* és/vagy a *Szöveg* mezőkbe. Az ajánlott GyIK "
+"bejegyzések az egyező kulcsszavak száma szerint vannak rendezve."
+
+#: ../../content/tickets/new-email-ticket.rst:51
+#: ../../content/tickets/new-phone-ticket.rst:42
 #: ../../content/tickets/ticket-zoom.rst:47
 #: ../../content/tickets/ticket-zoom.rst:79
 #: ../../content/tickets/ticket-zoom.rst:122
@@ -6502,8 +6532,8 @@ msgstr "A jegy tárgya, akárcsak egy e-mail tárgya."
 msgid "Options"
 msgstr "Beállítások"
 
-#: ../../content/tickets/new-email-ticket.rst:46
-#: ../../content/tickets/new-phone-ticket.rst:37
+#: ../../content/tickets/new-email-ticket.rst:51
+#: ../../content/tickets/new-phone-ticket.rst:42
 #: ../../content/tickets/ticket-zoom.rst:47
 #: ../../content/tickets/ticket-zoom.rst:79
 #: ../../content/tickets/ticket-zoom.rst:122
@@ -6520,8 +6550,8 @@ msgstr ""
 "Lehetőség van egyéb objektumokat hozzáadni a jegyhez, mint például ügyfél-"
 "felhasználókat vagy GyIK bejegyzéseket."
 
-#: ../../content/tickets/new-email-ticket.rst:49
-#: ../../content/tickets/new-phone-ticket.rst:40
+#: ../../content/tickets/new-email-ticket.rst:54
+#: ../../content/tickets/new-phone-ticket.rst:45
 #: ../../content/tickets/ticket-zoom.rst:50
 #: ../../content/tickets/ticket-zoom.rst:82
 #: ../../content/tickets/ticket-zoom.rst:125
@@ -6536,16 +6566,16 @@ msgstr ""
 msgid "Text \\*"
 msgstr "Szöveg \\*"
 
-#: ../../content/tickets/new-email-ticket.rst:49
-#: ../../content/tickets/new-phone-ticket.rst:40
+#: ../../content/tickets/new-email-ticket.rst:54
+#: ../../content/tickets/new-phone-ticket.rst:45
 msgid "The body text of the first article of the ticket."
 msgstr "A jegy első bejegyzésének a törzsszövege."
 
-#: ../../content/tickets/new-email-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:57
 msgid "Signature"
 msgstr "Aláírás"
 
-#: ../../content/tickets/new-email-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:57
 msgid ""
 "The signature assigned to the selected queue. Please contact your "
 "administrator to change the signature."
@@ -6553,8 +6583,8 @@ msgstr ""
 "A kiválasztott várólistához rendelt aláírás. Vegye fel a kapcsolatot a "
 "rendszergazdával az aláírás megváltoztatásához."
 
-#: ../../content/tickets/new-email-ticket.rst:55
-#: ../../content/tickets/new-phone-ticket.rst:43
+#: ../../content/tickets/new-email-ticket.rst:60
+#: ../../content/tickets/new-phone-ticket.rst:48
 #: ../../content/tickets/ticket-zoom.rst:53
 #: ../../content/tickets/ticket-zoom.rst:85
 #: ../../content/tickets/ticket-zoom.rst:128
@@ -6567,8 +6597,8 @@ msgstr ""
 msgid "Attachments"
 msgstr "Mellékletek"
 
-#: ../../content/tickets/new-email-ticket.rst:55
-#: ../../content/tickets/new-phone-ticket.rst:43
+#: ../../content/tickets/new-email-ticket.rst:60
+#: ../../content/tickets/new-phone-ticket.rst:48
 #: ../../content/tickets/ticket-zoom.rst:53
 #: ../../content/tickets/ticket-zoom.rst:85
 #: ../../content/tickets/ticket-zoom.rst:128
@@ -6585,8 +6615,8 @@ msgstr ""
 "Lehetőség van mellékleteket adni a jegyhez. Kattintson a mezőre egy "
 "melléklet hozzáadásához, vagy egyszerűen csak dobjon ide néhány fájlt."
 
-#: ../../content/tickets/new-email-ticket.rst:58
-#: ../../content/tickets/new-phone-ticket.rst:46
+#: ../../content/tickets/new-email-ticket.rst:63
+#: ../../content/tickets/new-phone-ticket.rst:51
 #: ../../content/tickets/ticket-zoom.rst:157
 #: ../../content/tickets/ticket-zoom.rst:209
 #: ../../content/tickets/ticket-zoom.rst:465
@@ -6595,8 +6625,8 @@ msgstr ""
 msgid "Next ticket state"
 msgstr "Következő jegyállapot"
 
-#: ../../content/tickets/new-email-ticket.rst:58
-#: ../../content/tickets/new-phone-ticket.rst:46
+#: ../../content/tickets/new-email-ticket.rst:63
+#: ../../content/tickets/new-phone-ticket.rst:51
 msgid ""
 "New tickets are in *open* state by default. Select an other state if you "
 "want to change it."
@@ -6604,8 +6634,8 @@ msgstr ""
 "Az új jegyek alapértelmezetten *nyitott* állapotban vannak. Válasszon egy "
 "másik állapotot, ha meg szeretné változtatni."
 
-#: ../../content/tickets/new-email-ticket.rst:61
-#: ../../content/tickets/new-phone-ticket.rst:49
+#: ../../content/tickets/new-email-ticket.rst:66
+#: ../../content/tickets/new-phone-ticket.rst:54
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
@@ -6614,8 +6644,8 @@ msgstr ""
 msgid "Pending date"
 msgstr "Várakozási dátum"
 
-#: ../../content/tickets/new-email-ticket.rst:61
-#: ../../content/tickets/new-phone-ticket.rst:49
+#: ../../content/tickets/new-email-ticket.rst:66
+#: ../../content/tickets/new-phone-ticket.rst:54
 #: ../../content/tickets/ticket-zoom.rst:160
 #: ../../content/tickets/ticket-zoom.rst:212
 #: ../../content/tickets/ticket-zoom.rst:232
@@ -6628,8 +6658,8 @@ msgstr ""
 "Válasszon egy dátumot és időt a jegy emlékeztetőjeként. Ha a várakozási időt"
 " eléri, akkor a jegy eszkalálódhat."
 
-#: ../../content/tickets/new-email-ticket.rst:64
-#: ../../content/tickets/new-phone-ticket.rst:52
+#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-phone-ticket.rst:57
 msgid ""
 "New tickets have *3 normal* priority by default. Select an other priority if"
 " you want to change it."
@@ -6637,8 +6667,8 @@ msgstr ""
 "Az új jegyek alapértelmezetten *3 normál* prioritással rendelkeznek. "
 "Válasszon egy másik prioritást, ha meg szeretné változtatni."
 
-#: ../../content/tickets/new-email-ticket.rst:67
-#: ../../content/tickets/new-phone-ticket.rst:55
+#: ../../content/tickets/new-email-ticket.rst:72
+#: ../../content/tickets/new-phone-ticket.rst:60
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:91
 #: ../../content/tickets/ticket-zoom.rst:134
@@ -6651,8 +6681,8 @@ msgstr ""
 msgid "Time units (work units)"
 msgstr "Időegységek (munkaegységek)"
 
-#: ../../content/tickets/new-email-ticket.rst:67
-#: ../../content/tickets/new-phone-ticket.rst:55
+#: ../../content/tickets/new-email-ticket.rst:72
+#: ../../content/tickets/new-phone-ticket.rst:60
 #: ../../content/tickets/ticket-zoom.rst:59
 #: ../../content/tickets/ticket-zoom.rst:91
 #: ../../content/tickets/ticket-zoom.rst:134
@@ -6665,7 +6695,7 @@ msgstr "Időegységek (munkaegységek)"
 msgid "Enter any amount of time units for time accounting."
 msgstr "Adjon meg valamilyen időegység-mennyiséget az időelszámoláshoz."
 
-#: ../../content/tickets/new-email-ticket.rst:69
+#: ../../content/tickets/new-email-ticket.rst:74
 msgid ""
 "After all information is collected and set, click on the *Send mail* button "
 "to create the new ticket and send the email to the selected customer users."
@@ -6701,7 +6731,7 @@ msgstr "Ügyfél-felhasználó \\*"
 msgid "The person, to whom the ticket is created for."
 msgstr "Az a személy, aki számára a jegy létrejön."
 
-#: ../../content/tickets/new-phone-ticket.rst:57
+#: ../../content/tickets/new-phone-ticket.rst:62
 msgid ""
 "After all information is collected and set, click on the *Create* button to "
 "create the new ticket."
