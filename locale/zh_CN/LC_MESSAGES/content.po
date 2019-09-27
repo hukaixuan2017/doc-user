@@ -12,8 +12,8 @@
 # 光中 杨 <yangkwch@163.com>, 2019
 # Martin Gruner <martin.gruner@otrs.com>, 2019
 # 文浩坚 <never.min@gmail.com>, 2019
-# 汇民 王 <whuim@qq.com>, 2019
 # 汇民 王 <whuim@163.com>, 2019
+# 汇民 王 <whuim@qq.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-02 13:28+0200\n"
 "PO-Revision-Date: 2019-03-25 07:52+0000\n"
-"Last-Translator: 汇民 王 <whuim@163.com>, 2019\n"
+"Last-Translator: 汇民 王 <whuim@qq.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otrs/teams/23435/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4307,13 +4307,13 @@ msgstr "设置此资源的有效性。 如果此字段设置为 *有效*，则�
 
 #: ../../content/reports/statistics.rst:146
 msgid "Ticket Attributes for Statistics"
-msgstr ""
+msgstr "用于统计的工单属性"
 
 #: ../../content/reports/statistics.rst:148
 msgid ""
 "The following ticket attributes can be included in statistics using the "
 "*X-axis* button, if *Dynamic Lists* statistics are selected."
-msgstr ""
+msgstr "如果选择了 *动态列表* 统计信息，则可以使用 *X轴* 按钮将以下工单属性包括在统计信息中。"
 
 #: ../../content/reports/statistics.rst:151
 msgid "Number"
@@ -4322,15 +4322,15 @@ msgstr "编号"
 #: ../../content/reports/statistics.rst:151
 msgid ""
 "An auto-increment integer number in the output to show the line numbers."
-msgstr ""
+msgstr "输出中的自动递增整数，以显示行号。"
 
 #: ../../content/reports/statistics.rst:154
 msgid "Ticket#"
-msgstr ""
+msgstr "Ticket#"
 
 #: ../../content/reports/statistics.rst:154
 msgid "The ticket number."
-msgstr ""
+msgstr "工单编号。"
 
 #: ../../content/reports/statistics.rst:157
 msgid "Age"
@@ -4338,7 +4338,7 @@ msgstr "总时长"
 
 #: ../../content/reports/statistics.rst:157
 msgid "The relative age since ticket creation and now."
-msgstr ""
+msgstr "从创建工单到现在的相对时间。"
 
 #: ../../content/reports/statistics.rst:160
 #: ../../content/tickets/ticket-zoom.rst:325
@@ -4351,7 +4351,7 @@ msgstr "创建时间"
 
 #: ../../content/reports/statistics.rst:163
 msgid "The absolute date and time with timezone when the ticket was created."
-msgstr ""
+msgstr "创建工单时的带时区的绝对日期和时间。"
 
 #: ../../content/reports/statistics.rst:166
 msgid "Last Changed"
@@ -4359,7 +4359,7 @@ msgstr "最近更改"
 
 #: ../../content/reports/statistics.rst:166
 msgid "The absolute date and time with timezone when the ticket was changed."
-msgstr ""
+msgstr "更改工单时的带时区的绝对日期和时间。"
 
 #: ../../content/reports/statistics.rst:169
 msgid "Close Time"
@@ -4369,7 +4369,7 @@ msgstr "关闭时间"
 msgid ""
 "The absolute date and time with timezone when the ticket was closed. This "
 "field is empty for open tickets."
-msgstr ""
+msgstr "工单关闭时的带时区的绝对日期和时间。 对于处理中的工单，此字段为空。"
 
 #: ../../content/reports/statistics.rst:172
 #: ../../content/tickets/ticket-zoom.rst:374
@@ -4378,11 +4378,11 @@ msgstr "队列"
 
 #: ../../content/reports/statistics.rst:172
 msgid "The queue in which the ticket is located."
-msgstr ""
+msgstr "工单所在的队列。"
 
 #: ../../content/reports/statistics.rst:175
 msgid "The state of the ticket."
-msgstr ""
+msgstr "工单的状态。"
 
 #: ../../content/reports/statistics.rst:178
 #: ../../content/tickets/new-email-ticket.rst:69
@@ -4394,7 +4394,7 @@ msgstr "优先级"
 
 #: ../../content/reports/statistics.rst:178
 msgid "The priority of the ticket."
-msgstr ""
+msgstr "工单的优先级。"
 
 #: ../../content/reports/statistics.rst:181
 msgid "Customer User"
@@ -4402,7 +4402,7 @@ msgstr "客户用户"
 
 #: ../../content/reports/statistics.rst:181
 msgid "The login name of the customer user of the ticket."
-msgstr ""
+msgstr "工单的客户用户的登录名。"
 
 #: ../../content/reports/statistics.rst:184
 #: ../../content/tickets/new-email-ticket.rst:30
@@ -4413,7 +4413,7 @@ msgstr "客户ID"
 
 #: ../../content/reports/statistics.rst:184
 msgid "The customer of the customer user of the ticket."
-msgstr ""
+msgstr "工单的客户用户所属的客户。"
 
 #: ../../content/reports/statistics.rst:187
 msgid "Service"
@@ -4422,7 +4422,7 @@ msgstr "服务"
 #: ../../content/reports/statistics.rst:187
 msgid ""
 "The service of the ticket. If no service is assigned, this field is empty."
-msgstr ""
+msgstr "工单服务。 如果未分配服务，则此字段为空。"
 
 #: ../../content/reports/statistics.rst:190
 msgid "SLA"
@@ -4430,11 +4430,11 @@ msgstr "SLA"
 
 #: ../../content/reports/statistics.rst:190
 msgid "The SLA of the ticket. If no SLA is assigned, this field is empty."
-msgstr ""
+msgstr "工单的SLA。 如果未分配SLA，则此字段为空。"
 
 #: ../../content/reports/statistics.rst:193
 msgid "The type of the ticket."
-msgstr ""
+msgstr "工单的类型。"
 
 #: ../../content/reports/statistics.rst:196
 msgid "Agent/Owner"
@@ -4442,7 +4442,7 @@ msgstr "服务人员/所有者"
 
 #: ../../content/reports/statistics.rst:196
 msgid "The owner agent of the ticket."
-msgstr ""
+msgstr "工单的所有者（服务人员）。"
 
 #: ../../content/reports/statistics.rst:199
 msgid "Responsible"
@@ -4450,7 +4450,7 @@ msgstr "负责人"
 
 #: ../../content/reports/statistics.rst:199
 msgid "The responsible agent of the ticket."
-msgstr ""
+msgstr "工单的负责人（服务人员）。"
 
 #: ../../content/reports/statistics.rst:202
 msgid "Accounted time"
@@ -4458,33 +4458,33 @@ msgstr "所用工时"
 
 #: ../../content/reports/statistics.rst:202
 msgid "Accumulated time of the times stored in the articles."
-msgstr ""
+msgstr "信件中存储时间的累积时间。"
 
 #: ../../content/reports/statistics.rst:205
 msgid "EscalationDestinationIn"
-msgstr ""
+msgstr "EscalationDestinationIn"
 
 #: ../../content/reports/statistics.rst:205
 msgid "The relative time from the current time to the time of escalation."
-msgstr ""
+msgstr "从当前时间到升级时间的相对时间。"
 
 #: ../../content/reports/statistics.rst:208
 msgid "EscalationDestinationDate"
-msgstr ""
+msgstr "EscalationDestinationDate"
 
 #: ../../content/reports/statistics.rst:208
 msgid "The absolute date and time with timezone when the ticket is escalated."
-msgstr ""
+msgstr "工单升级时带时区的绝对日期和时间。"
 
 #: ../../content/reports/statistics.rst:211
 msgid "EscalationTimeWorkingTime"
-msgstr ""
+msgstr "EscalationTimeWorkingTime"
 
 #: ../../content/reports/statistics.rst:211
 msgid ""
 "The time in seconds within the defined working time or service time until an"
 " escalation."
-msgstr ""
+msgstr "在定义的工作时间或服务时间内，直到升级的时间（以秒为单位）。"
 
 #: ../../content/reports/statistics.rst:214
 msgid "EscalationTime"
@@ -4494,7 +4494,7 @@ msgstr "升级时间"
 msgid ""
 "The total time in seconds until escalation of nearest escalation time type: "
 "response, update or solution time."
-msgstr ""
+msgstr "在最近的升级时间类型（响应、更新或解决方案时间）升级之前的总时间(以秒为单位)。"
 
 #: ../../content/reports/statistics.rst:217
 msgid "FirstResponse"
@@ -4502,7 +4502,7 @@ msgstr "首次响应"
 
 #: ../../content/reports/statistics.rst:217
 msgid "The timestamp of first response."
-msgstr ""
+msgstr "首次响应的时间戳。"
 
 #: ../../content/reports/statistics.rst:220
 msgid "FirstResponseInMin"
@@ -4512,7 +4512,7 @@ msgstr "首次响应时间（分钟）"
 msgid ""
 "The time in minutes from ticket creation to first response (based on working"
 " time)."
-msgstr ""
+msgstr "从创建工单到首次响应(基于工作时间)的时间(以分钟为单位)。"
 
 #: ../../content/reports/statistics.rst:223
 msgid "FirstResponseDiffInMin"
@@ -4522,107 +4522,107 @@ msgstr "首次响应时间差（分钟）"
 msgid ""
 "The difference in minutes between the specified response time and the actual"
 " response time."
-msgstr ""
+msgstr "指定响应时间与实际响应时间之间的分钟差。"
 
 #: ../../content/reports/statistics.rst:226
 msgid "FirstResponseTimeWorkingTime"
-msgstr ""
+msgstr "FirstResponseTimeWorkingTime"
 
 #: ../../content/reports/statistics.rst:226
 msgid ""
 "The time in seconds within the defined working time or service time until an"
 " escalation of a first response."
-msgstr ""
+msgstr "在定义的工作时间或服务时间内，直到首次响应升级的时间（以秒为单位）。"
 
 #: ../../content/reports/statistics.rst:229
 msgid "FirstResponseTimeEscalation"
-msgstr ""
+msgstr "FirstResponseTimeEscalation"
 
 #: ../../content/reports/statistics.rst:229
 #: ../../content/reports/statistics.rst:271
 msgid "Defines, whether the ticket has escalated or not."
-msgstr ""
+msgstr "定义工单是否已升级。"
 
 #: ../../content/reports/statistics.rst:232
 msgid "FirstResponseTimeNotification"
-msgstr ""
+msgstr "FirstResponseTimeNotification"
 
 #: ../../content/reports/statistics.rst:232
 #: ../../content/reports/statistics.rst:244
 #: ../../content/reports/statistics.rst:274
 msgid ""
 "Defines, whether the defined escalation notification time is reached or not."
-msgstr ""
+msgstr "定义是否达到已定义的升级通知时间。"
 
 #: ../../content/reports/statistics.rst:235
 msgid "FirstResponseTimeDestinationTime"
-msgstr ""
+msgstr "FirstResponseTimeDestinationTime"
 
 #: ../../content/reports/statistics.rst:235
 msgid "The escalation time as Unix timestamp."
-msgstr ""
+msgstr "作为Unix时间戳的升级时间。"
 
 #: ../../content/reports/statistics.rst:238
 msgid "FirstResponseTimeDestinationDate"
-msgstr ""
+msgstr "FirstResponseTimeDestinationDate"
 
 #: ../../content/reports/statistics.rst:238
 msgid "The absolute date of a first response time escalation."
-msgstr ""
+msgstr "首次响应时间升级的绝对日期。"
 
 #: ../../content/reports/statistics.rst:241
 msgid "FirstResponseTime"
-msgstr ""
+msgstr "FirstResponseTime"
 
 #: ../../content/reports/statistics.rst:241
 msgid "The total time in seconds until the first response time escalation."
-msgstr ""
+msgstr "首次响应时间升级之前的总时间(以秒为单位)。"
 
 #: ../../content/reports/statistics.rst:244
 msgid "UpdateTimeNotification"
-msgstr ""
+msgstr "UpdateTimeNotification"
 
 #: ../../content/reports/statistics.rst:247
 msgid "UpdateTimeDestinationTime"
-msgstr ""
+msgstr "UpdateTimeDestinationTime"
 
 #: ../../content/reports/statistics.rst:247
 msgid "The update time escalation as Unix timestamp."
-msgstr ""
+msgstr "作为Unix时间戳的更新时间升级。"
 
 #: ../../content/reports/statistics.rst:250
 msgid "UpdateTimeDestinationDate"
-msgstr ""
+msgstr "UpdateTimeDestinationDate"
 
 #: ../../content/reports/statistics.rst:250
 msgid "The absolute date of an update time escalation."
-msgstr ""
+msgstr "更新时间升级的绝对日期。"
 
 #: ../../content/reports/statistics.rst:253
 msgid "UpdateTimeWorkingTime"
-msgstr ""
+msgstr "UpdateTimeWorkingTime"
 
 #: ../../content/reports/statistics.rst:253
 msgid ""
 "The time in seconds within the defined working time or service time until an"
 " update time escalation."
-msgstr ""
+msgstr "在定义的工作时间或服务时间内，直到更新时间升级的时间（以秒为单位）。"
 
 #: ../../content/reports/statistics.rst:256
 msgid "UpdateTime"
-msgstr ""
+msgstr "UpdateTime"
 
 #: ../../content/reports/statistics.rst:256
 msgid "The total time in seconds until an update time escalation."
-msgstr ""
+msgstr "更新时间升级之前的总时间(以秒为单位)。"
 
 #: ../../content/reports/statistics.rst:259
 msgid "SolutionTime"
-msgstr ""
+msgstr "SolutionTime"
 
 #: ../../content/reports/statistics.rst:259
 msgid "The total time in seconds until a solution time escalation."
-msgstr ""
+msgstr "解决方案时间升级之前的总时间(以秒为单位)。"
 
 #: ../../content/reports/statistics.rst:262
 msgid "SolutionInMin"
@@ -4630,7 +4630,7 @@ msgstr "解决时间（分钟）"
 
 #: ../../content/reports/statistics.rst:262
 msgid "The total time in minutes until a solution time escalation."
-msgstr ""
+msgstr "解决方案时间升级之前的总时间(以分钟为单位)。"
 
 #: ../../content/reports/statistics.rst:265
 msgid "SolutionDiffInMin"
@@ -4640,41 +4640,41 @@ msgstr "解决时间差（分钟）"
 msgid ""
 "The difference in minutes between the specified solution time and the actual"
 " solution time."
-msgstr ""
+msgstr "指定的解决方案时间与实际解决方案时间之间的分钟差。"
 
 #: ../../content/reports/statistics.rst:268
 msgid "SolutionTimeWorkingTime"
-msgstr ""
+msgstr "SolutionTimeWorkingTime"
 
 #: ../../content/reports/statistics.rst:268
 msgid ""
 "The time in seconds within the defined working time or service time until a "
 "solution time escalation."
-msgstr ""
+msgstr "在定义的工作时间或服务时间内，直到解决方案时间升级的时间（以秒为单位）。"
 
 #: ../../content/reports/statistics.rst:271
 msgid "SolutionTimeEscalation"
-msgstr ""
+msgstr "SolutionTimeEscalation"
 
 #: ../../content/reports/statistics.rst:274
 msgid "SolutionTimeNotification"
-msgstr ""
+msgstr "SolutionTimeNotification"
 
 #: ../../content/reports/statistics.rst:277
 msgid "SolutionTimeDestinationTime"
-msgstr ""
+msgstr "SolutionTimeDestinationTime"
 
 #: ../../content/reports/statistics.rst:277
 msgid "The solution time escalation as Unix timestamp."
-msgstr ""
+msgstr "作为Unix时间戳的解决方案时间升级。"
 
 #: ../../content/reports/statistics.rst:280
 msgid "SolutionTimeDestinationDate"
-msgstr ""
+msgstr "SolutionTimeDestinationDate"
 
 #: ../../content/reports/statistics.rst:280
 msgid "The absolute date of a solution time escalation."
-msgstr ""
+msgstr "解决方案时间升级的绝对日期。"
 
 #: ../../content/reports/statistics.rst:283
 msgid "First Lock"
@@ -4684,7 +4684,7 @@ msgstr "首次锁定"
 msgid ""
 "The absolute date and time with timezone when the ticket was locked first. "
 "This field is empty for tickets, that are not locked yet."
-msgstr ""
+msgstr "工单锁定时的带时区的绝对日期和时间。 对于未锁定的工单，此字段为空。"
 
 #: ../../content/reports/statistics.rst:286
 #: ../../content/tickets/ticket-zoom.rst:295
@@ -4693,63 +4693,63 @@ msgstr "锁定"
 
 #: ../../content/reports/statistics.rst:286
 msgid "The lock state of the ticket."
-msgstr ""
+msgstr "工单的锁定状态。"
 
 #: ../../content/reports/statistics.rst:289
 msgid "StateType"
-msgstr ""
+msgstr "StateType"
 
 #: ../../content/reports/statistics.rst:289
 msgid "State type of the ticket."
-msgstr ""
+msgstr "工单的状态类型。"
 
 #: ../../content/reports/statistics.rst:292
 msgid "UntilTime"
-msgstr ""
+msgstr "UntilTime"
 
 #: ../../content/reports/statistics.rst:292
 msgid "Total seconds till pending."
-msgstr ""
+msgstr "挂起的总秒数。"
 
 #: ../../content/reports/statistics.rst:295
 msgid "UnlockTimeout"
-msgstr ""
+msgstr "UnlockTimeout"
 
 #: ../../content/reports/statistics.rst:295
 msgid "Time until the ticket is automatically unlocked."
-msgstr ""
+msgstr "工单自动解锁之前的时间。"
 
 #: ../../content/reports/statistics.rst:298
 msgid "EscalationResponseTime"
-msgstr ""
+msgstr "EscalationResponseTime"
 
 #: ../../content/reports/statistics.rst:298
 msgid "Unix timestamp of response time escalation."
-msgstr ""
+msgstr "响应时间升级的Unix时间戳。"
 
 #: ../../content/reports/statistics.rst:301
 msgid "EscalationSolutionTime"
-msgstr ""
+msgstr "EscalationSolutionTime"
 
 #: ../../content/reports/statistics.rst:301
 msgid "Unix timestamp of solution time escalation."
-msgstr ""
+msgstr "解决方案时间升级的Unix时间戳。"
 
 #: ../../content/reports/statistics.rst:304
 msgid "EscalationUpdateTime"
-msgstr ""
+msgstr "EscalationUpdateTime"
 
 #: ../../content/reports/statistics.rst:304
 msgid "Unix timestamp of update time escalation."
-msgstr ""
+msgstr "更新时间升级的Unix时间戳。"
 
 #: ../../content/reports/statistics.rst:307
 msgid "RealTillTimeNotUsed"
-msgstr ""
+msgstr "RealTillTimeNotUsed"
 
 #: ../../content/reports/statistics.rst:307
 msgid "Unix timestamp of pending time."
-msgstr ""
+msgstr "挂起时间的Unix时间戳。"
 
 #: ../../content/reports/statistics.rst:310
 msgid "Number of Articles"
@@ -4757,7 +4757,7 @@ msgstr "信件数"
 
 #: ../../content/reports/statistics.rst:310
 msgid "The number of articles in the ticket."
-msgstr ""
+msgstr "工单中的信件数。"
 
 #: ../../content/reports/statistics.rst:313
 #: ../../content/tickets/ticket-zoom.rst:286
@@ -4766,7 +4766,7 @@ msgstr "流程"
 
 #: ../../content/reports/statistics.rst:313
 msgid "The name of the process in which a process ticket is involved."
-msgstr ""
+msgstr "涉及流程工单的流程名称。"
 
 #: ../../content/reports/statistics.rst:316
 msgid "Activity"
@@ -4774,25 +4774,25 @@ msgstr "活动"
 
 #: ../../content/reports/statistics.rst:316
 msgid "The name of the activity in the process."
-msgstr ""
+msgstr "流程中活动的名称。"
 
 #: ../../content/reports/statistics.rst:319
 msgid "Activity Status"
-msgstr ""
+msgstr "活动状态"
 
 #: ../../content/reports/statistics.rst:319
 msgid "The status of the activity in the process."
-msgstr ""
+msgstr "流程中活动的状态。"
 
 #: ../../content/reports/statistics.rst:321
 msgid "DynamicField_NameX"
-msgstr ""
+msgstr "DynamicField_NameX"
 
 #: ../../content/reports/statistics.rst:322
 msgid ""
 "The name of the dynamic fields added to the system. The list of dynamic "
 "fields is different in each system."
-msgstr ""
+msgstr "添加到系统中的动态字段的名称。 每个系统中的动态字段列表不同。"
 
 #: ../../content/search.rst:4
 msgid ""
@@ -5598,6 +5598,8 @@ msgid ""
 "articles based on the keywords entered in the *Subject* and/or the *Text* "
 "fields. Clicking on a FAQ article opens the :doc:`../faq/faq-zoom` screen."
 msgstr ""
+"默认情况下，此字段不可见，但根据在 *主题* 和/或 *文本* 字段中输入的关键字，它会显示相关的 :doc:`../faq` 文章。 "
+"单击FAQ文章可打开 :doc:`../faq/faq-zoom` 屏幕。"
 
 #: ../../content/tickets/new-email-ticket.rst:48
 #: ../../content/tickets/new-phone-ticket.rst:39
@@ -5607,6 +5609,8 @@ msgid ""
 "and/or the *Text* fields. The suggested FAQ articles are sorted based on the"
 " number of matched keywords."
 msgstr ""
+"相关的FAQ文章按服务人员类型显示，因此在 *主题* 和/或 *文本* 字段中键入任何单词后，将更新建议的FAQ文章列表。 "
+"建议的FAQ文章根据匹配的关键字数进行排序。"
 
 #: ../../content/tickets/new-email-ticket.rst:51
 #: ../../content/tickets/new-phone-ticket.rst:42
