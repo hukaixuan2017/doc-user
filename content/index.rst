@@ -8,16 +8,30 @@ Permission is granted to copy, distribute and/or modify this document under the 
 
 .. toctree::
    :maxdepth: 3
-   :caption: Contents
+   :caption: External Interface
 
-   introduction
-   dashboard
-   avatar
-   customers
-   calendar
-   tickets
-   faq
-   chat
-   reports
-   admin
-   search
+   external-interface/login
+   external-interface/home-page
+   external-interface/navigation
+   external-interface/personal-preferences.rst
+   external-interface/new-tickets
+   external-interface/ticket-list.rst
+   external-interface/ticket-detailview.rst
+   external-interface/ticket-notifications
+   external-interface/service-catalog
+   external-interface/knowledge-base
+   external-interface/search
+   external-interface/custom-pages
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Agent Interface
+
+   agent-interface/login
+   agent-interface/navigation
+   agent-interface/personal-settings
+   agent-interface/dashboard
+   agent-interface/business-objects
+   agent-interface/business-object-lists
+   agent-interface/business-object-detail-views
+   agent-interface/communication
