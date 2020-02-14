@@ -1,0 +1,2586 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
+# This file is distributed under the same license as the OTRS User Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OTRS User Manual 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-14 01:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../content/agent-interface/business-object-detail-views.rst:2
+msgid "Business Object Detail Views"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:6
+#: ../../content/external-interface/ticket-detailview.rst:2
+#: ../../content/external-interface/ticket-detailview.rst:9
+msgid "Ticket Detail View"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:9
+#: ../../content/agent-interface/business-object-detail-views.rst:14
+#: ../../content/agent-interface/navigation.rst:118
+msgid "Sidebar"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:19
+msgid "Ticket Detail View Widgets"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:48
+#: ../../content/agent-interface/business-object-detail-views.rst:29
+msgid "Communication Compact Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:22
+msgid "This widget shows all articles of the ticket in a table."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:24
+#: ../../content/agent-interface/business-object-detail-views.rst:53
+#: ../../content/agent-interface/business-object-detail-views.rst:81
+#: ../../content/agent-interface/business-object-detail-views.rst:113
+#: ../../content/agent-interface/business-object-detail-views.rst:384
+#: ../../content/agent-interface/business-object-detail-views.rst:451
+#: ../../content/agent-interface/business-object-detail-views.rst:456
+#: ../../content/agent-interface/business-object-detail-views.rst:466
+#: ../../content/agent-interface/business-object-detail-views.rst:476
+#: ../../content/agent-interface/business-object-detail-views.rst:508
+#: ../../content/agent-interface/business-object-detail-views.rst:521
+#: ../../content/agent-interface/business-object-detail-views.rst:531
+msgid "This widget supports :ref:`widget-filter` and :ref:`widget-configuration`."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:31
+msgid "Articles in the communication of a ticket can come from different channels. The column *Channel* informs about the channel of the according article. The column with the arrows on both sides informs about the direction of the article. Possible values are here:"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:34
+msgid "Incomming"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:35
+msgid "Outgoing"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:36
+msgid "System"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:38
+msgid "The column with the information symbol shows additional article information e.g. if the article is marked as important."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:40
+msgid "Clicking an article in the table expands the article. Clicking the *Expand all* button at the top of the widget expands all articles."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:45
+msgid "Communication Compact Widget Expanded Article"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:47
+msgid "The icons at the article in the expanded view allow actions like reply or forward. The article menu symbol opens further actions e.g. printing the article or splitting the article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:63
+#: ../../content/agent-interface/business-object-detail-views.rst:58
+msgid "Communication Stream Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:51
+msgid "This widget shows the articles of a ticket in a different form than in the widget *Communication Compact*. The articles are displayed as symbolic speech bubbles next to the authors' avatars with the topic and the abbreviated content of the article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:60
+msgid "The article direction is represented by the avatars of each side. The left side avatars represent the incomming articles. The avatars at the right side represent the outgoing articles. The symbols near the avatars represent the channel of the article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:62
+msgid "Clicking an article expands the article. The icons at the article in the expanded view allow actions like reply or forward. The article menu symbol opens further actions e.g. printing the article or splitting the article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:76
+#: ../../content/agent-interface/business-object-detail-views.rst:73
+#: ../../content/agent-interface/business-object-detail-views.rst:372
+#: ../../content/agent-interface/business-object-detail-views.rst:370
+#: ../../content/agent-interface/communication.rst:30
+msgid "Properties Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:66
+msgid "This widget shows the properties of the ticket. The properties are presented as small cards within the widget."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:68
+#: ../../content/agent-interface/business-object-detail-views.rst:94
+#: ../../content/agent-interface/business-object-detail-views.rst:126
+#: ../../content/agent-interface/business-object-detail-views.rst:320
+#: ../../content/agent-interface/business-object-detail-views.rst:330
+#: ../../content/agent-interface/business-object-detail-views.rst:340
+#: ../../content/agent-interface/business-object-detail-views.rst:350
+#: ../../content/agent-interface/business-object-detail-views.rst:360
+#: ../../content/agent-interface/business-object-detail-views.rst:365
+msgid "This widget supports :ref:`widget-configuration`."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:75
+#: ../../content/agent-interface/business-object-detail-views.rst:372
+msgid "Most of the cards have a pen symbol in the right corner. Clicking this symbol allows to directly edit the property."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:89
+#: ../../content/agent-interface/business-object-detail-views.rst:86
+#: ../../content/agent-interface/business-object-detail-views.rst:384
+msgid "Linked Tickets Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:79
+msgid "This widget shows linked tickets presented in a list."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:88
+#: ../../content/agent-interface/business-object-detail-views.rst:120
+msgid "The *Unlink* column allows to directly unlink a ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:104
+#: ../../content/agent-interface/business-object-detail-views.rst:99
+#: ../../content/agent-interface/business-object-detail-views.rst:435
+#: ../../content/agent-interface/business-object-detail-views.rst:433
+#: ../../content/agent-interface/business-object-detail-views.rst:494
+#: ../../content/agent-interface/business-object-detail-views.rst:492
+#: ../../content/agent-interface/communication.rst:82
+#: ../../content/agent-interface/communication.rst:89
+msgid "Customer Information Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:92
+msgid "This widget shows information about customer and customer users presented in cards."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:101
+#: ../../content/agent-interface/business-object-detail-views.rst:435
+msgid "The customer card shows the number of open and closed tickets of the customer. The *Action* section contains icons to directly edit the customer. The section *Social* contains links to the social channels of the customer."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:103
+msgid "The customer user card shows the number of open and closed tickets of the customer user. The *Create* section contains icons to directly create a new customer user. The *Action* section contains icons to directly edit the customer user and to login as customer user. The section *Social* contains links to the social channels of the customer user."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:108
+#: ../../content/agent-interface/business-object-detail-views.rst:374
+#: ../../content/agent-interface/business-object-detail-views.rst:379
+msgid "Attachments Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:107
+#: ../../content/agent-interface/business-object-detail-views.rst:497
+#: ../../content/agent-interface/business-object-lists.rst:54
+#: ../../content/agent-interface/business-object-lists.rst:257
+msgid "TODO"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:121
+#: ../../content/agent-interface/business-object-detail-views.rst:118
+msgid "Linked Knowledge Base Articles Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:111
+msgid "This widget shows linked knowledge base articles."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:134
+msgid "Drafts"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:124
+msgid "This widget shows all defined drafts in a list. Clicking on an item in the list opens the according draft."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:131
+msgid "Drafts Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:133
+msgid "The *Delete* column allows to directly delete a draft."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:137
+msgid "Ticket Detail View Actions"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:151
+msgid "Note"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:140
+msgid "This ticket action allows to create a note for ticket. Notes are by default only shown to agents. The note is added as article to the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:145
+msgid "Ticket Action Note"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:147
+msgid "If the checkbox *Is visible for customer* is checked the note will be visible for customers in the external interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:149
+#: ../../content/agent-interface/business-object-detail-views.rst:260
+#: ../../content/agent-interface/business-object-detail-views.rst:267
+#: ../../content/agent-interface/business-object-detail-views.rst:274
+#: ../../content/agent-interface/business-object-detail-views.rst:283
+msgid "The fields *Subject* and *Body* are mandatory. The field *Attachments* allows to add attachments to the note. The field *Time Units* can be used to input times."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:151
+msgid "If the checkbox *Mark as important* is checked the note will be marked as important. The note will be shown in the *Communication Compact* widget with a special icon showing that this article is important."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:159
+msgid "Phone Call Outbound"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:154
+msgid "This ticket action allows to add a note to the ticket based on an outgoing phone call."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:159
+msgid "Ticket Action Phone Outbound"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:167
+msgid "Phone Call Inbound"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:162
+msgid "This ticket action allows to add a note to the ticket based on an incoming phone call."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:167
+msgid "Ticket Action Phone Inbound"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:184
+msgid "E-Mail Outbound"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:170
+msgid "This ticket action allows to send an email and add the email as article to the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:175
+msgid "Ticket Action E-mail Outbound"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:178
+msgid "SMS Outbound"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:178
+msgid "This ticket action allows to send an SMS and add the SMS as article to the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:183
+msgid "Ticket Action SMS Outbound"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:193
+msgid "Free Fields"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:187
+msgid "This ticket action allows to change the free field values of the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:192
+msgid "Ticket Action Free Fields"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:196
+#: ../../content/agent-interface/business-object-detail-views.rst:304
+#: ../../content/agent-interface/business-object-detail-views.rst:417
+msgid "Print"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:196
+msgid "This ticket action allows to print the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:204
+msgid "Close"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:199
+msgid "This ticket action allows to close the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:204
+msgid "Ticket Action Close"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:218
+#: ../../content/agent-interface/business-object-detail-views.rst:403
+msgid "Link"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:207
+msgid "This ticket action allows to link the ticket with other tickets or knowledge base articles."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:212
+msgid "Ticket Action Link"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:214
+msgid "The filter sections allows to filter for tickets or knowledge base articles. For tickets the filters *Number* and *Title* are set as default filter fields. For knowledge base articles the filters *Category* and *Knowledge base article number* are set as default filters."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:216
+msgid "This section has the same function as the filter sections for business object list and allows defining more filters and save these as filter presets."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:218
+msgid "The objects can be linked as *Normal* , *Child* or *Parent*."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:226
+msgid "Pending"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:221
+msgid "This ticket action allows to set a pending reminder or a pending auto close for the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:226
+msgid "Ticket Action Pending"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:235
+#: ../../content/agent-interface/business-object-lists.rst:161
+#: ../../content/external-interface/ticket-detailview.rst:16
+msgid "Priority"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:229
+msgid "This ticket action allows to change the priority of the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:234
+msgid "Ticket Action Priority"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:243
+#: ../../content/agent-interface/business-object-lists.rst:160
+msgid "Owner"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:238
+msgid "This ticket action allows to change the owner of the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:243
+msgid "Ticket Action Owner"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:252
+#: ../../content/agent-interface/business-object-detail-views.rst:412
+msgid "History"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:246
+msgid "This ticket action allows to view the history of the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:251
+msgid "Ticket Action History"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:255
+msgid "Article Actions"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:262
+msgid "Reply"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:258
+msgid "This article action allows to reply to the article. If the checkbox *Is visible for customer* is checked the article will be visible for customers in the external interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:262
+#: ../../content/agent-interface/business-object-detail-views.rst:269
+#: ../../content/agent-interface/business-object-detail-views.rst:278
+#: ../../content/agent-interface/business-object-detail-views.rst:285
+msgid "If the checkbox *Mark as important* is checked the note will be marked as important."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:269
+msgid "Reply all"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:265
+msgid "This article action allows to reply all recipients to the article. If the checkbox *Is visible for customer* is checked the article will be visible for customers in the external interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:278
+msgid "Reply via SMS"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:272
+msgid "This article action allows to reply to the article as SMS message. If the checkbox *Is visible for customer* is checked the article will be visible for customers in the external interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:276
+msgid "The checkbox *Flash message* can be used to display the sms directly and without user interaction. (depends on the used device and provider)"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:285
+msgid "Forward"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:281
+msgid "This article action allows to forward the article as email. If the checkbox *Is visible for customer* is checked the article will be visible for customers in the external interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:290
+msgid "Redirect"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:288
+msgid "This article action allows to redirect the article as email. The checkbox *Inform original sender* is checked by default."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:290
+msgid "The fields *Subject* and *Body* are mandatory."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:293
+msgid "Mark as Important"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:293
+msgid "This article action marks the article as important. Articles marked as important are highlighted in the article overviews."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:300
+msgid "Split"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:296
+msgid "This article action allows to split the article to an other ticket. Possible link type are:"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:298
+msgid "Parent"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:299
+msgid "Child"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:300
+msgid "Normal"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:303
+msgid "This article action allows to print the article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:307
+msgid "Knowledge Base Article Detail View"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:310
+msgid "Knowledge Base Article Detail View Widgets"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:320
+msgid "Symptom (public) Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:313
+msgid "This widget can be used to describe the symptom of a problem."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:318
+msgid "Symptom Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:330
+msgid "Problem (public) Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:323
+msgid "This widget can be used to describe the problem itself."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:328
+msgid "Problem Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:340
+msgid "Solution (public) Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:333
+msgid "This widget can be used to describe the solution of the problem."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:338
+msgid "Solution Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:350
+msgid "Comment (internal) Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:343
+msgid "This widget can be used to add a comment to the article. The comment is not shown in the external interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:348
+msgid "Comment Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:360
+#: ../../content/agent-interface/business-object-detail-views.rst:358
+msgid "Rating Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:353
+msgid "This widget can be used to rate the knowledge base article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:363
+msgid "This widget shows the properties of the knowledge base article. The properties are presented as small cards within the widget."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:382
+msgid "This widget shows linked tickets."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:387
+msgid "Knowledge Base Article Detail View Actions"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:395
+msgid "Edit"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:390
+msgid "This knowledge base article action allows to edit the knowledge base article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:395
+msgid "Edit Article Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:398
+msgid "This knowledge base article action allows to link the knowledge base article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:403
+msgid "Add Links Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:406
+msgid "Delete"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:406
+msgid "This knowledge base article action allows to delete the knowledge base article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:412
+msgid "History Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:415
+msgid "This knowledge base article action allows to print the knowledge base article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:420
+msgid "Customer Detail View"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:424
+msgid "Customer Detail View Widgets"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:428
+msgid "This widget shows information about the customer presented in a card."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:441
+#: ../../content/agent-interface/business-object-detail-views.rst:441
+#: ../../content/agent-interface/business-object-detail-views.rst:498
+msgid "Customer User List Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:449
+#: ../../content/agent-interface/business-object-detail-views.rst:449
+#: ../../content/agent-interface/business-object-detail-views.rst:506
+#: ../../content/agent-interface/business-object-detail-views.rst:506
+msgid "Reminder Tickets Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:444
+#: ../../content/agent-interface/business-object-detail-views.rst:501
+#: ../../content/agent-interface/dashboard.rst:15
+msgid "This widget lists the pending tickets. Pending tickets are set for later work by the agent, and the reminder time is going to expire soon."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:454
+#: ../../content/agent-interface/business-object-detail-views.rst:511
+msgid "Escalated Tickets Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:454
+#: ../../content/agent-interface/business-object-detail-views.rst:511
+#: ../../content/agent-interface/dashboard.rst:18
+msgid "This widget lists the escalated tickets. Escalated tickets are after the time set in service level agreement, and therefore needs to be worked on them immediately."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:464
+#: ../../content/agent-interface/business-object-detail-views.rst:464
+#: ../../content/agent-interface/business-object-detail-views.rst:519
+#: ../../content/agent-interface/business-object-detail-views.rst:519
+msgid "Open Tickets Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:459
+#: ../../content/agent-interface/business-object-detail-views.rst:514
+#: ../../content/agent-interface/dashboard.rst:21
+msgid "This widget lists the open tickets. Open tickets represent the current work done by the agent."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:474
+#: ../../content/agent-interface/business-object-detail-views.rst:474
+#: ../../content/agent-interface/business-object-detail-views.rst:529
+#: ../../content/agent-interface/business-object-detail-views.rst:529
+msgid "New Tickets Widget"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:469
+#: ../../content/agent-interface/business-object-detail-views.rst:524
+#: ../../content/agent-interface/dashboard.rst:24
+msgid "This widget lists the new tickets. New tickets are created by customer users, and no agent is started to work on them at the moment."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:480
+msgid "Customer User Detail View"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:484
+msgid "Customer User Detail View Widgets"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:487
+msgid "This widget shows information about the customer user presented in a card."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:494
+msgid "The customer user card shows the number of open and closed tickets of the customer. The *Create* section contains icons to directly create a new customer user. The *Action* section contains icons to directly edit the customer user and to login as customer user. The section *Social* contains links to the social channels of the customer user."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:535
+msgid "Notification Detail View"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-detail-views.rst:540
+msgid "Notification Detial View"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:2
+msgid "Business Object Lists"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:4
+msgid "The business object list displays a configured set of data from business objects."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:9
+msgid "Business Object List Example"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:11
+msgid "If there are more items, a note at the end of the list informs about how many more items there are that cannot yet be displayed. Scrolling down the business object lists loads automatically more items until the end of the list is reached. The visible size of the list is remembered for reloads and navigation."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:16
+msgid "Header Area"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:18
+msgid "The page breadcrumb indicates the total number of found business objects depending on the filter criteria for the business object list."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:20
+msgid "Business object lists periodically check on the server side for data updates. The refresh interval time can be globally adjusted by the system administrator."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:23
+msgid "Data updates for an item displayed in a business object list are applied immediately. The row associated with the element is highlighted in color for a short time to indicate a change. If the data updates update an item so that it can no longer be displayed in the current list, the corresponding item is highlighted in red and after a few seconds is removed from this list and no longer displayed."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:29
+msgid "Highlighting on Data Change"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:31
+msgid "Clicking on a item in the business object list opens the detail view of the item. The detail view remembers the context of the business object list. If you go back to a Business Object List from a detail view, the Business Object List is opened again and the element is highlighted in color. (if it still exists on the screen)."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:33
+msgid "Business object lists have a screen configuration and a non-permanent configuration that can be set by using the filter functions. The screen configuration of a business object list can be configured using the cog wheel icon in the upper right corner."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:35
+msgid "The non-permanent screen configuration is never saved and synchronized, but allows the saving of named filter presets."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:38
+msgid "List Actions"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:41
+msgid "List Previews"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:43
+msgid "Hovering with the mouse over an business object symbol in the left sidebar opens a preview of the according business object list."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:48
+msgid "Business Object List Preview"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:52
+msgid "Column Previews"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:58
+msgid "Default Mode"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:60
+msgid "In default mode new items that have to be shown in the current displayed list are not shown immediately. A notification on the the top of the business object list informs about new data."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:66
+msgid "Notification New List Data"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:68
+msgid "Clicking this notifications refreshes the list and shows the list with updated data. If there are items that can not be displayed in the currently shown list the following happens:"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:70
+msgid "Write permission still available: The row is highlighted. Editing is possible."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:71
+msgid "Read permissions still available: The row is highlighted. Editing is not possible."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:72
+msgid "No permissions or object deleted: The row is highlighted, pseudonomized and blurred. Hovering over the row shows an explanation about the reasons."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:76
+msgid "Pulse Mode"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:78
+msgid "For the business object lists of type ticket and knowledge base article is so called pulse mode available.You can activate this mode by clicking the pulse icon in the action bar of business object list."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:80
+msgid "If this mode is active the business object list will be refreshed periodically including newly added or removed items."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:85
+msgid "Active Pulse Mode"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:89
+msgid "It is still possible to perform actions in the list, but it could happen that due to a refresh a relevant popup is closed without confirmation."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:93
+msgid "Sorting"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:95
+msgid "The columns of the business object lists are sortable. The filtering happens on the server. Clicking on any visible and sortable column replaces the current existing sorting criteria and sort the data by the column."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:97
+msgid "A sorted column is indicated by a small arrow at the according column."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:100
+msgid "Filtering"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:103
+msgid "Exporting"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:107
+msgid "Bulk Action"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:109
+msgid "The bulk action feature allows to perform one or multiple actions for one or multiple items at once. To perform a bulk action for items in a list at least one items need to be selected. Its also possible to select all visible items by clicking the checkbox *Select all visible tickets* at the top of the checkbox column."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:111
+msgid "The number of selected items is displayed in the header of the list."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:116
+msgid "Bulk Action Select All Items"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:119
+msgid "If the list contains more items as currently could be displayed, the non visible items are not selected."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:121
+msgid "To select items that are currently not visible:"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:123
+msgid "Scroll down the list to display the non visible items"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:124
+msgid "Scroll up again"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:125
+msgid "Click the pen symbol"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:129
+#: ../../content/external-interface/ticket-list.rst:2
+msgid "Ticket List"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:131
+msgid "The ticket list shows tickets based on the configuration. This list type supports the pulse mode."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:135
+msgid "The shown data depends on the permissions."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:140
+msgid "Active Ticket List Default"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:142
+msgid "The screen configuration of this list allows to define up to three sorting criteria (multi level sorting)."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:144
+msgid "Clicking an item in the list opens the detail view of the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:146
+msgid "The items of the list can be exported."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:148
+msgid "For actions on more then one item the bulk action supports changes on multiple items."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:152
+msgid "Ticket List Actions"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:154
+msgid "**Change Properties**"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:156
+msgid "In this section the ticket properties:"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:158
+#: ../../content/external-interface/ticket-detailview.rst:13
+msgid "State"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:159
+#: ../../content/external-interface/ticket-detailview.rst:15
+msgid "Queue"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:163
+msgid "can be changed for the selected tickets."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:168
+msgid "After clicking *Execute Bulk Action* the selected bulk action(s) will be performed. The affected items are highlighted in the ticket list for a short time."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:170
+msgid "**Link Tickets**"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:172
+msgid "In this section the selected tickets can be linked together or with a parent ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:177
+#: ../../content/agent-interface/business-object-lists.rst:193
+#: ../../content/agent-interface/business-object-lists.rst:216
+msgid "Bulk Action - Link Tickets"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:179
+#: ../../content/agent-interface/business-object-lists.rst:195
+msgid "The search field allows to search for a ticket by ticket number or title. Typing at least three numbers or characters opens a list of found items."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:181
+msgid "Linked tickets are shown in the widget *Linked Tickets* in the ticket detail view."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:183
+msgid "**Merge Tickets**"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:185
+msgid "In this section the selected tickets can be merged to the oldest one of the selected tickets or to a certain ticket number."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:188
+msgid "The merging of tickets can not be undone."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:198
+msgid "**Write Email**"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:200
+msgid "In this section, an e-mail message can be created for the selected tickets."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:205
+msgid "Bulk Action - Write Email"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:207
+msgid "The recipients field contain all recipients of each single ticket."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:209
+msgid "**Write Note**"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:211
+msgid "In this section a note can be added to the selected tickets."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:218
+msgid "If the checkbox *Visible for customer* is checked, the note will be visible for customers in the external interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:222
+msgid "After executing the bulk action the ticket are automatically unlocked. To prevent this, the checkbox *Unlock after bulk execute* needs to be unchecked. In this case the affected tickets remain locked."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:226
+msgid "Ticket List Bulk Action"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:231
+msgid "Ticket List Bulk Action Symbol"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:233
+msgid "For ticket lists the pen symbol at the top of the list opens the screen for the bulk action."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:235
+msgid "Performing a bulk action for tickets means, that these tickets will be automatically locked to the agent while performing the bulk action."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:237
+msgid "This needs to be confirmed first by clicking *Lock and Continue*."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:242
+msgid "Ticket List Bulk Action Lock Confirmation"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:244
+msgid "After confirmation the options for the bulk action are shown."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:248
+msgid "If there are missing permissions for locking tickets a message is shown where the items are listed that can not be locked. It is possible to continue with the bulk action, but the listed items will not be affected."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:255
+msgid "Watching Tickets"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:261
+msgid "The ticket watch feature is deactivated by default and needs to be activated first by a system administrator in order to use it."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:264
+msgid "Knowledge Base Article List"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:266
+msgid "The knowledge base article list shows entries form the knowledge base. This list type supports the pulse mode."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:271
+msgid "Knowledge Base Article List Default"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:273
+msgid "The items of the list can be exported. Clicking an item in the list opens the detail view of the knowledge base article."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:277
+msgid "Knowledgebase Article List Actions"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:281
+msgid "Web Notification List"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:283
+msgid "The web notification list shows notifications about:"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:285
+#: ../../content/agent-interface/business-objects.rst:6
+#: ../../content/external-interface/search.rst:6
+msgid "Tickets"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:286
+msgid "Appointments"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:288
+msgid "The web notification list type supports the pulse mode."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:290
+msgid "As bulk actions are the actions *Mark selected as Read* and *Delete Selected* directly accessible via the according buttons at the top of the list."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:295
+msgid "Web Notification List Default"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:299
+msgid "The web notification view must be activated for each notification via administrator interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:301
+msgid "Unread notifications are displayed with a number on the bell symbol at the header area of agent interface. Clicking on the bell symbol opens a popup where the latest five notifications are displayed."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:306
+msgid "Web Notification Popup"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:308
+msgid "Clicking the button *Show all* opens the web notification list. Clicking the button *Mark as Read* marks all notifications as read."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:310
+msgid "Clicking the document symbol opens the notification list and the notification details in a popup. This action also sets the notification to read"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:315
+msgid "Web Notification List - Detail Popup"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:317
+msgid "Clicking on the title of the notification opens the detail view"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:319
+msgid "TODO: Appointment Notifications"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:322
+#: ../../content/agent-interface/dashboard.rst:50
+msgid "Customer List"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:324
+msgid "The customer list shows customers and informations about this customers, i.e. how many open tickets or how many closed tickets."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:329
+msgid "Customer List Default"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:331
+#: ../../content/agent-interface/business-object-lists.rst:348
+msgid "Clicking the pencil symbol in the column *Edit* opens the view for editing the customer details."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:335
+#: ../../content/agent-interface/dashboard.rst:46
+msgid "Customer User List"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:337
+msgid "The customer list shows customers users and informations about the customer users, i.e. how many open tickets or how many closed tickets."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:342
+msgid "Customer User List Default"
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:344
+msgid "A special column for this list is the column *Create*. Clicking on the symbols in this column instantly opens the ticket create view."
+msgstr ""
+
+#: ../../content/agent-interface/business-object-lists.rst:346
+msgid "Another special column for this list is the column *Login*. Clicking on this symbol leads to the login section of the external interface."
+msgstr ""
+
+#: ../../content/agent-interface/business-objects.rst:2
+msgid "Business Objects"
+msgstr ""
+
+#: ../../content/agent-interface/business-objects.rst:4
+msgid "A new concept is implemented in OTRS 8. All objects are called business objects. These objects can be:"
+msgstr ""
+
+#: ../../content/agent-interface/business-objects.rst:7
+#: ../../content/external-interface/search.rst:8
+msgid "Knowledge base articles"
+msgstr ""
+
+#: ../../content/agent-interface/business-objects.rst:8
+msgid "Customers"
+msgstr ""
+
+#: ../../content/agent-interface/business-objects.rst:9
+msgid "Customer users"
+msgstr ""
+
+#: ../../content/agent-interface/business-objects.rst:10
+msgid "ITSM Changes"
+msgstr ""
+
+#: ../../content/agent-interface/business-objects.rst:11
+msgid "Other similar objects"
+msgstr ""
+
+#: ../../content/agent-interface/business-objects.rst:13
+msgid "The business objects have list views and detail views. The views have a similar structure and user experience."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:2
+#: ../../content/agent-interface/communication.rst:79
+msgid "Communication"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:4
+msgid "Agents can communicate with customer users via email, phone or SMS, and agents can communicate with other agents via note. Additionally, it is possible to start processes, which can affect both agents and customer users."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:6
+msgid "The communication is managed with using tickets. This means, **OTRS** will convert any type of communications into tickets, and it will add the messages as articles to the ticket."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:10
+msgid "Create Request"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:12
+msgid "When agents start the communication, they can create *email tickets*, *phone tickets* or *SMS tickets*. All the communication result a ticket, and the first message is added to the ticket as an article."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:15
+msgid "Email Ticket"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:15
+msgid "Email ticket is used to send an email to the customer user or to other recipients, when the ticket is created."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:18
+msgid "Phone Ticket"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:18
+msgid "Phone ticket is used to record the information during a phone call with the customer user. When the ticket is created, no email will be sent to the customer user. The ticket is treated as it was originally created by the customer user."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:21
+msgid "Process Ticket"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:21
+msgid "Creating a process ticket will start a defined process. The agents and the customer users have to follow the steps, that is provided by the process. Any message created during a process ticket will create new articles to this ticket."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:24
+msgid "SMS Ticket"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:24
+msgid "SMS ticket is used create a ticket and send the first article via SMS to the customer user. SMS ticket has a limited body to fit the text to the restriction of the SMS."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:26
+msgid "The following sections explain, how can an agent create a new request in the agent interface for the customer user. Creating email tickets, phone tickets and SMS ticket are almost the same, so the following sections will describe the ticket creation in a general manner."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:32
+msgid "This widget is used to create the request for the customer user. This widget consists of four sections: *Customer*, *Assignment*, *Service Level Management* and *Communication*."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:42
+msgid "Customer"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:35
+msgid "In this section can be selected the customer user, who the new ticket is created for. The customer user can be selected by typing the name into the field, or by using the customer address book next to the field. Using the wildcard character \\* is possible to search for the customer user."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:40
+msgid "Select Customer User"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:42
+msgid "The *Customer* field is read only, and it will be auto-populated with the customer of the selected customer user."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:50
+msgid "Assignment"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:45
+msgid "In this section can be selected the *Queue* and the *Owner* of the ticket. The queue selection is mandatory."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:50
+msgid "Queue And Owner Selection"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:58
+msgid "Service Level Management"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:53
+msgid "In this section can be selected the priority and the next ticket state."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:58
+msgid "Priority And State Selection"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:61
+msgid "In this section can be written the message like in an email client."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:66
+msgid "Write The Message"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:68
+msgid "This section is different for phone tickets and email tickets."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:70
+msgid "For phone tickets, the *From* field is available and mandatory, because a phone ticket is treated as it is created by the customer user. The *To* field is the queue selected in the previous section."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:72
+msgid "For email tickets, this section works a normal email client. It has *To*, *Cc* and *Bcc* fields for the recipients."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:74
+msgid "It is possible to select a text template for the new ticket. The content of the template will overwrite the existing texts."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:76
+msgid "The *Subject*, *Body*, *Attachments* and *Time Units* fields are the same for both the phone ticket and the email ticket."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:78
+msgid "*Signature* is only applied for the email tickets."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:84
+msgid "This widget displays detailed information about the selected customer user and about its customer."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:93
+#: ../../content/agent-interface/communication.rst:100
+msgid "Customer User History Widget"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:95
+msgid "This widget shows the tickets for the customer user selected above."
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:104
+#: ../../content/agent-interface/communication.rst:111
+msgid "Customer History Widget"
+msgstr ""
+
+#: ../../content/agent-interface/communication.rst:106
+msgid "This widget shows the tickets for the customer selected above."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:2
+msgid "Dashboard"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:4
+msgid "The dashboard collects all the information that agents need for they daily tasks. The dashboard contains several widgets to display the most important objects."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:9
+#: ../../content/agent-interface/login.rst:56
+#: ../../content/agent-interface/navigation.rst:9
+msgid "Agent Dashboard"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:11
+msgid "The dashboard is accessible from any part of the software by clicking on the house icon in the breadcrumb bar or by clicking on the logo in the top right corner."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:15
+msgid "Reminder Tickets"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:18
+msgid "Escalated Tickets"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:21
+#: ../../content/external-interface/ticket-list.rst:35
+msgid "Open Tickets"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:24
+msgid "New Tickets"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:27
+msgid "People"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:27
+msgid "This widget lists the people who are currently online or who are currently out of office. This information can be set in the agent :doc:`personal-settings`."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:30
+msgid "Queue View"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:30
+msgid "This widget gives an overview as a ticket count matrix, where the rows represent queues and the columns represent the ticket states. Each cell displays the number of tickets on a defined state that belongs on a particular queue."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:33
+msgid "News"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:33
+msgid "This widget displays news from RSS feeds."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:36
+msgid "Recently Updated Knowledge Base Entries"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:36
+msgid "This widget displays the knowledge base articles, that are updated recently."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:39
+msgid "Newly Created Knowledge Base Entries"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:39
+msgid "This widget displays the knowledge base articles, that are created recently."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:42
+msgid "This widget lists the customer users, who have account in the system."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:44
+msgid "It is possible to start a :doc:`communication` directly from this widget by create email, phone or SMS ticket for the selected customer user."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:46
+msgid "Clicking on a customer user in the table will open the customer user detail view screen. (TODO: create a link, if the page exists)"
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:49
+msgid "This widget lists the customers, that are set in the system."
+msgstr ""
+
+#: ../../content/agent-interface/dashboard.rst:51
+msgid "Clicking on a customer in the table will open the customer detail view screen. (TODO: create a link, if the page exists)"
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:2
+msgid "Login to Agent Interface"
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:4
+msgid "The agent interface is available at the following location."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:12
+#: ../../content/external-interface/login.rst:12
+msgid "You have to replace ``<OTRS_HOST>`` with your domain."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:14
+msgid "You need an agent account to be able to use OTRS. If you have no account yet, please contact your administrator."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:19
+msgid "Agent Login Screen"
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:21
+msgid "If you forget your password, click on the *Forgot your password?* link, and follow the instructions there."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:26
+msgid "Request New Password Screen"
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:28
+msgid "For security reason, the two-factor authentication have to be setup for each agent when they login at the first time. Click on the *Setup* button to setup this security feature."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:33
+#: ../../content/agent-interface/personal-settings.rst:65
+#: ../../content/external-interface/login.rst:56
+#: ../../content/external-interface/login.rst:61
+msgid "Two-factor Authentication"
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:35
+msgid "The two-factor token will be sent to the email address of the agent."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:37
+msgid "Selecting the *Enable email secority* option activates an opportunistic encryption of the sent email containing the two-factor token. This feature will work only if either PGP or S/MIME subsystem is activated, and there is a public key or certificate available for the agent’s target email address. Otherwise the email will be sent in plain text."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:42
+msgid "Two-factor Setup for Email"
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:44
+msgid "Check your mailbox and find the email containing the two-factor token. The token consists of some deicimal letters. Type the token into the next window."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:49
+msgid "Two-factor Setup Email Verification"
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:51
+msgid "After a successful login, the agent dashboard will be displayed."
+msgstr ""
+
+#: ../../content/agent-interface/login.rst:58
+msgid "Congratulations! You are now able to use the **OTRS** system."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:2
+msgid "Navigation"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:4
+msgid "The agent interface acts as a dashboard for the agents. This is a complex screen where most of the actions can be accessible."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:11
+msgid "On the left side of the screen there is sidebar called *Organizer*. The organizer sidebar contains the personal settings of the current agent and some shortcuts. This organizer sidebar is hidden by default when using mobile mode."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:13
+msgid "The screen has a header bar with the most important menus, including the main menu, the notification menu, the search field and the action menus."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:15
+msgid "Below this header the breadcrumb bar is located, which helps to easily identify where the agent currently is and can display toolbar or actions. The right side of this breadcrumb bar contains the screen configuration and the help."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:17
+msgid "The content area of the screen can display a :doc:`dashboard`, :doc:`business-object-lists` or :doc:`business-object-detail-views`. These screens can contain a list of :doc:`business-objects` or multiple widgets. The number of the widgets and the content of the widgets depend on the screen what the agent currently sees. Every widget can be customized in its widget configuration."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:21
+#: ../../content/agent-interface/personal-settings.rst:2
+#: ../../content/agent-interface/personal-settings.rst:9
+msgid "Personal Settings"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:23
+msgid "The :doc:`personal-settings` contain general settings for the agent account, security possibilities to protect this account using password and two-factor authentication, notification settings and an editor to customize the organizer."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:27
+msgid "Organizer"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:29
+msgid "On the left side of the screen there is sidebar called *Organizer*. This sidebar contains shortcuts to business object lists. The items of the sidebar can be customize in the :doc:`personal-settings`."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:33
+#: ../../content/agent-interface/navigation.rst:40
+msgid "Main Menu"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:35
+msgid "The main menu contains links for the most important screens of the system."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:44
+msgid "Action Menus"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:46
+msgid "The header bar contains the notification menu, the search field and the action menus."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:51
+msgid "Action Menu"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:54
+msgid "Notifications"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:54
+msgid "Clicking on he first bell icon will show the currently unread notifications. There is a button *Show All* to open the notification list and to select any previous notification."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:57
+#: ../../content/external-interface/search.rst:2
+msgid "Search"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:57
+msgid "Clicking on the second magnification glass icon will display a search bar to search for everything on the system."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:61
+msgid "Create new"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:60
+msgid "Clicking on the third plus icon will open a menu to create new business objects."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:64
+msgid "Breadcrumb Bar"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:66
+msgid "The breadcrumb bar helps the agents to easily navigate in the system. The breadcrumb bar consists of tho rows, and both rows have icons in its both sides."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:71
+msgid "Breadcrumb Bar For Business Object List"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:76
+msgid "Breadcrumb Bar For Business Object Detail View"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:78
+msgid "The first row of the breadcrumb bar contains the breadcrumb itself, which acts as a path indicating the current place where the agent is. On the right side of this row the screen configuration and the help are located. This part of the breadcrumb bar can contain buttons for navigation between business objects and go back to the business object list."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:80
+msgid "The second row of the breadcrumb bar can be different for business object lists and business object detail views."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:82
+msgid "For business object lists, the second row of the breadcrumb bar can contain export and bulk actions in the left side, and filter presets, filter possibilities and pulse mode. This row can contain an action menu regarding to the business object, the column layouts and a button to show or hide the sidebar in the business object detail view."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:83
+msgid "For business object detail views, the second row of the breadcrumb bar can contain an action menu regarding to the business object, the column layouts and a button to show or hide the sidebar in the business object detail view."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:85
+msgid "These features and actions are displayed only, if the selected business object list or business object has such a menu."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:89
+msgid "Screen Configuration"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:91
+msgid "The screen configuration is accessible via the gear icon. Every screen has such a menu, and the content of this setting depends on the screen."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:96
+msgid "Screen Configuration For Two-column Layout"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:98
+msgid "The same configuration screen can be used for all column layouts."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:100
+msgid "Select the layout you want to edit in the top of this screen. Next, the widgets of the current screen can be added, removed or rearranged. Any widget can be added multiple times. Each widget has its own settings."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:104
+msgid "Get Help"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:106
+#: ../../content/agent-interface/navigation.rst:120
+msgid "TODO: This feature is not implemented yet."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:110
+msgid "Column Layouts"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:112
+msgid "For large screens, different column layouts can be selected. On small screens or in mobile view only the one column layout is usable."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:114
+msgid "The position of the widgets can be customize in the screen configuration."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:124
+msgid "Widgets"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:126
+msgid "The content area of each screen is used to display the widgets in one, two or three column layout. The number and type of the widgets depend on the displayed business object list or business object detail view and can be customize in the screen configuration."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:131
+msgid "Widget Overview"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:133
+msgid "Each widget has a header with the name of the widget and a chevron icon to collapse or expand the widget itself. There is an other *Expand All* or *Collapse All* button in the header to expand or collapse the content of the widget. The *Select Preset* option shows the configured and named filter from the *Filter* section. Finally, the widget configuration is located in the right side of the header."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:135
+msgid "The content of a widget can be a table or a content area, or can be consisted of multiple content cards."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:141
+#: ../../content/agent-interface/navigation.rst:148
+msgid "Widget Filter"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:143
+msgid "Most of the widgets have a filter possibility to narrow the results displayed in the widget content. The filter options can be showed or hidden with the filter icon."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:150
+msgid "The number of the filter possibilities depends on the widget. There are filters with text input field, and some other filters can have a drop-down list to select only one or multiple options."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:152
+msgid "The filters can be removed with the trash icon next to the field."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:154
+msgid "It is possible to enter a name to the configured filter setup and save this as a preset. The saved presets can be selected in the header of the widget."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:158
+msgid "The filter for the business object list works the same manner."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:164
+#: ../../content/agent-interface/navigation.rst:171
+msgid "Widget Configuration"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:166
+msgid "The widget configuration is accessible via the gear icon. Every widget has such a menu, and the content of this setting depends on the widget."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:173
+msgid "The following configuration options can be available for the widgets. The configuration options depend on the widget. The fields marked with an asterisk are mandatory."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:176
+msgid "Widget Title"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:176
+msgid "Here can be changed the default name of the widget. If a new name is entered, this name will be displayed in the header of the widget."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:179
+msgid "Hide/Show Columns"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:179
+msgid "In this list can be selected, which columns should be visible in the widget, if the widget content is displayed in a table form."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:182
+msgid "Show Lists"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:182
+msgid "In this list can be selected, which cards should be visible in the widget, if the widget content is displayed as content cards."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:187
+msgid "Sort List"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:185
+msgid "Here can be selected some order criteria and the sorting orders for the content of the widget."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:187
+msgid "Some widgets supports only one sorting criterion, while other widgets can support up to three criteria. If more criteria is available, you can add a new one with the *+ Add New Sorting* link until the sorting limit is reached."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:192
+msgid "Filter List"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:190
+msgid "Here can be selected some filter criteria for the content of the widget."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:192
+msgid "Any available filter options can be selected at the same time. You can add a new one with the *+ Add New Filter* link."
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:194
+msgid "Results per Page"
+msgstr ""
+
+#: ../../content/agent-interface/navigation.rst:195
+msgid "Here can be selected, how many entries should be visible in the list by default."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:4
+msgid "The personal settings can be set via the avatar image in the organizer sidebar."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:11
+msgid "Every menu item has a search box in the top of the widget to search for a specific setting."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:15
+msgid "User Profile"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:17
+msgid "This menu item contains general settings for the agent account."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:20
+msgid "Avatar"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:20
+msgid "Here can be changed the image used as avatar image. It is possible to upload an avatar image directly or you have to register your email address on `Gravatar <https://www.gravatar.com/>`__ to use this feature. Otherwise the first letters of first name and last name will be displayed."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:29
+msgid "Language"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:23
+msgid "Here can be selected the language for the user interface."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:25
+msgid "Only those languages are listed by default, for which the translation completeness is more than 95%. To see all available languages, click on the globe icon next to the drop-down list."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:29
+msgid "Translation status of incomplete languages are low, but you can help to improve the translation. See the `developer manual <https://doc.otrs.com/doc/manual/developer/8.0/en/content/contributing/translate.html>`__ for more information about translating **OTRS**."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:32
+msgid "Screen After New Ticket"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:32
+msgid "Here can be selected, which screen should be shown after a new ticket has been created."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:35
+msgid "Style"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:35
+msgid "Here can be selected, which style should be used for the user interface. For some styles the *Variant* is also can be chosen."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:38
+msgid "Time Zone"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:38
+msgid "Here can be selected the time zone used by the user interface to display time values. Just start typing the name of capital city of your current location."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:41
+msgid "Date Time Format"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:41
+msgid "Here can be selected the displayed format of the time values."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:44
+msgid "Out of Office Time"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:44
+msgid "Use the calendar entries to set the start and the end date for your out of office days. Multiple entries can be added here."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:46
+msgid "When you have finished the settings, press the *Save* button."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:50
+#: ../../content/external-interface/personal-preferences.rst:19
+msgid "Security"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:52
+msgid "This menu item contains the settings to protect the agent account."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:55
+#: ../../content/external-interface/login.rst:42
+#: ../../content/external-interface/login.rst:47
+msgid "Change Password"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:55
+msgid "Here can be change the current password of the agent by entering the old and the new passwords."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:58
+msgid "Here can be added and additional authentication method, which is called two-factor authentication. The two-factor authentication acts as a second password to protect the account. While the normal password is something that the agent have to know, the two-factor token is something that the agent have to own. This means, if an agent enters the username and the password, then a token will be sent to they via email or SMS, or the agent can use a pre-configured authenticator application."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:60
+msgid "To set a two-factor authentication method:"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:62
+msgid "Click on the *Setup* button."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:63
+msgid "Enter your current password."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:64
+msgid "Follow the instructions you see on the screen."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:68
+msgid "Notification Settings"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:70
+msgid "This menu item contains the settings regarding to notifications."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:73
+msgid "My Queues"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:73
+msgid "Here can be selected some queues as preferred queues."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:80
+msgid "My Services"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:76
+msgid "Here can be selected some services as preferred services."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:80
+msgid "System configuration ``Ticket::Service`` needs to be activated to use this feature."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:90
+#: ../../content/external-interface/navigation.rst:18
+#: ../../content/external-interface/ticket-notifications.rst:2
+msgid "Ticket Notifications"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:83
+msgid "In this widget can be selected the methods used for any kind of ticket notifications."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:88
+msgid "Ticket Notifications Widget"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:90
+#: ../../content/agent-interface/personal-settings.rst:100
+msgid "The possible methods are *Email*, *Web View* or *SMS*."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:101
+msgid "Appointment Notifications"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:93
+msgid "In this widget can be selected the methods used for any kind of appointment notifications."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:98
+msgid "Appointment Notifications Widget"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:104
+msgid "Customize Organizer"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:106
+msgid "This menu item contains the possibilities to customize the organizer sidebar."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:108
+msgid "The organizer sidebar displays the items that are currently added to the organizer. It is possible to add new items or edit the existing items. An item can be added more than one. This is usefull, if the same item is needed but with different configuration."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:110
+msgid "To add an item to the organizer sidebar:"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:112
+msgid "Click on the *+* icon to add a new item."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:113
+msgid "Toggle the icon chooser to set a different icon."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:114
+msgid "Enter a name for the new item."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:115
+msgid "Select the item type from the list."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:116
+#: ../../content/agent-interface/personal-settings.rst:122
+msgid "Click on the *Customize* option to customize the item."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:118
+msgid "To edit an item in the organizer sidebar:"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:120
+msgid "Select an item from the sidebar."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:121
+msgid "Change the icon and the name of the item, if needed."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:124
+msgid "The customizitaion possibilities of an item is depend on the item type. In the customization screen, it is possible to hide and show columns for the item list, select a sorting criteria and the sorting orders, define filters for the elements, as well as set the number of results per page."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:126
+msgid "Every organizer item can be moved up and down to change its position in the sidebar. They can can be cloned to make the configuration easier, and of course, they can be deleted as well."
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:130
+msgid "Login / Logout"
+msgstr ""
+
+#: ../../content/agent-interface/personal-settings.rst:132
+msgid "This section is used to logout from the system. Just click on the *Logout* button to exit."
+msgstr ""
+
+#: ../../content/external-interface/custom-pages.rst:2
+msgid "Custom Pages"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:2
+msgid "Home Page"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:7
+msgid "Public Homepage"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:12
+msgid "Homepage for Logged in User"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:15
+msgid "**Meta Navigation Bar**"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:17
+msgid "The meta navigation bar contains the login link for customer users. It can contain other custom links depending on the settings made by the system administrator."
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:19
+msgid "**Primary Navigation Bar**"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:21
+msgid "The primary navigation bar contains a link to the knowledge base and can contain other custom links depending on the settings made by the system administrator."
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:23
+msgid "**Main Section**"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:25
+msgid "The main section section contains the search field and can be used to display informations or a welcome message."
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:27
+msgid "**Link List**"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:29
+msgid "The link list section can be used to show boxes with a collection of useful links."
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:31
+msgid "**Image Teaser**"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:33
+msgid "The image teaser section can be used to show boxes with pictures and links."
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:35
+msgid "**Content Card**"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:37
+msgid "The content card section can be used to show boxes with a teaser text and links to further informations."
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:39
+msgid "**Footer Bar**"
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:41
+msgid "The footer bar section contains a dropdown menu for selecting the language of the external interface. In the right corner is the Chat icon. Clicking on this icon will open the Chat function of the external interface."
+msgstr ""
+
+#: ../../content/external-interface/home-page.rst:46
+msgid "The picture shows only initial state of the software and examples. The content of your external interface may vary depending on the settings made by the system administrator."
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:2
+#: ../../content/external-interface/navigation.rst:29
+msgid "Knowledge Base"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:4
+msgid "The knowledge base area can be used to display knowledge base articles for customers and customer users. The knowledge base articles can be grouped in categories."
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:8
+msgid "To display a knowledge base article in the external interface the state of the article needs to be External(customer) or Public(all). If the state is set to External(customer) the knowledge base article will be shown only for logged in customer users. If the state is set to Public(all) the knowledge base article will be also visible for not logged in users."
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:13
+msgid "Knowledge Base Categories"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:15
+msgid "Clicking on an article title opens the detail view of the article."
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:20
+msgid "Knowledge Base Article"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:22
+msgid "The detail view of the article can contain the sections:"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:24
+msgid "Symptom"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:25
+msgid "Problem"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:26
+msgid "Solution"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:27
+msgid "Comment"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:28
+msgid "Rating"
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:32
+msgid "The sections *Symptom*, *Problem*, *Solution* and *Comment* are only displayed if the corresponding field is filled with text when the article is created."
+msgstr ""
+
+#: ../../content/external-interface/knowledge-base.rst:34
+msgid "At the end of the article the customer users can vote for the article. The results of the votings are displayed in the ###LINK detail view (agent interface) of a knowledge base article."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:2
+#: ../../content/external-interface/login.rst:22
+msgid "Login"
+msgstr ""
+
+#: ../../content/external-interface/login.rst:4
+msgid "The external interface is accessible via the URL:"
+msgstr ""
+
+#: ../../content/external-interface/login.rst:14
+msgid "You need an customer account to be able to use OTRS. If you have no account yet, please contact your administrator or follow the steps for creating an account described in the section below."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:16
+msgid "Fill in the required fields."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:17
+msgid "Click the Login button."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:26
+msgid "Creating An Account"
+msgstr ""
+
+#: ../../content/external-interface/login.rst:28
+msgid "Click on the *Login* button at the upper right corner."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:29
+msgid "Click the link *Register now*."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:30
+#: ../../content/external-interface/login.rst:49
+msgid "Fill in the fields."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:31
+msgid "Click on the *Register* button."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:36
+msgid "Create Account"
+msgstr ""
+
+#: ../../content/external-interface/login.rst:38
+msgid "The login informations have been sent to the given email address. Log in with the password sent in the e-mail. After sending the data you will be asked to change the password."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:50
+msgid "Click on *Login* button."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:52
+msgid "After sending the data you will be asked to set up the two-factor authentication."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:63
+msgid "Choose your perferred authentication method."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:64
+msgid "Click on the *Next* button."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:68
+msgid "If you select email as the authentication method, you have the option to enable e-mail security. This means that the email is encrypted and signed when the data is sent."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:70
+msgid "Depending on the chosen authentication method the code will be displayed in the app or in the email."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:72
+msgid "Enter the code in the field."
+msgstr ""
+
+#: ../../content/external-interface/login.rst:73
+msgid "Click on the *Verify* button."
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:2
+msgid "Main Navigation and Footer"
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:7
+msgid "Main Navigation"
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:9
+msgid "The main navigation area contains the following links and symbols for a logged in customer user."
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:12
+#: ../../content/external-interface/ticket-list.rst:17
+msgid "My Tickets"
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:12
+msgid "This link guides to the view :doc:`ticket-list`."
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:15
+msgid "New Ticket"
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:15
+msgid "This link guides to the view :doc:`new-tickets`."
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:18
+msgid "This link guides to the view :doc:`ticket-notifications`."
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:26
+msgid "User Name"
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:21
+msgid "A menu displays entries for :doc:`personal-preferences` and logout when the customer users hovers over the user name in the main navigation."
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:26
+msgid "Main Navigation User Menu"
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:29
+msgid "This link guides to the view :doc:`knowledge-base`."
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:32
+#: ../../content/external-interface/service-catalog.rst:2
+#: ../../content/external-interface/service-catalog.rst:11
+msgid "Service Catalog"
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:32
+msgid "This link guides to the view :doc:`service-catalog`."
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:34
+msgid "Custom Links"
+msgstr ""
+
+#: ../../content/external-interface/navigation.rst:35
+msgid "These links can be used to guide to :doc:`custom-pages`."
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:2
+msgid "Create New Tickets"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:4
+msgid "In this view a customer user can create new tickets. The fields *Subject* and *Message* are mandatory fields. The field *Attachment* can be used optional for adding attachments to the ticket."
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:9
+msgid "Create New Ticket"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:11
+msgid "The text editor of the *Message* field offers the following options:"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:13
+msgid "Marking text as bold or italic"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:14
+msgid "Adding links"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:15
+msgid "Adding a numbered or a bulleted list"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:16
+msgid "Text alignment"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:17
+msgid "Inserting block quotes"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:18
+msgid "Inserting tables"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:19
+msgid "Inserting pictures"
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:21
+msgid "After creating the ticket and clicking the *Submit* button, the customer user is taken to the :doc:`ticket-list` view. The created ticket is displayed in the list view next to any other already created tickets."
+msgstr ""
+
+#: ../../content/external-interface/new-tickets.rst:23
+msgid "After submitting the data the ticket appears as new ticket in the views of the agent interface."
+msgstr ""
+
+#: ../../content/external-interface/personal-preferences.rst:2
+msgid "Personal Preferences"
+msgstr ""
+
+#: ../../content/external-interface/personal-preferences.rst:4
+msgid "The personal preferences view contains the sections *General* and *Security*."
+msgstr ""
+
+#: ../../content/external-interface/personal-preferences.rst:8
+msgid "General"
+msgstr ""
+
+#: ../../content/external-interface/personal-preferences.rst:13
+msgid "Personal Preferences - General"
+msgstr ""
+
+#: ../../content/external-interface/personal-preferences.rst:15
+msgid "In the section *General* the customer user can change his avatar image, the language of the external interface and the preferred time zone."
+msgstr ""
+
+#: ../../content/external-interface/personal-preferences.rst:24
+msgid "Personal Preferences - Security"
+msgstr ""
+
+#: ../../content/external-interface/personal-preferences.rst:26
+msgid "In the section *Security* the customer user can change his password and the settings for the two-factor authentication."
+msgstr ""
+
+#: ../../content/external-interface/search.rst:4
+msgid "The search engigne for the Search function uses the functionality of Elasticsearch. Customers can use the search function to find a relevant term in:"
+msgstr ""
+
+#: ../../content/external-interface/search.rst:7
+msgid "Articles"
+msgstr ""
+
+#: ../../content/external-interface/search.rst:9
+msgid "Content of service catalogs"
+msgstr ""
+
+#: ../../content/external-interface/search.rst:10
+msgid "Content of custom pages"
+msgstr ""
+
+#: ../../content/external-interface/service-catalog.rst:4
+msgid "The service catalog section can be used to display service catalog information and categorize the information. The service catalog categories are shown in alphabetical order at the left side of the view."
+msgstr ""
+
+#: ../../content/external-interface/service-catalog.rst:6
+msgid "In addition to plain text, the service catalog entries can also contain links to other pages. For entries with links, item title and text are highlighted when the customer user hovers over the entry. If the customer users clicks the hovered entry he will guided to the linked page."
+msgstr ""
+
+#: ../../content/external-interface/service-catalog.rst:13
+msgid "If in a category subcategories are defined, the subcategories are shown if the customer user hovers over an category."
+msgstr ""
+
+#: ../../content/external-interface/service-catalog.rst:18
+msgid "Catalog with Subcategories"
+msgstr ""
+
+#: ../../content/external-interface/service-catalog.rst:22
+msgid "If there are items that are not assigned to a category, these items are displayed initially when the view is called up. If all items are assigned to categories, the items that have been clicked on the most are displayed first."
+msgstr ""
+
+#: ../../content/external-interface/ticket-detailview.rst:4
+msgid "The ticket detail view displays the complete communication in the ticket."
+msgstr ""
+
+#: ../../content/external-interface/ticket-detailview.rst:11
+msgid "The articles are displayed in a list that by default starts with the first article. At the right side dispalys per default the following ticket informations:"
+msgstr ""
+
+#: ../../content/external-interface/ticket-detailview.rst:14
+msgid "Ticket number"
+msgstr ""
+
+#: ../../content/external-interface/ticket-detailview.rst:18
+msgid "At the end of the article list is the section for writing a response to the ticket. The button *Respond to This Ticket* at the right side scrolls the view directly to the response section."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:4
+msgid "The Ticket List displays the tickets of the logged in customer user and the company tickets. The *Search* field in this section enables the customer user to search for certain tickets by ticket title or ticket number."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:6
+msgid "Tickets with bolded texts are have unread articles. The colored circles in the first column have the following meaning:"
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:8
+msgid "Blue circle = Open tickets with read or unread articles."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:9
+msgid "Grey circle = Closed tickets."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:13
+msgid "The shown columns of the ticket list can be defined in the administrator interface. It is possible to define if the title of the ticket should be shown or the last subject. It is possible to add additional rows like *Owner*, *Queue* or *Dynamic Fields*."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:19
+msgid "The views in this section show tickets that have been created by the current logged in customer user."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:27
+msgid "All Tickets"
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:22
+msgid "This view shows all tickets of the currently logged in customer user."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:27
+msgid "My Tickets - All Tickets"
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:30
+msgid "This view shows all tickets of the currently logged in customer user that are in *Open* status."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:35
+msgid "My Tickets - Open Tickets"
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:44
+msgid "Closed Tickets"
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:38
+msgid "This view shows all tickets of the currently logged in customer user that are in *Closed* status."
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:43
+msgid "My Tickets - Closed Tickets"
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:47
+msgid "Company Tickets"
+msgstr ""
+
+#: ../../content/external-interface/ticket-list.rst:49
+msgid "The views in this section show all tickets assigned to a certain customer. All customer users assigned to this certain customer can see the content in this list."
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:4
+msgid "The ticket notifications inform the logged in customer user about:"
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:6
+msgid "Newly created tickets of the customer user"
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:7
+msgid "Responses from agents to tickets of the customer users"
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:8
+msgid "State changes of a ticket"
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:13
+msgid "Notification Screen on Hover"
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:15
+msgid "The bell icon in the meta navigation bar informs about new unread ticket notifications. If the bell icon has an additional green circle, then there are new unread notifications. When the customer user hovers over the icon, a short overview of the last five ticket notifications is displayed."
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:17
+msgid "The customer user can mark them as read or open the view My Notifications."
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:25
+msgid "My Notifications"
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:20
+msgid "This view displays all notifications with their date and time, independently of whether they are marked as read or unread. Unread notifications have bold titles. When the customer user hovers the mouse over an entry in the list, the entry is highlighted."
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:25
+msgid "My Notifications - All"
+msgstr ""
+
+#: ../../content/external-interface/ticket-notifications.rst:27
+msgid "If the customer user then clicks on an entry with the mouse, the corresponding ticket is displayed in the :doc:`ticket-detailview`. If the customer user clicks the blue circle near the titles he can set the ticket notifications to read or unread."
+msgstr ""
+
+#: ../../content/index.rst:3
+msgid "OTRS User Manual"
+msgstr ""
+
+#: ../../content/index.rst:5
+msgid "This work is copyrighted by OTRS AG (https://otrs.com), Zimmersmühlenweg 11, 61440 Oberursel, Germany."
+msgstr ""
+
+#: ../../content/index.rst:7
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be found on the `GNU website <https://www.gnu.org/licenses/fdl-1.3.txt>`__."
+msgstr ""
+
+#: ../../content/index.rst:9
+msgid "External Interface"
+msgstr ""
+
+#: ../../content/index.rst:26
+msgid "Agent Interface"
+msgstr ""
+
